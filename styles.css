@@ -3,12 +3,16 @@
 
 body {
   background-color: white;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 23%;
+  margin-right: 23%;
   font-family: 'Noto Sans', sans-serif;
 }
 
 h1.name {
+  font-family: 'Merriweather', serif;
+}
+
+h2.section {
   font-family: 'Merriweather', serif;
 }
 
@@ -36,7 +40,7 @@ h1.name {
   text-align: center;
   padding: 6px 20px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Merriweather', serif;
   font-weight: bold;
 }
