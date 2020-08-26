@@ -1,25 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'); /* Noto Sans */
+/* Serif fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap'); /* Merriweather */
+/* Sans serif fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'); /* Noto Sans */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap'); /* Source Sans Pro */
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap'); /* Carrois Gothic SC */
+
 
 body {
   background-color: white;
-  margin-left: 23%;
-  margin-right: 23%;
-  font-family: 'Noto Sans', sans-serif;
+  margin-left: 29%;
+  margin-right: 29%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 21px;
+  line-height: 1.45;
 }
 
 h1.name {
   font-family: 'Merriweather', serif;
 }
 
-h3.section {
+h4.section {
   font-family: 'Merriweather', serif;
+  margin-top: 1em;
+  margin-bottom: 0em;
 }
 
 ul {
-  list-style-type: square;
-  line-height: 150%;
+  list-style-type: circle;
+  line-height: 170%;
+  margin-left: -1em;
 }
+
+li {
+  padding-left: 1em;
+  font-family: 'Carrois Gothic SC', 'Source Sans Pro', sans-serif;
+}
+
+p {
+  overflow: hidden;
+  max-width: 70ch;
+}
+
 
 a:link {
   color: Black;
@@ -56,6 +78,14 @@ a:active {
   border-radius: 5px;
 }
 
+div.software {
+  margin-top: 1em;
+  margin-left: 4em;
+  margin-right: 1em;
+
+}
+
+
 
 
 /* Add a black background color to the top navigation */
@@ -81,11 +111,11 @@ a:active {
   color: black;
   border-radius: 0px;
   text-align: center;
-  padding: 6px 20px;
+  padding: 1px 22px;
   text-decoration: none;
-  font-size: 16px;
-  font-family: 'Merriweather', serif;
-  font-weight: bold;
+  font-size: 21px;
+  font-family: 'Source Sans Pro', serif;
+  font-weight: normal;
 }
 
 /* Change the color of links on hover */
