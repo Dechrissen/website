@@ -12,9 +12,43 @@ h1.name {
   font-family: 'Merriweather', serif;
 }
 
-h2.section {
+h3.section {
   font-family: 'Merriweather', serif;
 }
+
+ul {
+  list-style-type: square;
+  line-height: 150%;
+}
+
+a:link {
+  color: Black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: Black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 100%;
+  color: black;
+  background-color: LightGrey;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:active {
+  color: LightGrey;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -47,12 +81,14 @@ h2.section {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: LightGrey;
   color: black;
+  border-radius: 0px;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: LightGrey;
   color: black;
+  border-radius: 0px;
 }
