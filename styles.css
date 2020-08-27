@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap'); /* Carrois Gothic SC */
 
 
+
 body {
   background-color: white;
   margin-left: 29%;
@@ -16,8 +17,11 @@ body {
   line-height: 1.45;
 }
 
+
 h1.name {
   font-family: 'Merriweather', serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 h4.section {
@@ -58,6 +62,10 @@ ol.projects > p {
 p {
   overflow: hidden;
   max-width: 70ch;
+}
+
+p.tagline {
+  margin-top: 0px;
 }
 
 
@@ -148,4 +156,15 @@ div.software {
   background-color: LightGrey;
   color: black;
   border-radius: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  h1.name {
+    font-size: 160%;
+  }
 }
