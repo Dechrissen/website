@@ -17,11 +17,28 @@ body {
   line-height: 1.45;
 }
 
+body.blog-entry {
+  margin-left: 33%;
+}
 
 h1.name {
   font-family: 'Merriweather', serif;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+
+p.blog-title {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-style: italic;
+  padding-top: .2em;
+  margin-bottom: 0px;
+  margin-top: 3.4em;
+  border: 1px solid;
+  border-color: black;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: transparent;
 }
 
 h4.section {
@@ -163,6 +180,13 @@ div.software {
   body {
     margin-left: 5%;
     margin-right: 5%;
+  }
+  body.blog-entry {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  p.blog-title {
+    margin-top: 1em;
   }
   h1.name {
     font-size: 160%;
