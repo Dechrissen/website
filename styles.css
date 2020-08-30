@@ -15,6 +15,8 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 21px;
   line-height: 1.45;
+  text-align: justify;
+  hyphens: auto;
 }
 
 body.blog-entry {
@@ -122,11 +124,37 @@ a:active {
   border-radius: 5px;
 }
 
-div.software {
-  margin-top: 1em;
-  margin-left: 2.5em;
-  margin-right: 1em;
+div.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /*grid-gap: 10px;*/
+  grid-auto-rows: minmax(auto, auto);
+}
 
+div.box {
+  padding: 4px;
+}
+
+div.logo {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+div.links {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: right;
+}
+
+ul.social-links {
+  list-style-type: none;
+  line-height: 120%;
+
+}
+
+ul.social-links > li {
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -145,7 +173,7 @@ div.software {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
 }
 
@@ -206,6 +234,14 @@ footer {
 }
 /* END STICKY FOOTER STUFF */
 
+@media only screen and (max-width: 1680px) {
+  /* For mac */
+  body {
+    font-size: 18px;
+    margin-left: 24%;
+    margin-right: 24%;
+  }
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   body {
@@ -225,5 +261,8 @@ footer {
   }
   h1.name {
     font-size: 160%;
+  }
+  footer {
+    font-size: 12px;
   }
 }
