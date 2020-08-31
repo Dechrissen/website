@@ -62,30 +62,36 @@ li {
 }
 
 ol.projects {
-  line-height: 100%;
   margin-left: -1em;
 }
 ol.projects > li {
-  padding-left: 1em;
   font-family: 'Carrois Gothic SC', sans-serif;
 }
-ol.projects > p {
-  margin-left: 3em;
+ol.projects p {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 1.5em;
   margin-top: .4em;
   overflow: hidden;
-  max-width: 40ch;
-  font-size: 20px;
-  font-style: italic;
+  font-size: 21px;
   line-height: 140%;
 }
 
 p {
-  overflow: hidden;
-  max-width: 70ch;
+  overflow: auto;
+  max-width: 65ch;
 }
 
 p.tagline {
   margin-top: 0px;
+  text-align: left;
+}
+
+div.content {
+  width: 90%;
+  display: block;
+  /*background-color: #eee;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -127,7 +133,6 @@ a:active {
 div.wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /*grid-gap: 10px;*/
   grid-auto-rows: minmax(auto, auto);
 }
 
@@ -149,7 +154,6 @@ div.links {
 ul.social-links {
   list-style-type: none;
   line-height: 120%;
-
 }
 
 ul.social-links > li {
@@ -261,6 +265,9 @@ footer {
   }
   h1.name {
     font-size: 160%;
+  }
+  p.tagline {
+    font-size: 16px;
   }
   footer {
     font-size: 12px;
