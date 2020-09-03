@@ -10,19 +10,37 @@
 
 body {
   background-color: white;
-  margin-left: 29vw;
-  margin-right: 29vw;
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 100%;
+  position: relative; z-index: -10000; -webkit-font-smoothing: subpixel-antialiased; /* corrects Safari rendering */
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 21px;
   line-height: 1.45;
   text-align: justify;
   hyphens: auto;
 }
-
-body.blog-entry {
-  margin-left: 33%;
-  margin-bottom: 12%;
+div.wrapper {
+  padding: 0rem 0 18rem 0;
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
+div.content {
+  width: 90%;
+  display: block;
+  /*background-color: #eee;*/
+  margin-left: auto;
+  margin-right: auto;
+
+}
+div.blog-wrapper {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-bottom: 5rem;
+}
+
 
 h1.name {
   font-family: 'Merriweather', serif;
@@ -68,7 +86,9 @@ td.project-name {
 }
 
 td.project-name > a {
-  font-family: 'Carrois Gothic SC', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 85%;
   hyphens: none;
 }
 
@@ -90,13 +110,6 @@ p.tagline {
   text-align: left;
 }
 
-div.content {
-  width: 90%;
-  display: block;
-  /*background-color: #eee;*/
-  margin-left: auto;
-  margin-right: auto;
-}
 
 
 a:link {
@@ -134,7 +147,7 @@ a:active {
   border-radius: 5px;
 }
 
-div.wrapper {
+div.topwrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(auto, auto);
@@ -175,6 +188,7 @@ ul.social-links > li {
   border-color: grey;
   border-left: transparent;
   border-right: transparent;
+  /*border: transparent;*/
   overflow: hidden;
 
   /* Navbox centering */
@@ -215,7 +229,7 @@ ul.social-links > li {
 footer {
   text-align: center;
   font-size: 16px;
-  border-top: 1px solid grey;
+  /*border-top: 1px solid grey;*/
   padding-top: .5rem;
   margin-top: 4rem;
 
@@ -244,8 +258,8 @@ footer {
 
 
 
-@media only screen and (max-width: 1680px) {
-  /* For mac */
+/*@media only screen and (max-width: 1680px) {
+  /* For mac
   body {
     font-size: 18px;
     *margin-left: 24%;
@@ -253,7 +267,7 @@ footer {
   }
 
   @media only screen and (max-width: 1100px) {
-    /* For mac */
+    /* For mac
     body {
       font-size: 120%;
       margin-left: 10%;
@@ -261,14 +275,27 @@ footer {
     }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones */
+  /* For mobile phones
   body {
     font-size: 18px;
     margin-left: 5%;
     margin-right: 5%;
+    text-align: left;
   }
   .topnav a {
     font-size: 18px;
+  }
+  td {
+    vertical-align: top;
+    text-align: left;
+  }
+  td.project-name {
+    width: 20%;
+    vertical-align: top;
+    text-align: left;
+  }
+  td.project-name > a {
+    font-size: 80%;
   }
   body.blog-entry {
     margin-left: 5%;
@@ -286,4 +313,4 @@ footer {
   footer {
     font-size: 12px;
   }
-}
+}*/
