@@ -16,9 +16,10 @@ body {
   max-width: 1000px;
   position: relative; z-index: -10000; -webkit-font-smoothing: subpixel-antialiased; /* corrects Safari rendering */
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 21px;
-  line-height: 1.45;
-  text-align: justify;
+  /*font-size: 21px;*/
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-align: left;
   hyphens: auto;
 }
 div.wrapper {
@@ -29,7 +30,7 @@ div.wrapper {
 
 }
 div.content {
-  width: 90%;
+  width: 80%;
   display: block;
   /*background-color: #eee;*/
   margin-left: auto;
@@ -78,6 +79,10 @@ h4.section {
   margin-top: 1em;
   margin-bottom: 0em;
 }
+h4.section {
+  font-weight: normal;
+  font-style: italic;
+}
 
 ul {
   list-style-type: circle;
@@ -88,6 +93,7 @@ ul {
 li {
   padding-left: 1em;
   font-family: 'Carrois Gothic SC', 'Source Sans Pro', sans-serif;
+  hyphens: none;
 }
 #stuff-list > li {
   font-family: "Merriweather", serif;
@@ -131,13 +137,14 @@ a:link {
   background-color: transparent;
   text-decoration: none;
   border-radius: 5px;
-  /* Link fade effect */
+  /* Link fade effect
   -o-transition:color .2s ease-out, background .2s ease-in;
   -ms-transition:color .2s ease-out, background .2s ease-in;
   -moz-transition:color .2s ease-out, background .2s ease-in;
   -webkit-transition:color .2s ease-out, background .2s ease-in;
   /* ...and now override with proper CSS property */
-  transition:color .2s ease-out, background .2s ease-in;
+  /*transition:color .2s ease-out, background .2s ease-in;*/
+
 }
 
 a:visited {
@@ -149,16 +156,43 @@ a:visited {
 a:hover {
   font-size: 100%;
   color: black;
-  background-color: LightGrey;
+  background-color: #fbf3f3;
   text-decoration: none;
-  border-radius: 5px;
+  transition-property: background;
+  transition-duration: 0.2s;
+  border-radius: 8px;
+  padding: 1px 0 1px 0;
 }
 
 a:active {
-  color: LightGrey;
+  color: #fbf3f3;
   background-color: transparent;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 8px;
+}
+.text a::after {
+    position: relative;
+    content: "\FEFF°";
+    margin-left: 0.10em;
+    font-size: 90%;
+    top: -0.10em;
+    color: #933;
+    font-feature-settings: "caps";
+    font-variant-numeric: normal;
+}
+
+a.exclude::after {
+  content: "";
+  margin-left: 0.0em;
+  font-size: 100%;
+  top: 0.0em;
+}
+
+a.home-link {
+  background-color: white;
+}
+a.home-link:active {
+  color: black;
 }
 
 div.topwrapper {
@@ -198,12 +232,12 @@ ul.social-links > li {
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: white;
-  border: 1px solid;
-  border-color: grey;
-  border-left: transparent;
-  border-right: transparent;
-  /*border: transparent;*/
+  /*border: 1px solid;*/
+  /*border-color: grey;*/
+  /*border-left: transparent;*/
+  /*border-right: transparent;*/
   overflow: hidden;
+  padding-bottom: 5px;
 
   /* Navbox centering */
   display: flex;
@@ -222,20 +256,25 @@ ul.social-links > li {
   padding: 0px 22px;
   text-decoration: none;
   font-size: 100%;
-  font-family: 'Carrois Gothic SC', serif;
-  font-weight: normal;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: LightGrey;
-  color: black;
+  /*background-color: LightGrey;*/
+  background-color: white;
+  text-decoration: underline;
+  border-bottom: 1px black;
+  /*color: black;*/
+  color: red;
   border-radius: 0px;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: LightGrey;
+  /*background-color: LightGrey;*/
+  text-decoration: underline;
   color: black;
   border-radius: 0px;
 }
@@ -318,6 +357,9 @@ ul.social-links > li {
   .topnav a {
     font-size: 100%;
   }
+  div.content {
+    width: 95%;
+  }
   td {
     vertical-align: top;
     text-align: left;
@@ -325,7 +367,7 @@ ul.social-links > li {
   td.project-name {
     width: 20%;
     vertical-align: top;
-    text-align: left;
+    text-align: right;
   }
   td.project-name > a {
     font-size: 80%;
