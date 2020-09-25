@@ -19,7 +19,7 @@ body {
   /*font-size: 21px;*/
   font-size: 1.3rem;
   line-height: 1.5;
-  text-align: left;
+  text-align: justify;
   hyphens: auto;
 }
 div.wrapper {
@@ -30,7 +30,8 @@ div.wrapper {
 
 }
 div.content {
-  width: 80%;
+  /*width: 100%;*/
+  width: 100%;
   display: block;
   /*background-color: #eee;*/
   margin-left: auto;
@@ -38,10 +39,21 @@ div.content {
 
 }
 div.blog-wrapper {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
   padding-bottom: 18rem;
 }
+p {
+  overflow: auto;
+  /*max-width: 65ch;*/
+}
+
+p.tagline {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
 footer {
   bottom: 0;
   left: 0;
@@ -102,8 +114,8 @@ li {
 }
 
 td.project-name {
-  width: 35%;
-  vertical-align: top;
+  width: 30%;
+  vertical-align: center;
   text-align: right;
 }
 
@@ -116,22 +128,23 @@ td.project-name > a {
 
 table.projects {
   padding-top: 1em;
+  border-collapse: collapse;
+  border-style: hidden;
 }
 
 table.projects td {
   padding: .5em;
+  border: 1px solid lightgrey;
+
 }
 
-p {
-  overflow: auto;
-  max-width: 65ch;
+p.error {
+  font-size: 200%;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  text-align: center;
+  color: grey;
 }
 
-p.tagline {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  text-align: left;
-}
 
 
 
@@ -397,6 +410,9 @@ ul.social-links > li {
     font-size: 90%;
     margin-bottom: 0px;
     padding-left: 5px;
+  }
+  p.error {
+    font-size: 150%;
   }
   footer {
     font-size: 70%;
