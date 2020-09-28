@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Derek Andersen's Blog</title>
+    <link>https://derekandersen.net/blog</link>
+    <description>Technology, life, design, games.</description>
+    <language>en-us</language>
+    <pubDate>24 September 2020</pubDate>
+    <copyright>2020 Derek Andersen</copyright>
+    <item>
+      <title>Controlled by Perfectionism</title>
+      <link>https://derekandersen.net/blog/perfectionism.html</link>
+      <description>Perfectionism</description>
+      <pubDate>24 September 2020</pubDate>
+    </item>
+    <item>
+      <title>Minimalism</title>
+      <link>https://derekandersen.net/blog/minimalism.html</link>
+      <description>Minimalism</description>
+      <pubDate>8 September 2020</pubDate>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>https://derekandersen.net/blog/web-development.html</link>
+      <description>Web development</description>
+      <pubDate>28 August 2020</pubDate>
+    </item>
+  </channel>
+</rss>
