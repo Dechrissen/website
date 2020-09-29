@@ -1,29 +1,29 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-  <channel>
-    <title>Derek Andersen&apos;s Blog</title>
-    <link>https://derekandersen.net/blog</link>
-    <description>Technology, life, design, games, etc.</description>
-    <language>en-us</language>
-    <docs>https://www.rssboard.org/rss-specification</docs>
-    <copyright>Copyright 2020 Derek Andersen</copyright>
-    <item>
-      <title>Controlled by Perfectionism</title>
-      <link>https://derekandersen.net/blog/perfectionism.html</link>
-      <description>I talk about my struggles with perfectionism.</description>
-      <pubDate>Thu, 24 Sep 2020 23:59:59 EST</pubDate>
-    </item>
-    <item>
-      <title>Minimalism</title>
-      <link>https://derekandersen.net/blog/minimalism.html</link>
-      <description>I talk about my take on minimalism and how I think it can improve your life.</description>
-      <pubDate>Tue, 8 Sep 2020 23:59:59 EST</pubDate>
-    </item>
-    <item>
-      <title>Web Development</title>
-      <link>https://derekandersen.net/blog/web-development.html</link>
-      <description>I talk about my experience with web development and the BanjoSpeedruns project.</description>
-      <pubDate>Fri, 28 Aug 2020 23:59:59 EST</pubDate>
-    </item>
-  </channel>
+    <channel>
+        <title>Derek Andersen's Blog</title>
+        <link>https://derekandersen.net/blog</link>
+        <description>Technology, life, design, games, etc.</description>
+        <language>en-us</language>
+        <docs>https://www.rssboard.org/rss-specification</docs>
+        <copyright>Copyright 2020 Derek Andersen</copyright>
+        <item>
+            <title>Controlled by Perfectionism</title>
+            <link>https://derekandersen.net/blog/perfectionism.html</link>
+            <description>I talk about my struggles with perfectionism.</description>
+            <pubDate>Thu, 24 Sep 2020 23:59:59 EST</pubDate>
+        </item>
+        <item>
+            <title>Minimalism</title>
+            <link>https://derekandersen.net/blog/minimalism.html</link>
+            <description>I talk about my take on minimalism and how I think it can improve your life.</description>
+            <pubDate>Tue, 8 Sep 2020 23:59:59 EST</pubDate>
+        </item>
+        <item>
+            <title>Web Development</title>
+            <link>https://derekandersen.net/blog/web-development.html</link>
+            <description>I talk about my experience with web development and the BanjoSpeedruns project.</description>
+            <pubDate>Fri, 28 Aug 2020 23:59:59 EST</pubDate>
+        </item>
+    </channel>
 </rss>
