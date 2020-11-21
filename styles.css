@@ -54,6 +54,23 @@ p.tagline {
   text-align: left;
 }
 
+img.self-portrait {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 360px;
+  text-align: center;
+  /* border */
+  position:relative;
+  border:1px solid #ccc;
+  padding:5px;
+  background:#f2f2f2;
+  box-shadow: 8px 8px 5px grey;
+}
+
+
 footer {
   bottom: 0;
   left: 0;
