@@ -1,10 +1,14 @@
 #!/bin/sh
 
 # Update script for derekandersen.net
-sudo systemctl stop nginx
+
+now=$(date +"%H-%M-%S_%m_%d_%Y")
+cd /home/derek/
+touch ./website_logs
 cd /home/derek/derekandersen.net
 git checkout master -q
 rm -rf /var/www/derekandersennet
 rsync -avq /home/derek/derekandersen.net/ /var/www/derekandersennet --exclude .git --exclude .gitattributes --exclude README.md --exclude update_website.sh
-sudo systemctl start nginx
-echo "derekandersen.net successfully updated"
+echo "$now updated" >> /home/derek/website_logs
+sleep 1
+echo "derekandersen.net successfully updated!"
