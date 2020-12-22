@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>LIN538_final</title>
+<title>Language Models</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -9129,15 +9129,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box 
+/* This file is a compatability layer.  It allows the usage of flexible box
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this 
+`Modern browsers` comments below).  Browsers that are known to implement this
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+ 
+    Internet Explorer 11+
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -12519,7 +12519,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for 
+  /* This injects handle bars (a short, wide = symbol) for
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -13033,14 +13033,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
@@ -13512,14 +13512,14 @@ div#notebook {
     <span class="c1"># A for loop to get all possible trees within the files </span>
     <span class="k">for</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="n">sentences</span><span class="p">:</span>
         <span class="n">sentence</span> <span class="o">=</span> <span class="n">sentence</span><span class="o">.</span><span class="n">leaves</span><span class="p">()</span>
-        
+
         <span class="c1"># To speed up the code, we&#39;ll check with the grammar first </span>
         <span class="c1"># And ensure that all words are accounted for</span>
         <span class="c1"># If it is not accounted for, skip the sentence </span>
         <span class="c1"># And increment skipped_sentences</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="n">PCFG_grammar</span><span class="o">.</span><span class="n">check_coverage</span><span class="p">(</span><span class="n">sentence</span><span class="p">)</span>
-            
+
             <span class="c1"># Print the final parse of the sentence </span>
             <span class="k">for</span> <span class="n">parse</span> <span class="ow">in</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">sentence</span><span class="p">):</span>
                 <span class="nb">print</span><span class="p">(</span><span class="n">parse</span><span class="p">)</span>
@@ -13531,7 +13531,7 @@ div#notebook {
 
 
 <span class="c1"># demo the parser</span>
-<span class="n">CKY_parser</span><span class="p">(</span><span class="n">grammar</span><span class="p">)</span>  
+<span class="n">CKY_parser</span><span class="p">(</span><span class="n">grammar</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13627,7 +13627,7 @@ Total skipped sentences: 0
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
 
 <span class="k">def</span> <span class="nf">all_parse_probabilities</span><span class="p">(</span><span class="n">PCFG_grammar</span><span class="p">):</span>
-  
+
   <span class="sd">&#39;&#39;&#39;</span>
 <span class="sd">  Given the PCFG grammar, we utilize the CKY parser to get </span>
 <span class="sd">  the test set&#39;s parse probabilties. </span>
@@ -13673,13 +13673,13 @@ Total skipped sentences: 0
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">perplexity</span><span class="p">(</span><span class="n">all_p</span><span class="p">):</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">perplexity</span><span class="p">(</span><span class="n">all_p</span><span class="p">):</span>
 
     <span class="sd">&#39;&#39;&#39;</span>
 <span class="sd">    Given a list of the probabilities of all parses from the testing set,</span>
 <span class="sd">    this calculates the perplexity of the model.</span>
 <span class="sd">    &#39;&#39;&#39;</span>
-  
+
     <span class="n">perplexity</span> <span class="o">=</span> <span class="mi">1</span>
 
     <span class="c1"># N is the total number of probabilities </span>
@@ -13745,7 +13745,7 @@ Total skipped sentences: 0
   </div>
 </body>
 
- 
+
 
 
 </html>

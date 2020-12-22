@@ -359,7 +359,7 @@ ul.social-links > li {
   /* For mobile phones*/
   body {
     font-size: 105%;
-    text-align: left;
+    text-align: justify;
   }
   div.wrapper {
     padding: 0rem 0 1rem 0;
