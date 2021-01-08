@@ -8,36 +8,17 @@
         <meta name="description" content="The personal website of Derek Andersen, only on the World Wide Web!" />
         <link rel="stylesheet" type="text/css" href="/styles.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <title>Papers – Derek Andersen</title>
+        <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src='/JavaScript/header.js'></script>
+        <title>Output – Derek Andersen</title>
     </head>
-    <body>
+    <body onload="fillHeader()">
         <div class="wrapper">
             <div class="topwrapper">
-                <div class="logo box">
-                    <h1 class="name"><a class="home-link" href="/about.html">Derek Andersen</a></h1>
-                    <p class="tagline">
-                        <i>Computational Linguistics Graduate Student</i>
-                    </p>
-                </div>
-                <div class="links box">
-                    <ul class="social-links">
-                        <li>
-                            <a href="https://github.com/Dechrissen" target="_blank"> <i class="fa fa-github"></i> GitHub </a>
-                        </li>
-                        <li>
-														<a href="https://www.linkedin.com/in/derekcandersen/" target="_blank">
-															<i class="fa fa-linkedin"></i> LinkedIn
-														</a>
-													</li>
-                        <!--<li><a href="#"><i class="fa fa-paperclip"></i> Résumé</a></li>-->
-                    </ul>
-                </div>
+
             </div>
             <div class="topnav">
-                <a href="/about.html">about</a>
-                <a href="/projects.html">projects</a>
-                <a href="/blog.html">blog</a>
-                <a class="active" href="/papers.html">papers</a>
+
             </div>
             <div class="content">
                 <!--<h4 class="section">Linguistics papers</h4>-->
@@ -46,31 +27,31 @@
                 </p>
                 <ul>
                     <li>
-                        buzzrec: Linguistics Paper Recommendation Engine <a href="/papers/buzzrec_Report.pdf">[Report]</a>
+                        buzzrec: Linguistics Paper Recommendation Engine <a class="bracketed" href="/papers/buzzrec_Report.pdf">[Report]</a>
                     </li>
                     <li>
-                        Language Models: n-grams and PCFGs <a href="/papers/Language_Models.pdf">[Report]</a> <a href="/papers/Language_Models_Jupyter_Notebook.html">[Jupyter Notebook]</a>
+                        Language Models: n-grams and PCFGs <a class="bracketed" href="/papers/Language_Models.pdf">[Report]</a> <a class="bracketed" href="/papers/Language_Models_Jupyter_Notebook.html">[Jupyter Notebook]</a>
                     </li>
                     <li>
-                        CaRT Decision Trees <a href="/papers/CaRT_Decision_Trees_Presentation.pdf">[Presentation]</a> <a href="/papers/CaRT_Jupyter_Notebook.html">[Jupyter Notebook]</a>
+                        CaRT Decision Trees <a class="bracketed" href="/papers/CaRT_Decision_Trees_Presentation.pdf">[Presentation]</a> <a class="bracketed" href="/papers/CaRT_Jupyter_Notebook.html">[Jupyter Notebook]</a>
                     </li>
                     <li>
-                        A Phonetic Analysis of Norwegian <a href="/papers/A_Phonetic_Analysis_of_Norwegian.pdf">[Paper]</a>
+                        A Phonetic Analysis of Norwegian <a class="bracketed" href="/papers/A_Phonetic_Analysis_of_Norwegian.pdf">[Paper]</a>
                     </li>
                     <li>
-                        String Comparison in Python to Evaluate Phonological Phenomena <a href="/papers/String_Comparison_in_Python.pdf">[Report]</a>
+                        String Comparison in Python to Evaluate Phonological Phenomena <a class="bracketed" href="/papers/String_Comparison_in_Python.pdf">[Report]</a>
                     </li>
                     <li>
-                        Final Obstruent Gemination in Japanese Loanwords <a href="/papers/Final_Obstruent_Gemination_in_Japanese_Loanwords.pdf">[Paper]</a>
+                        Final Obstruent Gemination in Japanese Loanwords <a class="bracketed" href="/papers/Final_Obstruent_Gemination_in_Japanese_Loanwords.pdf">[Paper]</a>
                     </li>
                     <li>
-                        Object Scrambling, the EPP, and Focus in Japanese <a href="/papers/Object_Scrambling_the_EPP_and_Focus_in_Japanese.pdf">[Paper]</a>
+                        Object Scrambling, the EPP, and Focus in Japanese <a class="bracketed" href="/papers/Object_Scrambling_the_EPP_and_Focus_in_Japanese.pdf">[Paper]</a>
                     </li>
                     <li>
-                        Gemination in Japanese Loanwords <a href="/papers/Gemination_in_Japanese_Loanwords.pdf">[Paper]</a> <a href="/papers/Gemination_in_Japanese_Loanwords_Handout.pdf">[Handout]</a>
+                        Gemination in Japanese Loanwords <a class="bracketed" href="/papers/Gemination_in_Japanese_Loanwords.pdf">[Paper]</a> <a class="bracketed" href="/papers/Gemination_in_Japanese_Loanwords_Handout.pdf">[Handout]</a>
                     </li>
                     <li>
-                        Verb-Related Errors Made by Japanese Learners of English <a href="/papers/Verb_Related_Errors_Made_by_Japanese_Learners_of_English.pdf">[Paper]</a>
+                        Verb-Related Errors Made by Japanese Learners of English <a class="bracketed" href="/papers/Verb_Related_Errors_Made_by_Japanese_Learners_of_English.pdf">[Paper]</a>
                     </li>
                     <!--<li>
                         Language and Meaning: Final Paper <a href="/papers/Language_and_Meaning_Final_Paper.pdf">[Paper]</a>

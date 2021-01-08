@@ -9,7 +9,7 @@
 
 
 body {
-  background-color: white;
+  background-color: snow;
   margin-left:auto;
   margin-right:auto;
   width: 100%;
@@ -220,11 +220,16 @@ a.exclude::after {
   top: 0.0em;
 }
 
-a.home-link {
-  background-color: white;
+a.home-link:hover {
+  background-color: transparent;
 }
 a.home-link:active {
   color: black;
+}
+
+a.bracketed {
+
+  font-size: 80%;
 }
 
 div.topwrapper {
@@ -265,7 +270,7 @@ ul.social-links > li {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: white;
+  /*background-color: white;*/
   /*border: 1px solid;*/
   /*border-color: grey;*/
   /*border-left: transparent;*/
@@ -297,8 +302,7 @@ ul.social-links > li {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  /*background-color: LightGrey;*/
-  background-color: white;
+  background-color: transparent;
   text-decoration: underline;
   border-bottom: 1px black;
   /*color: black;*/
