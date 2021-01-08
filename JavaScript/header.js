@@ -38,8 +38,8 @@ function fillHeader () {
 
   // check current URL to determine which topnav link to assign as active (underlined)
   var pathname = window.location.pathname.split("/");
-  current = pathname[pathname.length - 1];
-  pagename = current.split('.')[0];
+  var current = pathname[pathname.length - 1];
+  var pagename = current.split('.')[0];
   switch (pagename) {
     case "about":
       $(".about").addClass("active")
