@@ -8,38 +8,20 @@
         <meta name="description" content="The personal website of Derek Andersen, only on the World Wide Web!" />
         <link rel="stylesheet" type="text/css" href="/styles.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <title>Other – Derek Andersen</title>
+        <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src='/JavaScript/header.js'></script>
+        <title>Other | Derek Andersen</title>
     </head>
-    <body>
+    <body onload="fillHeader()">
         <div class="wrapper">
             <div class="topwrapper">
-                <div class="logo box">
-                    <h1 class="name"><a class="home-link" href="/home.html">Derek Andersen</a></h1>
-                    <p class="tagline">
-                        <i>Graduate Student</i>
-                    </p>
-                </div>
-                <div class="links box">
-                    <ul class="social-links">
-                        <li>
-                            <a href="https://github.com/Dechrissen" target="_blank"> <i class="fa fa-github"></i> GitHub </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/derekcandersen/" target="_blank"> <i class="fa fa-linkedin"></i> LinkedIn </a>
-                        </li>
-                        <!--<li><a href="#"><i class="fa fa-paperclip"></i> Résumé</a></li>-->
-                    </ul>
-                </div>
+
             </div>
             <div class="topnav">
-                <a href="/about.html">about</a>
-                <a href="/projects.html">projects</a>
-                <a href="/blog.html">blog</a>
-                <a href="/papers.html">papers</a>
-                <a class="active" href="/other.html">other</a>
+
             </div>
             <div class="content">
-                <h4 class="section" id="stuff-i-like" style="font-weight: bold;"><a href="#stuff-i-like">Stuff I like</a></h4>
+                <h4 class="section" id="stuff-i-like" style="font-weight: normal;"><a href="#stuff-i-like">Stuff I like</a></h4>
                 <ul id="stuff-list">
                     <li>
                         <a href="https://practicaltypography.com/" target="_blank">
@@ -50,6 +32,16 @@
                     <li>
                         <a href="https://minimalismfilm.com/" target="_blank">Matt D'Avella's <i>Minimalism</i> (2016) </a>
                     </li>
+                </ul>
+
+                <h4 class="section" id="other-pages" style="font-weight: normal;"><a href="#other-pages">Other pages</a></h4>
+                <ul>
+                  <li>
+                    <a href="/output.html">Academic output</a>
+                  </li>
+                  <li>
+                    <a href="/rock-paper-scissors.html">'Rock, Paper, Scissors' web app</a>
+                  </li>
                 </ul>
             </div>
             <footer>
