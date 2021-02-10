@@ -124,7 +124,7 @@ li {
   font-size: 85%;
   hyphens: none;
 }
-#stuff-list > li {
+.stuff-list > li {
   font-family: "Merriweather", serif;
   font-size: 18px;
 }
@@ -132,7 +132,7 @@ li {
 td.project-name {
   width: 30%;
   vertical-align: center;
-  text-align: right;
+  text-align: left;
 }
 
 td.project-name > a {
@@ -362,14 +362,16 @@ ul.social-links > li {
 @media only screen and (max-width: 768px) {
   /* For mobile phones*/
   body {
-    font-size: 105%;
+    font-size: 115%;
     text-align: justify;
   }
   div.wrapper {
-    padding: 0rem 0 1rem 0;
+    padding: 0rem 0 0rem 0;
     min-height: 100%;
     margin-left: 0rem;
     margin-right: 0rem;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   div.topwrapper {
     display: grid;
@@ -394,8 +396,25 @@ ul.social-links > li {
   ul.social-links > li {
     display: inline;
   }
+  ul.stuff-list > li {
+    font-size: 90%;
+    text-align: left;
+  }
+  ul.papers {
+    text-align: left;
+    line-height: 1.5rem;
+  }
+  .topnav {
+    padding-bottom: 0;
+    /* Navbox centering */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
   .topnav a {
-    font-size: 100%;
+    font-size: 90%;
   }
   div.content {
     width: 95%;
@@ -407,7 +426,7 @@ ul.social-links > li {
   td.project-name {
     width: 20%;
     vertical-align: top;
-    text-align: right;
+    text-align: left;
   }
   td.project-name > a {
     font-size: 80%;
@@ -433,6 +452,9 @@ ul.social-links > li {
   }
   p.error {
     font-size: 150%;
+  }
+  img.self-portrait {
+    height: 180px;
   }
   footer {
     font-size: 70%;

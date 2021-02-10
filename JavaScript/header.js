@@ -10,7 +10,7 @@ function fillHeader () {
 
   // add tagline
   $(".logo.box").append($("<p></p>").addClass("tagline"));
-  $(".tagline").append($("<i>/i>").text("Programmer, Gamer, Typographer, Linguist"));
+  $(".tagline").append($("<i>/i>").text("Programmer. Gamer. Typographer. Linguist."));
 
 
 
@@ -21,16 +21,13 @@ function fillHeader () {
   $(".links.box").append($("<ul></ul>").addClass("social-links"));
   // add GitHub
   $(".social-links").append($("<li></li>").addClass("github"));
-  $(".github").append($("<a></a>").attr("href", "https://github.com/Dechrissen").attr("target", "_blank").text(" GitHub "));
-  $(".github").prepend($("<i></i>").addClass("fa fa-github"));
+  $(".github").append($("<a></a>").attr("href", "https://github.com/Dechrissen").attr("target", "_blank").text(" GitHub ").addClass("github-link"));
+  $(".github-link").prepend($("<i></i>").addClass("fa fa-github"));
   // add Twitch
   $(".social-links").append($("<li></li>").addClass("twitch"));
-  $(".twitch").append($("<a></a>").attr("href", "https://www.twitch.tv/dechrissen").attr("target", "_blank").text(" Twitch "));
-  $(".twitch").prepend($("<i></i>").addClass("fa fa-twitch"));
-  // add LinkedIn
-  //$(".social-links").append($("<li></li>").addClass("linkedin"));
-  //$(".linkedin").append($("<a></a>").attr("href", "https://www.linkedin.com/in/derekcandersen/").attr("target", "_blank").text(" LinkedIn "));
-  //$(".linkedin").prepend($("<i></i>").addClass("fa fa-linkedin"));
+  $(".twitch").append($("<a></a>").attr("href", "https://www.twitch.tv/dechrissen").attr("target", "_blank").text(" Twitch ").addClass("twitch-link"));
+  $(".twitch-link").prepend($("<i></i>").addClass("fa fa-twitch"));
+  
 
 
   // TOPNAV LINKS
@@ -38,7 +35,7 @@ function fillHeader () {
   $(".topnav").append($("<a></a>").addClass("about").attr("href", "/about.html").text("about"));
   $(".topnav").append($("<a></a>").addClass("projects").attr("href", "/projects.html").text("projects"));
   $(".topnav").append($("<a></a>").addClass("blog").attr("href", "/blog.html").text("blog"));
-  $(".topnav").append($("<a></a>").addClass("other").attr("href", "/other.html").text("other"));
+  $(".topnav").append($("<a></a>").addClass("links").attr("href", "/links.html").text("links"));
 
   // check current URL to determine which topnav link to assign as active (underlined)
   var pathname = window.location.pathname.split("/");
@@ -54,8 +51,8 @@ function fillHeader () {
     case "blog":
       $(".blog").addClass("active")
       break;
-    case "other":
-      $(".other").addClass("active")
+    case "links":
+      $(".links").addClass("links")
       break;
   }
 
