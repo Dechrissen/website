@@ -6,7 +6,13 @@
         <description>Technology, life, design, games, etc.</description>
         <language>en-us</language>
         <docs>https://www.rssboard.org/rss-specification</docs>
-        <copyright>Copyright 2020 Derek Andersen</copyright>
+        <copyright>Copyright 2021 Derek Andersen</copyright>
+        <item>
+            <title>Overhauling my Blog System</title>
+            <link>https://derekandersen.net/blog/blog-overhaul.html</link>
+            <description>I talk about my plans to overhaul my blog system.</description>
+            <pubDate>Wed, 17 Feb 2021 23:59:59 EST</pubDate>
+        </item>
         <item>
             <title>Controlled by Perfectionism</title>
             <link>https://derekandersen.net/blog/perfectionism.html</link>
