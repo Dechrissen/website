@@ -27,7 +27,7 @@ function fillHeader () {
   $(".social-links").append($("<li></li>").addClass("twitch"));
   $(".twitch").append($("<a></a>").attr("href", "https://www.twitch.tv/dechrissen").attr("target", "_blank").text(" Twitch ").addClass("twitch-link"));
   $(".twitch-link").prepend($("<i></i>").addClass("fa fa-twitch"));
-  
+
 
 
   // TOPNAV LINKS
