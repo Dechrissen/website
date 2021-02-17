@@ -10,6 +10,6 @@ var updated = "Last updated " + my_date
 
 // Insert copyright line and modified date into <i> within <footer>
 var i_elem = document.createElement("i");
-var copyright = document.createTextNode("© 2020 Derek Andersen – " + updated);
+var copyright = document.createTextNode("© 2021 Derek Andersen | " + updated);
 i_elem.appendChild(copyright);
 footer.appendChild(i_elem);
