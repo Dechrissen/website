@@ -59,7 +59,7 @@ function fillHeader () {
       $(".blog").addClass("active")
       break;
     case "links":
-      $(".links").addClass("links")
+      $(".links").addClass("active")
       break;
   }
 addColorThemeToggle();
