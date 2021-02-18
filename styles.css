@@ -352,7 +352,6 @@ ul.social-links > li {
   border: none;
   background: transparent;
   text-align: center;
-  float:right;
   font-size: 16px;
 }
 .btn-toggle:hover {
@@ -362,11 +361,19 @@ ul.social-links > li {
 /* DEFAULT BODY COLORS */
 body {
   --text-color: black;
+  --border-color: black;
   --bkg-color: white;
+  --link-hover-color: #ffd17a;
+  --hover-text-color: black;
+  --btn-toggle-color: black;
 }
 body.dark-theme {
   --text-color: #EEEEEE;
+  --border-color: #EEEEEE;
   --bkg-color: #262626;
+  --link-hover-color:  #ffd17a;
+  --hover-text-color: black;
+  --btn-toggle-color: #EEEEEE;
 }
 
 /* DARK MODE */
