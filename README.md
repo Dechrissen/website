@@ -6,7 +6,7 @@ The site is organized into four main categories:
 - about
 - projects
 - blog
-- other
+- links
 
 ## JavaScript
 The site uses vanilla JavaScript and in some cases jQuery to build certain
