@@ -1,6 +1,12 @@
 function fillHeader () {
   // TOPWRAPPER / HEADER
   // -------------------
+
+  // add color theme toggle
+  $(".wrapper").prepend($("<div></div>").addClass("topbar"));
+  $(".topbar").append($("<button></button>").text(" Toggle Theme").addClass("btn-toggle"));
+  $(".btn-toggle").prepend($("<i></i>").addClass("fa fa-moon-o"));
+
   // add 'logo box' div to 'topwrapper' div
   $(".topwrapper").append($("<div></div>").addClass("logo box"));
 
@@ -21,12 +27,13 @@ function fillHeader () {
   $(".links.box").append($("<ul></ul>").addClass("social-links"));
   // add GitHub
   $(".social-links").append($("<li></li>").addClass("github"));
-  $(".github").append($("<a></a>").attr("href", "https://github.com/Dechrissen").attr("target", "_blank").text(" GitHub ").addClass("github-link"));
+  $(".github").append($("<a></a>").attr("href", "https://github.com/Dechrissen").attr("target", "_blank").text("").addClass("github-link"));
   $(".github-link").prepend($("<i></i>").addClass("fa fa-github"));
   // add Twitch
   $(".social-links").append($("<li></li>").addClass("twitch"));
-  $(".twitch").append($("<a></a>").attr("href", "https://www.twitch.tv/dechrissen").attr("target", "_blank").text(" Twitch ").addClass("twitch-link"));
+  $(".twitch").append($("<a></a>").attr("href", "https://www.twitch.tv/dechrissen").attr("target", "_blank").text("").addClass("twitch-link"));
   $(".twitch-link").prepend($("<i></i>").addClass("fa fa-twitch"));
+
 
 
 
@@ -55,5 +62,5 @@ function fillHeader () {
       $(".links").addClass("links")
       break;
   }
-
+addColorThemeToggle();
 }

@@ -9,7 +9,6 @@
 
 
 body {
-  background-color: snow;
   margin-left:auto;
   margin-right:auto;
   width: 100%;
@@ -22,6 +21,8 @@ body {
   text-align: justify;
   hyphens: auto;
 }
+
+
 div.wrapper {
   padding: 0rem 0 18rem 0;
   min-height: 100%;
@@ -60,7 +61,7 @@ img.self-portrait {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 360px;
+  height: 300px;
   text-align: center;
   /* border */
   position:relative;
@@ -188,27 +189,27 @@ a:visited {
 a:hover {
   font-size: 100%;
   color: black;
-  background-color: #fbf3f3;
   text-decoration: none;
   transition-property: background;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
   border-radius: 8px;
-  padding: 1px 0 1px 0;
+  padding: 0px 0px 0px 0px;
 }
 
 a:active {
-  color: #fbf3f3;
+  color: orange;
   background-color: transparent;
   text-decoration: none;
   border-radius: 8px;
 }
+/* LINK CIRCLE */
 .text a::after {
     position: relative;
     content: "\FEFF°";
     margin-left: 0.10em;
     font-size: 90%;
     top: -0.10em;
-    color: #933;
+    color: orange;
     font-feature-settings: "caps";
     font-variant-numeric: normal;
 }
@@ -268,13 +269,8 @@ ul.social-links > li {
 
 
 
-/* Add a black background color to the top navigation */
+/* TOPNAV */
 .topnav {
-  /*background-color: white;*/
-  /*border: 1px solid;*/
-  /*border-color: grey;*/
-  /*border-left: transparent;*/
-  /*border-right: transparent;*/
   overflow: hidden;
   padding-top: 20px;
   padding-bottom: 5px;
@@ -305,19 +301,27 @@ ul.social-links > li {
   background-color: transparent;
   text-decoration: underline;
   border-bottom: 1px black;
-  /*color: black;*/
-  color: red;
+  color: orange;
   border-radius: 0px;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  /*background-color: LightGrey;*/
   text-decoration: underline;
   color: black;
   border-radius: 0px;
 }
 
+
+/* HIGHLIGHT COLORS */
+::selection {
+  color: black;
+  background: orange; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  color: black;
+  background: orange; /* Gecko Browsers */
+}
 
 
 /* STICKY FOOTER STUFF */
@@ -339,28 +343,92 @@ ul.social-links > li {
     font-size: .8em;
     left: 0;
 }
-/* END STICKY FOOTER STUFF */
 
+/*DARK MODE BUTTON*/
+.topbar {
+  padding-bottom: 1em;
+}
+.btn-toggle {
+  border: none;
+  background: transparent;
+  text-align: center;
+  float:right;
+  font-size: 16px;
+}
+.btn-toggle:hover {
+  color: orange;
+}
 
+/* DEFAULT BODY COLORS */
+body {
+  --text-color: black;
+  --bkg-color: white;
+}
+body.dark-theme {
+  --text-color: #EEEEEE;
+  --bkg-color: #262626;
+}
 
-/*@media only screen and (max-width: 1680px) {
-  /* For mac
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
   body {
-    font-size: 18px;
-    *margin-left: 24%;
-    margin-right: 24%;*
+    --text-color: #EEEEEE;
+    --border-color: #EEEEEE;
+    --bkg-color: #262626;
+    --link-hover-color:  #ffd17a;
+    --hover-text-color: black;
+    --btn-toggle-color: #EEEEEE;
   }
+  body.light-theme {
+    --text-color: black;
+    --border-color: black;
+    --bkg-color: white;
+    --link-hover-color: #ffd17a;
+    --hover-text-color: black;
+    --btn-toggle-color: black;
+  }
+}
 
-  @media only screen and (max-width: 1100px) {
-    /* For mac
-    body {
-      font-size: 120%;
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-*/
+body {
+  background: var(--bkg-color);
+}
+
+h1,
+p,
+a:link,
+a:visited,
+.topnav a.active,
+li,
+td,
+hr {
+  color: var(--text-color);
+}
+a:hover {
+  background-color: var(--link-hover-color);
+  color: var(--hover-text-color);
+}
+a.home-link:hover {
+  color: inherit;
+}
+.social-links a:hover {
+  color: orange;
+  background-color: transparent;
+}
+p.blog-title {
+  border-color: var(--border-color);
+}
+footer * {
+  color: var(--text-color);
+}
+.btn-toggle {
+  color: var(--btn-toggle-color);
+}
+
+
+/* MOBILE */
 @media only screen and (max-width: 768px) {
-  /* For mobile phones*/
+  /* for mobile phones*/
   body {
     font-size: 115%;
     text-align: justify;
