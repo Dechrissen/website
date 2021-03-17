@@ -4,7 +4,7 @@ function fillHeader () {
 
   // add color theme toggle
   $(".wrapper").prepend($("<div></div>").addClass("topbar"));
-  $(".topbar").append($("<button></button>").text(" Toggle Theme").addClass("btn-toggle"));
+  $(".topbar").append($("<button></button>").text(" Theme").addClass("btn-toggle"));
   $(".btn-toggle").prepend($("<i></i>").addClass("fa fa-moon-o"));
 
   // add 'logo box' div to 'topwrapper' div
