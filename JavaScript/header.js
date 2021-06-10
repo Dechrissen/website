@@ -17,7 +17,7 @@ function fillHeader () {
 
   // add tagline
   $(".logo.box").append($("<p></p>").addClass("tagline"));
-  $(".tagline").append($("<i>/i>").text("Programmer • Linguist • Gamer • Runner"));
+  $(".tagline").append($("<i>/i>").text("Coder • Linguist • Gamer • Runner"));
 
 
 
