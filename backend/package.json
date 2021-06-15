@@ -1,0 +1,16 @@
+{
+  "name": "blog-engine",
+  "version": "1.0.0",
+  "description": "Backend script for serving blog posts via templates",
+  "main": "blog-engine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Andersen",
+  "license": "ISC",
+  "dependencies": {
+    "mustache": "^4.2.0",
+    "node-fetch": "^2.6.1",
+    "showdown": "^1.9.1"
+  }
+}
