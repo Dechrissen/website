@@ -4,7 +4,7 @@ function fillHeader () {
 
   // add color theme toggle
   $(".wrapper").prepend($("<div></div>").addClass("topbar"));
-  $(".topbar").append($("<button></button>").text(" ↔ ").addClass("btn-toggle"));
+  $(".topbar").append($("<button></button>").text(" / ").addClass("btn-toggle"));
   $(".btn-toggle").prepend($("<i></i>").addClass("fa fa-sun-o"));
   $(".btn-toggle").append($("<i></i>").addClass("fa fa-moon-o"));
 
@@ -42,7 +42,7 @@ function fillHeader () {
   // ------------
   $(".topnav").append($("<a></a>").addClass("about").attr("href", "/about.html").text("about"));
   $(".topnav").append($("<a></a>").addClass("projects").attr("href", "/projects.html").text("projects"));
-  $(".topnav").append($("<a></a>").addClass("blog").attr("href", "/blog.html").text("blog"));
+  $(".topnav").append($("<a></a>").addClass("blog").attr("href", "/blog").text("blog"));
   $(".topnav").append($("<a></a>").addClass("links").attr("href", "/links.html").text("links"));
 
   // check current URL to determine which topnav link to assign as active (underlined)

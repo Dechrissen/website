@@ -56,39 +56,42 @@ http.createServer((req, res) => {
 				number = metadata.number;
 				filename = path.basename(file, '.md');
 				rendered = renderEntry(title, date, number, filename);
-    		view.entries.push(rendered);
+    		view.entries.push({r: rendered, n: number});
 			}
 		})
 
-		//console.log(view.entries);
-
-		template = fs.readFileSync('../new-blog.mustache', 'utf8');
-		new_blog = mustache.render(template, view);
 		responseCode = 200;
-		content = new_blog;
+		template = fs.readFileSync('../blog-page.mustache', 'utf8');
+		// sort the entries in 'view' by their number (n) before rendering
+		Array.prototype.sortBy = function(p) {
+			return this.slice(0).sort(function(a,b) {
+				return (a[p] < b[p]) ? 1 : (a[p] > b[p]) ? -1 : 0;
+			});
+		}
+		view.entries = view.entries.sortBy('n');
+		blog = mustache.render(template, view);
+		content = blog;
 	}
 
 	else if (urlObj.pathname.split('/')[1] === 'blog' && urlObj.pathname.split('/')[2]) {
 
-
-    if (urlObj.pathname.split('/')[2] === 'cool') {
+		selection = urlObj.pathname.split('/')[2];
+    try {
       responseCode = 200;
-      body = fs.readFileSync('../blog/foo.md', 'utf8');
+      body = fs.readFileSync(`../blog/${selection}.md`, 'utf8');
       html_body = converter.makeHtml(body);
       metadata = converter.getMetadata();
       content = renderPost(metadata.title, metadata.date, html_body);
+			res.writeHead(responseCode, {
+				'content-type': 'text/html;charset=utf-8',
+			});
+			res.write(content);
+			res.end();
+			return;
     }
-    else if (urlObj.pathname.split('/')[2] === 'fun') {
-      responseCode = 200;
-      text = '# fun!';
-      html = converter.makeHtml(text);
-      content = html;
-    }
-    else {
-      text = '### sorry we dont have that blog post';
-      html = converter.makeHtml(text);
-      content = html;
-    }
+		catch (err) {
+			console.error(err);
+		}
 
 	}
 
@@ -143,6 +146,22 @@ http.createServer((req, res) => {
 		}
 	}
 
+	else if (urlObj.pathname.endsWith('.jpg') || urlObj.pathname.endsWith('.jpeg')) {
+		try {
+			responseCode = 200;
+
+			content = fs.readFileSync('..'+urlObj.pathname);
+			res.writeHead(responseCode, {
+				'content-type': 'image/jpeg',
+			});
+			res.write(content);
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.log(err);
+		}
+	}
 
 	res.writeHead(responseCode, {
 		'content-type': 'text/html;charset=utf-8',
