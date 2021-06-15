@@ -15,6 +15,7 @@ http.createServer((req, res) => {
 	let responseCode = 404;
 	let content = fs.readFileSync('../404.html');
 	const urlObj = url.parse(req.url, true);
+	console.log('Browser requested '+urlObj.pathname);
 
 	// class map to map html tags to certain classes so that css can select them
 	const classMap = {
@@ -59,10 +60,12 @@ http.createServer((req, res) => {
 			}
 		})
 
-		console.log(view.entries);
+		//console.log(view.entries);
 
+		template = fs.readFileSync('../new-blog.mustache', 'utf8');
+		new_blog = mustache.render(template, view);
 		responseCode = 200;
-		content = fs.readFileSync('../blog.html');
+		content = new_blog;
 	}
 
 	else if (urlObj.pathname.split('/')[1] === 'blog' && urlObj.pathname.split('/')[2]) {
@@ -88,6 +91,58 @@ http.createServer((req, res) => {
     }
 
 	}
+
+	else if (urlObj.pathname.endsWith('.js')) {
+		try {
+			responseCode = 200;
+
+			content = fs.readFileSync('..'+urlObj.pathname, 'utf8');
+			res.writeHead(responseCode, {
+				'content-type': 'text/javascript;charset=utf-8',
+			});
+			res.write(content);
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.log(err);
+		}
+	}
+
+	else if (urlObj.pathname.endsWith('.css')) {
+		try {
+			responseCode = 200;
+
+			content = fs.readFileSync('..'+urlObj.pathname, 'utf8');
+			res.writeHead(responseCode, {
+				'content-type': 'text/css;charset=utf-8',
+			});
+			res.write(content);
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.log(err);
+		}
+	}
+
+	else if (urlObj.pathname.endsWith('.png')) {
+		try {
+			responseCode = 200;
+
+			content = fs.readFileSync('..'+urlObj.pathname);
+			res.writeHead(responseCode, {
+				'content-type': 'image/png',
+			});
+			res.write(content);
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.log(err);
+		}
+	}
+
 
 	res.writeHead(responseCode, {
 		'content-type': 'text/html;charset=utf-8',
