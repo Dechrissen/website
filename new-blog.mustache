@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="/assets/images/pixel_coffee_mug.png" />
+        <meta name="author" content="Derek Andersen" />
+        <meta name="description" content="The personal website of Derek Andersen, only on the World Wide Web!" />
+        <link rel="stylesheet" type="text/css" href="/main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src='/JavaScript/header.js'></script>
+        <script src='/JavaScript/color-theme-toggle.js'></script>
+        <title>Blog | Derek Andersen</title>
+    </head>
+    <body onload="fillHeader()">
+        <div class="wrapper">
+            <div class="topwrapper">
+
+            </div>
+            <div class="topnav">
+
+            </div>
+            <div class="content">
+                <h4 class="section" id="derek-andersens-blog">
+                  <a href="#derek-andersens-blog">Derek Andersen's blog</a>
+                </h4>
+                <p class="text">A blog about various topics including
+                  coding, hobbies, lifestyle, and random thoughts.</p>
+                <hr style="border: 1px dashed LightGrey;" />
+
+                {{#entries}}
+                {{{.}}}
+                {{/entries}}
+
+                <a href="http://derekandersen.net/blog/feed.xml" target="_blank" style="float: right; font-size: 16px;">
+                    <!--Direct to http because SSL apparently breaks the RSS feed for some readers.-->
+                    <i class="fa fa-rss"></i> RSS Feed
+                </a>
+            </div>
+            <footer>
+                <script type="text/javascript" src="/JavaScript/footer.js"></script>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,6 +1,7 @@
 ---
 title: Awesome blog post
 date: 40 June 2058
+number: 1
 ---
 
  this is a test  i skip line i skip line i skip line i skip line i skip linei skip line i skip line

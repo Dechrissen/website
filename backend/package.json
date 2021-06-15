@@ -11,6 +11,7 @@
   "dependencies": {
     "mustache": "^4.2.0",
     "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
     "showdown": "^1.9.1"
   }
 }
