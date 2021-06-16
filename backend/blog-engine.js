@@ -73,6 +73,23 @@ http.createServer((req, res) => {
 		content = blog;
 	}
 
+	else if (urlObj.pathname.endsWith('.xml')) {
+		try {
+			responseCode = 200;
+
+			content = fs.readFileSync('..'+urlObj.pathname);
+			res.writeHead(responseCode, {
+				'content-type': 'text/xml',
+			});
+			res.write(content);
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.log(err);
+		}
+	}
+
 	else if (urlObj.pathname.split('/')[1] === 'blog' && urlObj.pathname.split('/')[2]) {
 
 		selection = urlObj.pathname.split('/')[2];
@@ -162,6 +179,8 @@ http.createServer((req, res) => {
 			console.log(err);
 		}
 	}
+
+
 
 	res.writeHead(responseCode, {
 		'content-type': 'text/html;charset=utf-8',
