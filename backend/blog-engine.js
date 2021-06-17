@@ -19,20 +19,21 @@ http.createServer((req, res) => {
 
 	// class map to map html tags to certain classes so that css can select them
 	const classMap = {
-		//p : 'text'
+		p : 'text'
 	}
 	const bindings = Object.keys(classMap)
 	.map(key => ({
 	type: 'output',
-	regex: new RegExp(`<${key}(.*)>`, 'g'),
-	replace: `<${key} class="${classMap[key]}" $1>`
+	regex: new RegExp(`<${key}>`, 'g'),
+	replace: `<${key} class="${classMap[key]}">`
 	}));
 
 	// make a new showdown converter with the bindings from the class map
 	converter = new showdown.Converter({
 		extensions: [...bindings],
 		metadata: true,
-		openLinksInNewWindow: true
+		openLinksInNewWindow: true,
+		parseImgDimension: true
 	});
 
 	// check to see if the URL is just 'blog' or 'blog.html', to serve the main blog page

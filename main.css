@@ -103,6 +103,25 @@ p.blog-title {
   border-bottom: transparent;
 }
 
+.blog-wrapper h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
+.blog-wrapper img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  text-align: center;
+  /* border */
+  position:relative;
+  border:1px solid #ccc;
+  padding:5px;
+  background:#f2f2f2;
+}
+
 .section {
   font-family: 'Merriweather', serif;
   margin-top: 1em;
@@ -402,6 +421,11 @@ body {
 }
 
 h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p,
 a:link,
 a:visited,
@@ -409,7 +433,8 @@ a:visited,
 li,
 td,
 blockquote,
-hr {
+hr,
+code {
   color: var(--text-color);
 }
 a:hover {

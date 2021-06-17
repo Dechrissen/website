@@ -9,11 +9,11 @@ very near future. In fact, treat this next sentence as a promise: **This is the 
 
 Writing a new HTML file for each new blog entry is definitely *not* the way to do it. Here's why:
 
-- it's error-prone
-- it's tedious (in my case, it requires a bunch of checks to all the metadata and tags in the HTML)
-- it takes longer than writing blog entries reasonably should
-- the less static HTML on your site, the better
-- there is no automation or future-proofing
+- it's error-prone;
+- it's tedious (in my case, it requires a bunch of checks to all the metadata and tags in the HTML);
+- it takes longer than writing blog entries reasonably should;
+- the less static HTML on your site, the better;
+- and there is no automation or future-proofing.
 
 For a while now, 'overhaul blog system' has been an item on my personal
 website to-do list, staring at me, begging me to check it off the list. For that reason, and the ones
@@ -27,11 +27,11 @@ else would have to work.
 
 Here were my CMS criteria:
 
-- it would be simple (to use and to create/maintain)
-- entries would be easy to write (in terms of some hypothetical syntax I'd need to adhere to)
-- it would employ some form of automation, so that newly-submitted entries are automatically reflected on all the parts of the site they should be
-- it would support content within blog entries such as headings, lists, images, and code snippets
-- it would teach me something new
+- it would be simple (to use and to create/maintain);
+- entries would be easy to write (in terms of some hypothetical syntax I'd need to adhere to);
+- it would employ some form of automation, so that newly-submitted entries are automatically reflected on all the parts of the site they should be;
+- it would support content within blog entries such as headings, lists, images, and code snippets;
+- and it would teach me something new.
 
 Considering these criteria, one day it hit me (admittedly in the shower) that what makes
   most sense for me is the following setup: Markdown for writing entries (one file per entry), and some node.js module
