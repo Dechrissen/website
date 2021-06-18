@@ -19,8 +19,9 @@ For a while now, 'overhaul blog system' has been an item on my personal
 website to-do list, staring at me, begging me to check it off the list. For that reason, and the ones
 listed above, I decided that now is the time to finally do it. It was obvious that this particular problem
 is one that would catch up with me sooner or later; when I first made this site, my primary focus was
-getting things done and making sure they looked nice to me, not necessarily considering their practicality. The main problem
-is that the blog lacks a *content management system* (CMS). For a while, it wasn't quite clear to me how I'd
+getting things done and making sure they looked nice to me, not necessarily considering their practicality.
+
+The main problem is that the blog lacks a *content management system* (CMS). For a while, it wasn't quite clear to me how I'd
 implement one. I don't have much experience with back-end web development (yet!), and I didn't necessarily want an
 extravagant setup that requires authentication from some web portal each time I want to write a post. So something
 else would have to work.
@@ -34,11 +35,13 @@ Here were my CMS criteria:
 - and it would teach me something new.
 
 Considering these criteria, one day it hit me (admittedly in the shower) that what makes
-  most sense for me is the following setup: Markdown for writing entries (one file per entry), and some node.js module
+most sense for me is the following setup: Markdown for writing entries (one file per entry), and some node.js module
 for generating the corresponding HTML for each entry. This configuration satisfies all of my criteria for a CMS.
 First of all, I love writing Markdown, and in terms of typographical capabilities, it checks all the boxes
-(text, headings of varying sizes, lists, links, images, code snippets). It would be simple to write a Markdown file, drag
-it into the 'blog' directory, maybe edit a universal metadata file for each entry's information, and be done. All of the
+(text, headings of varying sizes, lists, links, images, code snippets).
+
+It would be simple to write a Markdown file, drag it into the 'blog' directory, maybe edit a universal metadata
+file for each entry's information, and be done. All of the
 necessary changes would be made to the site automatically, and the (still undecided) node.js library would
 generate the HTML dynamically, according to the same format I use now, so I can use the same CSS file.
 

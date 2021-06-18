@@ -30,7 +30,7 @@ here's a list of motivations for the project:
 - there was no future-proofing to the system,
 - and I wanted to learn something new in web dev.
 
-In this case, the "something new" is the deployment of some backend utility that
+In this case, the "something new" is the deployment of a backend utility that
 programmatically creates webpages and handles web traffic to the blog portion of
 my website, hence my use of the term 'blog engine' (also, it sounds cool).
 

@@ -122,6 +122,14 @@ p.blog-title {
   background:#f2f2f2;
 }
 
+blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+}
+
 .section {
   font-family: 'Merriweather', serif;
   margin-top: 1em;

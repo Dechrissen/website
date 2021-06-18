@@ -27,6 +27,7 @@ It would be nice if there were no barriers to this ideal of "doing only
 things that matter to you, with no time wasted." But the reality is that it's a challenge to identify the things that aren't
 truly adding value to your life. A classic (but helpful) example to illustrate this is
 [the widespread addiction to social media.](https://www.addictioncenter.com/drugs/social-media-addiction/)
+
 Of course, there's nothing wrong with leisure time, and if you enjoy using social media then that's OK. But after a certain time
 threshold, scrolling mindlessly through your news feed isn't adding value to your life. There's such a thing as "too much," and
 if we're able to identify the difference between activities that are moving us toward our goals vs. activities that are—after

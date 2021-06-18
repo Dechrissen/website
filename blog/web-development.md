@@ -17,7 +17,7 @@ of all of our established resources, centralizing them and bringing them togethe
 I also saw it as a good opportunity for gaining experience in web design and project management, not to mention it was a good way
 to build [my portfolio](https://github.com/Dechrissen) and add to my GitHub repositories.
 
-I was able to develop a nice baseline of skills in HTML, CSS, and JavaScript. In retrospect, the JavaScript backend ended up being a lot more
+I was able to develop a nice baseline of skills in HTML, CSS, and JavaScript. In retrospect, the JavaScript portion ended up being a lot more
 crucial to the framework of the site than I had originally anticipated. The basic idea behind the site is that it's separated
 first by game, and within each game's section, there is a list of links that redirect you to the individual level pages for that game.
 The JavaScript behind the scenes works to 1. determine which level to load based on the URL selected, 2. find the corresponding
@@ -30,7 +30,7 @@ to the team in order to explain my vision, and we worked collaboratively to come
 we went along. A nice bonus to this being my first collaborative large-scale project is that it also allowed me to gain expereince
 managing pull requests on GitHub and keeping work very clearly allocated amongst our team members. Communication was key.
 
-BanjoSpeedruns is one of the projects of mine that I'm most proud of, and I'm grateful to have been able to do it. And now that
+BanjoSpeedruns is one of the projects that I'm most proud of, and I'm grateful to have been able to do it. And now that
 I'm working on my personal website, I feel pretty well-equipped with the skills I need to create the site, host it, and manage it.
 In fact, I've already learned a few little things that make me want to go back to the BanjoSpeedruns site and make some
 style changes. But first, I'm excited to see how my own website turns out.

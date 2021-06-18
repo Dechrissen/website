@@ -7,7 +7,7 @@ I decided to sit down and write this blog post about perfectionism—an idea I h
 because I found myself tormented by my inner perfectionist all day. This seemed like a good mindset to be in to write this.
 I often get into a stagnant mental state where I'm stunted by perfectionism, which prevents me from doing the work I know I need to do.
 To give you a small example, I got hung up on thinking of a name for this blog post for a few minutes. I shouldn't be spending more than
-10 seconds thinking of a name for a post in a blog that nobody reads anyway. (Or do they?)
+ten seconds thinking of a name for a post in a blog that nobody reads anyway. (Or do they?)
 
 My point is not to bash myself though. Let me get to what I really want to convey about perfectionism, because I don't
 think I'm alone on this front. You can probably guess what I'm ultimately going to conclude about it, so here is the thesis statement:
@@ -26,7 +26,9 @@ This is something I experience regularly. In the topical case of writing this bl
 with are along the lines of: "But I don't have as much to say about this topic... what if it's not as long as my last two posts?" or
 "I don't want to write a whole blog post following my not-yet-overhauled blog system. Then I'll have to go back and update it later!" or
 "Why would I use my energy on this task? Then I won't be able to use that energy on all the other things I want to do!" (And then, of course,
-I wouldn't use it on those things either.) Though, one thing I can say now after starting to write this post, is that the initial blocks
+I wouldn't use it on those things either.)
+
+Though, one thing I can say now after starting to write this post, is that the initial blocks
 to starting a project or task quickly subside once you actually get started. Deep down, I think I knew this. But writing this is a way
 that works for me in terms of expressing this feeling while at the same time, putting it into practice.
 
@@ -34,5 +36,7 @@ For me, there's another flavor of the blocking effect that perfectionism can hav
 to preventing me from getting started, it oftentimes prevents me from *stopping* something. This website is the best example
 I can think of in recent history. If, for example, I implement a new feature or style choice on the site, I find myself fiddling
 with and tweaking the CSS values for hours, instead of moving onto the next to-do item or simply calling it a day and pushing the changes to
-my webserver. I need to learn that there's always going to be time for me to go back and make minor tweaks if it really ends up
+my webserver.
+
+I need to learn that there's always going to be time for me to go back and make minor tweaks if it really ends up
 bothering me. What's more important is moving on to the next thing. Stagnation gets us nowhere (by definition).

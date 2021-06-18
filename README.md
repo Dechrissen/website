@@ -1,5 +1,7 @@
 # [derekandersen.net](https://derekandersen.net)
- My personal website.
+My personal website.
+
+![Little Derek smug](https://github.com/Dechrissen/derekandersen.net/blob/master/assets/images/little_derek_smug.jpg)
 
 ## Layout
 The site is organized into four main categories:
@@ -10,10 +12,28 @@ The site is organized into four main categories:
 
 ## JavaScript
 The site uses vanilla JavaScript and in some cases jQuery to build certain
-parts of each page. All four main pages use `/JavaScript/header.js` and
+parts of each page.
+
+All four main pages use `/JavaScript/header.js` and
 `/JavaScript/footer.js` to build the header and footer respectively. These
 contain general information about me, some social links, a top navigation bar,
 and a 'last updated' timestamp.
 
-## Blog
-To be added: information about how the blog system works, once I overhaul it.
+The site has a dark mode toggle switch in the top left, represented by a sun and
+moon. This function is powered by `/JavaScript/color-theme-toggle.js`.
+
+## Site categories
+
+### About
+A homepage with a picture of me and a general blurb about my interests.
+
+### Projects
+A list of my highlighted projects, a small description for each, and a link to
+each.
+
+### Blog
+A list of all of my blog entries in reverse chronological order. This page and
+all of the blog posts are powered by [my blog engine](https://derekandersen.net/blog/new-blog-engine).
+
+### Links
+A list of categorized miscellaneous links.
