@@ -73,9 +73,9 @@ that's the main reason I'm writing this post, so let's get into it.
 It uses a combination of the following:
 
 - [`node.js`](https://nodejs.org/en/), a JavaScript runtime environment for running JavaScript outside the browser;
-- *Markdown*, my personal favorite markup language,
+- *Markdown*, my personal favorite markup language;
 - [`showdown.js`](http://showdownjs.com/), a Markdown to HTML converter library;
-- [`mustache.js`](https://github.com/janl/mustache.js), a templating library.
+- and [`mustache.js`](https://github.com/janl/mustache.js), a templating library.
 
 I chose Node for my application because I felt it made the most sense given
 what I'm interested in these days. I'm trying to get better at writing JavaScript,
