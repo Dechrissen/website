@@ -2,6 +2,7 @@
 title: Web Development
 date: 28 August 2020
 number: 1
+description: I talk about the major takeaways of a website project.
 ---
 I'm finally getting around to working on my website, a task that's been on my to-do list for probably about
 a year now (while I'm writing this, I still haven't finished this website).

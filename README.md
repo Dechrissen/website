@@ -1,8 +1,6 @@
 # [derekandersen.net](https://derekandersen.net)
 My personal website.
 
-![Little Derek smug](https://github.com/Dechrissen/derekandersen.net/blob/master/assets/images/little_derek_smug.jpg)
-
 ## Layout
 The site is organized into four main categories:
 - about

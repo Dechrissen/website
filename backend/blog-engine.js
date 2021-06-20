@@ -55,8 +55,9 @@ http.createServer((req, res) => {
 				title = metadata.title;
 				date = metadata.date;
 				number = metadata.number;
+				description = metadata.description;
 				filename = path.basename(file, '.md');
-				rendered = renderEntry(title, date, number, filename);
+				rendered = renderEntry(title, date, number, description, filename);
     		view.entries.push({r: rendered, n: number});
 			}
 		})
@@ -200,8 +201,8 @@ function renderPost (title, date, body) {
 }
 
 // Returns the rendered HTML of a blog entry for the blog page
-function renderEntry (title, date, number, filename) {
+function renderEntry (title, date, number, description, filename) {
   template = fs.readFileSync('../blog/entry.mustache', 'utf8');
-  rendered = mustache.render(template, { title: title, date: date, number: number, filename: filename });
+  rendered = mustache.render(template, { title: title, date: date, number: number, description: description, filename: filename });
   return rendered;
 }

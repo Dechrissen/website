@@ -2,6 +2,7 @@
 title: Minimalism
 date: 8 September 2020
 number: 2
+description: I discuss my experience with minimalism.
 ---
 Over the past few years, I've developed an interest in minimalism. At first, the term 'minimalism'
 can be a scary thing if you're not quite familiar with it. It has undertones of extremism. It conjures up reactions like
