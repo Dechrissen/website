@@ -35,15 +35,20 @@ function fillHeader () {
   $(".twitch").append($("<a></a>").attr("href", "https://www.twitch.tv/dechrissen").attr("target", "_blank").text("").addClass("twitch-link"));
   $(".twitch-link").prepend($("<i></i>").addClass("fa fa-twitch"));
 
+  // add Twitch
+  $(".social-links").append($("<li></li>").addClass("steam"));
+  $(".steam").append($("<a></a>").attr("href", "https://steamcommunity.com/id/Dechrissen/").attr("target", "_blank").text("").addClass("steam-link"));
+  $(".steam-link").prepend($("<i></i>").addClass("fa fa-steam"));
+
 
 
 
   // TOPNAV LINKS
   // ------------
-  $(".topnav").append($("<a></a>").addClass("about").attr("href", "/about.html").text("about"));
-  $(".topnav").append($("<a></a>").addClass("projects").attr("href", "/projects.html").text("projects"));
+  $(".topnav").append($("<a></a>").addClass("about").attr("href", "/about").text("about"));
+  $(".topnav").append($("<a></a>").addClass("projects").attr("href", "/projects").text("projects"));
   $(".topnav").append($("<a></a>").addClass("blog").attr("href", "/blog").text("blog"));
-  $(".topnav").append($("<a></a>").addClass("links").attr("href", "/links.html").text("links"));
+  $(".topnav").append($("<a></a>").addClass("links").attr("href", "/links").text("links"));
 
   // check current URL to determine which topnav link to assign as active (underlined)
   var pathname = window.location.pathname.split("/");

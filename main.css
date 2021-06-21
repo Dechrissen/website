@@ -113,7 +113,7 @@ p.blog-title {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
+  width: 300px;
   text-align: center;
   /* border */
   position:relative;
@@ -125,7 +125,7 @@ p.blog-title {
 .blog-description {
   font-size: 85%;
   margin: 0;
-  margin-left: 15px;
+  margin-left: 7%;
 }
 
 blockquote {
@@ -297,8 +297,12 @@ ul.social-links {
 ul.social-links > li {
   font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
+  display: inline;
 }
 
+pre {
+  overflow: auto;
+}
 
 
 
