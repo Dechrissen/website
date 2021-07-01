@@ -34,11 +34,14 @@ function fillHeader () {
   $(".social-links").append($("<li></li>").addClass("twitch"));
   $(".twitch").append($("<a></a>").attr("href", "https://www.twitch.tv/dechrissen").attr("target", "_blank").text("").addClass("twitch-link"));
   $(".twitch-link").prepend($("<i></i>").addClass("fa fa-twitch"));
-
-  // add Twitch
+  // add Steam
   $(".social-links").append($("<li></li>").addClass("steam"));
   $(".steam").append($("<a></a>").attr("href", "https://steamcommunity.com/id/Dechrissen/").attr("target", "_blank").text("").addClass("steam-link"));
   $(".steam-link").prepend($("<i></i>").addClass("fa fa-steam"));
+  // add Patreon
+  $(".social-links").append($("<li></li>").addClass("patreon"));
+  $(".patreon").append($("<a></a>").attr("href", "https://www.patreon.com/dechrissen").attr("target", "_blank").text("").addClass("patreon-link"));
+  $(".patreon-link").prepend($("<i></i>").addClass("fa fa-heart"));
 
 
 
