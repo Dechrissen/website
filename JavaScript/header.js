@@ -37,7 +37,7 @@ function fillHeader () {
   // add Steam
   $(".social-links").append($("<li></li>").addClass("steam"));
   $(".steam").append($("<a></a>").attr("href", "https://steamcommunity.com/id/Dechrissen/").attr("target", "_blank").text("").addClass("steam-link"));
-  $(".steam-link").prepend($("<i></i>").addClass("fa fa-steam"));
+  $(".steam-link").prepend($("<i></i>").addClass("fa fa-steam-square"));
   // add Patreon
   $(".social-links").append($("<li></li>").addClass("patreon"));
   $(".patreon").append($("<a></a>").attr("href", "https://www.patreon.com/dechrissen").attr("target", "_blank").text("").addClass("patreon-link"));
