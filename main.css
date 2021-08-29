@@ -108,12 +108,12 @@ p.blog-title {
 }
 
 .blog-wrapper img {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 400px;
   text-align: center;
   /* border */
   position:relative;

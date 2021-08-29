@@ -2,7 +2,7 @@
 title: Perfectionism
 date: 24 September 2020
 number: 3
-description: I talk about my struggles with perfectionism.
+description: My struggle with perfectionism.
 ---
 I decided to sit down and write this blog post about perfectionism—an idea I had jotted down in my 'Blog Post Ideas' document—precisely
 because I found myself tormented by my inner perfectionist all day. This seemed like a good mindset to be in to write this.

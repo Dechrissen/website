@@ -2,7 +2,7 @@
 title: A Shiny New Blog Engine
 date: 17 June 2021
 number: 5
-description: I discuss my upgraded blog engine project.
+description: An overview of my upgraded blog engine project.
 ---
 Get ready. This is a big one.
 
