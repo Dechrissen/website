@@ -1,6 +1,6 @@
 ---
 title: My New Desk Setup
-date: 28 August 2021
+date: 29 August 2021
 number: 6
 description: My new desk setup after moving to a new apartment.
 ---
@@ -34,7 +34,7 @@ I’ll go through all of the items in the new setup (furniture, tech, and other 
 
 I'll start with the core piece: the desk. To be clear, my main criterion in a new desk was simply one that had more desktop real estate than my old one. Truthfully, the desk I ended up choosing is nothing fancy, but it suits my needs for now, as someone who is not in a permanent residence and doesn't have a whole lot of money to spend on a nicer, ideal, top-of-the-line desk (which, by the way, would be a motorized sit/stand desk with a memory bank for height adjustments).
 
-The desk I chose is the Cubiker 55-inch computer desk from Amazon ($90). In fact, initially I bought one of them, and I liked it so much that a week later I ordered a second, and I've arranged them into an L-shaped oritentation. Essentially, I wanted one of the arms of the L to be my main setup for my personal PC, and the other (shorter) arm to be the spot where I put temporary things, like my MacBook, notepad, or water bottle, and soon my work laptop when I start working from home.
+The desk I chose is the Cubiker 55-inch computer desk from Amazon ($90). In fact, initially I bought one of them, and I liked it so much that a week later I ordered a second, and I've arranged them into an L-shaped orientation. Essentially, I wanted one of the arms of the L to be my main setup for my personal PC, and the other (shorter) arm to be the spot where I put temporary things, like my MacBook, notepad, or water bottle, and soon my work laptop when I start working from home.
 
 The desktop is made of a board coated with [melamine resin,](https://en.wikipedia.org/wiki/Melamine) which is a laminate-like durable thermosetting plastic. Basically, it's smooth, protective, and easily wipeable, and it's made to look like a dark-stained wood, in my case. There is some controversy as far as health concerns, but it's mainly for melamine-based dinnerware, because consuming it could be toxic. Anyway, in my opinion, it's great for a temporary intermediate desk (one step up from plain particle board, which is also toxic btw). By no means is this a desk I'll have for a lifetime. I'm looking forward to one day getting (or building) a nice solid-wood desk for a permanent setup when I can afford it.
 
@@ -86,9 +86,9 @@ Next, I have my 2017 MacBook Air, which usually sits on the smaller arm of the d
 
 On to the networking equipment.
 
-For my connection to the internet, I have a 2-in-1 modem/wireless router combo from Motorola. Truth be told, I really dislike Wi-Fi and avoid it whenever possible, but it’s nice to have it in an all-in-one device when you’re living in an apartment and don’t want to have an additional device when possible. Ethernet is far superior in every way (when it’s feasible). It’s faster, more reliable, and it *just works*. No need to mess with SSIDs and disconnection issues. Just plug it in. Personally, I use our Wi-Fi conneciton for my cell phone and my laptop whenever I’m not close enough to connect it to the modem via Ethernet. Everything else is wired.
+For my connection to the internet, I have a 2-in-1 modem/wireless router combo from Motorola. Truth be told, I really dislike Wi-Fi and avoid it whenever possible, but it’s nice to have it in an all-in-one device when you’re living in an apartment and don’t want to have an additional device when possible. Ethernet is far superior in every way (when it’s feasible). It’s faster, more reliable, and it *just works*. No need to mess with SSIDs and disconnection issues. Just plug it in. Personally, I use our Wi-Fi connection for my cell phone and my laptop whenever I’m not close enough to connect it to the modem via Ethernet. Everything else is wired.
 
-As a way to add more Ethernet ports to the network, I use a 4-port Netgear GS105 gigabit switch. In total, I have 7 available ports, 5 of which are occupied:
+As a way to add more Ethernet ports to the network, I use a 4-port NETGEAR GS105 gigabit switch. In total, I have 7 available ports, 5 of which are occupied:
 
 - my computer,
 - my girlfriend's computer,
