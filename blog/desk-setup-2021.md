@@ -48,7 +48,7 @@ The next piece of furniture is my chair. I've always wanted a comfortable chair,
 - Aesthetic: 9 / 10
 - Price (for what you're getting): 6 / 10
 
-My main issue with this chair is that, while it is *very* comfortable, the comfort you can achieve requires you to lean farther back that what seems reasonable for a computer chair, hence my Comfort score of 7, otherwise it would be a 10. The lumbar support is very good, and the mesh seat and back are very comfortable, but the back is angled too far back. So when I want to sit forward or more upright, I don't get the benefit of the lumbar support. It's almost like this chair was intentionally designed to be slept in. But, all in all, I'm not unhappy with the chair.
+My main issue with this chair is that, while it is *very* comfortable, the comfort you can achieve requires you to lean farther back than what seems reasonable for a computer chair, hence my Comfort score of 7, otherwise it would be a 10. The lumbar support is very good, and the mesh seat and back are very comfortable, but the back is angled too far back. So when I want to sit forward or more upright, I don't get the benefit of the lumbar support. It's almost like this chair was intentionally designed to be slept in. But, all in all, I'm not unhappy with the chair.
 
 In the future, I plan to invest in a nice computer chair from Herman Miller. Very expensive, but from what I've heard from creators online and from watching (too many) desk setup videos, worth every penny.
 
