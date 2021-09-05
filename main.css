@@ -536,6 +536,8 @@ footer * {
   }
   .topnav a {
     font-size: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   div.content {
     width: 95%;

@@ -9,10 +9,12 @@
         <link rel="stylesheet" type="text/css" href="/main.css" />
         <script type="text/javascript" src="/JavaScript/rock-paper-scissors.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <script src='/JavaScript/color-theme-toggle.js'>addColorThemeToggle()</script>
+        <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src='/JavaScript/header.js'></script>
+        <script src='/JavaScript/color-theme-toggle.js'></script>
         <title>Rock, Paper, Scissors | Derek Andersen</title>
     </head>
-    <body>
+    <body onload="fillHeader()">
         <button type="button" name="buttonRock" onclick="setState('Rock')">Rock</button>
         <button type="button" name="buttonPaper" onclick="setState('Paper')">Paper</button>
         <button type="button" name="buttonScissors" onclick="setState('Scissors')">Scissors</button>

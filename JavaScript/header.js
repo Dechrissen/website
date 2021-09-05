@@ -17,7 +17,7 @@ function fillHeader () {
 
   // add tagline
   $(".logo.box").append($("<p></p>").addClass("tagline"));
-  $(".tagline").append($("<i>/i>").text("Coder • Linguist • Gamer • Runner"));
+  $(".tagline").append($("<i>/i>").text("Coder • Linguist • Minimalist • Gamer • Runner"));
 
 
 
@@ -34,6 +34,10 @@ function fillHeader () {
   $(".social-links").append($("<li></li>").addClass("twitch"));
   $(".twitch").append($("<a></a>").attr("href", "https://www.twitch.tv/dechrissen").attr("target", "_blank").text("").addClass("twitch-link"));
   $(".twitch-link").prepend($("<i></i>").addClass("fa fa-twitch"));
+  // add Twitter
+  $(".social-links").append($("<li></li>").addClass("twitter"));
+  $(".twitter").append($("<a></a>").attr("href", "https://twitter.com/dechrissen").attr("target", "_blank").text("").addClass("twitter-link"));
+  $(".twitter-link").prepend($("<i></i>").addClass("fa fa-twitter"));
   // add Steam
   $(".social-links").append($("<li></li>").addClass("steam"));
   $(".steam").append($("<a></a>").attr("href", "https://steamcommunity.com/id/Dechrissen/").attr("target", "_blank").text("").addClass("steam-link"));
@@ -52,6 +56,7 @@ function fillHeader () {
   $(".topnav").append($("<a></a>").addClass("projects").attr("href", "/projects").text("projects"));
   $(".topnav").append($("<a></a>").addClass("blog").attr("href", "/blog").text("blog"));
   $(".topnav").append($("<a></a>").addClass("links").attr("href", "/links").text("links"));
+  $(".topnav").append($("<a></a>").addClass("contact").attr("href", "/contact").text("contact"));
 
   // check current URL to determine which topnav link to assign as active (underlined)
   var pathname = window.location.pathname.split("/");
@@ -69,6 +74,9 @@ function fillHeader () {
       break;
     case "links":
       $(".links").addClass("active")
+      break;
+    case "contact":
+      $(".contact").addClass("active")
       break;
   }
 addColorThemeToggle();
