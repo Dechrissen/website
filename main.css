@@ -15,7 +15,6 @@ body {
   max-width: 1000px;
   position: relative; z-index: -10000; -webkit-font-smoothing: subpixel-antialiased; /* corrects Safari rendering */
   font-family: 'Source Sans Pro', sans-serif;
-  /*font-size: 21px;*/
   font-size: 1.3rem;
   line-height: 1.5;
   text-align: justify;
@@ -31,10 +30,8 @@ div.wrapper {
 
 }
 div.content {
-  /*width: 100%;*/
   width: 100%;
   display: block;
-  /*background-color: #eee;*/
   margin-left: auto;
   margin-right: auto;
 
