@@ -67,7 +67,7 @@ Here are the specs (peripherals included) in case you're interested:
 - GPU: NVIDIA GeForce GTX 760
 - OS: Windows 10 Home 64-bit
 - System drive: Samsung 860 EVO 500 GB SSD
-- Storage drive: Western Digital Blue 2 TB HDD
+- Storage drive: Seagate Barracuda 2 TB HDD
 - Monitor 1: ASUS VX248H 1080p @ 60Hz
 - Monitor 2: LG 24ML44B @ 60Hz
 - Speakers: Edifier R1280T 2.0 42 Watt studio monitors
