@@ -42,10 +42,10 @@ function fillHeader () {
   $(".social-links").append($("<li></li>").addClass("steam"));
   $(".steam").append($("<a></a>").attr("href", "https://steamcommunity.com/id/Dechrissen/").attr("target", "_blank").text("").addClass("steam-link"));
   $(".steam-link").prepend($("<i></i>").addClass("fa fa-steam-square"));
-  // add Patreon
-  $(".social-links").append($("<li></li>").addClass("patreon"));
-  $(".patreon").append($("<a></a>").attr("href", "https://www.patreon.com/dechrissen").attr("target", "_blank").text("").addClass("patreon-link"));
-  $(".patreon-link").prepend($("<i></i>").addClass("fa fa-heart"));
+  // add PayPal
+  $(".social-links").append($("<li></li>").addClass("paypal"));
+  $(".paypal").append($("<a></a>").attr("href", "https://www.paypal.com/donate/?business=EZVQJ9GWV2SMN&no_recurring=1&item_name=I+appreciate+your+support!&currency_code=USD").attr("target", "_blank").text("").addClass("paypal-link"));
+  $(".paypal-link").prepend($("<i></i>").addClass("fa fa-paypal"));
 
 
 
