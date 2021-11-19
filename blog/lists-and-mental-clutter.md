@@ -1,5 +1,5 @@
 ---
-title: Lists & Mental Clutter
+title: Lists and Mental Clutter
 date: 18 November 2021
 number: 9
 description: How lists negatively affect my life.
