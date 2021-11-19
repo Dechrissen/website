@@ -1,5 +1,5 @@
 ---
-title: Web Development
+title: My First Website Project
 date: 28 August 2020
 number: 1
 description: The major takeaways of my first website project.
