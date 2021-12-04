@@ -1,7 +1,7 @@
 ---
 title: A Shiny New Blog Engine
 date: 17 June 2021
-number: 5
+number: 05
 description: An overview of my upgraded blog engine.
 ---
 Get ready. This is a big one.

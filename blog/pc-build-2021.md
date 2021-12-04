@@ -1,7 +1,7 @@
 ---
 title: Linux PC Build 2021
 date: 6 November 2021
-number: 7
+number: 07
 description: A brand new daily driver.
 ---
 My current PC, a Windows machine that I use for gaming, programming, writing, and other general daily tasks, has served me well. I built it back in 2014, my first year of college. In my last blog entry, I listed its specs (peripherals included), which I will paste here again for your convenience:

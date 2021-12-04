@@ -1,7 +1,7 @@
 ---
 title: Minimalism
 date: 8 September 2020
-number: 2
+number: 02
 description: My experience with and thoughts about minimalism.
 ---
 Over the past few years, I've developed an interest in minimalism. At first, the term 'minimalism'

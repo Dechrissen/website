@@ -1,7 +1,7 @@
 ---
 title: A Return to Running
 date: 11 November 2021
-number: 8
+number: 08
 description: My plan to get back into running regularly.
 ---
 I started running regularly during high school. I must have been about 15 years old. One day, around 2010, my friend Evan and I just decided to go for a run. I guess. I don't remember.

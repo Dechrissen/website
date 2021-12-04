@@ -1,7 +1,7 @@
 ---
 title: My New Desk Setup
 date: 29 August 2021
-number: 6
+number: 06
 description: My new desk setup after moving to a new apartment.
 ---
 I recently moved, and one of the things I’ve been spending most of my free time on is fine-tuning my desk setup. I’ve made a lot of progress on it in the short time that I’ve been here, and even though I wouldn’t say it’s perfect, I’m pretty happy with it thus far.

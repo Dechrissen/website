@@ -1,7 +1,7 @@
 ---
 title: My First Website Project
 date: 28 August 2020
-number: 1
+number: 01
 description: The major takeaways of my first website project.
 ---
 I'm finally getting around to working on my website, a task that's been on my to-do list for probably about

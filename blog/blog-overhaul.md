@@ -1,7 +1,7 @@
 ---
 title: Overhauling my Blog System
 date: 17 February 2021
-number: 4
+number: 04
 description: My ideas for a blog engine upgrade.
 ---
 It's been quite a while since my last blog entry (I've been busy with school and other projects), so I thought it would be fitting to make this one

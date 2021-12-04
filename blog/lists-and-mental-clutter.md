@@ -1,7 +1,7 @@
 ---
 title: Lists and Mental Clutter
 date: 18 November 2021
-number: 9
+number: 09
 description: How lists negatively affect my life.
 ---
 I'm obsessed with lists.

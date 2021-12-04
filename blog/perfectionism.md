@@ -1,7 +1,7 @@
 ---
 title: Perfectionism
 date: 24 September 2020
-number: 3
+number: 03
 description: My struggle with perfectionism.
 ---
 I decided to sit down and write this blog post about perfectionism—an idea I had jotted down in my 'Blog Post Ideas' document—precisely
