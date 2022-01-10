@@ -17,7 +17,7 @@ function fillHeader () {
 
   // add tagline
   $(".logo.box").append($("<p></p>").addClass("tagline"));
-  $(".tagline").append($("<i>/i>").text("Linguist • Minimalist • Gamer • Tinkerer"));
+  $(".tagline").append($("<i>/i>").text("Minimalist • Gamer • Tinkerer"));
 
 
 
