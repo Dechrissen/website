@@ -44,7 +44,7 @@ function fillHeader () {
   $(".steam-link").prepend($("<i></i>").addClass("fa fa-steam-square"));
   // add PayPal
   $(".social-links").append($("<li></li>").addClass("paypal"));
-  $(".paypal").append($("<a></a>").attr("href", "https://www.paypal.com/donate/?business=EZVQJ9GWV2SMN&no_recurring=1&item_name=I+appreciate+your+support!&currency_code=USD").attr("target", "_blank").text("").addClass("paypal-link"));
+  $(".paypal").append($("<a></a>").attr("href", "https://www.paypal.com/donate/?business=EZVQJ9GWV2SMN&no_recurring=1&item_name=Thank+you!+I+appreciate+your+support!&currency_code=USD").attr("target", "_blank").text("").addClass("paypal-link"));
   $(".paypal-link").prepend($("<i></i>").addClass("fa fa-paypal"));
 
 
