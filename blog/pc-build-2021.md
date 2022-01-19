@@ -1,5 +1,5 @@
 ---
-title: Linux PC Build 2021
+title: PC Build 2021
 date: 6 November 2021
 number: 07
 description: A brand new daily driver.
