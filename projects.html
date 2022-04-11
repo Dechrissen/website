@@ -1,88 +1,137 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/png" href="/assets/images/pixel_coffee_mug.png" />
-        <meta name="author" content="Derek Andersen" />
-        <meta name="description" content="The personal website of Derek Andersen, only on the World Wide Web!" />
-        <link rel="stylesheet" type="text/css" href="/main.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src='/JavaScript/header.js'></script>
-        <script src='/JavaScript/color-theme-toggle.js'></script>
-        <title>Projects | Derek Andersen</title>
-    </head>
-    <body onload="fillHeader()">
-        <div class="wrapper">
-            <div class="topwrapper">
-
-            </div>
-            <div class="topnav">
-
-            </div>
-            <div class="content">
-                <h4 class="section" id="highlighted">
-                    <a href="#highlighted">Highlighted projects</a>
-                </h4>
-                <p class="text">
-                    These are my completed projects (most recent first). Prototypes and small projects I chose
-                    to omit from this list, but if you are interested in seeing everything, you can do so on <a href="https://github.com/Dechrissen" target="_blank">my GitHub.</a>
-                </p>
-                <table class="projects">
-                    <tr>
-                        <td class="project-name">
-                            <a href="https://derekandersen.net/blog/new-blog-engine">my blog engine</a>
-                          </td>
-                        <td>my blog's backend, which utilizes <code>node.js</code>, <code>showdown.js</code>, and <code>mustache.js</code></td>
-                    </tr>
-                    <tr>
-                        <td class="project-name">
-                            <a href="https://github.com/Dechrissen/MingyJongo" target="_blank">MingyJongo</a>
-                          </td>
-                        <td>a <code>node.js</code> bot for my personal Discord server, which utilizes MongoDB to store user data for scorekeeping</td>
-                    </tr>
-                    <tr>
-                        <td class="project-name">
-                            <a href="https://github.com/Dechrissen/buzzrec" target="_blank">buzzrec</a>
-                          </td>
-                        <td>a content-based recommendation engine for linguistics papers on LingBuzz</td>
-                    </tr>
-                    <tr>
-                        <td class="project-name">
-                            <a href="https://banjospeedruns.com/bt/bingo-toolie" target="_blank">Bingo-Toolie</a>
-                          </td>
-                        <td>a companion web app for Banjo-Tooie bingo</td>
-                    </tr>
-                    <tr>
-                        <td class="project-name">
-                            <a href="https://derekandersen.net/">derekandersen.net</a>
-                        </td>
-                        <td>my personal website</td>
-                    </tr>
-                    <tr>
-                        <td class="project-name">
-                            <a href="https://pypi.org/project/pokequiz/" target="_blank">PokéQuiz</a>
-                        </td>
-                        <td>a Python package for command-line Pokémon quizzes</td>
-                    </tr>
-                    <tr>
-                        <td class="project-name">
-                            <a href="https://banjospeedruns.com/" target="_blank">banjospeedruns.com</a>
-                        </td>
-                        <td>the community website for Banjo-Kazooie speedrunning</td>
-                    </tr>
-                    <tr>
-                        <td class="project-name">
-                            <a href="https://github.com/Dechrissen/speedrunb0t" target="_blank">speedrunb0t</a>
-                        </td>
-                        <td>an IRC bot for twitch.tv with speedrun.com API integration and speedrunner-specific functionality</td>
-                    </tr>
-                </table>
-            </div>
-            <footer>
-                <script type="text/javascript" src="/JavaScript/footer.js"></script>
-            </footer>
-        </div>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/images/pixel_coffee_mug.png"
+    />
+    <meta name="author" content="Derek Andersen" />
+    <meta
+      name="description"
+      content="The personal website of Derek Andersen, only on the World Wide Web!"
+    />
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/JavaScript/header.js"></script>
+    <script src="/JavaScript/color-theme-toggle.js"></script>
+    <title>Projects | Derek Andersen</title>
+  </head>
+  <body onload="fillHeader()">
+    <div class="wrapper">
+      <div class="topwrapper"></div>
+      <div class="topnav"></div>
+      <div class="content">
+        <h4 class="section" id="highlighted">
+          <a href="#highlighted">Highlighted projects</a>
+        </h4>
+        <p class="text">
+          These are my completed projects (most recent first). Prototypes and
+          small projects I chose to omit from this list, but if you are
+          interested in seeing everything, you can do so on
+          <a href="https://github.com/Dechrissen" target="_blank">my GitHub.</a>
+        </p>
+        <table class="projects">
+          <tr>
+            <td class="project-name">
+              <a href="https://derekandersen.net/blog/studying-saturdays"
+                >Studying Saturdays</a
+              >
+            </td>
+            <td>
+              a weekly casual learning event that takes place in my Discord
+              server
+            </td>
+          </tr>
+          <tr>
+            <td class="project-name">
+              <a href="https://derekandersen.net/blog/new-blog-engine"
+                >my blog engine</a
+              >
+            </td>
+            <td>
+              my blog's backend, which utilizes <code>node.js</code>,
+              <code>showdown.js</code>, and <code>mustache.js</code>
+            </td>
+          </tr>
+          <tr>
+            <td class="project-name">
+              <a href="https://github.com/Dechrissen/MingyJongo" target="_blank"
+                >MingyJongo</a
+              >
+            </td>
+            <td>
+              a <code>node.js</code> bot for my personal Discord server, which
+              utilizes MongoDB to store user data for scorekeeping
+            </td>
+          </tr>
+          <tr>
+            <td class="project-name">
+              <a href="https://github.com/Dechrissen/buzzrec" target="_blank"
+                >buzzrec</a
+              >
+            </td>
+            <td>
+              a content-based recommendation engine for linguistics papers on
+              LingBuzz
+            </td>
+          </tr>
+          <tr>
+            <td class="project-name">
+              <a
+                href="https://banjospeedruns.com/bt/bingo-toolie"
+                target="_blank"
+                >Bingo-Toolie</a
+              >
+            </td>
+            <td>a companion web app for Banjo-Tooie bingo</td>
+          </tr>
+          <tr>
+            <td class="project-name">
+              <a href="https://derekandersen.net/">derekandersen.net</a>
+            </td>
+            <td>my personal website</td>
+          </tr>
+          <tr>
+            <td class="project-name">
+              <a href="https://pypi.org/project/pokequiz/" target="_blank"
+                >PokéQuiz</a
+              >
+            </td>
+            <td>a Python package for command-line Pokémon quizzes</td>
+          </tr>
+          <tr>
+            <td class="project-name">
+              <a href="https://banjospeedruns.com/" target="_blank"
+                >banjospeedruns.com</a
+              >
+            </td>
+            <td>the community website for Banjo-Kazooie speedrunning</td>
+          </tr>
+          <tr>
+            <td class="project-name">
+              <a
+                href="https://github.com/Dechrissen/speedrunb0t"
+                target="_blank"
+                >speedrunb0t</a
+              >
+            </td>
+            <td>
+              an IRC bot for twitch.tv with speedrun.com API integration and
+              speedrunner-specific functionality
+            </td>
+          </tr>
+        </table>
+      </div>
+      <footer>
+        <script type="text/javascript" src="/JavaScript/footer.js"></script>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -1,42 +1,39 @@
 /* Serif fonts */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap'); /* Merriweather */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap"); /* Merriweather */
 /* Sans serif fonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'); /* Noto Sans */
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /* Lato */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap'); /* Source Sans Pro */
-@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap'); /* Carrois Gothic SC */
-
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"); /* Noto Sans */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap"); /* Lato */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"); /* Source Sans Pro */
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap"); /* Carrois Gothic SC */
 
 body {
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
   width: 100%;
   max-width: 1000px;
-  position: relative; z-index: -10000; -webkit-font-smoothing: subpixel-antialiased; /* corrects Safari rendering */
-  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  z-index: -10000;
+  -webkit-font-smoothing: subpixel-antialiased; /* corrects Safari rendering */
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.3rem;
   line-height: 1.5;
   text-align: justify;
   hyphens: auto;
 }
 
-
 div.wrapper {
   padding: 0rem 0 18rem 0;
   min-height: 100%;
   margin-left: 6rem;
   margin-right: 6rem;
-
 }
 div.content {
   width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 div.blog-wrapper {
   margin-left: 8rem;
@@ -63,12 +60,11 @@ img.self-portrait {
   height: 250px;
   text-align: center;
   /* border */
-  position:relative;
-  border:1px solid #ccc;
-  padding:5px;
-  background:#f2f2f2;
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 5px;
+  background: #f2f2f2;
 }
-
 
 footer {
   bottom: 0;
@@ -81,18 +77,17 @@ footer {
   margin-top: 1rem;
 }
 
-
 h1.name {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
 p.blog-title {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 30px;
   font-style: italic;
-  padding-top: .2em;
+  padding-top: 0.2em;
   margin-bottom: 0px;
   margin-top: 2em;
   border: 1px solid;
@@ -102,8 +97,13 @@ p.blog-title {
   border-bottom: transparent;
 }
 
-.blog-wrapper h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', serif;
+.blog-wrapper h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
 }
 
 .blog-wrapper img {
@@ -115,14 +115,18 @@ p.blog-title {
   width: 90%;
   text-align: center;
   /* border */
-  position:relative;
-  border:1px solid #ccc;
-  padding:5px;
-  background:#f2f2f2;
+  position: relative;
+  /* border:1px solid #ccc; */
+  padding: 0px;
+  box-shadow: 10px 10px 5px #000;
+  -moz-box-shadow: 10px 10px 5px #000;
+  -webkit-box-shadow: 10px 10px 5px #000;
+  -khtml-box-shadow: 10px 10px 5px #000;
+  background: #f2f2f2;
 }
 
 .blog-description {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 80%;
   margin: 0;
   /*margin-left: 7%;*/
@@ -137,7 +141,7 @@ blockquote {
 }
 
 .section {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 125%;
   margin-top: 1em;
   margin-bottom: 0em;
@@ -155,7 +159,7 @@ ul {
 
 li {
   padding-left: 1em;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 85%;
   hyphens: none;
 }
@@ -171,7 +175,7 @@ td.project-name {
 }
 
 td.project-name > a {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: bold;
   font-size: 85%;
   hyphens: none;
@@ -184,20 +188,16 @@ table.projects {
 }
 
 table.projects td {
-  padding: .5em;
+  padding: 0.5em;
   border: 1px solid lightgrey;
-
 }
 
 p.error {
   font-size: 200%;
-  font-family: 'Carrois Gothic SC', sans-serif;
+  font-family: "Carrois Gothic SC", sans-serif;
   text-align: center;
   color: grey;
 }
-
-
-
 
 a:link {
   color: Black;
@@ -211,7 +211,6 @@ a:link {
   -webkit-transition:color .2s ease-out, background .2s ease-in;
   /* ...and now override with proper CSS property */
   /*transition:color .2s ease-out, background .2s ease-in;*/
-
 }
 
 a:visited {
@@ -238,21 +237,21 @@ a:active {
 }
 /* LINK CIRCLE */
 .text a::after {
-    position: relative;
-    content: "\FEFF°";
-    margin-left: 0.10em;
-    font-size: 90%;
-    top: -0.10em;
-    color: orange;
-    font-feature-settings: "caps";
-    font-variant-numeric: normal;
+  position: relative;
+  content: "\FEFF°";
+  margin-left: 0.1em;
+  font-size: 90%;
+  top: -0.1em;
+  color: orange;
+  font-feature-settings: "caps";
+  font-variant-numeric: normal;
 }
 
 a.exclude::after {
   content: "";
-  margin-left: 0.0em;
+  margin-left: 0em;
   font-size: 100%;
-  top: 0.0em;
+  top: 0em;
 }
 
 a.home-link:hover {
@@ -263,7 +262,6 @@ a.home-link:active {
 }
 
 a.bracketed {
-
   font-size: 80%;
 }
 
@@ -297,15 +295,13 @@ ul.social-links {
 
 ul.social-links > li {
   font-size: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   display: inline;
 }
 
 pre {
   overflow: auto;
 }
-
-
 
 /* TOPNAV */
 .topnav {
@@ -330,7 +326,7 @@ pre {
   padding: 0px 22px;
   text-decoration: none;
   font-size: 100%;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: bold;
 }
 
@@ -350,7 +346,6 @@ pre {
   border-radius: 0px;
 }
 
-
 /* HIGHLIGHT COLORS */
 ::selection {
   color: black;
@@ -360,7 +355,6 @@ pre {
   color: black;
   background: orange; /* Gecko Browsers */
 }
-
 
 /* STICKY FOOTER STUFF */
 #page-container {
@@ -373,13 +367,13 @@ pre {
 }
 
 #sticky-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 3rem;
-    text-align: center;
-    font-size: .8em;
-    left: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  font-size: 0.8em;
+  left: 0;
 }
 
 /*DARK MODE BUTTON*/
@@ -407,24 +401,24 @@ body {
   --btn-toggle-color: black;
 }
 body.dark-theme {
-  --text-color: #EEEEEE;
-  --border-color: #EEEEEE;
+  --text-color: #eeeeee;
+  --border-color: #eeeeee;
   --bkg-color: #262626;
-  --link-hover-color:  #ffd17a;
+  --link-hover-color: #ffd17a;
   --hover-text-color: black;
-  --btn-toggle-color: #EEEEEE;
+  --btn-toggle-color: #eeeeee;
 }
 
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
   /* defaults to dark theme */
   body {
-    --text-color: #EEEEEE;
-    --border-color: #EEEEEE;
+    --text-color: #eeeeee;
+    --border-color: #eeeeee;
     --bkg-color: #262626;
-    --link-hover-color:  #ffd17a;
+    --link-hover-color: #ffd17a;
     --hover-text-color: black;
-    --btn-toggle-color: #EEEEEE;
+    --btn-toggle-color: #eeeeee;
   }
   body.light-theme {
     --text-color: black;
@@ -478,7 +472,6 @@ footer * {
 .btn-toggle {
   color: var(--btn-toggle-color);
 }
-
 
 /* MOBILE */
 @media only screen and (max-width: 768px) {
