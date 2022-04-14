@@ -34,8 +34,7 @@ After Ernie prompts the group with a topic, the participants are given 20 minute
 allotted time, with no restrictions on sources used.
 
 After the Studying phase ends, Ernie alerts the group, and allots 10 minutes for the Writing phase. During this time, each participant should write a
-_short_ paragraph summarizing their learning. This is obviously not graded or evaluated, it's just to encourage further thinking about the topic,
-so that participants are forced to organize their learnings about it.
+_short_ paragraph summarizing their learning. This is obviously not graded or evaluated, it's just to encourage organized thinking about the topic.
 
 The final phase is the Discussion phase, during which participants can read each other's paragraphs and discuss the topic, and exchange ideas and opinions.
 The purpose of this phase is to "crystallize" the learning from the previous two phases.
@@ -89,7 +88,7 @@ I'd say that the first run this past weekend was successful. A total of 4 people
 I did get a few suggestions for future iterations, such as:
 
 - make the broad areas of study rotate each week (e.g. history one week, science the next, etc.)
-- archive each week's section in a separate channel, with links that point to the start of each session
+- archive each week's session in a separate channel, with links that point to the start of each session
 - make the channel remain open post-discussion phase for a few extra hours (or all day) so that people who didn't get to attend can read through it
 
 Overall, I'm happy with how it came out, and with how quickly I was able to get it done. I'm glad that it's finished, so I'm able to move on to my next project (and I _do_ have more planned, so stay tuned).

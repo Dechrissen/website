@@ -61,8 +61,12 @@ img.self-portrait {
   text-align: center;
   /* border */
   position: relative;
-  border: 1px solid #ccc;
-  padding: 5px;
+  /*border: 1px solid #ccc;*/
+  padding: 0px;
+  box-shadow: 5px 5px 5px #000;
+  -moz-box-shadow: 5px 5px 5px #000;
+  -webkit-box-shadow: 5px 5px 5px #000;
+  -khtml-box-shadow: 5px 5px 5px #000;
   background: #f2f2f2;
 }
 
@@ -116,12 +120,12 @@ h6 {
   text-align: center;
   /* border */
   position: relative;
-  /* border:1px solid #ccc; */
+  /*border: 1px solid #ccc;*/
   padding: 0px;
-  box-shadow: 10px 10px 5px #000;
-  -moz-box-shadow: 10px 10px 5px #000;
-  -webkit-box-shadow: 10px 10px 5px #000;
-  -khtml-box-shadow: 10px 10px 5px #000;
+  box-shadow: 5px 5px 5px #000;
+  -moz-box-shadow: 5px 5px 5px #000;
+  -webkit-box-shadow: 5px 5px 5px #000;
+  -khtml-box-shadow: 5px 5px 5px #000;
   background: #f2f2f2;
 }
 
