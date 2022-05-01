@@ -53,16 +53,6 @@ function fillHeader() {
       .addClass("twitch-link")
   );
   $(".twitch-link").prepend($("<i></i>").addClass("fa fa-twitch"));
-  // add Twitter
-  $(".social-links").append($("<li></li>").addClass("twitter"));
-  $(".twitter").append(
-    $("<a></a>")
-      .attr("href", "https://twitter.com/dechrissen")
-      .attr("target", "_blank")
-      .text("")
-      .addClass("twitter-link")
-  );
-  $(".twitter-link").prepend($("<i></i>").addClass("fa fa-twitter"));
   // add Steam
   $(".social-links").append($("<li></li>").addClass("steam"));
   $(".steam").append(
