@@ -57,16 +57,17 @@ img.self-portrait {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
+  height: 300px;
   text-align: center;
   /* border */
   position: relative;
-  /*border: 1px solid #ccc;*/
+  border: 2px solid black;
+  border-radius: 6px;
   padding: 0px;
-  box-shadow: 5px 5px 5px #000;
+  /*box-shadow: 5px 5px 5px #000;
   -moz-box-shadow: 5px 5px 5px #000;
   -webkit-box-shadow: 5px 5px 5px #000;
-  -khtml-box-shadow: 5px 5px 5px #000;
+  -khtml-box-shadow: 5px 5px 5px #000;*/
   background: #f2f2f2;
 }
 
@@ -120,12 +121,13 @@ h6 {
   text-align: center;
   /* border */
   position: relative;
-  /*border: 1px solid #ccc;*/
+  border: 2px solid black;
+  border-radius: 6px;
   padding: 0px;
-  box-shadow: 5px 5px 5px #000;
+  /*box-shadow: 5px 5px 5px #000;
   -moz-box-shadow: 5px 5px 5px #000;
   -webkit-box-shadow: 5px 5px 5px #000;
-  -khtml-box-shadow: 5px 5px 5px #000;
+  -khtml-box-shadow: 5px 5px 5px #000;*/
   background: #f2f2f2;
 }
 
@@ -187,13 +189,14 @@ td.project-name > a {
 
 table.projects {
   padding-top: 1em;
+  border: 1px solid black;
   border-collapse: collapse;
-  border-style: hidden;
+  border-style: solid;
 }
 
 table.projects td {
   padding: 0.5em;
-  border: 1px solid lightgrey;
+  border: 1px solid black;
 }
 
 p.error {
@@ -274,7 +277,7 @@ div.topwrapper {
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(auto, auto);
   padding-bottom: 10px;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid black;
 }
 
 div.box {
@@ -385,8 +388,11 @@ pre {
   padding-bottom: 10px;
 }
 .btn-toggle {
-  border: none;
-  background: transparent;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 3px;
+  background: white;
+  color: black;
   text-align: center;
   font-size: 16px;
 }
@@ -410,7 +416,7 @@ body.dark-theme {
   --bkg-color: #262626;
   --link-hover-color: #ffd17a;
   --hover-text-color: black;
-  --btn-toggle-color: #eeeeee;
+  --btn-toggle-color: black;
 }
 
 /* DARK MODE */
