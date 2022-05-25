@@ -1,4 +1,5 @@
-function addColorThemeToggle () {
+function addColorThemeToggle() {
+  /*
   const btn = document.querySelector(".btn-toggle");
   const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
@@ -23,4 +24,6 @@ function addColorThemeToggle () {
     }
     localStorage.setItem("theme", theme);
   });
+
+  */
 }

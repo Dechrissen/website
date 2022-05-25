@@ -4,6 +4,7 @@ date: 6 November 2021
 number: 07
 description: A brand new daily driver.
 ---
+
 My current PC, a Windows machine that I use for gaming, programming, writing, and other general daily tasks, has served me well. I built it back in 2014, my first year of college. In my last blog entry, I listed its specs (peripherals included), which I will paste here again for your convenience:
 
 - CPU: Intel Core i5-4570 CPU @ 3.20GHz
@@ -23,7 +24,7 @@ A few months ago, I tried dual booting Windows and Linux on this machine, and it
 
 That's where the subject of this blog entry begins. I'd been wanting to build a new PC for a long time now, and my newly acquired income is what pushed me to finally do it (even though we're in the midst of a GPU shortage at the time of my writing this). I opted to exclude a GPU this time around, in favor of a Ryzen CPU with integrated Radeon graphics. The new build is not meant for gaming, and so I felt leaving out a graphics card was the best thing to do, with the added bonus of not needing to dish out triple the cost of the PC itself to buy one.
 
-But then you might be thinking, "Derek, why are you building a new computer that can't handle gaming, if you consider yourself a gamer? Why not just keep your old one?" And that's a good question. Well... I am keeping my old one. That'll remain my gaming PC. It's true that this may seem like a waste of money being that I *really* don't need a new PC right now, but I *can* point to a few reasons why I might benefit from this new build.
+But then you might be thinking, "Derek, why are you building a new computer that can't handle gaming, if you consider yourself a gamer? Why not just keep your old one?" And that's a good question. Well... I am keeping my old one. That'll remain my gaming PC. It's true that this may seem like a waste of money being that I _really_ don't need a new PC right now, but I _can_ point to a few reasons why I might benefit from this new build.
 
 1. After almost 10 years, doing a new build means I can reap the benefits of fancy new hardware, which I'll get into later.
 2. After that failed attempt at dual booting, this will give me a chance to incorporate Linux into my daily life more easily, since my goal with this new build is to make it my daily driver.
@@ -38,7 +39,7 @@ Now let's get into the new build. I'll go piece by piece, starting with the most
 
 #### The CPU
 
-For my CPU, I chose an AMD Ryzen 5 5600G. The important bit here: the 'G' -- this means *integrated graphics*, which was essential for this build because A) I don't *need* the high-performance graphics of an expensive dedicated card, B) this machine is not meant for gaming per se, and C) even if I wanted a dedicated card that could handle high-end games, I'd be out of luck unless I was willing to pay an arm and a leg considering the current shortage.
+For my CPU, I chose an AMD Ryzen 5 5600G. The important bit here is the 'G' — this means _integrated graphics_, which was essential for this build because A) I don't _need_ the high-performance graphics of an expensive dedicated card, B) this machine is not meant for gaming per se, and C) even if I wanted a dedicated card that could handle high-end games, I'd be out of luck unless I was willing to pay an arm and a leg considering the current shortage.
 
 ![CPU](../assets/images/pc-build-2021/cpu.jpg "CPU")
 
@@ -64,11 +65,11 @@ Unfortunately I forgot to take a picture of the RAM modules. They're just black 
 
 #### The drives
 
-I have two storage drives in this computer, one of which is a 500GB Western Digital Black SN750 NVMe SSD. This is something I was particularly excited about, since I built my last PC way before these NVMe drives existed, and my motherboard didn't support them. Now I get to take advantage of their *insanely* fast speeds! (This one is an unbelievable 3600 MB/s read over PCIe Gen 4.0 (which I am in fact taking advantage of)! Versus the 500 MB/s or so of a traditional SATA SSD, this is a massive upgrade. I went with 500GB because they quickly get really expensive, but also, I don't need a crazy amount of storage. If I ever do, my inevitable NAS project (coming some time soon!) will take care of it. 
+I have two storage drives in this computer, one of which is a 500GB Western Digital Black SN750 NVMe SSD. This is something I was particularly excited about, since I built my last PC way before these NVMe drives existed, and my motherboard didn't support them. Now I get to take advantage of their _insanely_ fast speeds! (This one is an unbelievable 3600 MB/s read over PCIe Gen 4.0 (which I am in fact taking advantage of)! Versus the 500 MB/s or so of a traditional SATA SSD, this is a massive upgrade. I went with 500GB because they quickly get really expensive, but also, I don't need a crazy amount of storage. If I ever do, my inevitable NAS project (coming some time soon!) will take care of it.
 
 ![NVMe](../assets/images/pc-build-2021/nvme.jpg "NVMe")
 
-There's also one of my old 120GB Samsung EVO SATA SSDs in here too, as some kind of secondary drive whose purpose is vague, that I will likely never even use. Whatever! SATA is out,  NVMe is in (for boot drives at least).
+There's also one of my old 120GB Samsung EVO SATA SSDs in here too, as some kind of secondary drive whose purpose is vague, that I will likely never even use. Whatever! SATA is out, NVMe is in (for boot drives at least).
 
 #### The power supply
 
@@ -96,8 +97,8 @@ The case! Can't build a computer without one. I am pretty picky in general, so w
 - Excellent cable management options, including tether points for zip ties and cable routing holes
 - Removable dust filters
 
-Boy does this case deliver! I went with the Fractal Design Meshify C (the C means 'compact'; they also have full-sized options).  This case hits all of those criteria, and I couldn't be happier with it. Versus my old PC, the cable management is a *home-run*, as I imagine the kids say. And not only does it have removable dust filters, it has three of them! Big ones! One on the top, one in front (which is where my intake fans are), and one on the bottom (for the PSU intake). This is my first Fractal Design case, and I can guarantee it will not be my last. 
-Also, the tempered glass side panel is dark-tinted glass (not fully transparent), so it creates a nice subtle view of the internals. Not *too* flashy. ;)
+Boy does this case deliver! I went with the Fractal Design Meshify C (the C means 'compact'; they also have full-sized options). This case hits all of those criteria, and I couldn't be happier with it. Versus my old PC, the cable management is a _home-run_, as I imagine the kids say. And not only does it have removable dust filters, it has three of them! Big ones! One on the top, one in front (which is where my intake fans are), and one on the bottom (for the PSU intake). This is my first Fractal Design case, and I can guarantee it will not be my last.
+Also, the tempered glass side panel is dark-tinted glass (not fully transparent), so it creates a nice subtle view of the internals. Not _too_ flashy. ;)
 
 ![Case](../assets/images/pc-build-2021/case.jpg "Case")
 
@@ -111,7 +112,7 @@ The way my fans are installed creates a front-to-back airflow, with the Noctua C
 
 ### The finished product
 
-Like I said, the purpose of this PC is to be a Linux machine that I use for everything other than gaming. So, it's my new *daily driver* of sorts. I installed Ubuntu because it's very user-friendly. I'm thinking about trying a more lightweight Arch-based distro in the near future, because the minimalist inside me told me to. I may load that up in a VM to try it out.
+Like I said, the purpose of this PC is to be a Linux machine that I use for everything other than gaming. So, it's my new _daily driver_ of sorts. I installed Ubuntu because it's very user-friendly. I'm thinking about trying a more lightweight Arch-based distro in the near future, because the minimalist inside me told me to. I may load that up in a VM to try it out.
 
 In terms of performance, it's been great! No issues so far, moving and loading any type of file is super fast from this NVMe drive. I've had no issues with graphics thus far either. I tested one game (Old School RuneScape via RuneLite) and it ran great. Granted though, it's RuneScape. I plan to test some other Steam games soon, even though that's not the real purpose of this machine.
 
@@ -128,6 +129,6 @@ For the purpose of eternalizing a parts list for this build that I can quickly r
 - Case: Fractal Design Meshify C
 - OS: Ubuntu Linux 20.04.3 LTS
 - System drive: Western Digital Black 500 GB NVMe PCIe Gen 4.0 M.2 SSD
-- Storage drive: Samsung EVO 120 GB SATA SSD 
+- Storage drive: Samsung EVO 120 GB SATA SSD
 
 By the way, I put a nonzero amount of effort into taking photos for this post. I hope to improve my photography and photo editing in the future, just for fun. Did I do OK?

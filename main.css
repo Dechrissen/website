@@ -6,12 +6,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"); /* Source Sans Pro */
 @import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap"); /* Carrois Gothic SC */
 
+html {
+  /*background-color: #fefefa;*/
+  background-color: #262626;
+}
+
 body {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  box-shadow: 0 0 30px #000;
+  -moz-box-shadow: 0 0 30px #000;
+  -webkit-box-shadow: 0 0 30px #000;
+  -khtml-box-shadow: 0 0 30px #000;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
   width: 100%;
+  min-height: 100rem;
   max-width: 1000px;
   position: relative;
   z-index: -10000;
@@ -24,10 +37,11 @@ body {
 }
 
 div.wrapper {
-  padding: 0rem 0 18rem 0;
+  padding: 0rem 0rem 18rem 0rem;
+  background-color: white;
   min-height: 100%;
-  margin-left: 6rem;
-  margin-right: 6rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 div.content {
   width: 100%;
@@ -36,8 +50,8 @@ div.content {
   margin-right: auto;
 }
 div.blog-wrapper {
-  margin-left: 8rem;
-  margin-right: 8rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
   padding-bottom: 18rem;
 }
 p {
@@ -52,7 +66,7 @@ p.tagline {
 }
 
 img.self-portrait {
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 40px;
   display: block;
   margin-left: auto;
@@ -85,7 +99,8 @@ footer {
 h1.name {
   font-family: "Merriweather", serif;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 0;
+  font-size: 230%;
 }
 
 p.blog-title {
@@ -109,6 +124,11 @@ h4,
 h5,
 h6 {
   font-family: "Merriweather", serif;
+}
+
+.blog-wrapper #top-back-button {
+  margin-top: 0;
+  margin-bottom: 3rem;
 }
 
 .blog-wrapper img {
@@ -228,10 +248,10 @@ a:visited {
 
 a:hover {
   font-size: 100%;
-  color: black;
-  text-decoration: none;
-  transition-property: background;
-  transition-duration: 0.4s;
+  color: orange;
+  text-decoration: underline;
+  transition-property: all;
+  transition-duration: 0.3s;
   border-radius: 8px;
   padding: 0px 0px 0px 0px;
 }
@@ -239,16 +259,18 @@ a:hover {
 a:active {
   color: orange;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
   border-radius: 8px;
 }
 /* LINK CIRCLE */
 .text a::after {
   position: relative;
   content: "\FEFF°";
-  margin-left: 0.1em;
-  font-size: 90%;
-  top: -0.1em;
+  margin-left: 0em;
+  /*margin-left: 0.1em;*/
+  font-size: 100%;
+  top: 0em;
+  /*top: -0.1em;*/
   color: orange;
   font-feature-settings: "caps";
   font-variant-numeric: normal;
@@ -277,6 +299,7 @@ div.topwrapper {
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(auto, auto);
   padding-bottom: 10px;
+  padding-top: 1rem;
   border-bottom: 1px solid black;
 }
 
@@ -301,7 +324,7 @@ ul.social-links {
 }
 
 ul.social-links > li {
-  font-size: 20px;
+  font-size: 24px;
   font-family: "Source Sans Pro", sans-serif;
   display: inline;
 }
@@ -406,39 +429,39 @@ body {
   --text-color: black;
   --border-color: black;
   --bkg-color: white;
-  --link-hover-color: #ffd17a;
-  --hover-text-color: black;
+  --link-hover-color: transparent;
+  --hover-text-color: orange;
   --btn-toggle-color: black;
 }
 body.dark-theme {
   --text-color: #eeeeee;
   --border-color: #eeeeee;
   --bkg-color: #262626;
-  --link-hover-color: #ffd17a;
-  --hover-text-color: black;
+  --link-hover-color: transparent;
+  --hover-text-color: orange;
   --btn-toggle-color: black;
 }
 
 /* DARK MODE */
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   /* defaults to dark theme */
-  body {
+/*body {
     --text-color: #eeeeee;
     --border-color: #eeeeee;
     --bkg-color: #262626;
-    --link-hover-color: #ffd17a;
-    --hover-text-color: black;
+    --link-hover-color: transparent;
+    --hover-text-color: orange;
     --btn-toggle-color: #eeeeee;
   }
   body.light-theme {
     --text-color: black;
     --border-color: black;
     --bkg-color: white;
-    --link-hover-color: #ffd17a;
-    --hover-text-color: black;
+    --link-hover-color: transparent;
+    --hover-text-color: orange;
     --btn-toggle-color: black;
   }
-}
+}*/
 
 body {
   background: var(--bkg-color);

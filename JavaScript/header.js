@@ -4,11 +4,11 @@ function fillHeader() {
 
   // add color theme toggle
   $(".wrapper").prepend($("<div></div>").addClass("topbar"));
-  $(".topbar").append(
-    $("<button></button>").text(" / ").addClass("btn-toggle")
-  );
-  $(".btn-toggle").prepend($("<i></i>").addClass("fa fa-sun-o"));
-  $(".btn-toggle").append($("<i></i>").addClass("fa fa-moon-o"));
+  //$(".topbar").append(
+  //$("<button></button>").text(" / ").addClass("btn-toggle")
+  //);
+  //$(".btn-toggle").prepend($("<i></i>").addClass("fa fa-sun-o"));
+  //$(".btn-toggle").append($("<i></i>").addClass("fa fa-moon-o"));
 
   // add 'logo box' div to 'topwrapper' div
   $(".topwrapper").append($("<div></div>").addClass("logo box"));
@@ -24,15 +24,14 @@ function fillHeader() {
 
   // add tagline
   $(".logo.box").append($("<p></p>").addClass("tagline"));
-  $(".tagline").append(
-    $("<i>/i>").text("Minimalist • Gamer • Tinkerer • Writer")
-  );
+  $(".tagline").append($("<i>/i>").text("Gamer • Tinkerer • Writer"));
 
   // add 'links box' div to 'topwrapper' div
   $(".topwrapper").append($("<div></div>").addClass("links box"));
 
   // add 'social-links' ul
   $(".links.box").append($("<ul></ul>").addClass("social-links"));
+
   // add GitHub
   $(".social-links").append($("<li></li>").addClass("github"));
   $(".github").append(
@@ -42,17 +41,8 @@ function fillHeader() {
       .text("")
       .addClass("github-link")
   );
-  $(".github-link").prepend($("<i></i>").addClass("fa fa-github"));
-  // add Twitch
-  $(".social-links").append($("<li></li>").addClass("twitch"));
-  $(".twitch").append(
-    $("<a></a>")
-      .attr("href", "https://www.twitch.tv/dechrissen")
-      .attr("target", "_blank")
-      .text("")
-      .addClass("twitch-link")
-  );
-  $(".twitch-link").prepend($("<i></i>").addClass("fa fa-twitch"));
+  $(".github-link").prepend($("<i></i>").addClass("fa fa-github-alt"));
+
   // add Steam
   $(".social-links").append($("<li></li>").addClass("steam"));
   $(".steam").append(
@@ -63,19 +53,28 @@ function fillHeader() {
       .addClass("steam-link")
   );
   $(".steam-link").prepend($("<i></i>").addClass("fa fa-steam-square"));
-  // add PayPal
-  $(".social-links").append($("<li></li>").addClass("paypal"));
-  $(".paypal").append(
+
+  // add Twitch
+  $(".social-links").append($("<li></li>").addClass("twitch"));
+  $(".twitch").append(
     $("<a></a>")
-      .attr(
-        "href",
-        "https://www.paypal.com/donate/?business=EZVQJ9GWV2SMN&no_recurring=1&item_name=Thank+you!+I+appreciate+your+support!&currency_code=USD"
-      )
+      .attr("href", "https://www.twitch.tv/dechrissen")
       .attr("target", "_blank")
       .text("")
-      .addClass("paypal-link")
+      .addClass("twitch-link")
   );
-  $(".paypal-link").prepend($("<i></i>").addClass("fa fa-paypal"));
+  $(".twitch-link").prepend($("<i></i>").addClass("fa fa-twitch"));
+
+  // add YouTube
+  $(".social-links").append($("<li></li>").addClass("youtube"));
+  $(".youtube").append(
+    $("<a></a>")
+      .attr("href", "https://www.youtube.com/dechrissen")
+      .attr("target", "_blank")
+      .text("")
+      .addClass("youtube-link")
+  );
+  $(".youtube-link").prepend($("<i></i>").addClass("fa fa-youtube-play"));
 
   // TOPNAV LINKS
   // ------------

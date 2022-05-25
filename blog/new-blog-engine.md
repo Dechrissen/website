@@ -4,11 +4,12 @@ date: 17 June 2021
 number: 05
 description: An overview of my upgraded blog engine.
 ---
+
 Get ready. This is a big one.
 
 Like I mentioned in my last post,
-[*Overhauling my Blog System*](https://derekandersen.net/blog/blog-overhaul), the
-next blog entry I write is *not* going to be in raw HTML. And I'm happy to announce
+[_Overhauling my Blog System_](https://derekandersen.net/blog/blog-overhaul), the
+next blog entry I write is _not_ going to be in raw HTML. And I'm happy to announce
 that four months later, I've succeeded in that goal, as this is the first post
 I'm writing since the completion of my new blog engine! So in this post, I'm going
 to provide an overview of the system, how I went about it, how it works, and the
@@ -68,13 +69,13 @@ behind the scenes and why I chose to use the tools I used.
 
 That's it. Nice and simple.
 
-As far as how it *works*, it's a bit more complicated than the old system. But
+As far as how it _works_, it's a bit more complicated than the old system. But
 that's the main reason I'm writing this post, so let's get into it.
 
 It uses a combination of the following:
 
-- [`node.js`](https://nodejs.org/en/), a JavaScript runtime environment for running JavaScript outside the browser;
-- *Markdown*, my personal favorite markup language;
+- [`Node.js`](https://nodejs.org/en/), a JavaScript runtime environment for running JavaScript outside the browser;
+- _Markdown_, my personal favorite markup language;
 - [`showdown.js`](http://showdownjs.com/), a Markdown to HTML converter library;
 - and [`mustache.js`](https://github.com/janl/mustache.js), a templating library.
 
@@ -171,7 +172,6 @@ blog posts that share the topic.
 I also think it would be interesting to add a star-giving system, by which readers can award
 'stars' to particular blog posts if they like them. I don't see this being used all that much,
 but I think it would be cool to do just to collect some data.
-
 
 ### Learning outcomes
 
