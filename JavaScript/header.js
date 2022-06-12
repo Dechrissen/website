@@ -24,7 +24,7 @@ function fillHeader() {
 
   // add tagline
   $(".logo.box").append($("<p></p>").addClass("tagline"));
-  $(".tagline").append($("<i>/i>").text("Tinkerer • Writer"));
+  $(".tagline").append($("<i>/i>").text("Technology • Games • Minimalism"));
 
   // add 'links box' div to 'topwrapper' div
   $(".topwrapper").append($("<div></div>").addClass("links box"));
