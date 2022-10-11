@@ -1,6 +1,6 @@
 ---
 title: ThinkPad X220 Upgrade
-date: 9 October 2022
+date: 11 October 2022
 number: 14
 description: Breathing new life into a ThinkPad X220.
 ---
@@ -85,3 +85,6 @@ Unfortunately I don't have pre-upgrade performance benchmarks to provide some ki
 
 Here it is.
 
+![X220 final](../assets/images/x220/x220-final.jpg "X220 final")
+
+Thanks for reading.
