@@ -1,6 +1,6 @@
 ---
 title: Building the Ultimate Game Boy Advance
-date: 10 October 2022
+date: 11 October 2022
 number: 15
 description: My first experience with modding a Game Boy Advance.
 ---
