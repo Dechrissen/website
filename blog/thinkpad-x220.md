@@ -87,4 +87,8 @@ Here it is.
 
 ![X220 final](../assets/images/x220/x220-final.jpg "X220 final")
 
+And here's the obligatory `neofetch` screenshot.
+
+![X220 neofetch](../assets/images/x220/x220-neofetch.png "X220 neofetch")
+
 Thanks for reading.
