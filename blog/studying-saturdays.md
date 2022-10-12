@@ -5,7 +5,7 @@ number: 11
 description: Developing a Discord bot to facilitate learning.
 ---
 
-![Studying Saturdays logo](../assets/images/studying-saturdays-logo.png "Studying Saturdays logo")
+![Studying Saturdays logo](../assets/images/studying-saturdays/studying-saturdays-logo.png "Studying Saturdays logo")
 
 A couple weeks ago, I had an idea for a project: a weekly event in [my personal
 Discord server](https://discord.gg/SB52VWvwRY) centered around **learning**. About three weeks later (including one
@@ -73,7 +73,7 @@ Well, really, he _is_ the project. He's a Discord bot that handles all of the us
 
 Check it out, Ernie has his own profile picture. (I hired an artist on Fiverr to do this — I think it came out great.)
 
-![Learny Ernie](../assets/images/ernie.png "Learny Ernie")
+![Learny Ernie](../assets/images/studying-saturdays/ernie.png "Learny Ernie")
 
 ### The problem with the topics of study
 

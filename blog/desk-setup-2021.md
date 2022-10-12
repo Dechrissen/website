@@ -14,7 +14,7 @@ Let’s get started.
 
 First of all, I think it’ll help to create a nice “before and after” effect if I describe the issues I had with my previous setup in my last home. Don’t get me wrong, it wasn’t terrible. But it was limited in a lot of ways, and overall just didn’t have the right *flow*.
 
-![Old setup](../assets/images/old-setup.jpeg "Old setup")
+![Old setup](../assets/images/desk-setup-2021/old-setup.jpeg "Old setup")
 
 The first issue is the desk itself. Simply: it’s not a computer desk; it’s a “student desk”. It’s meant for a laptop and maybe some notebooks to take notes. It just wasn’t wide enough (I could not comfortably fit a second monitor), and the height was a little awkward at times. Not to mention the style. Once upon a time, I liked it, but that was almost 10 years ago. Tastes change.
 
@@ -118,11 +118,11 @@ Because my main monitor lacks a VESA mount point on the back, it's sitting on a 
 
 Without further ado, here's some pictures of the new setup.
 
-![Desk](../assets/images/full-desk.jpg "Desk")
-![Monitors](../assets/images/monitors.jpg "Monitors")
-![Keyboard](../assets/images/keyboard.jpg "Keyboard")
-![Mouse](../assets/images/mouse.jpg "Mouse")
-![Laptop](../assets/images/laptop.jpg "Laptop")
+![Desk](../assets/images/desk-setup-2021/full-desk.jpg "Desk")
+![Monitors](../assets/images/desk-setup-2021/monitors.jpg "Monitors")
+![Keyboard](../assets/images/desk-setup-2021/keyboard.jpg "Keyboard")
+![Mouse](../assets/images/desk-setup-2021/mouse.jpg "Mouse")
+![Laptop](../assets/images/desk-setup-2021/laptop.jpg "Laptop")
 
 Overall, I'm quite happy with the new setup. But it isn't perfect. Specifically, I don't think the *flow* is optimal. My secondary monitor is to my left, which doesn't seem to make much sense, and the positioning is a little awkward, so it doesn't feel like the two monitors really work together to create one large screen. Maybe it'd be worth investing in an ultrawide monitor in the future to solve this.
 
