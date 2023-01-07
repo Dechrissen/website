@@ -1,23 +1,23 @@
 ---
 title: Twenty-Seven Maxims for Twenty-Seven Years
-date: 5 Jan 2023
+date: 7 Jan 2023
 number: 16
-description: A list of 27 generally applicable life tips.
+description: A list of 27 practical life tips.
 ---
 
 Happy New Year 2023. This first article of the new year is rather appropriate, since it's focused on **tips for living a better life**, but I actually didn't intend for it to be so timely.
 
-I compiled a list of 27 maxims -- my tips for living in our modern world. I'm calling it *Derek's Twenty-Seven Practical Maxims*. So, what's this all about, anyway?
+I compiled a list of 27 maxims -- my tips for living in our modern world. I'm calling it *Derek's 27 Maxims*. So, what's this all about, anyway?
 
-Well, I'm 27 years old. So I came up with 27 maxims. The idea for this list was inspired by [a video I watched](https://www.youtube.com/watch?v=vobLTc8Zd1Q) by Campbell Walker (AKA [*struthless*](https://www.youtube.com/c/struthless) on YouTube) in which he listed 32 practical (and sometimes comically specific) tips on living a better life. His video was actually inspired by someone else -- a BLABLABLA named ALFIEWF. This man described the tips as "little hats to try on," which resonated with me. I liked the idea of creating a list of helpful tips to share -- tips that *you* developed over all the years you've been living *your life*. And, see, they don't need to be taken as gospel. Some of them might not work for everyone, and that's okay. Each one is like a little hat: try it on, and if you don't like it, you don't have to buy the hat. In other words, if you don't like the advice, you don't need to adopt it in your daily life.
+Well, I'm 27 years old. So I came up with 27 maxims. The idea for this list was inspired by [a video I watched](https://www.youtube.com/watch?v=vobLTc8Zd1Q) by Campbell Walker (AKA [*struthless*](https://www.youtube.com/c/struthless) on YouTube) in which he listed 32 practical (and sometimes comically specific) tips on living a better life. His video was actually inspired by someone else -- [Kevin Kelly](https://en.wikipedia.org/wiki/Kevin_Kelly_(editor)), founding executive editor of *Wired* magazine. This man described his bits of advice as "little hats to try on," which resonated with me. I liked the idea of creating a list of helpful tips to share -- tips that *you* developed over all the years you've been living *your life*. And, see, they don't need to be taken as gospel. Some of them might not work for everyone, and that's okay. Each one is like a little hat: try it on, and if you don't like it, you don't have to buy the hat. In other words, if you don't like the advice, you don't need to adopt it in your daily life.
 
 I had fun compiling this list. While some of them are a bit humorous, all of them are genuine tips, and I personally practice them. Some of them are even up for a little interpretation. You might see them differently than I do, which is pretty cool.
 
-I should note that in my case, a lot of the maxims are minimalism/essentialism-related. That's just how it goes up in my brain. I think a lot of people could benefit from being a little more intentional in their lives, and it just so happens that *clutter* (physical and mental) is often how that lack of intentionality manifests.
+I should note that in my case, a lot of the maxims are minimalism/intentionalism-related. That's just how it goes up in my brain. I think a lot of people could benefit from being a little more intentional in their lives, and it just so happens that *clutter* (physical and mental) is often how that lack of intentionality manifests.
 
 I hope you find at least one *hat* you like. Or *that* you like. Whichever.
 
-### Derek's Twenty-Seven Practical Maxims
+### Derek's 27 Maxims
 
 1. If you own a smartphone, take control of your notifications. Don't let the notifications control you and your attention. Take some time to customize them so no unnecessary apps ever notify you.
 2. Don't keep a notebook with all the pages used up; it served its purpose. The only full notebooks you might want to keep are journals.
@@ -51,6 +51,6 @@ There you go: 27.
 
 I encourage readers of this article to do the same; compile a list of generally applicable life tips that you've acquired throughout your years. Share it with me, and with others.
 
-And, speaking of sharing, I'm including a PDF version of my list [here]. You know what would be cool? If you *printed out* the list, and gave it to someone you love -- in person! Remember the notion of 'in-person'? Good times.
+And, speaking of sharing, I've created a PDF version of my list [here](https://derekandersen.net/documents/Dereks_27_Maxims.pdf). You know what would be cool? If you *printed out* the list, and gave it to someone you know -- in person! Remember the notion of 'in-person'? Good times.
 
 Share the love. Thanks for reading, and I wish you the best in 2023.
