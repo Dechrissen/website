@@ -20,8 +20,8 @@ I hope you find at least one *hat* you like. Or *that* you like. Whichever.
 ### Derek's Twenty-Seven Practical Maxims
 
 1. If you own a smartphone, take control of your notifications. Don't let the notifications control you and your attention. Take some time to customize them so no unnecessary apps ever notify you.
-2. Don't keep notebooks with all the pages used up -- it served its purpose; the only full notebooks you might want to keep are journals.
-3. Don't keep outstanding To-Do list items longer than a couple days. If you keep seeing the same task every day, and you're not doing it, it doesn't belong on that list -- and it's occupying free space in your mind every time you see it.
+2. Don't keep a notebook with all the pages used up; it served its purpose. The only full notebooks you might want to keep are journals.
+3. Don't keep outstanding to-do list items longer than a couple days. If you keep seeing the same task every day, and you're not doing it, it doesn't belong on that list -- and it's occupying free space in your mind every time you see it.
 4. Make sure all your breakfast-making dishes and utensils are clean the night before, along with the counters. Having to deal with these things in the morning is an unnecessary obstacle to something that should be relatively easy.
 5. Don't use tables for temporary storage. Put that stuff away ASAP.
 6. Unless you're gonna wear something again, dirty clothes go right in the hamper, not the floor -- they're getting in your way, mentally and physically.
@@ -33,7 +33,7 @@ I hope you find at least one *hat* you like. Or *that* you like. Whichever.
 12. It's more important to eat food than to stick to some particular diet. If a friend makes you food that doesn't align with your diet, don't think too much about it. Just eat it. Look at the big picture.
 13. The number 13 isn't so scary. And neither are black cats -- you should be nice to them.
 14. When you're young, people are gonna think they know what's best for you. If you're planning to go to college, make sure you really want (or need) to. That's a big decision.
-15. Don't keep a piece of trash because it reminds you of that one time you visited to the dump.
+15. Don't keep a piece of trash because it reminds you of that one time you visited the dump.
 16. Being a nice person doesn't mean that you have to show compassion to everyone on Earth. Sometimes, your values and ideals won't align with others'. Be nice to people in your inner circle, and those you meet on a daily basis. If everyone does that, we're probably good.
 17. You should exercise.
 18. If you don't like something someone says, let it go, and find some people who say things that you do like.
