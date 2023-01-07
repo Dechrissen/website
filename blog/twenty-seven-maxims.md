@@ -17,6 +17,8 @@ I should note that in my case, a lot of the maxims are minimalism/intentionalism
 
 I hope you find at least one *hat* you like. Or *that* you like. Whichever.
 
+Without further ado, here's the list. (*Tip*: If you prefer a nice PDF of the list instead, it's [here.](https://derekandersen.net/assets/documents/Dereks_27_Maxims.pdf))
+
 ### Derek's 27 Maxims
 
 1. If you own a smartphone, take control of your notifications. Don't let the notifications control you and your attention. Take some time to customize them so no unnecessary apps ever notify you.
@@ -51,6 +53,6 @@ There you go: 27.
 
 I encourage readers of this article to do the same; compile a list of generally applicable life tips that you've acquired throughout your years. Share it with me, and with others.
 
-And, speaking of sharing, I've created a PDF version of my list [here](https://derekandersen.net/documents/Dereks_27_Maxims.pdf). You know what would be cool? If you *printed out* the list, and gave it to someone you know -- in person! Remember the notion of 'in-person'? Good times.
+And, speaking of sharing, I've created a PDF version of my list [here](https://derekandersen.net/assets/documents/Dereks_27_Maxims.pdf). You know what would be cool? If you *printed out* the list, and gave it to someone you know -- in person! Remember the notion of 'in-person'? Good times.
 
 Share the love. Thanks for reading, and I wish you the best in 2023.
