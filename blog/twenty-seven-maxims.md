@@ -1,6 +1,6 @@
 ---
 title: Twenty-Seven Maxims for Twenty-Seven Years
-date: 7 Jan 2023
+date: 7 January 2023
 number: 16
 description: A list of 27 practical life tips.
 ---
