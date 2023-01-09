@@ -51,7 +51,7 @@ Without further ado, here's the list. (*Tip*: If you prefer a nice PDF of the li
 
 There you go: 27.
 
-I encourage readers of this article to do the same; compile a list of generally applicable life tips that you've acquired throughout your years. Share it with me, and with others.
+I encourage readers of this article to do the same: compile a list of generally applicable life tips that you've acquired throughout your years. Share it with me, and with others.
 
 And, speaking of sharing, I've created a PDF version of my list [here](https://derekandersen.net/assets/documents/Dereks_27_Maxims.pdf). You know what would be cool? If you *printed out* the list, and gave it to someone you know -- in person! Remember the notion of 'in-person'? Good times.
 
