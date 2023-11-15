@@ -5,7 +5,7 @@ number: 19
 description: Installation of the DSC PowerSeries PC1616 security system.
 ---
 
-I'm keeping my promise and writing this entry about my security system project (just two days later!). It might be a long one, considering the amount of steps I foresee having to complete before it's finished and working. But I'm doin' it!
+I'm keeping my promise and writing this entry about my security system project (I started this post just two days later!). It might be a long one, considering the amount of steps I foresee having to complete before it's finished and working. But I'm doin' it!
 
 But before we get there, I also promised I'd talk a bit more about the system I went with, and the reasons why.
 
@@ -26,12 +26,13 @@ So being that it's relatively old, and it's also not something you can easily ge
 Here's what I need to do to get to the point where the system is installed and working.
 
 1. Test the system to make sure it works
-2. Mount plywood somewhere in my basement, so that the main system panel can get mounted to it
+2. Mount plywood somewhere in my basement, and mount the main system panel on it
 3. Install a new power outlet in the area where the main panel will go (since I don't have one close enough)
 4. Drill a hole in the wall where the keypad will go
 5. Fish 4-conductor alarm wire down into the basement from the hole above (hoping this part goes smoothly)
 6. Install sensors (in my case, I'm starting with two wireless door sensors for the front and back doors)
-7. Connect all the necessary wiring and power it up
+7. Figure out where to install the siren, and run wire for that, probably
+8. Connect all the necessary wiring and power it up
 
 So, #1: I tested the system, and it works. At first, I wasn't able to reset the "master code," which is the code usually given to the homeowner. I attempted to reset the system using the "installer code", which by default is 5555 -- but it wasn't. I thought I was in a bad spot, since these systems can actually be programmed to disallow the factory reset procedure (which is a good thing, but can be annoying for someone buying secondhand). Luckily, factory reset was not disabled, so I was able to perform the reset. It involed jumping 2 of the connection points on the main board and power cycling a few times. Violà! It's now reset, and I have the ability to set my own installer code. :) I am the installer, after all.
 
@@ -62,4 +63,31 @@ Since this outlet is a GFCI, I can add more in the circuit from this one in the 
 
 The outlet install went well. This was my first time actually doing some meaningful work in my electrical panel after watching electricians and tutorials for a while. It's nice to know I can do this if I ever need to add something (and won't need to pay an electrician; a small job like this would cost around $200, and I did it for less than $50).
 
-So, now that the outlet is installed, I can move on 
+So, now that the outlet is installed, I can move on to step #2: wood. The main system panel needs somewhere to live, so I'm going to mount it to a dedicated plywood board. My basement is concrete blocks on the exterior, so I couldn't mount it to one of those walls easily. Instead, I opted to mount a roughly half-inch-thick plywood board to the exposed studs below the basement stairs. This is also where I installed my outlet, as you can tell from the above photos.
+
+I had some leftover plywood from a previous project, so I took a board ouside and measured out a 30-inch mark for the width, so it would fit across a three-stud gap (two gaps, if that makes sense... see photo). Anyway, I fired up the saw and soon I had my mounting board. At first, I was going to paint it white, but after sanding it I thought the grain looked kinda nice -- so I kept it plain.
+
+![wood](../assets/images/security-system/wood.jpg "wood")
+
+And six construction screws later...
+
+![wood hung](../assets/images/security-system/wood-hung.jpg "wood hung")
+
+She's hung.
+
+Now, this provides me with some real estate to mount two things: the PC1616 panel, and a surge protector. I figureit's good to provide the circuit board with surge protection, too. With that plus the GFCI outlet, I won't worry too much. Plus, I could use other outlets on the surge protector in a pinch when I'm down there and need to vacuum, or something.
+
+The surge protector I went with is, uh, this one:
+
+TODO: surge protector photo and blurb
+
+
+
+
+
+
+
+
+
+
+
