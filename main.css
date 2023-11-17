@@ -108,14 +108,13 @@ h1.name {
 }
 
 p.blog-title {
-  font-family: "Merriweather", serif;
+  font-family: "Fira Code", serif;
   font-size: 30px;
-  font-style: italic;
+  font-style: normal;
   padding-top: 0.2em;
   margin-bottom: 0px;
   margin-top: 2em;
-  border: 1px solid;
-  border-color: black;
+  border: 1px solid white;
   border-left: transparent;
   border-right: transparent;
   border-bottom: transparent;
@@ -127,11 +126,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Merriweather", serif;
+  font-family: "PT Mono", serif;
 }
 
 .blog-wrapper #top-back-button {
-  margin-top: 0;
+  margin-top: 1rem;
   margin-bottom: 3rem;
 }
 
@@ -171,7 +170,7 @@ blockquote {
 }
 
 .section {
-  font-family: "Merriweather", serif;
+  font-family: "PT Mono", serif;
   font-size: 125%;
   margin-top: 1em;
   margin-bottom: 0em;
@@ -189,13 +188,13 @@ ul {
 
 li {
   padding-left: 1em;
-  font-family: "Merriweather", serif;
-  font-size: 85%;
+  font-family: "PT Mono", serif;
+  font-size: 100%;
   hyphens: none;
 }
 .stuff-list > li {
-  font-family: "Merriweather", serif;
-  font-size: 18px;
+  font-family: "PT Mono", serif;
+  font-size: 100%;
 }
 
 td.project-name {
@@ -205,7 +204,7 @@ td.project-name {
 }
 
 td.project-name > a {
-  font-family: "Merriweather", serif;
+  font-family: "PT Mono", serif;
   font-weight: bold;
   font-size: 85%;
   hyphens: none;
@@ -213,21 +212,21 @@ td.project-name > a {
 
 table.projects {
   padding-top: 1em;
-  border: 1px solid black;
+  border: 1px solid white;
   border-collapse: collapse;
   border-style: solid;
 }
 
 table.projects td {
   padding: 0.5em;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 p.error {
   font-size: 200%;
-  font-family: "Carrois Gothic SC", sans-serif;
+  font-family: "PT Mono", sans-serif;
   text-align: center;
-  color: grey;
+  color: white;
 }
 
 a:link {
@@ -307,7 +306,7 @@ div.topwrapper {
   grid-auto-rows: minmax(auto, auto);
   padding-bottom: 10px;
   padding-top: 1rem;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid white;
 }
 
 div.box {
@@ -331,7 +330,7 @@ ul.social-links {
 }
 
 ul.social-links > li {
-  font-size: 24px;
+  font-size: 100%;
   font-family: "PT Mono", sans-serif;
   display: inline;
 }
@@ -343,6 +342,8 @@ pre {
 /* TOPNAV */
 .topnav {
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 20px;
   padding-bottom: 5px;
   width: 80%;
@@ -364,7 +365,7 @@ pre {
   padding: 0px 22px;
   text-decoration: none;
   font-size: 100%;
-  font-family: "Merriweather", serif;
+  font-family: "PT Mono", serif;
   font-weight: bold;
 }
 
@@ -431,7 +432,7 @@ pre {
 
 body {
   --text-color: white;
-  --border-color: black;
+  --border-color: white;
   --bkg-color: #11111;
   --link-hover-color: transparent;
   --hover-text-color: orange;
