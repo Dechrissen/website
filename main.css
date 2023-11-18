@@ -110,11 +110,15 @@ h1.name {
   font-size: 200%;
 }
 
+p.blog-entry-title {
+  font-family: "Fira Code", serif;
+}
+
 p.blog-entry-title > a:link,
 p.blog-entry-title > a:visited,
 p.blog-entry-title > a:hover,
 p.blog-entry-title > a:active {
-    color: white;
+  color: white;
 }
 
 p.blog-title {
@@ -407,11 +411,11 @@ pre {
 
 /* HIGHLIGHT COLORS */
 ::selection {
-  color: #00ffa5;
+  color: #5c99b7;
   background: black; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  color: #00ffa5;
+  color: #5c99b7;
   background: black; /* Gecko Browsers */
 }
 

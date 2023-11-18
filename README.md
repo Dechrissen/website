@@ -1,12 +1,12 @@
 # [derekandersen.net](https://derekandersen.net)
 The code and static pages for my personal website.
 
-The site uses vanilla JavaScript and in some cases jQuery to build certain
+The site uses JavaScript and in some cases jQuery to build certain
 parts of each page.
 
-All four main pages use `/JavaScript/header.js` and
+The main pages use `/JavaScript/header.js` and
 `/JavaScript/footer.js` to build the header and footer respectively. These
-contain general information about me, some social links, a top navigation bar,
+contain the website title, some social links, a top navigation bar,
 and a 'last updated' timestamp.
 
 ### Blog
