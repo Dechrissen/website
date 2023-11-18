@@ -107,6 +107,13 @@ h1.name {
   font-size: 200%;
 }
 
+p.blog-entry-title > a:link,
+p.blog-entry-title > a:visited,
+p.blog-entry-title > a:hover,
+p.blog-entry-title > a:active {
+    color: white;
+}
+
 p.blog-title {
   font-family: "Fira Code", serif;
   font-size: 150%;
@@ -161,10 +168,9 @@ h6 {
 }
 
 .blog-description {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Anonymous Pro", sans-serif;
   font-size: 80%;
-  margin: 0;
-  /*margin-left: 7%;*/
+  margin-left: 1em;
 }
 
 blockquote {
@@ -182,6 +188,13 @@ blockquote {
   margin-bottom: 0em;
   font-weight: normal;
   font-style: normal;
+}
+
+.section > a:link,
+.section > a:visited,
+.section > a:hover
+.section > a:active {
+  color: white;
 }
 
 ul {
