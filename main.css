@@ -11,7 +11,7 @@
 
 html {
   /*background-color: #fefefa;*/
-  background-color: #111111;
+  background-color: #151515;
 }
 
 body {
@@ -33,15 +33,15 @@ body {
   z-index: -10000;
   -webkit-font-smoothing: subpixel-antialiased; /* corrects Safari rendering */
   font-family: "Anonymous Pro", sans-serif;
-  font-size: 100%;
-  line-height: 1;
+  font-size: 1.2em;
+  line-height: 1.2;
   /*text-align: justify;*/
   text-align: left;
   hyphens: auto;
 }
 
 div.wrapper {
-  padding: 0rem 0rem 10rem 0rem;
+  padding: 5rem 0rem 10rem 0rem;
   /*background-color: white;*/
   min-height: 100%;
   /*margin-left: 4rem;
@@ -70,8 +70,8 @@ p.tagline {
 }
 
 img.self-portrait {
-  margin-top: 50px;
-  margin-bottom: 40px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -94,7 +94,7 @@ footer {
   left: 0;
   width: 100%;
   text-align: center;
-  font-size: 75%;
+  font-size: 80%;
   /*border-top: 1px solid grey;*/
   padding-top: 2rem;
   margin-top: 1rem;
@@ -109,15 +109,21 @@ h1.name {
 
 p.blog-title {
   font-family: "Fira Code", serif;
-  font-size: 30px;
+  font-size: 150%;
   font-style: normal;
   padding-top: 0.2em;
-  margin-bottom: 0px;
+  padding-bottom: 0.2em;
+  margin-bottom: 2em;
   margin-top: 2em;
   border: 1px solid white;
   border-left: transparent;
   border-right: transparent;
   border-bottom: transparent;
+}
+
+pre.blog-date {
+  margin-bottom: 2em;
+  font-size: 120%;
 }
 
 .blog-wrapper h1,
@@ -126,7 +132,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "PT Mono", serif;
+  font-family: "Fira Code", serif;
 }
 
 .blog-wrapper #top-back-button {
@@ -140,12 +146,12 @@ h6 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 75%;
   text-align: center;
   /* border */
   position: relative;
-  border: 2px solid black;
-  border-radius: 6px;
+  border: 1px solid white;
+  border-radius: 5px;
   padding: 0px;
   /*box-shadow: 5px 5px 5px #000;
   -moz-box-shadow: 5px 5px 5px #000;
@@ -174,27 +180,32 @@ blockquote {
   font-size: 125%;
   margin-top: 1em;
   margin-bottom: 0em;
-}
-.section {
   font-weight: normal;
   font-style: normal;
 }
 
 ul {
-  list-style-type: disc;
-  line-height: 170%;
-  margin-left: -1em;
+  list-style-type: circle;
+}
+
+ul, ol {
+  line-height: 1.3em;
+  margin-left: -0.5em;
+}
+
+ul.stuff-list {
+  line-height: 1em
 }
 
 li {
-  padding-left: 1em;
-  font-family: "PT Mono", serif;
-  font-size: 100%;
+  margin: 18px; 
+  padding-left: 1.3em;
+  font-family: "Anonymous Pro", serif;
   hyphens: none;
 }
 .stuff-list > li {
-  font-family: "PT Mono", serif;
-  font-size: 100%;
+  font-family: "Anonymous Pro", serif;
+  margin: 5px;
 }
 
 td.project-name {
@@ -204,13 +215,14 @@ td.project-name {
 }
 
 td.project-name > a {
-  font-family: "PT Mono", serif;
-  font-weight: bold;
-  font-size: 85%;
+  font-family: "Anonymous Pro", serif;
+  font-weight: normal;
+  /*font-size: 90%;*/
   hyphens: none;
 }
 
 table.projects {
+  margin-top: 1.5em;
   padding-top: 1em;
   border: 1px solid white;
   border-collapse: collapse;
@@ -223,14 +235,16 @@ table.projects td {
 }
 
 p.error {
-  font-size: 200%;
-  font-family: "PT Mono", sans-serif;
+  font-size: 150%;
+  font-family: "Fira Code", sans-serif;
   text-align: center;
+  padding: 1rem;
+  margin: 1rem;
   color: white;
 }
 
 a:link {
-  color: Black;
+  color: #00ffa5;
   background-color: transparent;
   text-decoration: none;
   border-radius: 5px;
@@ -244,39 +258,24 @@ a:link {
 }
 
 a:visited {
-  color: Black;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  font-size: 100%;
-  color: orange;
+  color: #00ffa5;
   text-decoration: underline;
   transition-property: all;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   border-radius: 8px;
   padding: 0px 0px 0px 0px;
 }
 
 a:active {
-  color: orange;
+  color: white;
   background-color: transparent;
   text-decoration: underline;
   border-radius: 8px;
-}
-/* LINK CIRCLE */
-.text a::after {
-  position: relative;
-  content: "\FEFF°";
-  margin-left: 0em;
-  /*margin-left: 0.1em;*/
-  font-size: 100%;
-  top: 0em;
-  /*top: -0.1em;*/
-  color: orange;
-  font-feature-settings: "caps";
-  font-variant-numeric: normal;
 }
 
 a.exclude::after {
@@ -288,9 +287,10 @@ a.exclude::after {
 
 a.home-link:hover {
   background-color: transparent;
+  text-decoration: none;
 }
 a.home-link:active {
-  color: black;
+  color: white;
 }
 
 a.bracketed {
@@ -331,8 +331,9 @@ ul.social-links {
 
 ul.social-links > li {
   font-size: 100%;
-  font-family: "PT Mono", sans-serif;
+  font-family: "Anonymous Pro", sans-serif;
   display: inline;
+  margin: 0px;
 }
 
 pre {
@@ -344,8 +345,8 @@ pre {
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 5px;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   width: 80%;
 
   /* Navbox centering */
@@ -365,7 +366,7 @@ pre {
   padding: 0px 22px;
   text-decoration: none;
   font-size: 100%;
-  font-family: "PT Mono", serif;
+  font-family: "Anonymous Pro", serif;
   font-weight: bold;
 }
 
@@ -373,26 +374,25 @@ pre {
 .topnav a:hover {
   background-color: transparent;
   text-decoration: underline;
-  border-bottom: 1px black;
-  color: orange;
+  border-bottom: 1px white;
   border-radius: 0px;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   text-decoration: underline;
-  color: black;
+  color: white;
   border-radius: 0px;
 }
 
 /* HIGHLIGHT COLORS */
 ::selection {
-  color: black;
-  background: orange; /* WebKit/Blink Browsers */
+  color: #00ffa5;
+  background: black; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  color: black;
-  background: orange; /* Gecko Browsers */
+  color: #00ffa5;
+  background: black; /* Gecko Browsers */
 }
 
 /* STICKY FOOTER STUFF */
@@ -435,8 +435,9 @@ body {
   --border-color: white;
   --bkg-color: #11111;
   --link-hover-color: transparent;
-  --hover-text-color: orange;
+  --hover-text-color: #b7a85c;
   --btn-toggle-color: black;
+  --link-color: #b7a85c;
 }
 
 
@@ -452,8 +453,6 @@ h5,
 h6,
 p,
 pre,
-a:link,
-a:visited,
 .topnav a.active,
 li,
 td,
@@ -462,16 +461,23 @@ hr,
 code {
   color: var(--text-color);
 }
+
+a:link,
+a:visited {
+  color: var(--link-color);
+}
+
 a:hover {
   background-color: var(--link-hover-color);
   color: var(--hover-text-color);
 }
-a.home-link:hover {
-  color: inherit;
-}
 .social-links a:hover {
-  color: orange;
+  color: var(--hover-text-color);
   background-color: transparent;
+}
+.topnav a,
+.topwrapper a {
+  color: var(--text-color);
 }
 p.blog-title {
   border-color: var(--border-color);
@@ -523,7 +529,6 @@ footer * {
     display: inline;
   }
   ul.stuff-list > li {
-    font-size: 90%;
     text-align: left;
   }
   ul.papers {
