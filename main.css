@@ -47,17 +47,20 @@ div.wrapper {
   /*margin-left: 4rem;
   margin-right: 4rem;*/
 }
+
 div.content {
   width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 div.blog-wrapper {
   margin-left: 4rem;
   margin-right: 4rem;
   padding-bottom: 18rem;
 }
+
 p {
   overflow: auto;
   /*max-width: 65ch;*/
@@ -69,7 +72,7 @@ p.tagline {
   text-align: left;
 }
 
-img.self-portrait {
+img.portrait {
   margin-top: 1rem;
   margin-bottom: 2rem;
   display: block;
@@ -143,8 +146,12 @@ h6 {
 }
 
 .blog-wrapper #top-back-button {
-  margin-top: 1rem;
-  margin-bottom: 3rem;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+#top-home-button {
+  margin-bottom: 2em;
 }
 
 .blog-wrapper img {
@@ -157,14 +164,14 @@ h6 {
   text-align: center;
   /* border */
   position: relative;
-  border: 1px solid white;
-  border-radius: 5px;
+  border: 1px solid grey;
+  border-radius: 0px;
   padding: 0px;
   /*box-shadow: 5px 5px 5px #000;
   -moz-box-shadow: 5px 5px 5px #000;
   -webkit-box-shadow: 5px 5px 5px #000;
   -khtml-box-shadow: 5px 5px 5px #000;*/
-  background: #f2f2f2;
+  background: grey;
 }
 
 .blog-description {
