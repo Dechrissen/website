@@ -3,6 +3,7 @@ title: Security System Install
 date: 25 October 2023
 number: 19
 description: Installation of the DSC PowerSeries PC1616 security system.
+finished: false
 ---
 
 I'm keeping my promise and writing this entry about my security system project (I started this post just two days later!). It might be a long one, considering the amount of steps I foresee having to complete before it's finished and working. But I'm doin' it!

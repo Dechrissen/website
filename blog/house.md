@@ -3,6 +3,7 @@ title: House
 date: 23 October 2023
 number: 18
 description: I bought a house.
+finished: true
 ---
 
 There are a lot of topics I considered writing about in the past several months, but I didn't follow through on any of them. It's probably because I've been busy though; I bought a house! I still feel impostor syndrome about it, but I am excited about all of the house-related projects I'm able to do.

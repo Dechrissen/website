@@ -3,7 +3,9 @@ title: Lists and Mental Clutter
 date: 18 November 2021
 number: 09
 description: How lists negatively affect my life.
+finished: true
 ---
+
 I'm obsessed with lists.
 
 For basically the entirety of my (young) adult life, I've kept an excessive amount of lists: written lists, lists in my phone, on my computer, wherever. Like most people, I keep several different types of lists. You know, to-do lists, and then the other kinds. *Do* people keep as many different types of lists as I do? Or is it just to-do lists?

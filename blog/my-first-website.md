@@ -3,7 +3,9 @@ title: My First Website Project
 date: 28 August 2020
 number: 01
 description: The major takeaways of my first website project.
+finished: true
 ---
+
 I'm finally getting around to working on my website, a task that's been on my to-do list for probably about
 a year now (while I'm writing this, I still haven't finished this website).
 But I've been busy with some other projects over the past year, so I think I made good use of my time up until

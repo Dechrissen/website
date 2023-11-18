@@ -50,15 +50,18 @@ http.createServer((req, res) => {
 		files.forEach(file => {
   		if (path.extname(file) == ".md") {
 				body = fs.readFileSync('../blog/'+file, 'utf8');
-	      html_body = converter.makeHtml(body);
-	      metadata = converter.getMetadata();
+	            html_body = converter.makeHtml(body);
+	            metadata = converter.getMetadata();
 				title = metadata.title;
 				date = metadata.date;
 				number = metadata.number;
 				description = metadata.description;
+                finished = metadata.finished;
 				filename = path.basename(file, '.md');
 				rendered = renderEntry(title, date, number, description, filename);
-    		view.entries.push({r: rendered, n: number});
+                if (finished === 'true') {
+    		        view.entries.push({r: rendered, n: number});
+                }
 			}
 		})
 

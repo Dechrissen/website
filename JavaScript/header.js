@@ -82,10 +82,10 @@ function fillHeader() {
     $("<a></a>").addClass("about").attr("href", "/about").text("about")
   );
   $(".topnav").append(
-    $("<a></a>").addClass("projects").attr("href", "/projects").text("projects")
+    $("<a></a>").addClass("blog").attr("href", "/blog").text("blog")
   );
   $(".topnav").append(
-    $("<a></a>").addClass("blog").attr("href", "/blog").text("blog")
+    $("<a></a>").addClass("projects").attr("href", "/projects").text("projects")
   );
   $(".topnav").append(
     $("<a></a>").addClass("links").attr("href", "/links").text("links")

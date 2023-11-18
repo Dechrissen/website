@@ -1,37 +1,14 @@
 # [derekandersen.net](https://derekandersen.net)
-My personal website.
+The code and static pages for my personal website.
 
-## Layout
-The site is organized into four main categories:
-- about
-- projects
-- blog
-- links
-
-## JavaScript
-The site uses vanilla JavaScript and in some cases jQuery to build certain
+The site uses JavaScript and in some cases jQuery to build certain
 parts of each page.
 
-All four main pages use `/JavaScript/header.js` and
+The main pages use `/JavaScript/header.js` and
 `/JavaScript/footer.js` to build the header and footer respectively. These
-contain general information about me, some social links, a top navigation bar,
+contain the website title, some social links, a top navigation bar,
 and a 'last updated' timestamp.
 
-The site has a dark mode toggle switch in the top left, represented by a sun and
-moon. This function is powered by `/JavaScript/color-theme-toggle.js`.
-
-## Site categories
-
-### About
-A homepage with a picture of me and a general blurb about my interests.
-
-### Projects
-A list of my highlighted projects, a small description for each, and a link to
-each.
-
 ### Blog
-A list of all of my blog entries in reverse chronological order. This page and
-all of the blog posts are powered by [my blog engine](https://derekandersen.net/blog/new-blog-engine).
 
-### Links
-A list of categorized miscellaneous links.
+I wrote a custom blog engine to handle the blog homepage and all of the individual posts. It uses Mustache as a templating tool and Showdown.js to convert Markdown to HTML, so I can write my entries in Markdown. Here is [a blog post about the engine](https://derekandersen.net/blog/new-blog-engine).

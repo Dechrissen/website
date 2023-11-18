@@ -3,6 +3,7 @@ title: Creativity
 date: 27 May 2022
 number: 12
 description: The decay of my creativity versus my need to create.
+finished: true
 ---
 
 I don't know exactly what it is, but in the last quarter of my life, my creativity has severely dwindled. And I'm a creative person at heart. I don't know whether it's the stress of "becoming an adult", working a semi-traditional nine-to-five job, the lack of exercise that these two things have brought me to, or a general sense of feeling unfulfilled.

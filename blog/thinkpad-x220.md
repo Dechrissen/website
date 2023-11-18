@@ -3,6 +3,7 @@ title: ThinkPad X220 Upgrade
 date: 11 October 2022
 number: 14
 description: Breathing new life into a ThinkPad X220.
+finished: true
 ---
 
 Well, I knew this would happen. I bought another ThinkPad. A ThinkPad X220, to be specific.

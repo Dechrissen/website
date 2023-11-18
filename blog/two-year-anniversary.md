@@ -3,6 +3,7 @@ title: Two-Year Anniversary Special
 date: 28 August 2022
 number: 13
 description: Looking back at two years writing this blog.
+finished: true
 ---
 
 Today, August 28th, 2022, marks the two-year point since I began writing this blog. I wanted to write a special entry to celebrate the occassion, taking a look back at these last 2 years, and then talking about what I have planned for the coming years.
