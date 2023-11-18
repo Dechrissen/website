@@ -3,7 +3,9 @@ title: Old ThinkPads
 date: 2 December 2021
 number: 10
 description: A new hobby.
+finished: true
 ---
+
 I'm sitting here on the couch writing this on my ThinkPad T460. It's a laptop from 2016. I paid about $250 USD for it on eBay a couple of weeks ago.
 
 Why did I do that? Well, actually, my mission was to get one in order to sit here on the couch and work on projects (like this blog). Look! Mission accomplished, because that's exactly what I'm doing.

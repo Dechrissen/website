@@ -3,6 +3,7 @@ title: Studying Saturdays
 date: 10 April 2022
 number: 11
 description: Developing a Discord bot to facilitate learning.
+finished: true
 ---
 
 ![Studying Saturdays logo](../assets/images/studying-saturdays/studying-saturdays-logo.png "Studying Saturdays logo")

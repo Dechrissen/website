@@ -3,7 +3,9 @@ title: My New Desk Setup
 date: 29 August 2021
 number: 06
 description: My new desk setup after moving to a new apartment.
+finished: true
 ---
+
 I recently moved, and one of the things I’ve been spending most of my free time on is fine-tuning my desk setup. I’ve made a lot of progress on it in the short time that I’ve been here, and even though I wouldn’t say it’s perfect, I’m pretty happy with it thus far.
 
 Since I know this setup is going to be the first of many, especially considering I’m planning on moving again in six months, I wanted to document this setup in blog form. I think it’ll be nice to eternalize it so I can look back, but also to get my thoughts out and written down, to help me understand what I like about it, and maybe give *you* some ideas along the way. Maybe I’ll even do this kind of blog post every time I redo my setup or make some major changes to it.

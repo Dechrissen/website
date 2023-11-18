@@ -3,7 +3,9 @@ title: Minimalism
 date: 8 September 2020
 number: 02
 description: My experience with and thoughts about minimalism.
+finished: true
 ---
+
 Over the past few years, I've developed an interest in minimalism. At first, the term 'minimalism'
 can be a scary thing if you're not quite familiar with it. It has undertones of extremism. It conjures up reactions like
 "Minimalism? Why would you want to inflict that kind of suffering on yourself?" or "Thank you, but I happen to like owning more than one shirt!"

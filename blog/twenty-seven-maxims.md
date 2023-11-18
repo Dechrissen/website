@@ -3,6 +3,7 @@ title: Twenty-Seven Maxims for Twenty-Seven Years
 date: 7 January 2023
 number: 16
 description: A list of 27 practical life tips.
+finished: true
 ---
 
 Happy New Year 2023. This first article of the new year is rather appropriate, since it's focused on **tips for living a better life**, but I actually didn't intend for it to be so timely.

@@ -3,7 +3,9 @@ title: A Return to Running
 date: 11 November 2021
 number: 08
 description: My plan to get back into running regularly.
+finished: true
 ---
+
 I started running regularly during high school. I must have been about 15 years old. One day, around 2010, my friend Evan and I just decided to go for a run. I guess. I don't remember.
 
 What I do remember is that it was a very casual decision that led to a fulfilling and rewarding shared hobby, and we ended up running semi-long distances together fairly regularly. I'm 26 years old now, and for whatever reason, this practice isn't a part of my life anymore. I haven't been able to keep the habit for more than a few weeks at a time during a *good* stint, and a day or two during a bad one.

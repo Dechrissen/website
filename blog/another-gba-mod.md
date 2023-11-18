@@ -3,6 +3,7 @@ title: Another GBA Mod
 date: 12 August 2023
 number: 17
 description: The second Game Boy Advance mod I've performed.
+finished: true
 ---
 
 It's hard to believe it's been 8 months since my last entry, but it has. I have been a busy boy — I got married, among several other adult milestones. But those are topics for another time, because today, I wanted to write a short post about a recent project: another backlit Game Boy Advance!

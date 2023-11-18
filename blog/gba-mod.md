@@ -3,6 +3,7 @@ title: Building the Ultimate Game Boy Advance
 date: 11 October 2022
 number: 15
 description: My first experience with modding a Game Boy Advance.
+finished: true
 ---
 
 ![Indigo GBA](../assets/images/gba-mod/gba-before.jpg "Indigo GBA")
