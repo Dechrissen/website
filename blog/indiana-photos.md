@@ -4,6 +4,7 @@ date: 10 January 2024
 number: 20
 description: Some photos I've taken in Indiana over the last 3 years.
 finished: true
+---
 
 First entry of 2024. Happy New Year!
 
