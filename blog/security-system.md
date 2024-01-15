@@ -80,9 +80,11 @@ Now, this provides me with some real estate to mount two things: the PC1616 pane
 
 The surge protector I went with is, uh, this one:
 
-TODO: surge protector photo and blurb
+![surge protector](../assets/images/security-system/surge_protector.jpg "surge protector")
 
+I wanted one with a metal body, Tripp Lite is a good brand, and it was the cheapest one I could find that satisfied both of those criteria. That's really it. Although, a bonus is that it happens to match the 90s-style tan color of the security system cabinet pretty well.
 
+TODO: siren wire run / mount photos and blurb
 
 
 
