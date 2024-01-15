@@ -20,7 +20,7 @@ Now, you might ask: Why would you want such an old system? Hasn't alarm system t
 
 Well, it turns out, this technology has a lot of good engineering behind it. That engineering and design has resulted in a technology that is elegantly simple. DSC and Honeywell are the two big contenders in home security system manufacture, and it turns out that in the age of cloud-managed hardware and software, security system manufacturers have jumped on that bandwagon too. Everything is locked behind a paywall nowadays. Using a well-thought-out system like the PC1616 is a nice escape from that kind of grifting that technology companies have taken to. It gives you back some control. It's also a nice route to go for the DIY approach.
 
-So being that it's relatively old, and it's also not something you can easily get through a manufacturer since they're typically made for wholesaling to security companies like ADT, I bought mine used on eBay. About $200 (the seller included some extra sensors I might not use, in which case I can sell to recoup some money).
+So being that it's relatively old, and it's also not something you can easily get through a manufacturer since they're typically made for wholesaling to security companies like ADT, I bought mine used on eBay. About $200 (the seller included some extra sensors I might not use, in which case I can sell to make back some money).
 
 ## Order of events
 
@@ -40,14 +40,16 @@ So, #1: I tested the system, and it works. At first, I wasn't able to reset the 
 ![PC1616 panel](../assets/images/security-system/panel.jpg "PC1616 panel")
 ![testing the system](../assets/images/security-system/testing.jpg "testing the system")
 
-Next, I skipped to #5: fishing the 4-conductor wire down into the basement from the front entryway (where the main keypad will be). I anticipated that this would be a frustrating task, and it kinda was. I started by drilling the hole in the wall where the keypad will be, between two studs. That part went fine, and in fact I was relieved to learn that the wall was in fact hollow (there were no surprises, like a bunch of vertical stud down the wall which would have gotten in the way).
+Next, I skipped to #5: fishing the 4-conductor wire down into the basement from the front entryway (where the main keypad will be). I anticipated that this would be a frustrating task, and it kinda was. I started by drilling the hole in the wall where the keypad will be, between two studs. That part went fine, and in fact I was relieved to learn that the wall was in fact hollow (there were no surprises, like a bunch of vertical studs down the wall which would have gotten in the way).
 
 I tied a little metal nut to the end of a string, anchored it to a coat hook nearby, and threw it in the hole. I decided to choose a spot above a pre-existing outlet, mostly because it was directly above a perfectly convenient spot to drill up through from the basement. But as a bonus, I could remove the outlet faceplate to see where the string was hanging down in the space between the outlet box (if you do this, just make sure that the outlet's breaker is off).
 
-Like I said, it was a little frustrating to get the nut to fall into the hole I drilled in the basement, and subsequently to pull the alarm wire through after I had my pull string. But it wasn't all bad news, because I eventually got it through. :)
+Like I said, it was a little frustrating to get the nut to fall into the hole I drilled in the basement, and subsequently to pull the alarm wire through after I had my pull string. But it wasn't all bad news, because I eventually got it through. :) Then I just had to run the wire along the basement ceiling, over to the location where the panel will be installed (using some datacom/low voltage wire staples).
 
 ![hanging nut](../assets/images/security-system/nut.jpg "hanging nut")
 ![wire run](../assets/images/security-system/wire-run.jpg "wire run")
+
+TODO: datacom staples pic / and pic of wire running along basement ceiling
 
 After this, I moved to #3: installing a new outlet in the basement. I decided to put it on a new circuit, since I might add other outlets down there in the future. So I bought some things at the hardware store.
 
@@ -76,21 +78,26 @@ And six construction screws later...
 
 She's hung.
 
-Now, this provides me with some real estate to mount two things: the PC1616 panel, and a surge protector. I figureit's good to provide the circuit board with surge protection, too. With that plus the GFCI outlet, I won't worry too much. Plus, I could use other outlets on the surge protector in a pinch when I'm down there and need to vacuum, or something.
+Now, this provides me with some real estate to mount two things: the PC1616 panel, and a surge protector. I figure it's good to provide the circuit board with surge protection, too. With that plus the GFCI outlet, I won't worry too much. Plus, I could use other outlets on the surge protector in a pinch when I'm down there and need to vacuum, or something.
 
 The surge protector I went with is, uh, this one:
 
-![surge protector](../assets/images/security-system/surge_protector.jpg "surge protector")
+![surge protector](../assets/images/security-system/surge-protector.jpg "surge protector")
 
 I wanted one with a metal body, Tripp Lite is a good brand, and it was the cheapest one I could find that satisfied both of those criteria. That's really it. Although, a bonus is that it happens to match the 90s-style tan color of the security system cabinet pretty well.
 
-TODO: siren wire run / mount photos and blurb
+Next up is #7 on the list: running the wire for the indoor siren, and installing that. I figured out that the location which would allow for the easiest wire run is above the door to the basement. So, the first thing I did was drill the hole for the wire to feed through. Then, I traced the siren's backplate to create a template for the mounting holes, wired it, and mounted it.
 
+![siren holes](../assets/images/security-system/siren-holes.jpg "siren holes")
 
+![siren backplate](../assets/images/security-system/siren-backplate.jpg "siren backplate")
 
+![siren](../assets/images/security-system/siren.jpg "siren")
 
+Then, down at the plywood in the basement, I tethered one end of the wire to the wood for temporary anchoring. Then I ran the wire up the basement stairs and through the rear of the siren's backplate hole. (I am omitting some extra drilling and cable-routing I did, because it's not so important, but the end result is a direct wire run from the siren to the panel.)
 
+Alright, now we're pretty far along, and the infrastructure is all there. The next step is to actually mount the two door sensors to the doors themselves. I'm using wireless sensors, which is why, as you might have noticed, my task list from above lacks any mention of running wire for the door sensors. This is purely a conveience thing. Hard-wired door sensors, or senesor of any kind for that matter, are much preferred. I might change them out in the future.
 
+Anyway, there is some variance in the height of the door versus the height of the trim around it; I will need to create some kind of mounting platform so the sensor and the magnet can be aligned.
 
-
-
+TODO: insert pics of the door/trim difference and sensor example
