@@ -44,12 +44,19 @@ Next, I skipped to #5: fishing the 4-conductor wire down into the basement from 
 
 I tied a little metal nut to the end of a string, anchored it to a coat hook nearby, and threw it in the hole. I decided to choose a spot above a pre-existing outlet, mostly because it was directly above a perfectly convenient spot to drill up through from the basement. But as a bonus, I could remove the outlet faceplate to see where the string was hanging down in the space between the outlet box (if you do this, just make sure that the outlet's breaker is off).
 
-Like I said, it was a little frustrating to get the nut to fall into the hole I drilled in the basement, and subsequently to pull the alarm wire through after I had my pull string. But it wasn't all bad news, because I eventually got it through. :) Then I just had to run the wire along the basement ceiling, over to the location where the panel will be installed (using some datacom/low voltage wire staples).
+Like I said, it was a little frustrating to get the nut to fall into the hole I drilled in the basement, and subsequently to pull the alarm wire through after I had my pull string. But it wasn't all bad news, because I eventually got it through. :)
 
 ![hanging nut](../assets/images/security-system/nut.jpg "hanging nut")
 ![wire run](../assets/images/security-system/wire-run.jpg "wire run")
 
-TODO: datacom staples pic / and pic of wire running along basement ceiling
+Then I just had to run the wire along the basement ceiling, over to the location where the panel will be installed (using some datacom/low voltage wire staples).
+
+![datacom staples](../assets/images/security-system/datacom-staples.jpg "datacom staples")
+![staples pile](../assets/images/security-system/staples-pile.jpg "staples pile")
+![keypad wire 1](../assets/images/security-system/keypad-wire-1.jpg "keypad wire 1")
+![keypad wire 2](../assets/images/security-system/keypad-wire-2.jpg "keypad wire 2")
+![keypad wire 3](../assets/images/security-system/keypad-wire-3.jpg "keypad wire 3")
+![keypad wire 4](../assets/images/security-system/keypad-wire-4.jpg "keypad wire 4")
 
 After this, I moved to #3: installing a new outlet in the basement. I decided to put it on a new circuit, since I might add other outlets down there in the future. So I bought some things at the hardware store.
 
