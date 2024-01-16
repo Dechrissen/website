@@ -67,7 +67,7 @@ After this, I moved to #3: installing a new outlet in the basement. I decided to
 
 The black and grey look pretty nice together.
 
-![new outlet](../assets/images/security-system/outlet.jpg "new outlet")
+![new outlet](../assets/images/security-system/new-outlet.jpg "new outlet")
 
 Since this outlet is a GFCI, I can add more in the circuit from this one in the future. If the first outlet in the circuit is a GFCI, then all of the outlets downstream from that one are also ground fault protected.
 
