@@ -29,8 +29,8 @@ Here's what I need to do to get to the point where the system is installed and w
 1. Test the system to make sure it works
 2. Mount plywood somewhere in my basement, and mount the main system panel on it
 3. Install a new power outlet in the area where the main panel will go (since I don't have one close enough)
-4. Drill a hole in the wall where the keypad will go
-5. Fish 4-conductor alarm wire down into the basement from the hole above (hoping this part goes smoothly)
+4. Drill a hole in the wall where the keypad will go, and fish 4-conductor alarm wire down into the basement from the hole (hoping this part goes smoothly)
+5. Mount keypad on the wall
 6. Install sensors (in my case, I'm starting with two wireless door sensors for the front and back doors)
 7. Figure out where to install the siren, and run wire for that, probably
 8. Connect all the necessary wiring and power it up
@@ -40,7 +40,7 @@ So, #1: I tested the system, and it works. At first, I wasn't able to reset the 
 ![PC1616 panel](../assets/images/security-system/panel.jpg "PC1616 panel")
 ![testing the system](../assets/images/security-system/testing.jpg "testing the system")
 
-Next, I skipped to #5: fishing the 4-conductor wire down into the basement from the front entryway (where the main keypad will be). I anticipated that this would be a frustrating task, and it kinda was. I started by drilling the hole in the wall where the keypad will be, between two studs. That part went fine, and in fact I was relieved to learn that the wall was in fact hollow (there were no surprises, like a bunch of vertical studs down the wall which would have gotten in the way).
+Next, I skipped to #4: fishing the 4-conductor wire down into the basement from the front entryway (where the main keypad will be). I anticipated that this would be a frustrating task, and it kinda was. I started by drilling the hole in the wall where the keypad will be, between two studs. That part went fine, and in fact I was relieved to learn that the wall was in fact hollow (there were no surprises, like a bunch of vertical studs down the wall which would have gotten in the way).
 
 I tied a little metal nut to the end of a string, anchored it to a coat hook nearby, and threw it in the hole. I decided to choose a spot above a pre-existing outlet, mostly because it was directly above a perfectly convenient spot to drill up through from the basement. But as a bonus, I could remove the outlet faceplate to see where the string was hanging down in the space between the outlet box (if you do this, just make sure that the outlet's breaker is off).
 
@@ -103,8 +103,24 @@ Next up is #7 on the list: running the wire for the indoor siren, and installing
 
 Then, down at the plywood in the basement, I tethered one end of the wire to the wood for temporary anchoring. Then I ran the wire up the basement stairs and through the rear of the siren's backplate hole. (I am omitting some extra drilling and cable-routing I did, because it's not so important, but the end result is a direct wire run from the siren to the panel.)
 
-Alright, now we're pretty far along, and the infrastructure is all there. The next step is to actually mount the two door sensors to the doors themselves. I'm using wireless sensors, which is why, as you might have noticed, my task list from above lacks any mention of running wire for the door sensors. This is purely a conveience thing. Hard-wired door sensors, or senesor of any kind for that matter, are much preferred. I might change them out in the future.
+Earlier, I fished the wire down into the basement for the keypad, but I didn't actually wire the keypad and mount it until now. Here are some pictures of that.
 
-Anyway, there is some variance in the height of the door versus the height of the trim around it; I will need to create some kind of mounting platform so the sensor and the magnet can be aligned.
+![keypad 1](../assets/images/security-system/keypad-1.jpg "keypad 1")
 
-TODO: insert pics of the door/trim difference and sensor example
+The keypad wiring is simple -- just match each wire color to the labeled screw terminals on the board (R, B, Y, G).
+
+![keypad 2](../assets/images/security-system/keypad-2.jpg "keypad 2")
+![keypad 3](../assets/images/security-system/keypad-3.jpg "keypad 3")
+
+Alright, now we're pretty far along, and the infrastructure is all there. The next step is to actually mount the two door sensors to the doors themselves. I'm using wireless sensors, which is why, as you might have noticed, my task list from above lacks any mention of running wire for the door sensors. This is purely a convenience thing. Hard-wired door sensors, or sensors of any kind for that matter, are much preferred. I might change them out in the future.
+
+Anyway, there is some variance in the height of the door versus the height of the trim around it; I will need to create some kind of mounting platform so the sensor and the magnet can be aligned. I bought some scrap wood at a local hardware store and sawed off some little blocks so that I could mount the magnet half of each door sensor to a wood block, and the wood block to the door. That's probably confusing. Pictures will help to illustrate all this.
+
+TODO: insert pics of the door/trim difference, sensor example, blocks, then blocks mounted
+
+On to #8: connecting all the wiring (to the main board) and powering it up. This step also includes actually mounting the cabinet to the plywood from earlier, and doing a bit of cable management. I needed a new battery as well, since the one that the seller included does not reach its peak voltage anymore. In order for the system to be happy (i.e. not throw an error), it needs to see that the connected battery is outputting 12.5V minimum; mine was not reaching that after being connected (and charging) for a full day, so I needed to order a replacement. I recycled the old one at Best Buy.
+
+![cabinet](../assets/images/security-system/cabinet.jpg "cabinet")
+![cabinet interior](../assets/images/security-system/cabinet-interior.jpg "cabinet interior")
+
+TODO: add total cost of project.
