@@ -151,7 +151,7 @@ I already mentioned the cost for a couple of things for this project, but I will
 
 **Total: $420**
 
-Yeah, it was moderately expensive. But like I said, I can still sell some of the unused sensors from eBay to make some of the money back. 
+Yeah, it was moderately expensive. But compare that to the amount of money you'd be paying a company like ADT monthly (something like $40) and it starts to sound a lot more favorable to do it yourself. And like I said, I can still sell some of the unused sensors from eBay to make some of the money back. 
 
 ### All done
 
