@@ -1,6 +1,6 @@
 ---
 title: I Need to Make Games
-date: 1 June 2024
+date: 23 June 2024
 number: 26
 description: Discussing my desire to create games.
 finished: true
