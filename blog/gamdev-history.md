@@ -3,7 +3,7 @@ title: I Need to Make Games
 date: 1 June 2024
 number: 26
 description: Discussing my desire to create games.
-finished: false
+finished: true
 ---
 
 Lately, I've been struggling with figuring out what I want to do with my life. It's nearing three years that I have been working in the same position at the same company. I don't enjoy it. It's getting to the point where the tedium and workload are beginning to feel like they're not worthwhile, because my pay doesn't reflect the amount of work I'm doing (nor how long I've been with the company). Needless to say, I don't feel very valued at this job.
