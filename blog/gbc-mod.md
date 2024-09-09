@@ -58,7 +58,7 @@ I'm currently playing Pokémon Gold on this cartridge, and after I'm done, I pla
 
 Next, I plan to re-play a Gen 1 Pokémon game, so I will get myself a non-RTC flash cart for all my future Gen 1 playthroughs.
 
-My next Game Boy-related post will probably be when I do another Game Boy mod -- perhaps a Pocket or original DMG. Or maybe it'll be about Pokémon Gen 1 ROM hacks (I have some ideas for some QoL improvements for those games that I've been meaning to look into).
+My next Game Boy-related post will probably be when I do another Game Boy mod -- perhaps a Pocket or original DMG. Or maybe it'll be about Pokémon Gen 1 romhacks (I have some ideas for some QoL improvements for those games that I've been meaning to look into).
 
 Before I end this post, I'll leave you with a couple more photos of the new GBC in action.
 
