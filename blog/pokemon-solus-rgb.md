@@ -9,7 +9,7 @@ finished: true
 
 ![solus red](../assets/images/pokemon-solus-rgb/solusred.png "solus red")
 
-The accompanying git repository for this blog post is [here](https://github.com/Dechrissen/poke-solus-rgb).
+(The accompanying git repository for this blog post is [here](https://github.com/Dechrissen/poke-solus-rgb).)
 
 This past July, I mentioned my interest in making a Pokémon Gen 1 romhack in a blog post. I'd been toying with the idea for a while before I mentioned it in that post. The original idea was motivated by a few key issues I've always had with Gen 1. And that's not to say I disliked Gen 1 at all; in fact it's one of my favorites, along with Gen 2.
 
@@ -17,16 +17,16 @@ But there is a common sentiment among Pokémon fans, and it's something like: "B
 
 When it comes to the solutions that later games implemented to address those problems, I'm glad for those too. I like to think as each generation of Pokémon as its own thing, and when I'm playing a particular generation, my brain adjusts to the applicable set of constraints. It's a good thing, imo, as it allows for different approaches depending on the generation you're playing. But alas, there are people who regard Gen 1 as fundamentally flawed and therefore bad, and that's fine I suppose. To each their own.
 
-## The issues I've always had with Gen 1
+## The gripes I've always had with Gen 1
 
 All that being said, I did make a statement in my first paragraph regarding issues that _I've_ had with Gen 1. So what am I, a hypocrite? I thought I just said Gen 1 should be respected for what it is!
 
-Well, I'll be honest: I do think there are some problems that exist in Gen 1 that could be addressed to create a slightly-enhanced experience. But, _for the most part_, the solutions I propose aren't ones which really address any bugs in the game engine or flaws in the developers' design choices. There is one exception to this, but anyway, I should be more explicit, so here's a list of the **issues I believe are worth addressing**:
+Well, I'll be honest: I do think there are some problems that exist in Gen 1 that could be addressed to create a slightly-enhanced experience. But, _for the most part_, the solutions I propose aren't ones which really address any bugs in the game engine or flaws in the developers' design choices. There are some exceptions to this, but anyway, I should be more explicit, so here's a list of the **issues I believe are worth addressing**:
 
-1. All 151 Pokémon are not obtainable in one game, so trading with another cartridge is necessary.
-    - Certain Pokémon are only obtainable via in-game trades, which means they will suffer from boosted EXP / lack of obedience based on level (imo, both of those things are negatives). 
-2. Certain Pokémon only evolve via trading (Machoke, Graveler, Haunter, Kadabra), which cannot be achieved with only one cartridge.
-3. HM are frequently used, which leads to either the necessity for an HM slave, or the sacrificing of some of your party Pokémon's move slots. In either case, your party's full potential is reduced.
+1. All 151 Pokémon are not obtainable in either version, so trading with another cartridge is necessary.
+    - Certain Pokémon are only obtainable via in-game trades, which means they will suffer from boosted EXP / lack of obedience based on level (imo, both of these things are negatives). 
+2. Certain Pokémon only evolve via trading (Machoke, Graveler, Haunter, Kadabra) -- thiss cannot be achieved with only one cartridge.
+3. HMs are frequently used, which leads to either the necessity of an HM slave, or the sacrificing of some of your party Pokémon's move slots. In either case, your party's full potential is reduced.
 
 Whenever I was doing a Gen 1 playthrough, these are things which consistently made me long for a _slightly_ different reality. I wanted to be able to get any Pokémon for my party, first of all. I didn't want to choose the version I played based on Pokémon availability. I also wanted to be able to use any of the four trade evolutions without needing to actually trade a friend (or even just another cartridge that I owned) via Link Cable. And I wanted the option to use the in-game-trade-exclusive Pokémon without being afflicted with the boosted EXP / disobedience curse.
 
@@ -38,6 +38,14 @@ So, I came up with the following general solutions to my issues:
 2. Trades should be performable in-game via a "trade-back NPC".
 3. HMs should not occupy a Pokémon's move slots.
 
+## Philosophy
+
+This is probably a good time to interject with my clarifications of the philosophy behind the romhack. It might already be apparent, but I just want to be clear about the general motivations.
+
+The philosophy is captured pretty well in the name I chose for the romhack: "Solus". It's a word which is used as a stage direction for a male character. I think it's Latin. But the point is, it highlights the "solo" aspect of the philosophy; the main motivation for this romhack was to create a version of Gen 1 which was an enhanced "solo" experience. That is to say, everything should be able to be done in-game by yourself, without relying on other people (or cartridges, more realistically) to trade with. Beyond that, it should also address some annoyances if it doesn't affect the overall feel of the game. In my eyes, the previously-mentioned HM issue was the most important annoyance to address.
+
+Related to that last statement, this romhack also shouldn't alter the vanilla game too much, if possible. I don't want to creep into "correcting all of the developers' mistakes for the good of the game" territory. As I said in the intro, I appreciate Gen 1 for what it is; I would like my romhack to highlight Gen 1's characteristics, not overshadow them.
+
 ## Methodology
 
 Before I get into the specifics of the choices I made to satisfy those solutions, I should talk a bit about the methodology; more specifically, how I'm going about doing all of this in the first place.
@@ -48,11 +56,11 @@ So, what is it? Essentially it's a recreation of the original Z80 assembly code 
 
 The whole project took me about a month and a half from start to completion. Granted, this romhack is quite quite small in scope, but I'm still satisfied with that amount of time (I thought it would take longer).
 
-## Application of my solution-oriented ideas
+## Application of my ideas
 
 So, the next step was to actually address those three major issues I sought out to solve.
 
-### The wild
+### Wild Pokémon
 
 Regarding the non-availability of all 151 Pokémon in vanilla, the most glaring example of this lies in the version exclusives. For example, Oddish vs. Bellsprout, Growlithe vs. Vulpix, and Electabuzz vs. Magmar among several others. So, for the Kanto routes which differ in their wild Pokémon, I modified the encounter slots so that both version exclusives would appear in my romhack (i.e., I merged the wild encounters). Take Route 4 as an example. The snippet below is taken from the file containing Route 4's wild encounters.
 
@@ -107,7 +115,7 @@ This is what I did for every map in the game, which took care of the non-availab
 
 I won't go into more detail than is necessary, but take Lickitung for instance. Previously, in the English releases of the game, it was only available via trading a Slowbro to an NPC on Route 18. So, when looking to see where I might add Lickitung to the wild, I made sure to look at other instances of its location data (particularly in Kanto). And it turns out that Lickitung is available in a certain area of the Fuchsia Safari Zone _specifically in the Japanese release of Pokémon Blue_. To me, this is enough to consider it "canonical", and so that's the location for Lickitung that I settled on.
 
-### The trade evolutions
+### Trade evolutions
 
 Regarding those four Pokémon which only evolve ia trade, I suppose I had more options that only "adding a trade-back NPC" when implementing a solution. In particular, I'm thinking of other Gen 1 romhacks, which take the liberty of changing the evolution methods for those Pokémon. I know that one romhack, for example, changes the evolution method from "trade" to "level up to 37". 
 
@@ -159,6 +167,6 @@ The Oak battle can be initiated once the Pokémon League is beaten, simply by sp
 
 There are a few more details I haven't touched on in this blog post, but that's because I didn't want it to be too long. If you're interested in every last detail of this romhack, you can read the [feature log](https://github.com/Dechrissen/poke-solus-rgb/blob/master/docs/FEATURES.md).
 
-I hope you consider playing it. And if you do, I hope you enjoy it! Feel free to [reach out](https://www.derekandersen.net/contact) if you want to offer any feedback, good or bad. And if you want to show your support, you can give the romhack's [repository](https://github.com/Dechrissen/poke-solus-rgb) a star on GitHub. If that's not a high enough level of support for you, there is always my [donation page](https://www.derekandersen.net/support). Any form of feedback or support would be greatly appreciated.
+I hope you consider playing it. And if you do, I hope you enjoy it! Feel free to [reach out](https://www.derekandersen.net/contact) if you'd like to offer any feedback, good or bad. And if you want to show your support, you can give the romhack's [repository](https://github.com/Dechrissen/poke-solus-rgb) a star on GitHub. If that's not a high enough level of support for you, there is always my [donation page](https://www.derekandersen.net/support). Any form of feedback or support would be greatly appreciated.
 
 Until next time.
