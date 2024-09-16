@@ -44,37 +44,48 @@ function fillHeader() {
   $(".github-link").prepend($("<i></i>").addClass("fa fa-github-alt"));
 
   // add Steam
-  $(".social-links").append($("<li></li>").addClass("steam"));
-  $(".steam").append(
-    $("<a></a>")
-      .attr("href", "https://steamcommunity.com/id/Dechrissen/")
-      .attr("target", "_blank")
-      .text("")
-      .addClass("steam-link")
-  );
-  $(".steam-link").prepend($("<i></i>").addClass("fa fa-steam-square"));
+  //$(".social-links").append($("<li></li>").addClass("steam"));
+  //$(".steam").append(
+  //  $("<a></a>")
+  //    .attr("href", "https://steamcommunity.com/id/Dechrissen/")
+  //    .attr("target", "_blank")
+  //    .text("")
+  //    .addClass("steam-link")
+  //);
+  //$(".steam-link").prepend($("<i></i>").addClass("fa fa-steam-square"));
 
   // add Twitch
-  $(".social-links").append($("<li></li>").addClass("twitch"));
-  $(".twitch").append(
-    $("<a></a>")
-      .attr("href", "https://www.twitch.tv/dechrissen")
-      .attr("target", "_blank")
-      .text("")
-      .addClass("twitch-link")
-  );
-  $(".twitch-link").prepend($("<i></i>").addClass("fa fa-twitch"));
+  //$(".social-links").append($("<li></li>").addClass("twitch"));
+  //$(".twitch").append(
+  //  $("<a></a>")
+  //    .attr("href", "https://www.twitch.tv/dechrissen")
+  //    .attr("target", "_blank")
+  //    .text("")
+  //    .addClass("twitch-link")
+  //);
+  //$(".twitch-link").prepend($("<i></i>").addClass("fa fa-twitch"));
 
   // add YouTube
-  $(".social-links").append($("<li></li>").addClass("youtube"));
-  $(".youtube").append(
+  //$(".social-links").append($("<li></li>").addClass("youtube"));
+  //$(".youtube").append(
+  //  $("<a></a>")
+  //    .attr("href", "https://www.youtube.com/dechrissen")
+  //    .attr("target", "_blank")
+  //    .text("")
+  //    .addClass("youtube-link")
+  //);
+  //$(".youtube-link").prepend($("<i></i>").addClass("fa fa-youtube-play"));
+
+  // add ko-fi
+  $(".social-links").append($("<li></li>").addClass("kofi"));
+  $(".kofi").append(
     $("<a></a>")
-      .attr("href", "https://www.youtube.com/dechrissen")
+      .attr("href", "https://ko-fi.com/dechrissen")
       .attr("target", "_blank")
       .text("")
-      .addClass("youtube-link")
+      .addClass("kofi-link")
   );
-  $(".youtube-link").prepend($("<i></i>").addClass("fa fa-youtube-play"));
+  $(".kofi-link").prepend($("<i></i>").addClass("fa fa-coffee"));
 
   // TOPNAV LINKS
   // ------------

@@ -167,6 +167,8 @@ The Oak battle can be initiated once the Pokémon League is beaten, simply by sp
 
 There are a few more details I haven't touched on in this blog post, but that's because I didn't want it to be too long. If you're interested in every last detail of this romhack, you can read the [feature log](https://github.com/Dechrissen/poke-solus-rgb/blob/master/docs/FEATURES.md).
 
+If you want to play the romhack, you can find it [here on GitHub](https://github.com/Dechrissen/poke-solus-rgb) or [here on RomhackPlaza](https://romhackplaza.org/romhacks/pokemon-solus-rgb-game-boy/).
+
 I hope you consider playing it. And if you do, I hope you enjoy it! Feel free to [reach out](https://www.derekandersen.net/contact) if you'd like to offer any feedback, good or bad. And if you want to show your support, you can give the romhack's [repository](https://github.com/Dechrissen/poke-solus-rgb) a star on GitHub. If that's not a high enough level of support for you, there is always my [donation page](https://www.derekandersen.net/support). Any form of feedback or support would be greatly appreciated.
 
 Until next time.
