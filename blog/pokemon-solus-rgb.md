@@ -7,7 +7,7 @@ finished: true
 ---
 
 
-![solus red](../assets/images/pokemon-solus-rgb/solusred.png "solus red")
+![solus rgb title screens](../assets/images/pokemon-solus-rgb/solus-triple-title-screens.png "solus rgb title screens")
 
 (The accompanying git repository for this blog post is [here](https://github.com/Dechrissen/poke-solus-rgb).)
 
@@ -25,7 +25,7 @@ Well, I'll be honest: I do think there are some problems that exist in Gen 1 tha
 
 1. All 151 Pokémon are not obtainable in either version, so trading with another cartridge is necessary.
     - Certain Pokémon are only obtainable via in-game trades, which means they will suffer from boosted EXP / lack of obedience based on level (imo, both of these things are negatives). 
-2. Certain Pokémon only evolve via trading (Machoke, Graveler, Haunter, Kadabra) -- thiss cannot be achieved with only one cartridge.
+2. Certain Pokémon only evolve via trading (Machoke, Graveler, Haunter, Kadabra) -- this cannot be achieved with only one cartridge.
 3. HMs are frequently used, which leads to either the necessity of an HM slave, or the sacrificing of some of your party Pokémon's move slots. In either case, your party's full potential is reduced.
 
 Whenever I was doing a Gen 1 playthrough, these are things which consistently made me long for a _slightly_ different reality. I wanted to be able to get any Pokémon for my party, first of all. I didn't want to choose the version I played based on Pokémon availability. I also wanted to be able to use any of the four trade evolutions without needing to actually trade a friend (or even just another cartridge that I owned) via Link Cable. And I wanted the option to use the in-game-trade-exclusive Pokémon without being afflicted with the boosted EXP / disobedience curse.
@@ -91,7 +91,7 @@ ENDC
 	end_grass_wildmons
 ```
 
-The total number of slots, if you take into account the conditional statements which vary depending on whether it's being used for Red version or Blue version, is ten. In my romhack, I've made changes to accommodate 12 encounter slots per map. This gives me enough wiggle room to do the "merging" I was referring to. Now, take a look at the snippet below. This is taken from Route 4's file in my romhack. It merges the version exclusives (in this case, Ekans and Sandshrew), and it increases the total number of encounter slots to twelve.
+The total number of slots, if you take into account the conditional statements which vary depending on whether it's being used for Red version or Blue version, is ten. In my romhack, I've made changes to accommodate 12 encounter slots per map. This gives me enough wiggle room to do the "merging" I was referring to. Now, take a look at the snippet below. This is taken from Route 4's file in my romhack. It merges the version exclusives (in this case, Ekans and Sandshrew), and it increases the total number of encounter slots to twelve. It's also important to note that the order of the Pokémon in these files matters. Specifically, the positions in the list dictate the encounter rate for whichever Pokémon is in that slot (totaling 100%). So, I refactored these lists in such a way that retains the original distrubution for each Pokémon/level combination, only making _minor_ adjustments to the existing scheme if I needed to merge some version-exclusives between Red and Blue.
 
 ```
 Route4WildMons:
@@ -129,7 +129,7 @@ And here's the Trader himself, in his house in Celadon.
 
 ![trader](../assets/images/pokemon-solus-rgb/trader.png "trader")
 
-The Trader, well, trades! Simply, you can talk to him to initiate a trade dialogue, and then you are able to select any of your Pokémon to trade to him. He will trade it right back to you, at which point it will evolve (if it's able to). The implementation for the Trader was inspired by the tutorial for a trade-back NPC in the pokered wiki.
+The Trader, well, trades! Simply, you can talk to him to initiate a trade dialogue, and then you are able to select any of your Pokémon to trade to him. He will trade it right back to you, at which point it will evolve (if it's able to). Btw, the implementation of my Trader was inspired by the tutorial for a trade-back NPC in the [pokered wiki](https://github.com/pret/pokered/wiki/Tutorials).
 
 ### Mew
 
@@ -152,10 +152,10 @@ So the solution that I liked most was something that maintains the idea of Poké
 In addition to the solutions to those core issues, my romhack also features a few other changes. Some of these are more cosmetic, and others are closer to the gameplay itself.
 
 Starting with the cosmetic ones:
-- Some front sprites have been changed to the Yellow variants or the Red/Green JPN variants
-- The back sprites have been upgraded to 48x48 (higher resolution than vanilla) and now use the Spaceworld 1997 Gold/Silver beta sprites
-- A Green version variant is now playable, and features the original mostly-green palette when played on a Game Boy Color
-- The title screens for all three versions use a new title graphic featuring the "Solus" name
+- Some front sprites have been changed to the Yellow variants or the Red/Green JPN variants.
+- The back sprites have been upgraded to 48x48 (higher resolution than vanilla) and now use the Spaceworld 1997 Gold/Silver beta sprites.
+- A Green version variant is now playable, and features the original mostly-green palette when played on a Game Boy Color.
+- The title screens for all three versions use a new title graphic featuring the "Solus" name.
 
 As far as other new features that have been added that do not fit the "solutions to issues" category, there is one, and it's the restoration of cut content: the Professor Oak battle.
 
