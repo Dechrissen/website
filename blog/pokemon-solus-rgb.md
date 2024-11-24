@@ -7,7 +7,7 @@ finished: true
 ---
 
 
-![solus rgb title screens](../assets/images/pokemon-solus-rgb/solus-triple-title-screens.png "solus rgb title screens")
+![solus rgb title screens](../assets/images/pokemon-solus-rgb/solus-triple-title-screens-gbc-sgb.png "solus rgb title screens")
 
 (The accompanying git repository for this blog post is [here](https://github.com/Dechrissen/poke-solus-rgb).)
 
@@ -15,11 +15,11 @@ This past July, I mentioned my interest in making a Pokémon Gen 1 romhack in a 
 
 But there is a common sentiment among Pokémon fans, and it's something like: "Because Gen 1 doesn't represent what I know the modern games to be like, and because it has a lot of bugs, it's a bad game." And I never agreed with this. I fully recognize its flaws, but being that I grew up playing Gen 1, I can appreciate it for what it is. And it's Pokémon! A lot of the aspects which are commonly considered flaws are things that I instead like to frame as simply challenges which apply in that particular iteration of the game. Things like TM disposability, some broken moves like Bind, the lack of "full" movesets for certain Pokémon. These are all things which I like to think of (while I'm doing a playthrough of Gen 1) simply as constraints.
 
-When it comes to the solutions that later games implemented to address those problems, I'm glad for those too. I like to think as each generation of Pokémon as its own thing, and when I'm playing a particular generation, my brain adjusts to the applicable set of constraints. It's a good thing, imo, as it allows for different approaches depending on the generation you're playing. But alas, there are people who regard Gen 1 as fundamentally flawed and therefore bad, and that's fine I suppose. To each their own.
+When it comes to the solutions that later games implemented to address those problems, I'm glad for those too. I like to think of each generation of Pokémon as its own thing, and when I'm playing a particular generation, my brain adjusts to the applicable set of constraints for that generation. It's a good thing, imo, as it allows for different approaches depending on the generation you're playing. But alas, there are people who regard Gen 1 as fundamentally flawed and therefore bad, and that's fine I suppose. To each their own.
 
 ## The gripes I've always had with Gen 1
 
-All that being said, I did make a statement in my first paragraph regarding issues that _I've_ had with Gen 1. So what am I, a hypocrite? I thought I just said Gen 1 should be respected for what it is!
+All that being said, I did make a statement in my first paragraph hinting that there are issues that _I've_ had with Gen 1. So what am I, a hypocrite? I thought I just said Gen 1 should be respected for what it is!
 
 Well, I'll be honest: I do think there are some problems that exist in Gen 1 that could be addressed to create a slightly-enhanced experience. But, _for the most part_, the solutions I propose aren't ones which really address any bugs in the game engine or flaws in the developers' design choices. There are some exceptions to this, but anyway, I should be more explicit, so here's a list of the **issues I believe are worth addressing**:
 
@@ -28,15 +28,15 @@ Well, I'll be honest: I do think there are some problems that exist in Gen 1 tha
 2. Certain Pokémon only evolve via trading (Machoke, Graveler, Haunter, Kadabra) -- this cannot be achieved with only one cartridge.
 3. HMs are frequently used, which leads to either the necessity of an HM slave, or the sacrificing of some of your party Pokémon's move slots. In either case, your party's full potential is reduced.
 
-Whenever I was doing a Gen 1 playthrough, these are things which consistently made me long for a _slightly_ different reality. I wanted to be able to get any Pokémon for my party, first of all. I didn't want to choose the version I played based on Pokémon availability. I also wanted to be able to use any of the four trade evolutions without needing to actually trade a friend (or even just another cartridge that I owned) via Link Cable. And I wanted the option to use the in-game-trade-exclusive Pokémon without being afflicted with the boosted EXP / disobedience curse.
+Whenever I was doing a Gen 1 playthrough, these were the things which consistently made me long for a _slightly_ different reality. I wanted to be able to get any Pokémon for my party, first of all. I didn't want to choose the version I played based on Pokémon availability. I also wanted to be able to use any of the four trade evolutions without needing to actually trade a friend (or even just another cartridge that I owned) via Link Cable. And I wanted the option to use the in-game-trade-exclusive Pokémon without being afflicted with the boosted EXP / disobedience curse.
 
 The HM situation was also always a bit of an inconvenience for me. I always felt kinda bummed that I needed to limit certain Pokémon in my party to only having three moves, for example. It felt like a waste of that Pokémon's potential. If I _really_ wanted to, I could keep specific HM slaves in the PC and then withdraw them only in instances that I need them... in fact, maybe this has always been what was intended. But this seems a little crazy. The fact that it _can_ be done that way (even if that would be incredibly tedious) sort of makes me feel that I have "creative license" to mitigate that issue in a romhack, for whatever that's worth.
 
-So, I came up with the following general solutions to my issues:
+So, all that being said, I came up with the following general solutions to my issues:
 
-1. All 151 Pokémon should be obtainable.
+1. All 151 Pokémon should be obtainable in one game.
 2. Trades should be performable in-game via a "trade-back NPC".
-3. HMs should not occupy a Pokémon's move slots.
+3. HMs should not occupy a Pokémon's regular move slots.
 
 ## Philosophy
 
@@ -52,9 +52,9 @@ Before I get into the specifics of the choices I made to satisfy those solutions
 
 Well, if it weren't for the existence of the [pokered disassembly](https://github.com/pret/pokered), I wouldn't have been able to do this project at all. The disassembly is the work of the Pokémon Reverse Engineering Team and it's available to fork on GitHub. Actually, they've done disassemblies for various other Pokémon games. Check out [their GitHub page](https://github.com/pret) if you're interested.
 
-So, what is it? Essentially it's a recreation of the original Z80 assembly code which is then compiled into the ROMs for Red/Blue. The details of the reverse engineering process is beyond the scope of my knowledge, but all I can say is that it's impressive. I didn't have prior experience with Z80 assembly (it helps to have a baseline understanding when working with the codebase), but my general takeaway is that it's pretty difficult, imo. But it's an interesting challenge. Without having a comprehensive understanding of the code, it's still possible to make generalizations about what certain parts of the code are doing, and make adjustments accordingly for your purposes.
+So, what is it? Essentially it's a recreation of the original Z80 assembly code which is then compiled into the ROMs for Red/Blue. The details of the reverse engineering process are beyond the scope of my knowledge, but all I can say is that it's impressive. I didn't have prior experience with Z80 assembly (it helps to have a baseline understanding when working with the codebase), but my general takeaway is that it's pretty difficult, imo. But it's an interesting challenge nonetheless. Without having a comprehensive understanding of the code, it's still possible to make generalizations about what certain parts of the code are doing, and make adjustments accordingly for your purposes.
 
-The whole project took me about a month and a half from start to completion. Granted, this romhack is quite quite small in scope, but I'm still satisfied with that amount of time (I thought it would take longer).
+The whole project took me about a month and a half from start to completion. Granted, this romhack is quite small in scope, but I'm still satisfied with that amount of time (I thought it would take longer).
 
 ## Application of my ideas
 
@@ -111,13 +111,13 @@ Route4WildMons:
 	end_grass_wildmons
 ```
 
-This is what I did for every map in the game, which took care of the non-availability of the majority of version exclusive Pokémon. However, there were still some problematic cases, like the starter Pokémon, Mew, and some others like Lickitung and Mr. Mime (which are only obtainable via in-game trades). I wanted to ensure that those Pokémon which were in-game-trade-only were available by other means, since I didn't want them to be subject to the boosted EXP / disobedience curse. So, they were added to the wild in most cases, and when choosing where I'd place them, I always took into consideration what "made sense", in a Kantonian sense.
+This is what I did for every map in the game, which took care of the non-availability of the majority of version exclusive Pokémon. However, there were still some problematic cases, like the starter Pokémon, Mew, and some others like Lickitung and Mr. Mime (which are only obtainable via in-game trades). I wanted to ensure that those Pokémon which were in-game-trade-only were available through other means, since I didn't want them to be subject to the boosted EXP / disobedience curse. So, they were added to the wild in most cases, and when choosing where I'd place them, I always took into consideration what "made sense", in a Kantonian sense.
 
 I won't go into more detail than is necessary, but take Lickitung for instance. Previously, in the English releases of the game, it was only available via trading a Slowbro to an NPC on Route 18. So, when looking to see where I might add Lickitung to the wild, I made sure to look at other instances of its location data (particularly in Kanto). And it turns out that Lickitung is available in a certain area of the Fuchsia Safari Zone _specifically in the Japanese release of Pokémon Blue_. To me, this is enough to consider it "canonical", and so that's the location for Lickitung that I settled on.
 
 ### Trade evolutions
 
-Regarding those four Pokémon which only evolve ia trade, I suppose I had more options that only "adding a trade-back NPC" when implementing a solution. In particular, I'm thinking of other Gen 1 romhacks, which take the liberty of changing the evolution methods for those Pokémon. I know that one romhack, for example, changes the evolution method from "trade" to "level up to 37". 
+Regarding those four Pokémon which only evolve via trade, I suppose I had more options than only "adding a trade-back NPC" when implementing a solution. In particular, I'm thinking of other Gen 1 romhacks, which take the liberty of changing the evolution methods for those Pokémon. I know of one romhack, for example, which changes the evolution method from "trade" to "level up to 37". 
 
 But, as you might be able to gather from my explanation of the philosophy and motivation behind this romhack, that won't fly for me. So indeed I went with the "trade-back NPC" method -- I added an NPC aptly named "the Trader" who resides in Celadon City. I added a new house for him behind Celadon Department Store, since there was a bit of unused land back there, and it's nice to have him a bit hidden away (although I did also add hints and tip-giving NPCs which direct the player to his location).
 
@@ -133,7 +133,7 @@ The Trader, well, trades! Simply, you can talk to him to initiate a trade dialog
 
 ### Mew
 
-Mew has been added as a static encounter in Cinnabar's Pokémon Mansion. I thought this location was thematically appropriate, since it's the site where Mew's DNA was used by Dr. Fuji and other scientists to create Mewtwo. Whether the Mew I've added should be thought of as "Mew who still resides there since the experiment" or "Mew who's coming back to search for the scientists/Mewtwo" is left ambiguous. And actually, whether Mew was at the site at all is not clear in the lore -- it only states that Mew's DNA was found in the jungle, but doesn't clarify if Mew's DNA or Mew was taken back to the mansion.
+Mew has been added as a static encounter in Cinnabar's Pokémon Mansion. I thought this location was thematically appropriate, since it's the site where Mew's DNA was used by Dr. Fuji and other scientists to create Mewtwo. Whether the Mew I've added should be thought of as "Mew who still resides there since the experiment" or "Mew who's coming back to search for the scientists/Mewtwo" is left ambiguous. And actually, whether Mew was at the site at all is not clear in the lore -- it only states that Mew's DNA was found in the jungle, but doesn't clarify if Mew's DNA or Mew itself was taken back to the mansion.
 
 So yes, I took a bit of creative liberty here. But to me, this seemed like the best way to include a static Mew encounter.
 

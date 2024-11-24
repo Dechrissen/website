@@ -1,7 +1,7 @@
 ---
 title: Retro Game Setup Part 3
 date: 22 July 2024
-number: 30
+number: 31
 description: An update on my retro game setup, after many iterations.
 finished: false
 ---
