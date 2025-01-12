@@ -9,7 +9,7 @@ finished: true
 It's been a little more than three months since I released the first version of Pokémon Solus, my near-vanilla Gen 1 romhack (for reference, the Git repository is [here](https://github.com/Dechrissen/poke-solus-rgb)). In that time, I also published a few accompanying works: a blog post, some romhacking forum posts, and [some videos](https://youtube.com/playlist?list=PL-k9sS5iGL6s5MF3GIJqLIPA4662JPsxz&feature=shared). While I don't consider the project finished (as I do have a few more features I plan to add, and a couple other sub-projects to work on), I feel now is a good time to take a look back at how the romhack has been received.
 
 ## Reception
-I'm happy to share that the reception has been quite positive! Using YouTube's like-to-dislike ratio as a metric, the two videos I released (a [video essay](https://youtu.be/ANRiLuondLE) and a [trailer](https://youtu.be/SMto-WaTL4s)) have a ratio of 98% and 97% respectively, which is an average of a 97.5% positive rating. I'm happy with that!
+I'm happy to share that the reception has been quite positive! Using YouTube's like-to-dislike ratio as a metric, the two videos I released (a [video essay](https://youtu.be/ANRiLuondLE) and a [trailer](https://youtu.be/SMto-WaTL4s)) have a ratio of 97% and 98% respectively, which is an average of a 97.5% positive rating. I'm happy with that!
 
 But the like-to-dislike ratio on its own isn't completely accurate, of course. There are also factors like video view count, video comments, testimonials, GitHub stats, downloads, etc. So let's take a quick look at some of those (if they are quantifiable).
 
