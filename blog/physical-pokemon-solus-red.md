@@ -47,7 +47,7 @@ That brings me to the label -- in my [last post](https://www.derekandersen.net/b
 
 ## Future additions
 
-The only thing missing, really, is some sort of manual/booklet/pamphlet insert. Obviously it's not necessary, but it would be cool. I have some working ideas for what this might look like -- it would probably only be 4-6 "pages" (or 2-3 front and back) in bifold or trifold form. It wouldn't be exactly like the original manual for Red/Blue; it would be more like an overview of all the changes in the romhack, a list of new features, etcetera. But it would take design inspiration from the original manual.
+The only thing missing, really, is some sort of manual/booklet/pamphlet insert. Obviously it's not necessary, but it would be cool. I have some working ideas for what this might look like -- it would probably only be 4-6 "pages" (or 2-3 front and back) in bifold or trifold form. It wouldn't be exactly like the original manual for Red/Blue; it would be more like an overview of all the changes in the romhack, a list of new features, etcetera. But it would take design and style inspiration from the original manual.
 
 I'm not 100% sure that I'll follow through on this, but it's on the table as a possibility.
 
@@ -55,12 +55,14 @@ I'm not 100% sure that I'll follow through on this, but it's on the table as a p
 
 You might ask why I'm doing this at all. Honestly, the answer is "Just for fun." It's cool to have tangible versions of a romhack I've created. Even if all they do is sit on the shelf for most of their life, it's worth it to me.
 
-I have no plans of selling these. I'm always a little shocked at how many Pokémon romhacks are plainly sold on Etsy. Aren't people scared of selling something they don't own the rights to? There probably isn't enough profit in it to warrant any action. Maybe I'm just paranoid.
+I have no plans of selling these. I'm always a little shocked at how many Pokémon romhacks are sold so plainly on Etsy. Aren't people scared of selling something they don't own the rights to? There probably isn't enough profit in it to warrant any action against them. Maybe I'm just paranoid.
 
 Which brings me to another point: I've spent a fair amount of money on this project (art commissions, components for the physical copies). This could also be framed as "I've lost money on this project", but that's not how I feel. The goal was never to make money, so I've really just invested time and money into this project because it's been fun to work on. And I'm happy with all the results so far.
 
-I started out making a physical copy solely (pun intended) of Solus Red. Now that I see all the vendors I've chosen for parts have passed my quality standards, I've also ordered the parts for Solus Green and Solus Blue -- I might post photos of them on here (or Reddit more likely) as a follow-up when they're done.
+I started out making a physical copy solely (pun intended) of Solus Red. Now that I know that all the vendors I've chosen for parts have passed my quality standards, I've also ordered the parts for Solus Green and Solus Blue -- I might post photos of them on here (or Reddit more likely) as a follow-up when they're done.
 
-I hope you found this topic as cool or interesting as I do. Now that a physical copy of Solus has become realized, I get to look at it and hold it and smell it and harness its energy whenever I want.
+By the way, if this is something you'd like to do yourself, you can find all of the necessary assets [here](https://github.com/Dechrissen/poke-solus-rgb/blob/master/physical). Use them as you see fit. Just don't sell this romhack, please and thank you.
+
+I hope you found this topic as cool and interesting as I do. Now that a physical copy of Solus has become realized, I get to look at it and hold it and smell it and harness its energy whenever I want.
 
 Until next time.
