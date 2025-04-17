@@ -7,7 +7,7 @@ finished: true
 ---
 
 
-![solus rgb title screens](../assets/images/pokemon-solus-rgb/solus-triple-title-screens-gbc-sgb.png "solus rgb title screens")
+![solus rgb boxes](../assets/images/pokemon-solus-rgb/box-front-solus-triple.png "solus rgb boxes")
 
 (The accompanying git repository for this blog post is [here](https://github.com/Dechrissen/poke-solus-rgb).)
 
