@@ -10,15 +10,13 @@ finished: true
 
 I always thought it would be cool to develop a video game and then be able to make physical copies of it. So naturally when I finished my Gen 1 romhack project, it became apparent to me that I'd be able to do that. Granted, it's not as cool as making physical copies of a game I developed from scratch (this is a modification of a pre-existing game after all) but it's still something that excites me.
 
-## Artwork
+## Custom box
 
 If you've been following the project, you might've seen my amateur attempts at custom box fronts for each of the three games (Solus Red, Green, and Blue) which I created using some templates I found on DeviantArt by an artist named [Jade Lune](https://systemrift.com/) (who no longer uses DeviantArt, so I've linked to her website). The templates were essentially minimalized versions of the original North American box fronts, with some of the text removed (like "Gotta Catch 'Em All"), the ESRB rating removed, and the artwork redrawn from scratch so it looks a lot more clean. If you wanna check those out, they're [here](https://github.com/Dechrissen/poke-solus-rgb/tree/master/physical/old).
 
 But I wasn't really thrilled about those. They came out pretty good in the sense that they're minimal and still like the originals, but I wanted something more custom in order to give the project its own identity.
 
 I reached out to the artist of those templates to see if I could get custom box art commissioned, and she agreed. After a few weeks, I received the finished product, and they came out awesome. I was (and still am) very impressed with the quality. In addition to originally-sized Game Boy box fronts, I also requested artwork for cartridge labels and DS-style inserts with custom backs.
-
-## Box
 
 I _do_ like the idea of possibly working on creating OEM-style cardboard Game Boy boxes one day, but I decided that initially I preferred the more "modern" DS-style boxes. They make more sense for something that will sit on a shelf, and can actually be used reliably (since they're made of durable plastic).
 
@@ -27,7 +25,7 @@ I've liked this company [customgamecases.com](https://www.customgamecases.com/) 
 ![solus red front](../assets/images/physical-solus/solus-red-front.jpeg "solus red front")
 ![solus red back](../assets/images/physical-solus/solus-red-back.jpeg "solus red back")
 
-## Cover and back design
+### Cover and back design philosophy
 
 I should talk a bit about the design and layout of the box. The illustrations on the covers are from the not-too-well-known Japan-only [Bandai Carddass trading cards](https://m.bulbapedia.bulbagarden.net/wiki/Pocket_Monsters_Carddass_Trading_Cards) from 1996/1997. All of the artwork is done by Ken Sugimori, and I love his style. I thought they would be appropriate to use for the Solus covers, since they vaguely align with the "vanilla, but a little different" philosophy (Ken Sugimori did all the original art, and he did these illustrations as well, they're just a little different -- because not many people have seen them).
 
@@ -59,7 +57,7 @@ That brings me to the label -- in my [last post](https://www.derekandersen.net/b
 
 ![solus red cart](../assets/images/physical-solus/solus-red-cart.jpeg "solus red cart")
 
-## Future additions
+## A potential addition
 
 The only thing missing, really, is some sort of manual/booklet/pamphlet insert. Obviously it's not necessary, but it would be cool. I have some working ideas for what this might look like -- it would probably only be 4-6 "pages" (or 2-3 front and back) in bifold or trifold form. It wouldn't be exactly like the original manual for Red/Blue; it would be more like an overview of all the changes in the romhack, a list of new features, etcetera. But it would take design and style inspiration from the original manual.
 
