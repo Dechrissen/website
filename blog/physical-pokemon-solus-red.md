@@ -22,10 +22,24 @@ I reached out to the artist of those templates to see if I could get custom box 
 
 I _do_ like the idea of possibly working on creating OEM-style cardboard Game Boy boxes one day, but I decided that initially I preferred the more "modern" DS-style boxes. They make more sense for something that will sit on a shelf, and can actually be used reliably (since they're made of durable plastic).
 
-I've liked this company [customgamecases.com](https://www.customgamecases.com/) for a few years now, and so I knew I wanted to use their Game Boy boxes -- they are exactly like DS boxes, except they hold Game Boy carts inside. They're good quality, I recommend them. And it turns out that they will print a custom insert for those boxes if you provide the file (and pay a small fee per box).
+I've liked this company [customgamecases.com](https://www.customgamecases.com/) for a few years now, and so I knew I wanted to use their Game Boy boxes -- they are exactly like DS boxes, except they hold Game Boy carts inside. They're good quality, I recommend them. And it turns out that they will print a custom insert for those boxes if you provide the file.
 
 ![solus red front](../assets/images/physical-solus/solus-red-front.jpeg "solus red front")
 ![solus red back](../assets/images/physical-solus/solus-red-back.jpeg "solus red back")
+
+## Cover and back design
+
+I should talk a bit about the design and layout of the box. The illustrations on the covers are from the not-too-well-known Japan-only [Bandai Carddass trading cards](https://m.bulbapedia.bulbagarden.net/wiki/Pocket_Monsters_Carddass_Trading_Cards) from 1996/1997. All of the artwork is done by Ken Sugimori, and I love his style. I thought they would be appropriate to use for the Solus covers, since they vaguely align with the "vanilla, but a little different" philosophy (Ken Sugimori did all the original art, and he did these illustrations as well, they're just a little different -- because not many people have seen them).
+
+The background also features a pixel effect, which is inspired by the Cardass trading cards. The keen-eyed artists among you might notice the gradient in the background as well -- this is something that the artist I was working with came up with which I thought looked good. But she also gave me the idea that it could represent that "beam of light" thing that happens when Pokémon are traded (in the anime I think, and in some of the games too). So that's cool.
+
+The back of the box is heavily inspired by the original box back, but with some substitutions and other small changes. The blurb on the left is basically like the orignal, but some of the mentioned Pokémon are changed and there are some Solus-specific differences. Can you spot the changes? :-)
+
+Same goes for the bulleted list below it -- similar to the original list, but some changes for Solus. 
+
+The screenshots on the side are also replaced with new ones that showcase some Solus features: the Trader's house, EXP bar, and the already-caught indicator.
+
+Of course, the QR code wasn't something featured on the original box from the 90s, because those didn't exist. I didn't like the idea of including some of those retail-specific details on the box for a romhack: barcode, ESRB rating, copyright text and trademark symbols, etc. So a lot of those things have been removed or substituted with things I thought made more sense, like the barcode --> QR code swap for example. That QR code leads to the Solus romhack "homepage" btw. Try scanning it. :-)
 
 ## Cartridge PCB, shell, and label
 
