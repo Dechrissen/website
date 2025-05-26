@@ -46,7 +46,7 @@ I also bought a Game Boy cartridge reader/writer, i.e. a flasher. In particular,
 
 ![gbxcart rw](../assets/images/gbc-mod/gbxcart.jpg "gbxcart rw")
 
-I wanted this so that I could take advantage of flash cartridges for Game Boy (this one works for all types: GB, GBC, GBA). So far, I just have one flash cart, and it's one for GB/C that supports RTC (real time clock) for games that use it -- Gen 2 Pokémon games (G/S/C) are the most notable, and the ones I wanted it for. Having RTC support adds some cost, so it's on the more expensive side of flash carts, but thankfully I'd only need to buy it once, as it can be re-flashed whenever I want.
+I wanted this so that I could take advantage of flash cartridges for Game Boy (this one works for all types: GB, GBC, GBA). So far, I just have one flash cart, and it's one for GB/C that supports RTC (real time clock) for games that use it — Gen 2 Pokémon games (G/S/C) are the most notable, and the ones I wanted it for. Having RTC support adds some cost, so it's on the more expensive side of flash carts, but thankfully I'd only need to buy it once, as it can be re-flashed whenever I want.
 
 I put mine in a fancy translucent shell with a custom darker Japanese Pokémon Silver label from someone on Etsy (even though Pokémon Gold is currently flashed on it). I just like Lugia.
 
@@ -54,11 +54,11 @@ I put mine in a fancy translucent shell with a custom darker Japanese Pokémon S
 
 An added benefit of this flash cart is that it uses FRAM, a type of saving technology which doesn't need a battery (like the SRAM of the original cartridges), so save files will last theoretically forever. A battery is still needed for RTC functionality, however.
 
-I'm currently playing Pokémon Gold on this cartridge, and after I'm done, I plan to use the GBxCart to dump the save file and save it on my hard drive. I think I'll start doing that from now on -- it'll be cool to have all my save files archived. If only I could go back in time and do that for all my save files since I was a kid.
+I'm currently playing Pokémon Gold on this cartridge, and after I'm done, I plan to use the GBxCart to dump the save file and save it on my hard drive. I think I'll start doing that from now on — it'll be cool to have all my save files archived. If only I could go back in time and do that for all my save files since I was a kid.
 
 Next, I plan to re-play a Gen 1 Pokémon game, so I will get myself a non-RTC flash cart for all my future Gen 1 playthroughs.
 
-My next Game Boy-related post will probably be when I do another Game Boy mod -- perhaps a Pocket or original DMG. Or maybe it'll be about Pokémon Gen 1 romhacks (I have some ideas for some QoL improvements for those games that I've been meaning to look into).
+My next Game Boy-related post will probably be when I do another Game Boy mod — perhaps a Pocket or original DMG. Or maybe it'll be about Pokémon Gen 1 romhacks (I have some ideas for some QoL improvements for those games that I've been meaning to look into).
 
 Before I end this post, I'll leave you with a couple more photos of the new GBC in action.
 

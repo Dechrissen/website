@@ -37,7 +37,7 @@ Here's what I need to do to get to the point where the system is installed and w
 
 # The (out of order) installation process
 
-So, #1: I tested the system, and it works. At first, I wasn't able to reset the "master code," which is the code usually given to the homeowner. I attempted to reset the system using the "installer code", which by default is 5555 -- but it wasn't. I thought I was in a bad spot, since these systems can actually be programmed to disallow the factory reset procedure (which is a good thing, but can be problematic for someone buying secondhand). Luckily, factory reset was not disabled, so I was able to perform the reset. It involed jumping 2 of the connection points on the main board and power cycling the system a few times. Violà! It's now reset, and I have the ability to set my own installer code. :) I am the installer, after all.
+So, #1: I tested the system, and it works. At first, I wasn't able to reset the "master code," which is the code usually given to the homeowner. I attempted to reset the system using the "installer code", which by default is 5555 — but it wasn't. I thought I was in a bad spot, since these systems can actually be programmed to disallow the factory reset procedure (which is a good thing, but can be problematic for someone buying secondhand). Luckily, factory reset was not disabled, so I was able to perform the reset. It involed jumping 2 of the connection points on the main board and power cycling the system a few times. Violà! It's now reset, and I have the ability to set my own installer code. :) I am the installer, after all.
 
 ![PC1616 panel](../assets/images/security-system/panel.jpg "PC1616 panel")
 ![testing the system](../assets/images/security-system/testing.jpg "testing the system")
@@ -77,7 +77,7 @@ The outlet install went well. This was my first time actually doing some meaning
 
 So, now that the outlet is installed, I can move on to step #2: wood. The main system panel needs somewhere to live, so I'm going to mount it to a dedicated plywood board. My basement is concrete blocks on the exterior, so I couldn't mount it to one of those walls easily. Instead, I opted to mount a roughly half-inch-thick plywood board to the exposed studs below the basement stairs. This is also where I installed my outlet, as you can tell from the above photos.
 
-I had some leftover plywood from a previous project, so I took a board ouside and measured out a 30-inch mark for the width, so it would fit across a three-stud gap (two gaps, if that makes sense... see photo). Anyway, I fired up the saw and soon had my mounting board. At first, I was going to paint it white, but after sanding it I thought the grain looked kinda nice -- so I kept it plain.
+I had some leftover plywood from a previous project, so I took a board ouside and measured out a 30-inch mark for the width, so it would fit across a three-stud gap (two gaps, if that makes sense... see photo). Anyway, I fired up the saw and soon had my mounting board. At first, I was going to paint it white, but after sanding it I thought the grain looked kinda nice — so I kept it plain.
 
 ![wood](../assets/images/security-system/wood.jpg "wood")
 
@@ -109,7 +109,7 @@ If you recall, earlier, I had fished the wire down into the basement for the key
 
 ![keypad 1](../assets/images/security-system/keypad-1.jpg "keypad 1")
 
-The keypad wiring is simple -- just match each wire color to the labeled screw terminals on the board (R, B, Y, G).
+The keypad wiring is simple — just match each wire color to the labeled screw terminals on the board (R, B, Y, G).
 
 ![keypad 2](../assets/images/security-system/keypad-2.jpg "keypad 2")
 ![keypad 3](../assets/images/security-system/keypad-3.jpg "keypad 3")

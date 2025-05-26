@@ -91,7 +91,7 @@ All this being said, I went with a Super Flower Leadex III Gold 750W. This is a 
 The case! Can't build a computer without one. I am pretty picky in general, so when it comes to aesthetics, it takes me a while to decide and to balance looks with features I actually want. In this case, the features I wanted were:
 
 - More compact than a full-sized tower
-- Good airflow (There seems to be an issue with case manufacturers--there's a lot of cases on the market that seem to have terrible airflow.)
+- Good airflow (There seems to be an issue with case manufacturers — there's a lot of cases on the market that seem to have terrible airflow.)
 - Good build quality (obviously)
 - Inoffensive aesthetics
 - Glass side panel (Eh, it's my one flashy choice for this build, let me have it. At least I don't have RGB.)

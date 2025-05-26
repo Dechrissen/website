@@ -8,7 +8,7 @@ finished: true
 
 First entry of 2024. Happy New Year!
 
-I was going through some of my photos, and I found a few pictures I've taken here in Indiana over the last few years. I got the idea to put them together in a sort of "gallery"-type blog entry -- so here they are. A lot of trees, grass, and sky. These are unedited. Just as-is from my iPhone.
+I was going through some of my photos, and I found a few pictures I've taken here in Indiana over the last few years. I got the idea to put them together in a sort of "gallery"-type blog entry — so here they are. A lot of trees, grass, and sky. These are unedited. Just as-is from my iPhone.
 
 ![indiana 1](../assets/images/indiana/1.jpeg "indiana 1")
 ![indiana 2](../assets/images/indiana/2.jpeg "indiana 2")

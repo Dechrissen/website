@@ -19,7 +19,7 @@ I opted for a red PCB and an orange-red translucent cartridge shell. The custom 
 
 ![cart parts](../assets/images/pokemon-forever-cartridges/parts.jpg "cart parts")
 
-Part of my philosophy for these flash carts (or any unofficial/reproduction cart) is that I believe the shells and/or labels should not be identical to the originals -- they should have some flair to indicate that the carts are aftermarket, such as a differently-colored shell or a special/holographic label, or both.
+Part of my philosophy for these flash carts (or any unofficial/reproduction cart) is that I believe the shells and/or labels should not be identical to the originals — they should have some flair to indicate that the carts are aftermarket, such as a differently-colored shell or a special/holographic label, or both.
 
 And with that, my Gen 1 and 2 "forever cartridges" are complete. In fact, the same treatment can be done for Gen 3, and that is something I will do eventually. But for now, I'm happy with these. Here's a nice picture of them sitting next to each other like nice siblings do.
 

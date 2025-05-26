@@ -10,7 +10,7 @@ finished: true
 
 Today was the April 2024 total solar eclipse. A solar eclipse is when the moon passes between the sun and the Earth. This one was a total solar eclipse, meaning the entirety of the sun's intense light was obscured by the moon.
 
-So why am I writing about it? Well, it was pretty cool. While total solar eclipses occur about every two years, they only recur in the same place once every 360 to 410 years. And to get the full experience, you'd need to be in the "path of totality" -- the area from which you can observe the full eclipsing of the sun.
+So why am I writing about it? Well, it was pretty cool. While total solar eclipses occur about every two years, they only recur in the same place once every 360 to 410 years. And to get the full experience, you'd need to be in the "path of totality" — the area from which you can observe the full eclipsing of the sun.
 
 And we were in the path of totality for this one, here in Indiana.
 

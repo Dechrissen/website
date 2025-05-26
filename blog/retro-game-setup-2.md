@@ -66,7 +66,7 @@ There is also a rack-mounted cable management "tray" thing on the backside. It h
 
 I did buy a Super Nintendo since the last blog post. I bought it from someone on eBay. It's very clean cosmetically, except I think the seller purposely excluded one particular angle in his photo shoot; there is some slight yellowing (which can happen to Super Nintendo consoles) in one small spot. It's a shame people have to be deceitful like that. For the record and since you asked, when I sell things on eBay, I take pictures at every angle for the item I'm selling, and I explicitly disclose any damage or oddities in the description! And that affects my pricing decision! OK, end rant.
 
-The Super Nintendo works. As is turns out, there are different revisions of the Super Nintendo. Without going too in-depth, there is one revision that is more desirable, referred to as the "1CHIP" model -- it consolidates a few chips on the board into one chip, hence the name, and in doing so, inadvertently fixes some potential video output issues. The 1CHIP models also apparently output generally sharper video across the board.
+The Super Nintendo works. As is turns out, there are different revisions of the Super Nintendo. Without going too in-depth, there is one revision that is more desirable, referred to as the "1CHIP" model — it consolidates a few chips on the board into one chip, hence the name, and in doing so, inadvertently fixes some potential video output issues. The 1CHIP models also apparently output generally sharper video across the board.
 
 Mine is not a 1CHIP.
 
@@ -82,7 +82,7 @@ The big question: "How has the experience of using Dechrissen's Retro Game Rack,
 
 The big answer: "Good!"
 
-It works, mostly, as intended. It _does_ satisfy my requirement outlined in the previous post that it should be easy. Easy to sit down and just play something and have fun. It _does not_ meet my expectations for being a future-proof solution for accommodating all of my consoles. I could have figured this out by doing some measuring beforehand, tbh, but oh well -- live and learn.
+It works, mostly, as intended. It _does_ satisfy my requirement outlined in the previous post that it should be easy. Easy to sit down and just play something and have fun. It _does not_ meet my expectations for being a future-proof solution for accommodating all of my consoles. I could have figured this out by doing some measuring beforehand, tbh, but oh well — live and learn.
 
 But for now, the point is that I've been able to play some games (I've been playing Banjo-Tooie and Yoshi's Island) and _just have fun_. I can see the potential. Hopefully without sounding too much like someone who is never satisfied, I will say this: once I get a proper TV console, this setup will be a lot better. I will be able to incorporate all of my game consoles, and eventually a larger TV. But, for now, I can safely say DRGRFPSr1 is a success.
 

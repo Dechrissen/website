@@ -25,7 +25,7 @@ Well, I'll be honest: I do think there are some problems that exist in Gen 1 tha
 
 1. All 151 Pokémon are not obtainable in either version, so trading with another cartridge is necessary.
     - Certain Pokémon are only obtainable via in-game trades, which means they will suffer from boosted EXP / lack of obedience based on level (imo, both of these things are negatives). 
-2. Certain Pokémon only evolve via trading (Machoke, Graveler, Haunter, Kadabra) -- this cannot be achieved with only one cartridge.
+2. Certain Pokémon only evolve via trading (Machoke, Graveler, Haunter, Kadabra) — this cannot be achieved with only one cartridge.
 3. HMs are frequently used, which leads to either the necessity of an HM slave, or the sacrificing of some of your party Pokémon's move slots. In either case, your party's full potential is reduced.
 
 Whenever I was doing a Gen 1 playthrough, these were the things which consistently made me long for a _slightly_ different reality. I wanted to be able to get any Pokémon for my party, first of all. I didn't want to choose the version I played based on Pokémon availability. I also wanted to be able to use any of the four trade evolutions without needing to actually trade a friend (or even just another cartridge that I owned) via Link Cable. And I wanted the option to use the in-game-trade-exclusive Pokémon without being afflicted with the boosted EXP / disobedience curse.
@@ -119,7 +119,7 @@ I won't go into more detail than is necessary, but take Lickitung for instance. 
 
 Regarding those four Pokémon which only evolve via trade, I suppose I had more options than only "adding a trade-back NPC" when implementing a solution. In particular, I'm thinking of other Gen 1 romhacks, which take the liberty of changing the evolution methods for those Pokémon. I know of one romhack, for example, which changes the evolution method from "trade" to "level up to 37". 
 
-But, as you might be able to gather from my explanation of the philosophy and motivation behind this romhack, that won't fly for me. So indeed I went with the "trade-back NPC" method -- I added an NPC aptly named "the Trader" who resides in Celadon City. I added a new house for him behind Celadon Department Store, since there was a bit of unused land back there, and it's nice to have him a bit hidden away (although I did also add hints and tip-giving NPCs which direct the player to his location).
+But, as you might be able to gather from my explanation of the philosophy and motivation behind this romhack, that won't fly for me. So indeed I went with the "trade-back NPC" method — I added an NPC aptly named "the Trader" who resides in Celadon City. I added a new house for him behind Celadon Department Store, since there was a bit of unused land back there, and it's nice to have him a bit hidden away (although I did also add hints and tip-giving NPCs which direct the player to his location).
 
 Here's his Route 8 advertisement sign.
 
@@ -133,7 +133,7 @@ The Trader, well, trades! Simply, you can talk to him to initiate a trade dialog
 
 ## Mew
 
-Mew has been added as a static encounter in Cinnabar's Pokémon Mansion. I thought this location was thematically appropriate, since it's the site where Mew's DNA was used by Dr. Fuji and other scientists to create Mewtwo. Whether the Mew I've added should be thought of as "Mew who still resides there since the experiment" or "Mew who's coming back to search for the scientists/Mewtwo" is left ambiguous. And actually, whether Mew was at the site at all is not clear in the lore -- it only states that Mew's DNA was found in the jungle, but doesn't clarify if Mew's DNA or Mew itself was taken back to the mansion.
+Mew has been added as a static encounter in Cinnabar's Pokémon Mansion. I thought this location was thematically appropriate, since it's the site where Mew's DNA was used by Dr. Fuji and other scientists to create Mewtwo. Whether the Mew I've added should be thought of as "Mew who still resides there since the experiment" or "Mew who's coming back to search for the scientists/Mewtwo" is left ambiguous. And actually, whether Mew was at the site at all is not clear in the lore — it only states that Mew's DNA was found in the jungle, but doesn't clarify if Mew's DNA or Mew itself was taken back to the mansion.
 
 So yes, I took a bit of creative liberty here. But to me, this seemed like the best way to include a static Mew encounter.
 
@@ -141,9 +141,9 @@ So yes, I took a bit of creative liberty here. But to me, this seemed like the b
 
 Regarding the issue of HMs occupying a Pokémon's move slots, there are, again, multiple possible solutions.
 
-Perhaps you could remove the need for HMs altogether. But that goes against the philosophy -- I don't want to change the fundamentals of the game in that way.
+Perhaps you could remove the need for HMs altogether. But that goes against the philosophy — I don't want to change the fundamentals of the game in that way.
 
-Perhaps you could allow HMs to be "taught" to the player character instead of his Pokémon. But that's sort of nonsensical -- the idea behind these HMs is that they're designed to be used by Pokémon, not humans.
+Perhaps you could allow HMs to be "taught" to the player character instead of his Pokémon. But that's sort of nonsensical — the idea behind these HMs is that they're designed to be used by Pokémon, not humans.
 
 So the solution that I liked most was something that maintains the idea of Pokémon-centric HM usage, but prevents their battle move slots from being bogged down with unwanted HMs. Specifically, the inclusion of "Field Move slots" is what I decided on (my implementation was taken from another romhack: [Shin Pokémon](https://github.com/jojobear13/shinpokered)). The way these work is by giving each Pokémon a separate 5th move slot which only accepts HMs (and Dig, Teleport, and Softboiled) and can only be accessed in the field. This way, in order to use some HM, you'd still need to have a Pokémon in your party who can learn it, but their in-battle moveset would remain unnaffected.
 

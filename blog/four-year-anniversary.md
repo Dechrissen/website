@@ -22,12 +22,12 @@ I _think_ I decided that I don't want that 'something' to be language technology
 So, next on the list, if I was going to stay in the general "tech" space, was web development. I'd sort of alluded to my interest in web development in previous posts (it's even the topic of my [first post ever](https://derekandersen.net/blog/my-first-website), which was exactly four years ago today!) but I never really put much effort into trying to master it. So I thought, "maybe I should do that".
 
 So that's where my PLAN comes in. I made a schedule in a calendar app that I wanted to test run for a week. It was the same for each weekday:
-- 6:30 -- 7:30 ... gym
-- 7:30 -- 9:00 ... coffee / eat
-- 9:00 -- 11:00 ... do Udemy course (web dev)
-- 11:00 -- 1:00 ... break / lunch
-- 1:00 -- 2:00 ... apply to jobs / work on resume
-- 2:00 -- 3:30 ... study (programming problem practice)
+- 6:30 – 7:30 ... gym
+- 7:30 – 9:00 ... coffee / eat
+- 9:00 – 11:00 ... do Udemy course (web dev)
+- 11:00 – 1:00 ... break / lunch
+- 1:00 – 2:00 ... apply to jobs / work on resume
+- 2:00 – 3:30 ... study (programming problem practice)
 
 So I've been doing this schedule. It's been going pretty well so far. I wanted it to feel like I was in school again (and it kinda does, because I'm more mentally exhausted than I anticipated by the end of each day).
 
@@ -47,7 +47,7 @@ Well... I didn't. But I still have that general sentiment, and I'm glad at least
 
 Also in the two-year post, I mentioned that I wanted to do (and document, and share) more projects. Well, aside from a few spans of time during which I felt a little stunted creatively, I can proudly say that I _have_ been doing that. If I'm particularly proud of a project, I will write a blog post about it. And I've done that several times since the two-year post. So that's good. _makes a check mark gesture_
 
-And if you've kept up with my blog posts, you might remember a [fairly recent post about game development](https://derekandersen.net/blog/gamedev-history) -- one where I expressed my lifelong desire to make games. So you probably see where this is going. Yes, I mentioned game development in the two-year post as well! I outlined a plan to collaborate with a friend on a small game development project using Godot. I did _not_ follow through with that, unfortunately. But I still have the intention to do this, whether it's with my friend or by myself. I hope I can share updates with you regarding that project soon, but for right now, I'm working on a different project (the Pokémon romhack that I mentioned in my [last post](https://derekandersen.net/blog/pokemon-forever-cartridges)).
+And if you've kept up with my blog posts, you might remember a [fairly recent post about game development](https://derekandersen.net/blog/gamedev-history) — one where I expressed my lifelong desire to make games. So you probably see where this is going. Yes, I mentioned game development in the two-year post as well! I outlined a plan to collaborate with a friend on a small game development project using Godot. I did _not_ follow through with that, unfortunately. But I still have the intention to do this, whether it's with my friend or by myself. I hope I can share updates with you regarding that project soon, but for right now, I'm working on a different project (the Pokémon romhack that I mentioned in my [last post](https://derekandersen.net/blog/pokemon-forever-cartridges)).
 
 # Thanks for reading
 

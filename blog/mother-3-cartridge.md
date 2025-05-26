@@ -6,7 +6,7 @@ description: A makeover for my Mother 3 cartridge.
 finished: true
 ---
 
-Mother is one of my favorite video game franchises (along with Pokémon, Banjo-Kazooie, Metroid, and Pikmin, in case you were curious). I've played all three in the series, but as you may know, Mother 3 never had an official English release. A few years ago (probably as many as 10 at this point -- wow) I purchased an unofficial cartridge which contained the fan-translated English ROM of the game from a seller on Etsy. And that's how I played through it, on my Game Boy Player on my TV.
+Mother is one of my favorite video game franchises (along with Pokémon, Banjo-Kazooie, Metroid, and Pikmin, in case you were curious). I've played all three in the series, but as you may know, Mother 3 never had an official English release. A few years ago (probably as many as 10 at this point — wow) I purchased an unofficial cartridge which contained the fan-translated English ROM of the game from a seller on Etsy. And that's how I played through it, on my Game Boy Player on my TV.
 
 I plan to replay the game some time soon, since it's been a while. So recently I looked at my cartridge and realized the quality of the label and cartridge shell wasn't very high. The printing on the label is not very crisp, and the shell's markings don't match OEM shells very well. I also think I remember that the cartridge size was a little off versus OEM, because it didn't sit flush in my Game Boy SP.
 

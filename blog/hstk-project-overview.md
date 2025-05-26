@@ -22,7 +22,7 @@ It became such a habit, that they even developed a name (hence the title of this
 
 Having accumulated so many Headline Snaps led us to want to _do something_ with them. It wasn't long before we decided on a database of some sort. The idea was that a database of all the Headline Snaps ever created would provide a convenient way to search through them and pull up old ones (which we were doing often enough anyway).
 
-And the realization of the project as it exists today is really not far off from this initial conception -- albeit with a few modifications and additions.
+And the realization of the project as it exists today is really not far off from this initial conception — albeit with a few modifications and additions.
 
 # The obvious problem
 
@@ -32,7 +32,7 @@ So, the main obstacle was figuring out how to convert all those headlines contai
 
 The first thing I tried was a piece of software called [a9t9](https://github.com/A9T9/Free-OCR-Software) for Windows, which is free and open source. It actually worked pretty well, with some quirks. But its main issue is that there was no obvious way to automate the OCR process. This software is GUI-based, so you need to upload images, navigate, click buttons, etcetera. It doesn't lend itself well to the type of automated solution we wanted.
 
-So anyway, I landed on the [Tesseract](https://en.wikipedia.org/wiki/Tesseract_(software)) OCR engine, also free and open source, originally developed by Hewlett-Packard, and very cool. It's a lot more capable than a9t9, and there are wrappers to use it in multiple languages -- I used one for Python called [pytesseract](https://github.com/madmaze/pytesseract).
+So anyway, I landed on the [Tesseract](https://en.wikipedia.org/wiki/Tesseract_(software)) OCR engine, also free and open source, originally developed by Hewlett-Packard, and very cool. It's a lot more capable than a9t9, and there are wrappers to use it in multiple languages — I used one for Python called [pytesseract](https://github.com/madmaze/pytesseract).
 
 # The rest of the project
 
@@ -63,7 +63,7 @@ These two things are examples of using the data to accomplish something, rather 
 
 The visualization code generates a word cloud of the (currently 150) most commonly occurring words/phrases in the dataset.
 
-It first uses the `nltk` Python library to filter out some stop words ('a', 'the', 'and', etc.). Then, it uses `nltk`'s lemmatizer to ensure words used in the word cloud are [lemmatized](https://en.wikipedia.org/wiki/Lemmatization) -- i.e. reduced to the root form of a word (its lexeme). For example, "walk", "walking", and "walked" would all lemmatize to "walk", which would be the word we use in our data visualization.
+It first uses the `nltk` Python library to filter out some stop words ('a', 'the', 'and', etc.). Then, it uses `nltk`'s lemmatizer to ensure words used in the word cloud are [lemmatized](https://en.wikipedia.org/wiki/Lemmatization) — i.e. reduced to the root form of a word (its lexeme). For example, "walk", "walking", and "walked" would all lemmatize to "walk", which would be the word we use in our data visualization.
 
 Then, the `wordcloud` Python library creates a word cloud of our processed data, which is then passed to `matplotlib` which does the actual displaying of the word cloud object.
 

@@ -78,11 +78,11 @@ Surprisingly, this project went very smoothly. I was expecting more issues along
 
 ![X220 bottom](../assets/images/x220/x220-bottom.jpeg "X220 bottom")
 
-It was a valuable experience. I enjoyed taking apart the laptop I plan to use and upgrading it to my own standards. It feels good to know the inner workings of a piece of technology you use often. I think more people should consider using older hardware, if they can. There's an element of sustainability, because you're giving life to hardware that would sooner become e-waste if you hadn't put the effort into restoring it. A related and interesting topic is [the right to repair](https://www.repair.org/stand-up) -- check it out if you're interested in this kind of electronics tinkering.
+It was a valuable experience. I enjoyed taking apart the laptop I plan to use and upgrading it to my own standards. It feels good to know the inner workings of a piece of technology you use often. I think more people should consider using older hardware, if they can. There's an element of sustainability, because you're giving life to hardware that would sooner become e-waste if you hadn't put the effort into restoring it. A related and interesting topic is [the right to repair](https://www.repair.org/stand-up) — check it out if you're interested in this kind of electronics tinkering.
 
 # The result
 
-Unfortunately I don't have pre-upgrade performance benchmarks to provide some kind of comparison. But what I can say is that after performing the upgrades, cleaning, re-pasting the CPU, and installing Linux, it performs wonderfully for my usecases. To be fair, my usecases are nothing intensive, but still -- great machine! I particularly love the size, form factor, keyboard, and ThinkLight. 
+Unfortunately I don't have pre-upgrade performance benchmarks to provide some kind of comparison. But what I can say is that after performing the upgrades, cleaning, re-pasting the CPU, and installing Linux, it performs wonderfully for my usecases. To be fair, my usecases are nothing intensive, but still — great machine! I particularly love the size, form factor, keyboard, and ThinkLight. 
 
 Here it is.
 
