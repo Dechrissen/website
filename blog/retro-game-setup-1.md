@@ -16,7 +16,7 @@ Maybe it's just me, to be honest, but I get overwhelmed from all this. I miss th
 
 I guess I should give this project a codename... OK, 'Project Sanctuary'. I'm not telling you why I chose that, and I bet you can't figure it out either. And don't laugh at it.
 
-### Consoles and games
+# Consoles and games
 
 My plan, right now, is to put these consoles in the setup:
 
@@ -36,14 +36,14 @@ When it comes to games, I do enjoy owning physical copies, especially of games I
 
 And there are some games I'm missing from my collection that I need to get a hold of. But, if I wanted to own every single game I like, or worse, every single game I wanted to play... well, yeah, I think you get where this is going: they can be expensive.
 
-### EverDrives? Unofficial hardware?
+# EverDrives? Unofficial hardware?
 
 If you don't know what an EverDrive is, it's a special flash cartridge made for a particular console that uses an SD card internally to store game ROMs on, which can then be played by the console natively, as if you were using a real cartridge. Is it legal? I don't know, tbh. Anyway, I currently own EverDrives for N64 and GBA. Again, EverDrives are supposed to save money, but if I wanted an EverDrive for every single console, I'd be spending a lot of money.
 
 So, to start, I'm just not going to do that. I'm going to utilize a mix of playing my actual cartridges, using my EverDrives when possible, and (spoiler) *maybe even using some unofficial console replacements* (i.e. small computers running emulator software, like [RetroArch](https://www.retroarch.com/) or something). But I can't say too much about all this, because I'm actually not sure what exactly I'll do yet. I'll have to update you in a future post. But what I do know is, if I were to use an emulator PC as part of this setup, it would *only* be for those 8- and 16-bit game consoles which emulate basically flawlessly. Fake hardware obviously isn't the point of this setup, so I'd have to be very intentional when implementing some emulator-based solution like that.
 
 
-### The original plan and its evolution
+# The original plan and its evolution
 
 My original idea for this project was centered around the setup being contained in a "cart" of some sort. It might have had wheels, or something, and it would have used a computer monitor for the display rather than a TV (because the idea was that I'd sit closer to it). And the wheels would let me... roll it around? (More realistically, it would allow me to move the whole setup to another room if I wanted to.)
 
@@ -61,7 +61,7 @@ For the time being, the TV role for this cart is going to be filled by an old 10
 
 But I do plan to upgrade this to a small (32") OLED TV down the line. They're just so expensive, so it's not a priority for this project right now.
 
-### The return of the cart
+# The return of the cart
 
 Now that I've fooled you twice over, I'll get back on track with my explanation of the actual plan for the project (which *is* in fact that I am going with the aforementioned cart idea, although there are some technicalities, and it's not *really* a cart, but it *will* have wheels).
 
@@ -99,7 +99,7 @@ Isn't that cool? I'm excited. The utility for this kind of thing comes from the 
 
 Similarly, I plan to use a composite video switching device somewhere in this rack. A few (but not all) of the consoles I plan to use will use composite video. At this stage, I'm not really interested in modding consoles to enhance their display output. So NES, SNES, and maybe another older console will use composite, at least for a while. Keeping them both connected 24/7 will mean I need to use a switcher, so I can press a button to switch which one is connected to the display, rather than physically unplug one and plug in another.
 
-### Using a modern display, and some words on resolution
+# Using a modern display, and some words on resolution
 
 That brings me to a point I've not yet addressed, which is rather important to this setup. To enable the use of a modern display (i.e. a flat panel display rather than a CRT), I will be using a line doubler (upscaler) called a RetroTINK. The RetroTINK 2X Pro, to be specific. Essentially, it doubles the lines in the signal from a 240p-outputting console (which is most of these old ones) into 480p, which is the minimum that most modern displays still recognize and support. The problem is that if you were to supply 240p to a modern display directly (if the display had the necessary inputs), it would use its internal upscaler to do the conversion. The reason this is a problem is because, well, it does this job poorly; modern display just aren't designed with these old resolutions in mind. So, the chips that do the processing of the 240p signal don't do as good a job as the RetroTINK does.
 
@@ -111,7 +111,7 @@ And, yes, there are better versions of the RetroTINK -- ones which can handle ot
 
 The 2X Pro can handle composite, S-Video, and component video inputs. So, for me, that's NES, SNES, (maybe Genesis), and N64. At least. And actually, the RetroTINK is *not* the solution I will be using to modernize the output of each of the consoles I mentioned in the outset. GameCube, for instance, is able to output a digital signal natively, and there are some relatively affordable solutions to convert that straight to HDMI. But, I'll talk more about these kinds of specifics when I actually add more consoles, in a future blog post.
 
-### Where's it gonna go?
+# Where's it gonna go?
 
 I suppose I should show you the planned site for this rack. I have this cool corner wall in my office room, and like I mentioned earlier, the rack dimensions will actually allow it to fit on this wall. (The monitor will sit on top of the rack.)
 
@@ -119,7 +119,7 @@ I suppose I should show you the planned site for this rack. I have this cool cor
 
 I like that it'll be in the corner. It's cozy. And that piece of orange tape is a marker for the height that the rack will be at.
 
-### Next steps
+# Next steps
 
 I've already gotten started on parts procurement for this project. Here are the things I need (some of which I've already purchased) for v1 of Project Sanctuary (stop laughing).
 
@@ -140,7 +140,7 @@ Here are some future things I want to add to the setup, with no real concrete ti
 - a Sega Genesis
 - a nice OLED TV as the main display
 
-### Summing up
+# Summing up
 
 To bring this blog post to a close, I will reiterate the *point* of this project. It's to enjoy games and kinda space out. I need that in my life lately. I get stressed too easily. And there are bunch of older games I want to re-play and some I want to play for the first time.
 

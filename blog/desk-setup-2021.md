@@ -12,7 +12,7 @@ Since I know this setup is going to be the first of many, especially considering
 
 Let’s get started.
 
-### Problems with the old setup
+# Problems with the old setup
 
 First of all, I think it’ll help to create a nice “before and after” effect if I describe the issues I had with my previous setup in my last home. Don’t get me wrong, it wasn’t terrible. But it was limited in a lot of ways, and overall just didn’t have the right *flow*.
 
@@ -28,11 +28,11 @@ Problem number four: the cable management (or lack thereof). This one is pretty 
 
 Obviously, during the planning and creation of my new setup, I made sure to keep all of these things in mind to ensure they were dealt with.
 
-### The new setup
+# The new setup
 
 I’ll go through all of the items in the new setup (furniture, tech, and other accessories) and talk a bit about each one: why I chose it, the purpose it’s meant to serve, and whether I’m happy with my choice.
 
-#### The furniture
+## The furniture
 
 I'll start with the core piece: the desk. To be clear, my main criterion in a new desk was simply one that had more desktop real estate than my old one. Truthfully, the desk I ended up choosing is nothing fancy, but it suits my needs for now, as someone who is not in a permanent residence and doesn't have a whole lot of money to spend on a nicer, ideal, top-of-the-line desk (which, by the way, would be a motorized sit/stand desk with a memory bank for height adjustments).
 
@@ -56,7 +56,7 @@ In the future, I plan to invest in a nice computer chair from Herman Miller. Ver
 
 The last item in the furniture category is the very popular ALEX drawer unit from IKEA (I learned this also from desk setup videos). It sits at the right end of my desk, has space for things to go on top, and houses two small and three large drawers. I really like it, despite it taking two hours to assemble. It's very minimal, which fits my style, and very straightforward. It's a rectangle box with smaller rectangles boxes inside. It works.
 
-#### The tech
+## The tech
 
 I made technology its own category because it's an important part of the desk setup to me. It excites me, and I enjoy planning out how to incorporate computers, peripherals, gadgets, gizmos, lights, power, etcetera. Keep in mind that there are some parts of the tech portion of this setup that are not in an ideal location (by my standards), but because I'm in an apartment now, I didn't want to bother with installing them in a more permanent location. Mainly I'm referring to all of my network gear: modem, Ethernet switch, printer, Philips Hue Bridge (all of which I'll discuss later). In an ideal world, all of this would be housed in some sort of rack or network closet. But, that's a project for the future, one which I will undoubtedly write a blog entry about!
 
@@ -108,7 +108,7 @@ Last but not least: power and cable management. For power access, I have two sur
 
 One last part of this cable management system, and probably the last piece in the tech category, is my Apple Watch charger sitting at the back of my desk, behind my monitor. This way, I can pop the watch on its charger out of the way, and its wire remains hidden.
 
-#### Lighting and other little things
+## Lighting and other little things
 
 As a major upgrade to my previous setup, this room actually *has* a light. In the ceiling. Amazing. But actually, I haven't been using it much, as I have a nice standing lamp with three color temperature settings and a bulit-in dimmer with a remote. There's also a window that provides a lot of daylight, so it's not an issue in the daytime. Like I mentioned earlier though, I plan to expand my smart lighting system to this desk setup, with one or maybe two bulbs which I can control synchronously via HomeKit.
 

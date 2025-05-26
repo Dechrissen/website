@@ -20,7 +20,7 @@ I hope you find at least one *hat* you like. Or *that* you like. Whichever.
 
 Without further ado, here's the list. (*Tip*: If you prefer a nice PDF of the list instead, it's [here.](https://derekandersen.net/assets/documents/Dereks_27_Maxims.pdf))
 
-### Derek's 27 Maxims
+# Derek's 27 Maxims
 
 1. If you own a smartphone, take control of your notifications. Don't let the notifications control you and your attention. Take some time to customize them so no unnecessary apps ever notify you.
 2. Don't keep a notebook with all the pages used up; it served its purpose. The only full notebooks you might want to keep are journals.

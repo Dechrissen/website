@@ -14,7 +14,7 @@ I was laid off on August 12th of this year. So it's been about two weeks that I'
 
 But maybe it was _supposed_ to end. I'd been in this limbo of feeling like I _should be doing something else_, but not knowing what, for the longest time. (Spoiler: I still don't know what.) Maybe this is how God chose to tell me that I need to make a change. It's a pretty harsh and to-the-point way of doing so, but idk. I think He knows best. Anyway, I suppose I can share some news relating to what I've been doing since I was laid off.
 
-## What I've been up to
+# What I've been up to
 I think, if I'm trying to get things done, I benefit from some kind of structure. So I developed a PLAN. I decided that, for the next couple months, I would devote the bulk of my time to taking courses and studying. See, how I view myself is sort of like a jack of all trades, but a master of none. I have a lot of interests and even a lot of skills, I'd say; but I don't feel like I can call myself anything close to a "master" in any of them. But I _want_ to. So, while I might look good on paper to a potential employer, I think I need to focus in more on some specific thing.
 
 I _think_ I decided that I don't want that 'something' to be language technology / linguistics. I think I need to move on. I'm just not _that_ interested in the field.
@@ -35,7 +35,7 @@ Right now, I'm trying to complete a web development bootcamp course on Udemy, an
 
 The goal is that by the time I'm done with course, my qualifications will be a little more tuned to these "entry-level web developer" job listings. But we'll have to see.
 
-## Tying it back to the two-year post
+# Tying it back to the two-year post
 It's crazy, actually, when I read the two-year anniversary post and then compare it to the things I'm still saying here, and the things that are on my mind all the time. Say what you will about me, but I'm very consistent. Consistently searching for meaning, or something.
 
 I have the two-year post pulled up on my secondary monitor. I'm not making this up: I didn't even realize that I expressed the desire to be masterful at something _in that post_! And I just finished up writing about that "desire to be a master" in this very follow-up post, two years later. That's wild... I wonder if I'm trying to tell myself something, and these blog posts are my medium across time, and I am only just now piecing my message to myself together.
@@ -49,7 +49,7 @@ Also in the two-year post, I mentioned that I wanted to do (and document, and sh
 
 And if you've kept up with my blog posts, you might remember a [fairly recent post about game development](https://derekandersen.net/blog/gamedev-history) -- one where I expressed my lifelong desire to make games. So you probably see where this is going. Yes, I mentioned game development in the two-year post as well! I outlined a plan to collaborate with a friend on a small game development project using Godot. I did _not_ follow through with that, unfortunately. But I still have the intention to do this, whether it's with my friend or by myself. I hope I can share updates with you regarding that project soon, but for right now, I'm working on a different project (the Pokémon romhack that I mentioned in my [last post](https://derekandersen.net/blog/pokemon-forever-cartridges)).
 
-## Thanks for reading
+# Thanks for reading
 
 So, that's just about all I have to say this time. If you're someone who actually reads these, then I say thank you. But if you're not someone who reads these, then you won't see this anyway. Check mate.
 

@@ -11,7 +11,7 @@ finished: true
 Above is my new backlit Game Boy Color. In grey. Nice and boring, like me. (In reality, there were just too many shell and button color options, so I couldn't decide.)
 
 
-### The old, failed mod
+# The old, failed mod
 
 The main board inside this Game Boy is actually from a very old mod I attempted many years ago (probably between 8 and 10 years ago). I say "attempted" because it ended up being a failure; in those times, we didn't have access to nearly as many convenient modding options as we do today, so the go-to backlight mod was rather interesting (and difficult). You needed to use a donor Game Boy SP (frontlit model) to transplant its front light panel on top of the stock GBC screen. But, in order for it to look halfway decent when powered on, you needed to bond the light panel to the screen with a special UV light-cured clear adhesive. I didn't have any special lights, so I had to used the sun. On top of that, I recall the light panel extraction being very tedious. Needless to say, this process was not a sure thing, and in my case the end result was pretty sub-par. I'll include a photo of it below.
 
@@ -25,7 +25,7 @@ As you can see, the screen is visible, but very blurry. If you're curious, here'
 
 I'm glad for having that experience, but I was more glad to have the old mod lying around to repurpose for my new (proper) mod.
 
-### The new mod
+# The new mod
 
 The new GBC uses a Funnyplaying Q5 IPS, which is one of the more common options these days. It's a very nice screen, which is backlit (and laminated so there's no chance of dust getting under the lens during installation) and a bit larger. While you can do the mod solderless, I opted to solder the extra wires so I could get the OSD (on-screen display) functionality via holding Start + Select. Without the OSD, you can still change the brightness levels with the touch sensor mounted at the top of the screen, but having it allows you to change some extra settings, including the color of the "Game Boy Color" logo at the bottom of the screen. Although, I usually leave that off to save power.
 
@@ -40,7 +40,7 @@ At the same time as this mod, I decided that I wanted to update the colors of th
 
 I call them Grey Boys.
 
-### Some other Game Boy-related news
+# Some other Game Boy-related news
 
 I also bought a Game Boy cartridge reader/writer, i.e. a flasher. In particular, it's the [InsideGadgets GBxCart RW](https://shop.insidegadgets.com/product/gbxcart-rw/). Here's mine:
 

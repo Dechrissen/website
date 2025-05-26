@@ -3,7 +3,7 @@ function fillHeader() {
   // -------------------
 
   // add color theme toggle
-  $(".wrapper").prepend($("<div></div>").addClass("topbar"));
+  //$(".wrapper").prepend($("<div></div>").addClass("topbar"));
   //$(".topbar").append(
   //$("<button></button>").text(" / ").addClass("btn-toggle")
   //);
@@ -13,7 +13,7 @@ function fillHeader() {
   // add 'logo box' div to 'topwrapper' div
   $(".topwrapper").append($("<div></div>").addClass("logo box"));
 
-  // add my name at the top of the header
+  // add name/logo at the top of the header
   $(".logo.box").append($("<h1></h1>").addClass("name"));
   $(".name").append(
     $("<a></a>")
@@ -54,25 +54,25 @@ function fillHeader() {
   //);
   //$(".kofi-link").prepend($("<i></i>").addClass("fa fa-coffee"));
 
-  // TOPNAV LINKS
+  // NAVBAR LINKS
   // ------------
-  $(".topnav").append(
+  $(".navbar").append(
     $("<a></a>").addClass("about").attr("href", "/about").text("about")
   );
-  $(".topnav").append(
+  $(".navbar").append(
     $("<a></a>").addClass("blog").attr("href", "/blog").text("blog")
   );
-  $(".topnav").append(
+  $(".navbar").append(
     $("<a></a>").addClass("projects").attr("href", "/projects").text("projects")
   );
-  $(".topnav").append(
+  $(".navbar").append(
     $("<a></a>").addClass("links").attr("href", "/links").text("links")
   );
-  $(".topnav").append(
+  $(".navbar").append(
     $("<a></a>").addClass("contact").attr("href", "/contact").text("contact")
   );
 
-  // check current URL to determine which topnav link to assign as active (underlined)
+  // check current URL to determine which navbar link to assign as active (underlined)
   var pathname = window.location.pathname.split("/");
   var current = pathname[pathname.length - 1];
   var pagename = current.split(".")[0];
@@ -93,5 +93,5 @@ function fillHeader() {
       $(".contact").addClass("active");
       break;
   }
-  addColorThemeToggle();
+  //addColorThemeToggle();
 }

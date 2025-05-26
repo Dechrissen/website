@@ -9,7 +9,7 @@ finished: true
 
 ![gen 1 cart](../assets/images/pokemon-forever-cartridges/gen1-cart.jpg "gen 1 cart")
 
-### The cartridges
+# The cartridges
 
 If you read [my last blog post](https://www.derekandersen.net/blog/gbc-mod), you should be familiar with the Lugia-inspired FRAM Game Boy cartridge I put together for Gen 2 Pokémon games. That cartridge was from InsideGadgets, and it was their 2MB / 32KB FRAM MBC3 cartridge with RTC. Importantly, that cartridge has RTC support, i.e. it allows for full support of the Gen 2 Pokémon games which use a real time clock mechanic. It also uses FRAM saving, which is a type of saving that doesn't rely on a battery (like the original cartridges' SRAM did). This way, saving is much more reliable and theoretically should work forever. (Yes, the cartridge does still use a replaceable battery for RTC though; unfortunately this can't be avoided.)
 
@@ -27,7 +27,7 @@ And with that, my Gen 1 and 2 "forever cartridges" are complete. In fact, the sa
 
 Beautiful!
 
-### A related bit of news
+# A related bit of news
 
 As I said earlier in this post, I'm currently in the middle of a Gen 2 (Pokémon Gold) playthrough. After I'm done, I plan to start a new Gen 1 playthrough on the new cartridge. But not just any Gen 1 playthrough!
 
@@ -46,7 +46,7 @@ I've noticed that there exists a common sentiment among Pokémon fans today, whi
 
 So my goal in making my romhack is to deal with those "real" issues (yes, it's subjective) that Gen 1 has, in order to satisfy those people who actually enjoy Gen 1 for what it is (myself included).
 
-#### How I'm making the romhack
+## How I'm making the romhack
 
 You might be curious as to how I'm actually going about creating the romhack. I'm certainly not a "pro romhacker" nor do I wish to be considered one, so I don't have all the skills that some people do (and it's definitely impressive what some people are able to pull off mechanically in their Gen 1 hacks).
 

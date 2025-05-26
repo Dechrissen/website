@@ -17,7 +17,7 @@ But there is a common sentiment among Pokémon fans, and it's something like: "B
 
 When it comes to the solutions that later games implemented to address those problems, I'm glad for those too. I like to think of each generation of Pokémon as its own thing, and when I'm playing a particular generation, my brain adjusts to the applicable set of constraints for that generation. It's a good thing, imo, as it allows for different approaches depending on the generation you're playing. But alas, there are people who regard Gen 1 as fundamentally flawed and therefore bad, and that's fine I suppose. To each their own.
 
-## The gripes I've always had with Gen 1
+# The gripes I've always had with Gen 1
 
 All that being said, I did make a statement in my first paragraph hinting that there are issues that _I've_ had with Gen 1. So what am I, a hypocrite? I thought I just said Gen 1 should be respected for what it is!
 
@@ -38,7 +38,7 @@ So, all that being said, I came up with the following general solutions to my is
 2. Trades should be performable in-game via a "trade-back NPC".
 3. HMs should not occupy a Pokémon's regular move slots.
 
-## Philosophy
+# Philosophy
 
 This is probably a good time to interject with my clarifications of the philosophy behind the romhack. It might already be apparent, but I just want to be clear about the general motivations.
 
@@ -46,7 +46,7 @@ The philosophy is captured pretty well in the name I chose for the romhack: "Sol
 
 Related to that last statement, this romhack also shouldn't alter the vanilla game too much, if possible. I don't want to creep into "correcting all of the developers' mistakes for the good of the game" territory. As I said in the intro, I appreciate Gen 1 for what it is; I would like my romhack to highlight Gen 1's characteristics, not overshadow them.
 
-## Methodology
+# Methodology
 
 Before I get into the specifics of the choices I made to satisfy those solutions, I should talk a bit about the methodology; more specifically, how I'm going about doing all of this in the first place.
 
@@ -56,11 +56,11 @@ So, what is it? Essentially it's a recreation of the original Z80 assembly code 
 
 The whole project took me about a month and a half from start to completion. Granted, this romhack is quite small in scope, but I'm still satisfied with that amount of time (I thought it would take longer).
 
-## Application of my ideas
+# Application of my ideas
 
 So, the next step was to actually address those three major issues I sought out to solve.
 
-### Wild Pokémon
+## Wild Pokémon
 
 Regarding the non-availability of all 151 Pokémon in vanilla, the most glaring example of this lies in the version exclusives. For example, Oddish vs. Bellsprout, Growlithe vs. Vulpix, and Electabuzz vs. Magmar among several others. So, for the Kanto routes which differ in their wild Pokémon, I modified the encounter slots so that both version exclusives would appear in my romhack (i.e., I merged the wild encounters). Take Route 4 as an example. The snippet below is taken from the file containing Route 4's wild encounters.
 
@@ -115,7 +115,7 @@ This is what I did for every map in the game, which took care of the non-availab
 
 I won't go into more detail than is necessary, but take Lickitung for instance. Previously, in the English releases of the game, it was only available via trading a Slowbro to an NPC on Route 18. So, when looking to see where I might add Lickitung to the wild, I made sure to look at other instances of its location data (particularly in Kanto). And it turns out that Lickitung is available in a certain area of the Fuchsia Safari Zone _specifically in the Japanese release of Pokémon Blue_. To me, this is enough to consider it "canonical", and so that's the location for Lickitung that I settled on.
 
-### Trade evolutions
+## Trade evolutions
 
 Regarding those four Pokémon which only evolve via trade, I suppose I had more options than only "adding a trade-back NPC" when implementing a solution. In particular, I'm thinking of other Gen 1 romhacks, which take the liberty of changing the evolution methods for those Pokémon. I know of one romhack, for example, which changes the evolution method from "trade" to "level up to 37". 
 
@@ -131,13 +131,13 @@ And here's the Trader himself, in his house in Celadon.
 
 The Trader, well, trades! Simply, you can talk to him to initiate a trade dialogue, and then you are able to select any of your Pokémon to trade to him. He will trade it right back to you, at which point it will evolve (if it's able to). Btw, the implementation of my Trader was inspired by the tutorial for a trade-back NPC in the [pokered wiki](https://github.com/pret/pokered/wiki/Tutorials).
 
-### Mew
+## Mew
 
 Mew has been added as a static encounter in Cinnabar's Pokémon Mansion. I thought this location was thematically appropriate, since it's the site where Mew's DNA was used by Dr. Fuji and other scientists to create Mewtwo. Whether the Mew I've added should be thought of as "Mew who still resides there since the experiment" or "Mew who's coming back to search for the scientists/Mewtwo" is left ambiguous. And actually, whether Mew was at the site at all is not clear in the lore -- it only states that Mew's DNA was found in the jungle, but doesn't clarify if Mew's DNA or Mew itself was taken back to the mansion.
 
 So yes, I took a bit of creative liberty here. But to me, this seemed like the best way to include a static Mew encounter.
 
-### Field Move slots
+## Field Move slots
 
 Regarding the issue of HMs occupying a Pokémon's move slots, there are, again, multiple possible solutions.
 
@@ -147,7 +147,7 @@ Perhaps you could allow HMs to be "taught" to the player character instead of hi
 
 So the solution that I liked most was something that maintains the idea of Pokémon-centric HM usage, but prevents their battle move slots from being bogged down with unwanted HMs. Specifically, the inclusion of "Field Move slots" is what I decided on (my implementation was taken from another romhack: [Shin Pokémon](https://github.com/jojobear13/shinpokered)). The way these work is by giving each Pokémon a separate 5th move slot which only accepts HMs (and Dig, Teleport, and Softboiled) and can only be accessed in the field. This way, in order to use some HM, you'd still need to have a Pokémon in your party who can learn it, but their in-battle moveset would remain unnaffected.
 
-## Beyond the issues
+# Beyond the issues
 
 In addition to the solutions to those core issues, my romhack also features a few other changes. Some of these are more cosmetic, and others are closer to the gameplay itself.
 

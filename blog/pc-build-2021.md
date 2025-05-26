@@ -34,23 +34,23 @@ But then you might be thinking, "Derek, why are you building a new computer that
 
 Item number 2 is probably the most important for me right now. I've been very interested for a long time in switching over to a Linux distro as my main OS, which is why I tried dual booting in the first place. I've tried a few, and I'm fairly comfortable with terminal-based use of Linux (especially since I use it daily at work now), but I've never had the opportunity to use a Linux desktop for more than a few days at a time. I feel that having a PC that I use solely for Linux will be a nice way to force it upon myself. The idea is to use some sort of [KVM switch](https://en.wikipedia.org/wiki/KVM_switch) with both of my PCs, so that I can use all the same peripherals between both PCs, since I won't ever be using both at the same time.
 
-### The build
+# The build
 
 Now let's get into the new build. I'll go piece by piece, starting with the most important: the CPU.
 
-#### The CPU
+## The CPU
 
 For my CPU, I chose an AMD Ryzen 5 5600G. The important bit here is the 'G' — this means _integrated graphics_, which was essential for this build because A) I don't _need_ the high-performance graphics of an expensive dedicated card, B) this machine is not meant for gaming per se, and C) even if I wanted a dedicated card that could handle high-end games, I'd be out of luck unless I was willing to pay an arm and a leg considering the current shortage.
 
 ![CPU](../assets/images/pc-build-2021/cpu.jpg "CPU")
 
-#### The CPU cooler
+## The CPU cooler
 
 I'd never opted for a dedicated CPU cooler before this build, but I decided to because I chose a CPU with integrated graphics, so I figured it deserves a proper cooling system, instead of that dinky little stock cooler. So I went with Noctua, as I've heard really great things about their products recently. The NH-U12S 120mm tower cooler, to be specific. This thing is massive, but really well-built and seemingly performs very well. Checking right now, my CPU temperature seems to be 26°C. Oh, and not to mention, the fan on the cooler is so quiet, which is a big plus for me. I really don't like noisy computers.
 
 ![CPU cooler](../assets/images/pc-build-2021/cpu-cooler.jpg "CPU cooler")
 
-#### The motherboard
+## The motherboard
 
 I went with an ATX board because typically, they're cheaper than their smaller mATX or ITX cousins. I had considered going for a small board given the more compact case I chose, but in the end I figured slightly cheaper would be better because it would fit in the case anyway, and it might offer more ports than its smaller counterpart. The board I chose is the ASUS Prime B550-Plus. Really, the main reasons were A) I trust ASUS, as I've used them for motherboards in the past, and B) it had all the I/O I needed. Specifically: USB-C (I wanted it just to have the option), Ethernet, HDMI as well as DisplayPort (meaning I can take advantage of dual displays without the need for a PCIe graphics card), and a PCIe Gen 4 NVMe drive slot. It's also a nice looking board without all that flashy gamer RGB and ridiculously oversized heatsinks.
 
@@ -58,13 +58,13 @@ I went with an ATX board because typically, they're cheaper than their smaller m
 
 ![Motherboard with CPU cooler](../assets/images/pc-build-2021/motherboard-with-cooler.jpg "Motherboard with CPU cooler")
 
-#### The RAM
+## The RAM
 
 I told myself I'd never get less than 16GB of RAM again, because I want the performance, and because there's no reason not to (RAM is very affordable these days, at least until DDR5 comes out, which is bascially right now). But finally I can take advantage of the speeds of DDR4 (my last build had DDR3). So I went with 16GB (2x8GB) of dual-channel Crucial Ballistix DDR4 3600MHz. This is like three times the speed of the memory in my last PC. Dang.
 
 Unfortunately I forgot to take a picture of the RAM modules. They're just black though.
 
-#### The drives
+## The drives
 
 I have two storage drives in this computer, one of which is a 500GB Western Digital Black SN750 NVMe SSD. This is something I was particularly excited about, since I built my last PC way before these NVMe drives existed, and my motherboard didn't support them. Now I get to take advantage of their _insanely_ fast speeds! (This one is an unbelievable 3600 MB/s read over PCIe Gen 4.0 (which I am in fact taking advantage of)! Versus the 500 MB/s or so of a traditional SATA SSD, this is a massive upgrade. I went with 500GB because they quickly get really expensive, but also, I don't need a crazy amount of storage. If I ever do, my inevitable NAS project (coming some time soon!) will take care of it.
 
@@ -72,7 +72,7 @@ I have two storage drives in this computer, one of which is a 500GB Western Digi
 
 There's also one of my old 120GB Samsung EVO SATA SSDs in here too, as some kind of secondary drive whose purpose is vague, that I will likely never even use. Whatever! SATA is out, NVMe is in (for boot drives at least).
 
-#### The power supply
+## The power supply
 
 I don't know much about power supplies to be honest, I definitely can't speak to the specifics of how they work and stuff. But there were a few little requirements I had, I guess: first of all, it had to be fully modular, and second, it had to be fairly powerful in terms of wattage.
 
@@ -86,7 +86,7 @@ All this being said, I went with a Super Flower Leadex III Gold 750W. This is a 
 
 ![Power supply modularity](../assets/images/pc-build-2021/power-supply-2.jpg "Power supply modularity")
 
-#### The case
+## The case
 
 The case! Can't build a computer without one. I am pretty picky in general, so when it comes to aesthetics, it takes me a while to decide and to balance looks with features I actually want. In this case, the features I wanted were:
 
@@ -103,7 +103,7 @@ Also, the tempered glass side panel is dark-tinted glass (not fully transparent)
 
 ![Case](../assets/images/pc-build-2021/case.jpg "Case")
 
-#### The fans
+## The fans
 
 Last but not least, the fans. My setup is pretty simple here: I have 3 Fractal Design Dynamic X2 GP-12 120mm fans. Two in the front for intakes, and one in the back for exhaust. This is the stock fan for this case. It came with 2, and I liked it enough in terms of noise level, so I bought a 3rd and added it to the front. I may get a 4th for some top exhaust.
 
@@ -111,13 +111,13 @@ Last but not least, the fans. My setup is pretty simple here: I have 3 Fractal D
 
 The way my fans are installed creates a front-to-back airflow, with the Noctua CPU cooler acting as a passthrough in the middle, which hopefully helps with the CPU cooling. It seems like it does.
 
-### The finished product
+# The finished product
 
 Like I said, the purpose of this PC is to be a Linux machine that I use for everything other than gaming. So, it's my new _daily driver_ of sorts. I installed Ubuntu because it's very user-friendly. I'm thinking about trying a more lightweight Arch-based distro in the near future, because the minimalist inside me told me to. I may load that up in a VM to try it out.
 
 In terms of performance, it's been great! No issues so far, moving and loading any type of file is super fast from this NVMe drive. I've had no issues with graphics thus far either. I tested one game (Old School RuneScape via RuneLite) and it ran great. Granted though, it's RuneScape. I plan to test some other Steam games soon, even though that's not the real purpose of this machine.
 
-#### Parts list & specs
+## Parts list & specs
 
 For the purpose of eternalizing a parts list for this build that I can quickly refer to if I need to, here's that:
 

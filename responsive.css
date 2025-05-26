@@ -39,14 +39,14 @@
   ul.social-links > li {
     display: inline;
   }
-  ul.stuff-list > li {
+  ul.compact-list > li {
     text-align: left;
   }
   ul.papers {
     text-align: left;
     line-height: 1.5rem;
   }
-  .topnav {
+  .navbar {
     padding-bottom: 0;
     /* Navbox centering */
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
     align-items: center;
   }
-  .topnav a {
+  .navbar a {
     font-size: 90%;
     padding-left: 10px;
     padding-right: 10px;

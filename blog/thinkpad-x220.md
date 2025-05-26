@@ -10,7 +10,7 @@ Well, I knew this would happen. I bought another ThinkPad. A ThinkPad X220, to b
 
 If you read the previous ThinkPad-related article of mine, you'd know that this is my second used ThinkPad. My first was a T460 which I bought a couple months ago. I certainly didn't need another, but I do have a separate usecase for this one, which I'll get into a bit later in the article.
 
-### Background
+# Background
 
 The T460 I bought has been pretty good. It's a 14-inch relatively thin laptop. Compared to other, older ThinkPads, it forgoes some of their charm in favor of a more modernized look and feel. This is not necessarily a bad thing, but I did find myself wishing it had some of the older ThinkPad features.
 
@@ -23,7 +23,7 @@ So yeah, the T460 is still a great laptop, but I do prefer the feel of the X220 
 
 Moving on to the X220.
 
-### The X220 as it was
+# The X220 as it was
 
 I bought the X220 on eBay for $200. Here are the specs it had:
 
@@ -40,7 +40,7 @@ Here are some pictures.
 
 ![X220 open](../assets/images/x220/x220-open.jpeg "X220 open")
 
-### The plan
+# The plan
 
 Unlike with the T460, this time, I wanted to upgrade some parts. This was for two reasons: 1) if I didn't, it might have been a less than ideal user experience, and 2) I wanted to do the project, because I like the tinkering.
 
@@ -66,7 +66,7 @@ There are some less exciting things I did, like clean the CPU fan, replace the t
 
 ![X220 CPU](../assets/images/x220/x220-cpu.jpeg "X220 CPU")
 
-### The process
+# The process
 
 Surprisingly, this project went very smoothly. I was expecting more issues along the way, but the worst of it was probably accidentally breaking one of the plastic retention tabs on the screen bezel (no harm done, there's like 10 other tabs that still do the job). The rest of the teardown, cleaning, and upgrading went pretty well. Admittedly, the X220 is not the easiest to work with. The teardown requires some memorization of the order of parts you take out, because they all need to go back in in reverse order.
 
@@ -80,7 +80,7 @@ Surprisingly, this project went very smoothly. I was expecting more issues along
 
 It was a valuable experience. I enjoyed taking apart the laptop I plan to use and upgrading it to my own standards. It feels good to know the inner workings of a piece of technology you use often. I think more people should consider using older hardware, if they can. There's an element of sustainability, because you're giving life to hardware that would sooner become e-waste if you hadn't put the effort into restoring it. A related and interesting topic is [the right to repair](https://www.repair.org/stand-up) -- check it out if you're interested in this kind of electronics tinkering.
 
-### The result
+# The result
 
 Unfortunately I don't have pre-upgrade performance benchmarks to provide some kind of comparison. But what I can say is that after performing the upgrades, cleaning, re-pasting the CPU, and installing Linux, it performs wonderfully for my usecases. To be fair, my usecases are nothing intensive, but still -- great machine! I particularly love the size, form factor, keyboard, and ThinkLight. 
 

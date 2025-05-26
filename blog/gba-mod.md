@@ -18,7 +18,7 @@ And that's when it really started; I was old enough to read, had some more compe
 
 Enough history. The point is, I love the Game Boy, and the GBA has a good ergonomic design and a lot of great games. It's the ultimate Game Boy. So I decided I was going to make it even better. Even ultimate-er.
 
-### The build
+# The build
 
 Here's the list of upgrades I planned to do:
 

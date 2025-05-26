@@ -10,7 +10,7 @@ finished: true
 
 I always thought it would be cool to develop a video game and then be able to make physical copies of it. So naturally when I finished my Gen 1 romhack project, it became apparent to me that I'd be able to do that. Granted, it's not as cool as making physical copies of a game I developed from scratch (this is a modification of a pre-existing game after all) but it's still something that excites me.
 
-## Custom box
+# Custom box
 
 If you've been following the project, you might've seen my amateur attempts at custom box fronts for each of the three games (Solus Red, Green, and Blue) which I created using some templates I found on DeviantArt by an artist named [Jade Lune](https://systemrift.com/) (who no longer uses DeviantArt, so I've linked to her website). The templates were essentially minimalized versions of the original North American box fronts, with some of the text removed (like "Gotta Catch 'Em All"), the ESRB rating removed, and the artwork redrawn from scratch so it looks a lot more clean. If you wanna check those out, they're [here](https://github.com/Dechrissen/poke-solus-rgb/tree/master/physical/old).
 
@@ -25,7 +25,7 @@ I've liked this company [customgamecases.com](https://www.customgamecases.com/) 
 ![solus red front](../assets/images/physical-solus/solus-red-front.jpeg "solus red front")
 ![solus red back](../assets/images/physical-solus/solus-red-back.jpeg "solus red back")
 
-### Cover and back design philosophy
+## Cover and back design philosophy
 
 I should talk a bit about the design and layout of the box. The illustrations on the covers are from the not-too-well-known Japan-only [Bandai Carddass trading cards](https://m.bulbapedia.bulbagarden.net/wiki/Pocket_Monsters_Carddass_Trading_Cards) from 1996/1997. All of the artwork is done by Ken Sugimori, and I love his style. I thought they would be appropriate to use for the Solus covers, since they vaguely align with the "vanilla, but a little different" philosophy (Ken Sugimori did all the original art, and he did these illustrations as well, they're just a little different -- because not many people have seen them).
 
@@ -37,7 +37,7 @@ The screenshots on the side are also replaced with new ones that showcase some S
 
 Of course, the QR code wasn't something featured on the original box from the 90s, because those didn't exist. I didn't like the idea of including some of those retail-specific details on the box for a romhack: barcode, ESRB rating, copyright text and trademark symbols, etc. So a lot of those things have been removed or substituted with things I thought made more sense, like the barcode --> QR code swap for example. That QR code leads to the Solus romhack "homepage" btw. Try scanning it. :-)
 
-## Cartridge PCB, shell, and label
+# Cartridge PCB, shell, and label
 
 For the cartridge, I first thought that I'd just use the PCBs from insideGadgets, since I've used them two other times for my [Pokémon forever cartridges](https://www.derekandersen.net/blog/pokemon-forever-cartridges) and they're super high quality (and FRAM, which is more convenient).
 
@@ -55,13 +55,13 @@ That brings me to the label -- in my [last post](https://www.derekandersen.net/b
 
 ![solus red cart](../assets/images/physical-solus/solus-red-cart.jpeg "solus red cart")
 
-## A potential addition
+# A potential addition
 
 The only thing missing, really, is some sort of manual/booklet/pamphlet insert. Obviously it's not necessary, but it would be cool. I have some working ideas for what this might look like -- it would probably only be 4-6 "pages" (or 2-3 front and back) in bifold or trifold form. It wouldn't be exactly like the original manual for Red/Blue; it would be more like an overview of all the changes in the romhack, a list of new features, etcetera. But it would take design and style inspiration from the original manual.
 
 I'm not 100% sure that I'll follow through on this, but it's on the table as a possibility.
 
-## Cost, and What's the point?
+# Cost, and What's the point?
 
 You might ask why I'm doing this at all. Honestly, the answer is "Just for fun." It's cool to have tangible versions of a romhack I've created. Even if all they do is sit on the shelf for most of their life, it's worth it to me.
 

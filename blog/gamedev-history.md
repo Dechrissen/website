@@ -17,9 +17,9 @@ At this point you might say, "Derek, what makes _you_ think you know anything ab
 1. to consolidate all my old game projects into one place and share them with you;
 2. to hopefully kick myself into gear and get back into the game development mindset I once had.
 
-## Games
+# Games
 
-### Unnamed piece of paper game
+## Unnamed piece of paper game
 
 ![piece of paper game](../assets/images/gamedev-history/paper-game.jpg "piece of paper game")
 
@@ -34,11 +34,11 @@ I'm listing this one first because it might be the earliest example I have. On a
 
 Get it?
 
-### Unnamed multi-level box game
+## Unnamed multi-level box game
 
 When I was very young, perhaps some time after the piece of paper game (but I'm not sure), I made a board game using an empty cardboard box for the board. This one was cool. The box was upside down, so the bottom of the box was face up with the board on it. And there was a mechanic that allowed the player pieces to fall down below via trap doors in the board (partial cut-outs that hinged on one side). I don't remember much more than that, but I remember having fun making it. My dad helped me. More on that later.
 
-### Sicachuwama
+## Sicachuwama
 
 Don't bother trying to pronounce it. This is a game my friend Evan and I made together, and I actually remember quite a bit about the rules and mechanics. It was simple, but fun.
 
@@ -53,7 +53,7 @@ Don't bother trying to pronounce it. This is a game my friend Evan and I made to
 
 There are some things that are unclear in my memory, such as where the Treasure Chest gets placed, and how a player can steal the Key from the other player.
 
-### Dumbfire
+## Dumbfire
 
 This one is one of the larger ones, in that its "production" went on for the longest time out of all of these projects. This one was also made as a collaboration with my friend Evan, and it's mostly a blatant ripoff of Yu-Gi-Oh! (since we liked and played that game at the time).
 
@@ -63,7 +63,7 @@ Dumbfire had two "spinoffs" that came a bit later. The first one was called "Dum
 
 The next spinoff was "Cube Wars" which, as far as I can remember, was quite similar to Dumbfire Spells, but the cards were smaller and instead of dealing damage to each other, you wanted to deal damage to your opponent's "Cube". The Cube was some sort of avatar card which represented you. So, pretty much the same thing as Dumbfire Spells.
 
-### Lore 
+## Lore 
 
 Lore was my attempt at a larger dungeon crawling tabletop game. I created a lot of notes and blueprints for this game, but I don't think it ever got to the point of being finished or even close to playable. It was just too big and ambiguous an idea in my head, so I wasn't able to pare it down to something coherent. But, I remember being quite excited about it. I had a friend of mine, Dan, create some prototype artwork for it as a test. I'll include an example below.
 
@@ -71,18 +71,18 @@ Lore was my attempt at a larger dungeon crawling tabletop game. I created a lot 
 
 The name "Lore" was inspired by the idea that there was going to be a lot of mythical creatures to fight in the game. The genre was classically fantasy, featuring warriors, mages, etc. fighting against fantastical monsters in a dungeon.
 
-## Back to the point
+# Back to the point
 
 There are some more games that I'm not going to list. Some of them are not worth mentioning (because they're too similar to something else on the list) but some of them I'd actually prefer to just keep unmentioned for now. The reason for that is because, for two games in particular I can think of, I want to try to convert them into video games. They are fleshed-out enough to be in a state that I'd consider ready, and not so simple in gameplay that they would be painfully boring to play. Another (which I did mention earlier) is Sicachuwama. My plan is to treat that game as a practice project
 in converting a tabletop game into a video game (but it is a little too simple to be fun, so I wanted to mention it in this post instead).
 
-### Dad
+## Dad
 
 I said I would touch more on this point before the end of the post. My dad had helped me when I was making that multi-level cardboard box game when I was little. It is also worth mentioning that he was someone who was generally creative (which I think I can say about myself) and in particular, also aspired to make board/card games at some point. I don't remember many details, but I know he was working on one at some point before I was born. 
 
 That's probably why he helped me come up with ideas and create the assets for that game. I remember that he was generally encouraging when I was making games or expressed my interest in it. So that's cool.
 
 
-### So now what?
+## So now what?
 
 One of the points of this article, as I mentioned in the intro, is to hopefully kick myself into gear and make games again, but in a new medium (video games). Does the fact that I made games when I was young, and continue to express my interest in it today, mean that I need to go into game development as a career? No. I mean probably not. I'm definitely lost in life, but I don't know that I need this to be more than a hobby. I think at the very least I _need_ to get back into it in some capacity so I can give my adult brain a chance to create games again. Maybe I need to flex that particular gamedev muscle.

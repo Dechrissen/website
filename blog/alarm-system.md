@@ -10,7 +10,7 @@ I'm keeping my promise and writing this entry about my alarm system project (I s
 
 But before we get there, I also promised I'd talk a bit more about the system I went with, and the reasons why.
 
-### The system I went with
+# The system I went with
 
 As you might have seen in the description, I chose the DSC PowerSeries PC1616. This is an old system; I'm reasonably sure it released in 2011 (this is the only date I can find that seems right, and it's in the user manual).
 
@@ -22,7 +22,7 @@ Well, it turns out that this technology has a lot of good engineering behind it.
 
 So being that it's relatively old, and it's also not something you can easily get through a manufacturer since they're typically made for wholesaling to security companies like ADT, I bought mine used on eBay. I paid about $200 (the seller included some extra sensors I might not use, in which case I can sell to make back some money).
 
-### The order of things
+# The order of things
 
 Here's what I need to do to get to the point where the system is installed and working.
 
@@ -35,7 +35,7 @@ Here's what I need to do to get to the point where the system is installed and w
 7. Figure out where to install the siren, and run wire for that
 8. Connect all the necessary wiring and power it up
 
-### The (out of order) installation process
+# The (out of order) installation process
 
 So, #1: I tested the system, and it works. At first, I wasn't able to reset the "master code," which is the code usually given to the homeowner. I attempted to reset the system using the "installer code", which by default is 5555 -- but it wasn't. I thought I was in a bad spot, since these systems can actually be programmed to disallow the factory reset procedure (which is a good thing, but can be problematic for someone buying secondhand). Luckily, factory reset was not disabled, so I was able to perform the reset. It involed jumping 2 of the connection points on the main board and power cycling the system a few times. Violà! It's now reset, and I have the ability to set my own installer code. :) I am the installer, after all.
 
@@ -135,7 +135,7 @@ On to #8: connecting all the wiring (to the main board) and powering it up. This
 ![cabinet](../assets/images/security-system/cabinet.jpg "cabinet")
 ![cabinet interior](../assets/images/security-system/cabinet-interior.jpg "cabinet interior")
 
-### Total cost
+# Total cost
 
 I thought it would be intertesting to total up the cost of all the individual components that made up this project. I have been thinking recently that I want to do this going forward, for other relatively large-scale projects, just for my own information (and yours, too). And it might be nice to have a log of the entirety of the projects I've done, including the associated expense.
 
@@ -153,6 +153,6 @@ I already mentioned the cost for a couple of things for this project, but I will
 
 Yeah, it was moderately expensive. But compare that to the amount of money you'd be paying a company like ADT monthly (something like $40) and it starts to sound a lot more favorable to do it yourself. And like I said, I can still sell some of the unused sensors from eBay to make some of the money back. 
 
-### All done
+# All done
 
 So, with all that done, the alarm system install is finished! From this point, I do still need to set up the zones so that the two sensors trigger the siren while the system is armed. And I'm sure there will be a bit of fine-tuning over the next couple days, including setting my desired master code, setting additional user codes, renaming the zones in the system, and possibly configuring the two key fob controllers that the eBay seller included. But, I will end this blog post here, since it's already been quite long. I hope it's been enjoyable and/or educational. In the future, I have plans to integrate this system into HomeAssistant (which I have yet to set up). That will enable a *lot* of cool additional functionality. Stay tuned.

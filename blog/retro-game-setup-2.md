@@ -10,7 +10,7 @@ It's been about six weeks since I started my retro game setup project, so I want
 
 Since then, I have been accumulating some more components (and a couple games, which I'll talk about later) and working on piecing it all together. In this post, I'll go through everything I've done so far while talking a bit about what I plan to do going forward. 
 
-### Audio
+# Audio
 
 I debated for a bit about the audio solution for this project. My initial idea was to use an AV receiver from the 90s or early 2000s, since it would have the proper RCA inputs, an internal amp, and I could use a remote to adjust the volume from a few feet away if necessary. But, I was also considering using a dedicated modern stereo (2-channel) amp, like those used for bookshelf/computer speakers. Both of these options were around the same cost-wise (the market price for used 90s AVRs being around $75). 
 
@@ -22,7 +22,7 @@ The sound quality with this setup is good enough for me.
 
 ![speakers](../assets/images/retro-cart-2/speakers.jpg "speakers")
 
-### Video
+# Video
 
 The video solution uses a RetroTINK 2X Pro to convert the analog video signals to digital, which is then fed directly into my old ASUS VX248 monitor via HDMI cable. I am using this monitor because it's what I had lying around, and the response time is very low (which is why I bought it years ago, as it was meant for gaming).
 
@@ -30,7 +30,7 @@ This setup works great so far. The only issue I have is a monitor-related one: i
 
 As far as input lag and pixel response time goes, it is virtually indistinguishable from a CRT (and I was using one in this same setup before the RetroTINK arrived, so I had the CRT experience fresh in my mind). So far, the RT is serving its purpose well.
 
-### Rack
+# Rack
 
 The rack I decided on is the Samson SRK16 universal equipment rack. It's meant for audio and/or networking equipment, but I'm using it with rack-mountable shelves to hold my equipment. Once these shelves are mounted, they are surprisingly sturdy, even though the weight of each console is nothing crazy. (Don't worry, an actual photo of the setup will be shown in the following section.)
 
@@ -41,7 +41,7 @@ The rack has been filling its role pretty well. Admittedly, it _doesn't_ quite f
 
 So, while I like it for the most part in its current state, I have come to the conclusion that once I retrieve my other game consoles from my mom's house, I will need to add a traditional TV console to this setup. It can hold all the consoles, and a normal-sized TV on top. Then, this rack can sit off to the side and house all of the necessary A/V equipment that powers the setup, along with miscellaneous things like controller input capture devices, perhaps a small PC for emulation, my RCA splitter for streaming, etcetera. (I could also possibly repurpose or dual-purpose the rack; I have been wanting to convert my home server tower PC into a rack-mounted one. So I will see what happens!)
 
-### Layout
+# Layout
 
 Let me give you a quick rundown of the current setup, from top to bottom.
 
@@ -62,7 +62,7 @@ Let me give you a quick rundown of the current setup, from top to bottom.
 There is also a rack-mounted cable management "tray" thing on the backside. It has some loops for routing cables through. You can see them in the back behind the N64. It's fully made of plastic, so I was a bit skeptical, but it's actually a pretty nice product.
 
 
-### Super Nintendo, and other acquisitions
+# Super Nintendo, and other acquisitions
 
 I did buy a Super Nintendo since the last blog post. I bought it from someone on eBay. It's very clean cosmetically, except I think the seller purposely excluded one particular angle in his photo shoot; there is some slight yellowing (which can happen to Super Nintendo consoles) in one small spot. It's a shame people have to be deceitful like that. For the record and since you asked, when I sell things on eBay, I take pictures at every angle for the item I'm selling, and I explicitly disclose any damage or oddities in the description! And that affects my pricing decision! OK, end rant.
 
@@ -76,7 +76,7 @@ If you read my last post, you'll know that I did not have a Super Nintendo previ
 
 ![snes games](../assets/images/retro-cart-2/snes-games.jpg "snes games")
 
-### The experience
+# The experience
 
 The big question: "How has the experience of using Dechrissen's Retro Game Rack, Formerly Project Sanctuary - revision 1 (hereafter DRGRFPSr1) been?"
 

@@ -31,10 +31,10 @@ body {
   --border-color: black;
   --bkg-color: white;
   --link-hover-color: transparent;
-  --hover-text-color: #447F9B;
+  --hover-text-color: #1b85b8;
   --btn-toggle-color: black;
-  --link-color: #447F9B;
-  --highlight-color: orange;
+  --link-color: #1b85b8;
+  --highlight-color: #559e83;
   --code-block-bkg-color: lightgrey;
 }
 
@@ -50,7 +50,7 @@ h5,
 h6,
 p,
 pre,
-.topnav a.active,
+.navbar a.active,
 li,
 td,
 blockquote,
@@ -72,7 +72,7 @@ a:hover {
   color: var(--hover-text-color);
   background-color: transparent;
 }
-.topnav a,
+.navbar a,
 .topwrapper a {
   color: var(--text-color);
 }
@@ -287,19 +287,20 @@ pre:has(> code) {
 ul, ol {
   margin-left: -0.5em;
 }
-
-ul.stuff-list {
-  line-height: 1em
-}
-
 li {
   margin: 12px; 
   padding-left: 1rem;
   hyphens: none;
 }
-.stuff-list > li {
+
+/* For more compact lists on the main pages (not in blog posts) */
+ul.compact-list {
+  line-height: 1em
+}
+.compact-list > li {
   margin: 5px;
 }
+
 
 td.project-name {
   width: 30%;
@@ -411,8 +412,8 @@ pre {
   overflow: auto;
 }
 
-/* TOPNAV */
-.topnav {
+/* navbar */
+.navbar {
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
@@ -429,7 +430,7 @@ pre {
 }
 
 /* Style the links inside the top navigation bar */
-.topnav a {
+.navbar a {
   float: left;
   color: black;
   text-align: center;
@@ -440,15 +441,15 @@ pre {
   font-weight: normal;
 }
 
-/* Change the color of topnav links on hover */
-.topnav a:hover {
+/* Change the color of navbar links on hover */
+.navbar a:hover {
   color: black;
   background-color: transparent;
   text-decoration: underline;
 }
 
-/* Add a color to the active/current topnav link */
-.topnav a.active {
+/* Add a color to the active/current navbar link */
+.navbar a.active {
   color: black;
   font-weight: bold;
 }

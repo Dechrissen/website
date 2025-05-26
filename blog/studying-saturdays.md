@@ -15,7 +15,7 @@ event was the day after. I wanted to do a small write-up to discuss the details 
 
 You can find the project on GitHub [here.](https://github.com/Dechrissen/learny-ernie)
 
-### What is it?
+# What is it?
 
 It's called _Studying Saturdays_, and it's hosted by a bot named Learny Ernie. Those in my server who were interested were able to assign the `@Learner` role
 to themselves. Having this role is what gives access to Ernie's weekly notifications (reminders that the event is about to start).
@@ -23,7 +23,7 @@ Every Saturday at 11:00 AM EST, Ernie will select a random topic from a list of
 pre-defined topics and present it as a prompt to those who have opted in to the event. The goal is simply to learn a bit
 about this topic. It's not a competition among participants; if anything, it's more collaborative, as you'll see a bit later.
 
-### How does the "gameplay" work?
+# How does the "gameplay" work?
 
 The event is divided into three main 'phases':
 
@@ -48,7 +48,7 @@ What do Brain Points do, you ask?
 
 Nothing.
 
-### The motivation
+# The motivation
 
 The idea was to create something that would encourage people (and me) to _want_ to learn new things, or if they already do want to learn new things,
 then to prod them to at weekly intervals. Scheduling the events on the weekend perhaps means more people will be willing to join, since they may be less busy.
@@ -66,7 +66,7 @@ that I distributed in my Discord server. Some examples of the areas of interest 
 
 And within each of these broader areas, there are, as you can imagine, endless possibilities for specific topics that make the final list.
 
-### Learny Ernie
+# Learny Ernie
 
 So what does Learny Ernie do?
 
@@ -76,13 +76,13 @@ Check it out, Ernie has his own profile picture. (I hired an artist on Fiverr to
 
 ![Learny Ernie](../assets/images/studying-saturdays/ernie.png "Learny Ernie")
 
-### The problem with the topics of study
+# The problem with the topics of study
 
 An issue I still have (that I was able to mitigate by manually writing a small topic list for the debut) is that there is currently no system in place for collecting topics that is automated, efficient, customizable, etc. Right now, I had to do several web searches manually and browse for relevant topics based on the broader topic areas I collected in my poll.
 
 On the other hand, I don't currently know how I'd solve this. I can't imagine there's an API out there for fetching random "topics of study." So perhaps I will just have to add a few more topics every once in a while to make sure enough are in the pool.
 
-### Initial impressions and planned revisions
+# Initial impressions and planned revisions
 
 I'd say that the first run this past weekend was successful. A total of 4 people participated, including myself, and the feedback was along the lines of, "I enjoyed this because I never would have chosen to learn about this topic myself." And the discussion phase was productive — we all had different takeaways from our studying and were able to have a thought-provoking exchange. Nice.
 

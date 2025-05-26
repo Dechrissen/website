@@ -8,7 +8,7 @@ finished: true
 
 Recently I [completed a project](https://github.com/Dechrissen/hstk) that has been ongoing for a couple years now (not that it took a couple years of work, but I kept starting and stopping). I've dubbed it "Headline Snap Toolkit". Since you're probably asking "What's a Headline Snap?" right now, I'll explain the necessary background before I get into the project itself.
 
-### Background
+# Background
 
 In a nutshell, Headline Snaps are fabricated news headlines that have been created via Snapchat. Specifically, they consist of a black background with overlayed text acting as the news headline. Here's an example:
 
@@ -18,13 +18,13 @@ A friend and I spontaneously started sending these back and forth several years 
 
 It became such a habit, that they even developed a name (hence the title of this blog post), and we've ammassed a few thousand of them. At the time of writing: three thousand two hundred and fifty eight, to be exact. 
 
-### Motivation
+# Motivation
 
 Having accumulated so many Headline Snaps led us to want to _do something_ with them. It wasn't long before we decided on a database of some sort. The idea was that a database of all the Headline Snaps ever created would provide a convenient way to search through them and pull up old ones (which we were doing often enough anyway).
 
 And the realization of the project as it exists today is really not far off from this initial conception -- albeit with a few modifications and additions.
 
-### The obvious problem
+# The obvious problem
 
 If you followed so far, you might be wondering how the source data we're working with (images) and the planned end result (a database) are compatible entities. Because really, a database of images? That's nothing more than a folder of pictures with searchable metadata on a PC. And while the metadata (creation dates, author, geolocation) _is_ very interesting to maintain for the sake of perhaps working with in the future, the focus is clearly the content in the photo: the news headline.
 
@@ -34,7 +34,7 @@ The first thing I tried was a piece of software called [a9t9](https://github.com
 
 So anyway, I landed on the [Tesseract](https://en.wikipedia.org/wiki/Tesseract_(software)) OCR engine, also free and open source, originally developed by Hewlett-Packard, and very cool. It's a lot more capable than a9t9, and there are wrappers to use it in multiple languages -- I used one for Python called [pytesseract](https://github.com/madmaze/pytesseract).
 
-### The rest of the project
+# The rest of the project
 
 Now that the basis is established, we can get to the rest of the project, and why "toolkit" is in the name. Another spoiler: it's because it contains multiple tools. :)
 
@@ -50,7 +50,7 @@ So naturally, I began to think of more potential functionality. Here are some:
 
 And at the time of writing, the majority of these are implemented and working!
 
-### Highlighted features
+# Highlighted features
 
 The highlights of the features at this point are 
 
@@ -59,7 +59,7 @@ The highlights of the features at this point are
 
 These two things are examples of using the data to accomplish something, rather than simply processing and storing the data.
 
-#### Visualization code
+## Visualization code
 
 The visualization code generates a word cloud of the (currently 150) most commonly occurring words/phrases in the dataset.
 
@@ -67,7 +67,7 @@ It first uses the `nltk` Python library to filter out some stop words ('a', 'the
 
 Then, the `wordcloud` Python library creates a word cloud of our processed data, which is then passed to `matplotlib` which does the actual displaying of the word cloud object.
 
-#### Language modeling and headline generation code
+## Language modeling and headline generation code
 
 The headline generation code can train a language model and use that model to generate a completely new headline.
 
@@ -114,7 +114,7 @@ The code is also keeping track of the history for each trigram, i.e. words which
 
 From this collection of trigrams and their possible history, the model is able to synthesize new sentences which match the trends in the data. Sometimes, you can get garbage, but oftentimes the generations are quite good.
 
-#### Command line arguments
+## Command line arguments
 
 An honorable mention for the "highlighted features" is also the overall format of the toolkit itself, which is a command line "front end" that takes advantage of flags & arguments to separate the functionality. Running `python hstk.py --help` displays a list of all the individual tools:
 
@@ -142,7 +142,7 @@ subcommands:
 
 ```
 
-### Future possibilities
+# Future possibilities
 
 Of course, like most projects I've showcased on this website, there is always potential for expansion when the first rendition is finished. This case is no exception. Some ideas I have for future implementations are:
 

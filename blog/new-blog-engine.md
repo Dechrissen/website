@@ -21,7 +21,7 @@ new formatting I have access to, like headings, lists, code blocks, and images.
 (Of course, I could do those things before, but now it's much easier.) Alright,
 let's go.
 
-### The motivation
+# The motivation
 
 The main motivator for this project was the fact that previously, writing posts
 was a tedious process, and ultimately deterred me from doing so. But to recap,
@@ -37,7 +37,7 @@ In this case, the "something new" is the deployment of a backend utility that
 programmatically creates webpages and handles web traffic to the blog portion of
 my website, hence my use of the term 'blog engine' (also, it sounds cool).
 
-### The old system
+# The old system
 
 Just to explain a bit about how my old blog system worked, I'll outline the process
 for creating a new post.
@@ -59,7 +59,7 @@ After the post's HTML file was done, I would still need to update the blog's hom
 to add a link to the new post. As you could probably guess, this meant adding more
 static HTML... which meant more tedium.
 
-### The new system
+# The new system
 
 The new system is much more streamlined and user-friendly. First, I'll outline the new process for
 creating a post, and afterward I'll go into more technical detail about what's happening
@@ -161,7 +161,7 @@ render, or the Mustache-ified post. This allowed me to take a bit of HTML for ea
 blog entry on the main blog page, and use it as a template, filling it in with the metadata
 of each entry, before passing it to this Section which creates the final page render.
 
-### Plans for the future
+# Plans for the future
 
 While I'm very satisfied with this project and excited to utilize it, I still have some
 things I want to add to make it even better. One of these things is a tag system, which
@@ -174,7 +174,7 @@ I also think it would be interesting to add a star-giving system, by which reade
 'stars' to particular blog posts if they like them. I don't see this being used all that much,
 but I think it would be cool to do just to collect some data.
 
-### Learning outcomes
+# Learning outcomes
 
 I'm very happy with how this project turned out. I had guidance from a friend of mine
 much more knowledgeable than I am, so I can't say I figured all of this out on my own.

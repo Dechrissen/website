@@ -8,7 +8,7 @@ finished: true
 
 Today I felt like writing a blog post, but didn't know what to write about, so I picked a topic from the "blog post topics" list in my phone. I chose this one, which relates to my recent video-making efforts. This topic won't be revolutionary; I just thought it'd be something vaguely interesting when I added it to my list of topics (at least I imagine that's what I thought).
 
-## Pokémon Solus videos
+# Pokémon Solus videos
 
 Around the time I became unemployed last August, I was also working on my Pokémon Solus romhack project. Since I still had a lot of free time after I finished it, I also wanted to try my hand at making a video essay about the project. I guess I gravitate toward "retrospective"-type content, whether it's in writing or in videos; but I always seem to want to share my experience of working on my projects.
 
@@ -22,7 +22,7 @@ After this video, I realized I should also have a trailer for the romhack. So I 
 
 I did make a [third video](https://www.youtube.com/watch?v=oYas1BfmQ6s) about the Solus project, but it was easily the "worst" of the three. Its style was similar to that of the first one, but I think the content of the video was just naturally less interesting. Instead of introducing a romhack, I was explaining feedback I received on a romhack and reporting on some statistics. It was boring I think, but I still wanted to make it for myself, at least to have on record.
 
-## Other kinds of videos
+# Other kinds of videos
 
 So the question is What's next video-wise, if anything? It's something I've been thinking about lately. Much like the "blog post topics" list I alluded to at the start of this post, I also have a "videos" list in my notes where I jot down random video ideas. Honestly, I've been doing that for years now, I just never made anything significant until these Solus videos. So that should at least tell you that I do _want_ to make other types of videos.
 
