@@ -128,15 +128,8 @@ img.portrait {
   margin-right: auto;
   height: 240px;
   text-align: center;
-  /* border */
   position: relative;
-  /*border: 2px solid black;
-  border-radius: 6px;*/
   padding: 0px;
-  /*box-shadow: 5px 5px 5px #000;
-  -moz-box-shadow: 5px 5px 5px #000;
-  -webkit-box-shadow: 5px 5px 5px #000;
-  -khtml-box-shadow: 5px 5px 5px #000;*/
   background: #f2f2f2;
 }
 
@@ -210,7 +203,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Work Sans", serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 600;
 }
 
@@ -348,9 +341,9 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
-  transition-property: all;
+  /*transition-property: all;
   transition-duration: 0.2s;
-  border-radius: 8px;
+  border-radius: 8px;*/
   padding: 0px 0px 0px 0px;
 }
 
