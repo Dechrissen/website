@@ -1,0 +1,106 @@
+/* MOBILE */
+@media only screen and (max-width: 768px) {
+  /* for mobile phones*/
+  body {
+    font-size: 115%;
+    text-align: justify;
+  }
+  div.wrapper {
+    padding: 0rem 0 0rem 0;
+    min-height: 100%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  div.topwrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-auto-rows: minmax(auto, auto);
+    padding-bottom: 0px;
+  }
+  /*
+  div.logo {
+    grid-column: 1;
+    grid-row: 1;
+  }*/
+  
+  div.links {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: left;
+  }
+  ul.social-links {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 8px;
+  }
+  ul.social-links > li {
+    display: inline;
+  }
+  ul.stuff-list > li {
+    text-align: left;
+  }
+  ul.papers {
+    text-align: left;
+    line-height: 1.5rem;
+  }
+  .topnav {
+    padding-bottom: 0;
+    /* Navbox centering */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .topnav a {
+    font-size: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  div.content {
+    width: 95%;
+  }
+  td {
+    vertical-align: top;
+    text-align: left;
+  }
+  td.project-name {
+    width: 20%;
+    vertical-align: top;
+    text-align: left;
+  }
+  td.project-name > a {
+    font-size: 80%;
+  }
+  div.blog-wrapper {
+    padding: 0rem 18px 1rem 18px;
+    min-height: 100%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  p.blog-title {
+    font-size: 120%;
+    margin-top: 1rem;
+  }
+  h1.name {
+    font-size: 200%;
+    padding-left: 5px;
+  }
+  p.tagline {
+    font-size: 90%;
+    margin-bottom: 0px;
+    padding-left: 5px;
+  }
+  p.error {
+    font-size: 150%;
+  }
+  img.self-portrait {
+    height: 180px;
+  }
+  footer {
+    font-size: 70%;
+  }
+}

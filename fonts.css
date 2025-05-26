@@ -1,0 +1,11 @@
+/* Serif fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap'); /* Alegreya */
+
+/* Sans serif fonts */
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap"); /* Anonymous Pro */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); /* Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap'); /* Source Sans 3 */
+
+/* Monospace fonts */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"); /* Fira Code */
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap'); /* Cascadia Code */

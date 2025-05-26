@@ -17,75 +17,42 @@ function fillHeader() {
   $(".logo.box").append($("<h1></h1>").addClass("name"));
   $(".name").append(
     $("<a></a>")
-      .text("Derek Andersen")
+      .text("derekandersen.net")
       .addClass("home-link")
-      .attr("href", "/about.html")
+      .attr("href", "/home.html")
   );
 
   // add tagline
-  $(".logo.box").append($("<p></p>").addClass("tagline"));
-  $(".tagline").append($("<i>/i>").text("Tech, games, writing, etcetera"));
+  //$(".logo.box").append($("<p></p>").addClass("tagline"));
+  //$(".tagline").append($("<i>/i>").text("Projects, writings, etc."));
 
   // add 'links box' div to 'topwrapper' div
-  $(".topwrapper").append($("<div></div>").addClass("links box"));
+  //$(".topwrapper").append($("<div></div>").addClass("links box"));
 
   // add 'social-links' ul
-  $(".links.box").append($("<ul></ul>").addClass("social-links"));
+  //$(".links.box").append($("<ul></ul>").addClass("social-links"));
 
   // add GitHub
-  $(".social-links").append($("<li></li>").addClass("github"));
-  $(".github").append(
-    $("<a></a>")
-      .attr("href", "https://github.com/Dechrissen")
-      .attr("target", "_blank")
-      .text("")
-      .addClass("github-link")
-  );
-  $(".github-link").prepend($("<i></i>").addClass("fa fa-github-alt"));
-
-  // add Steam
-  //$(".social-links").append($("<li></li>").addClass("steam"));
-  //$(".steam").append(
-  //  $("<a></a>")
-  //    .attr("href", "https://steamcommunity.com/id/Dechrissen/")
-  //    .attr("target", "_blank")
-  //    .text("")
-  //    .addClass("steam-link")
+  //$(".social-links").append($("<li></li>").addClass("github"));
+  //$(".github").append(
+    //$("<a></a>")
+      //.attr("href", "https://github.com/Dechrissen")
+      //.attr("target", "_blank")
+      //.text("")
+      //.addClass("github-link")
   //);
-  //$(".steam-link").prepend($("<i></i>").addClass("fa fa-steam-square"));
-
-  // add Twitch
-  //$(".social-links").append($("<li></li>").addClass("twitch"));
-  //$(".twitch").append(
-  //  $("<a></a>")
-  //    .attr("href", "https://www.twitch.tv/dechrissen")
-  //    .attr("target", "_blank")
-  //    .text("")
-  //    .addClass("twitch-link")
-  //);
-  //$(".twitch-link").prepend($("<i></i>").addClass("fa fa-twitch"));
-
-  // add YouTube
-  //$(".social-links").append($("<li></li>").addClass("youtube"));
-  //$(".youtube").append(
-  //  $("<a></a>")
-  //    .attr("href", "https://www.youtube.com/dechrissen")
-  //    .attr("target", "_blank")
-  //    .text("")
-  //    .addClass("youtube-link")
-  //);
-  //$(".youtube-link").prepend($("<i></i>").addClass("fa fa-youtube-play"));
+  //$(".github-link").prepend($("<i></i>").addClass("fa fa-github-alt"));
 
   // add ko-fi
-  $(".social-links").append($("<li></li>").addClass("kofi"));
-  $(".kofi").append(
-    $("<a></a>")
-      .attr("href", "https://ko-fi.com/dechrissen")
-      .attr("target", "_blank")
-      .text("")
-      .addClass("kofi-link")
-  );
-  $(".kofi-link").prepend($("<i></i>").addClass("fa fa-coffee"));
+  //$(".social-links").append($("<li></li>").addClass("kofi"));
+  //$(".kofi").append(
+    //$("<a></a>")
+      //.attr("href", "https://ko-fi.com/dechrissen")
+      //.attr("target", "_blank")
+      //.text("")
+      //.addClass("kofi-link")
+  //);
+  //$(".kofi-link").prepend($("<i></i>").addClass("fa fa-coffee"));
 
   // TOPNAV LINKS
   // ------------

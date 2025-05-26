@@ -8,9 +8,9 @@ finished: true
 
 Today, August 28th, 2022, marks the two-year point since I began writing this blog. I wanted to write a special entry to celebrate the occassion, taking a look back at these last 2 years, and then talking about what I have planned for the coming years.
 
-### Part I: The Past
+# Part I: The Past
 
-#### The past two years of my life
+## The past two years of my life
 
 I'm only realizing it now that I sit down to write this: these past two years have probably been the biggest, most eventful, most trying years of my life. Two years ago was August of 2020; at that time, I was about to begin my final semester of my Master's program in Computational Linguistics. I was struggling with the feeling of not being truly passionate about the field I was entering, and subsequently the dread of not knowing what I was going to do professionally upon finishing school (a feeling still present in my life now).
 
@@ -28,7 +28,7 @@ But, to be honest, I've warmed up to life here. I've made a _few_ friends -- mos
 
 There are still things I want to do, and some things I've wanted to do for a long time that I can't seem to bring myself to do. I'll save that for later on in the post, though.
 
-#### The past two years of this blog
+## The past two years of this blog
 
 I started this blog mainly to document my projects (I think). My first post was about my first experience with web development. I think at the time, I had planned to delve deeper into web stuff; that didn't happen. I still have a general interest, and I enjoy learning little tricks I can do with front-end design that I can implement on this website, but I don't think I want to devote a lot of my mental resources to it going forward.
 
@@ -48,7 +48,7 @@ If this is on the mark at all, you might come to the conclusion that the third i
 
 Right now, I consider myself as jack of all trades in the realm of computers and programming. I know a bit about a lot of subfields, but I can't say I'm a master at any of them. And my ever-present indecision prevents me from zeroing in on one of those subfields (say, back-end web development for example) and honing my skill.
 
-### Part II: The Future
+# Part II: The Future
 
 Not surprisingly, for someone who can be labeled "generally anxious", I spend a large portion of my time thinking about the future. I say it's not surprising because this is one of the hallmarks of anxiety: an eye toward the future (usually characterized by a sense of dread). While I'm no stranger to dreading things to come, this isn't the point of this entry.
 
@@ -60,7 +60,7 @@ When it comes down to it, I want to write more articles, and I want them to cove
 
 But let's talk a bit about the future in some detail, already. Come on.
 
-#### Derek the "Professional"
+## Derek the "Professional"
 
 As far as my professional career goes, I want to... feel like a professional. At something. 
 
@@ -70,7 +70,7 @@ I'm not sure why I just launched into that offense against the classic "if you e
 
 The takeaway here is that I don't currently feel fulfilled nor do I feel like I'm a professional. And I desire both of those feelings. My hope is that over the next few months or years, I'll get closer to professional fulfillment. Spoiler: some of the ideas that I think might help me get to that point are coming up next.
 
-#### Derek the Project-doer
+## Derek the Project-doer
 
 As I've very likely mentioned on this blog at some point, I'm always coming up with new project ideas and wanting to do 10 different projects at once. Putting aside the overwhelming decision paralysis I face which prevents me from starting on any of them, when I _am_ doing a project, I feel really good.
 
