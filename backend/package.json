@@ -1,8 +1,8 @@
 {
-  "name": "blog-engine",
+  "name": "server",
   "version": "1.0.0",
-  "description": "Backend script for serving blog posts via templates",
-  "main": "blog-engine.js",
+  "description": "Backend script for serving derekandersen.net webpages via Mustache templates and Showdown.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

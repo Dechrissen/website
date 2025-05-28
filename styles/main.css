@@ -1,0 +1,426 @@
+@import url('fonts.css');
+
+html {
+  background-color: white;
+}
+
+body {
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3em;
+  line-height: 135%;
+  text-align: justify;
+  hyphens: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  min-height: 100rem;
+  max-width: 1000px;
+  position: relative;
+  z-index: -10000;
+  -webkit-font-smoothing: subpixel-antialiased; /* corrects Safari rendering */
+}
+
+/* COLORS */
+body {
+  --text-color: black;
+  --border-color: black;
+  --bkg-color: white;
+  --link-hover-color: transparent;
+  --hover-text-color: #2b45a1;
+  --btn-toggle-color: black;
+  --link-color: #2b45a1;
+  --highlight-color: #85cec3;
+  --code-block-bkg-color: lightgrey;
+}
+
+body {
+  background: var(--bkg-color);
+}
+
+h1,h2,h3,h4,h5,h6,
+p,
+pre,
+.navbar a.active,
+li,
+td,
+blockquote,
+hr,
+code {
+  color: var(--text-color);
+}
+
+a:link,
+a:visited {
+  color: var(--link-color);
+}
+
+a:hover {
+  background-color: var(--link-hover-color);
+  color: var(--hover-text-color);
+}
+.social-links a:hover {
+  color: var(--hover-text-color);
+  background-color: transparent;
+}
+.navbar a,
+.topwrapper a {
+  color: var(--text-color);
+}
+p.blog-title {
+  border-color: var(--border-color);
+}
+footer * {
+  color: var(--text-color);
+}
+.btn-toggle {
+  color: var(--btn-toggle-color);
+}
+
+div.wrapper {
+  padding: 2rem 0rem 6rem 0rem;
+  min-height: 100%;
+}
+
+div.content {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.blog-wrapper {
+  width: 80%;
+  text-align: justify;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-bottom: 18rem;
+}
+
+div.footnote {
+  font-size: 80%;
+}
+
+img.portrait {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 240px;
+  text-align: center;
+  position: relative;
+  padding: 0px;
+  background: #f2f2f2;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 80%;
+  padding-top: 2rem;
+  margin-top: 1rem;
+}
+
+h1.name {
+  font-family: "Alegreya", serif;
+  margin-bottom: 0px;
+  margin-top: 0;
+  font-size: 200%;
+}
+
+/*For floating text to the left or right of a line.
+clear is necessary so that the following line ignores
+the previous float.*/
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 125%;
+}
+h2 {
+  font-size: 110%;
+}
+h3 {
+  font-size: 105%;
+}
+h4 {
+  font-size: 100%;
+}
+
+#top-home-button {
+  margin-bottom: 1rem;
+}
+
+ul, ol {
+  margin-left: -0.5em;
+}
+li {
+  margin: 12px; 
+  padding-left: 1rem;
+  padding-right: 1rem;
+  hyphens: none;
+}
+
+/* For more compact lists on the main pages (not in blog posts) */
+ul.compact-list {
+  line-height: 1em
+}
+.compact-list > li {
+  margin: 5px;
+  hyphens: none;
+}
+
+td.project-name {
+  width: 30%;
+  vertical-align: center;
+  text-align: left;
+}
+
+td.project-name > a {
+  font-weight: normal;
+  hyphens: none;
+}
+
+table.projects {
+  margin-top: 1.5em;
+  padding-top: 1em;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-style: solid;
+}
+
+table.projects td {
+  padding: 0.5em;
+  border: 1px solid black;
+}
+
+p.error {
+  font-size: 150%;
+  font-family: "Cascadia Code", monospace;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  color: black;
+}
+
+a:link {
+  color: var(--link-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  /*transition-property: all;
+  transition-duration: 0.2s;
+  border-radius: 8px;*/
+  padding: 0px 0px 0px 0px;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+div.topwrapper {
+  margin-left:auto;
+  margin-right:auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(auto, auto);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-bottom: 1px solid black;
+}
+
+/* For logo/name link to homepage: override so it doesn't look like a link */
+a.home-link {
+  color: var(--text-color);
+}
+a.home-link:hover {
+  text-decoration: none;
+}
+a.home-link:active {
+  color: black;
+  text-decoration: none;
+}
+
+/*
+div.logo {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+div.links {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: right;
+}
+
+ul.social-links {
+  list-style-type: none;
+  line-height: 100%;
+}
+
+ul.social-links > li {
+  font-size: 100%;
+  font-family: "Anonymous Pro", sans-serif;
+  display: inline;
+  margin: 0px;
+}*/
+
+pre {
+  overflow: auto;
+}
+
+/* NAVBAR STYLE */
+.navbar {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 80%;
+
+  /* Navbox centering */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 0rem 1.5rem;
+  text-decoration: none;
+  font-size: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: normal;
+}
+
+.navbar a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.navbar a.active {
+  color: black;
+  font-weight: bold;
+}
+
+
+/* BLOG STYLES */
+.blog-entry-item,
+.blog-entry-date,
+.blog-entry-item a:link,
+.blog-entry-item a:visited,
+.blog-entry-item a:hover,
+.blog-entry-item a:active {
+  color: var(--text-color);
+}
+
+p.blog-title {
+  font-family: "Alegreya", serif;
+  font-weight: 600;
+  font-size: 150%;
+  line-height: 150%;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  border: 1px solid black;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+}
+
+p.signature {
+  text-align: right;
+}
+
+pre.blog-date {
+  margin-bottom: 1rem;
+  font-family: "Alegreya", serif;
+}
+
+.blog-wrapper img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-align: center;
+  /* border */
+  position: relative;
+  border: 1px solid grey;
+  border-radius: 0px;
+  padding: 0px;
+  /*box-shadow: 5px 5px 5px #000;
+  -moz-box-shadow: 5px 5px 5px #000;
+  -webkit-box-shadow: 5px 5px 5px #000;
+  -khtml-box-shadow: 5px 5px 5px #000;*/
+  background: grey;
+}
+
+.blog-wrapper blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+/* For giving code blocks in blog posts a background color.
+This selector targets <pre> blocks that are parents to a <code> element. */
+pre:has(> code) {
+  background: var(--code-block-bkg-color);
+}
+
+.blog-wrapper #top-back-button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+/* HIGHLIGHT COLORS */
+::selection {
+  color: var(--highlight-color);
+  background: black; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  color: var(--highlight-color);
+  background: black; /* Gecko Browsers */
+}
+
+
+@import url('dark-mode.css');
+@import url('responsive.css');

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="/static/images/pixel_coffee_mug.png" />
+        <meta name="author" content="Derek Andersen" />
+        <meta name="description" content="The personal website of Derek Andersen, only on the World Wide Web!" />
+        <link rel="stylesheet" type="text/css" href="/styles/main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src='/javascript/header.js'></script>
+        <script src='/javascript/color-theme-toggle.js'></script>
+        <title>Derek Andersen / Blog</title>
+    </head>
+    <body onload="setActiveNavbarLink()">
+        <div class="wrapper">
+            <div class="topwrapper">
+                <div class="logo box">
+                    <h1 class="name"><a class="home-link" href="/home">derekandersen.net</a></h1>
+                </div>
+            </div>
+            <nav class="navbar">
+                <a class="about" href="/about">about</a>
+                <a class="blog" href="/blog">blog</a>
+                <a class="projects" href="/projects">projects</a>
+                <a class="links" href="/links">links</a>
+                <a class="contact" href="/contact">contact</a>
+            </nav>
+            <div class="content">
+
+                <h1>All posts</h1>
+
+                {{#entries}}
+                {{{r}}}
+                {{/entries}}
+
+                <div class="footnote right">Powered by a <a href="https://derekandersen.net/blog/new-blog-engine" target="_blank">custom blogging engine</a></div>
+                <div class="clear"></div>
+            </div>
+            <footer>
+                <script type="text/javascript" src="/javascript/footer.js"></script>
+            </footer>
+        </div>
+    </body>
+</html>
