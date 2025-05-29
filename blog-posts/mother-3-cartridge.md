@@ -3,6 +3,7 @@ title: Mother 3 Cartridge Overhaul
 date: 16 March 2025
 number: 35
 description: A makeover for my Mother 3 cartridge.
+tags: games, gameboy
 finished: true
 ---
 

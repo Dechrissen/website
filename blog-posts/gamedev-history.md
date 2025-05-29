@@ -3,6 +3,7 @@ title: I Need to Make Games
 date: 23 June 2024
 number: 26
 description: Discussing my desire to create games.
+tags: gamedev, games
 finished: true
 ---
 

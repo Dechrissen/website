@@ -3,6 +3,7 @@ title: Headline Snap Toolkit
 date: 12 May 2024
 number: 25
 description: An overview of my Headline Snap Toolkit project.
+tags: projects, programming, nlp
 finished: true
 ---
 

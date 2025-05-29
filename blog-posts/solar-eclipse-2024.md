@@ -3,6 +3,7 @@ title: The April 2024 Total Solar Eclipse
 date: 8 April 2024
 number: 24
 description: The April 2024 total solar eclipse.
+tags: life, indiana
 finished: true
 ---
 

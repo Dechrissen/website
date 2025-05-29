@@ -3,6 +3,7 @@ title: Pokémon Solus Red, Green, and Blue
 date: 9 September 2024
 number: 30
 description: Discussing my recently-completed Pokémon Red/Blue romhack.
+tags: pokemon, projects, programming, games, solus
 finished: true
 ---
 

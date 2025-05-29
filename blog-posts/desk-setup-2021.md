@@ -3,6 +3,7 @@ title: My New Desk Setup
 date: 29 August 2021
 number: 06
 description: My new desk setup after moving to a new apartment.
+tags: setup
 finished: true
 ---
 
@@ -38,7 +39,7 @@ I'll start with the core piece: the desk. To be clear, my main criterion in a ne
 
 The desk I chose is the Cubiker 55-inch computer desk from Amazon ($90). In fact, initially I bought one of them, and I liked it so much that a week later I ordered a second, and I've arranged them into an L-shaped orientation. Essentially, I wanted one of the arms of the L to be my main setup for my personal PC, and the other (shorter) arm to be the spot where I put temporary things, like my MacBook, notepad, or water bottle, and soon my work laptop when I start working from home.
 
-The desktop is made of a board coated with [melamine resin,](https://en.wikipedia.org/wiki/Melamine) which is a laminate-like durable thermosetting plastic. Basically, it's smooth, protective, and easily wipeable, and it's made to look like a dark-stained wood, in my case. There is some controversy as far as health concerns, but it's mainly for melamine-based dinnerware, because consuming it could be toxic. Anyway, in my opinion, it's great for a temporary intermediate desk (one step up from plain particle board, which is also toxic btw). By no means is this a desk I'll have for a lifetime. I'm looking forward to one day getting (or building) a nice solid-wood desk for a permanent setup when I can afford it.
+The desktop is made of a board coated with [melamine resin](https://en.wikipedia.org/wiki/Melamine), which is a laminate-like durable thermosetting plastic. Basically, it's smooth, protective, and easily wipeable, and it's made to look like a dark-stained wood, in my case. There is some controversy as far as health concerns, but it's mainly for melamine-based dinnerware, because consuming it could be toxic. Anyway, in my opinion, it's great for a temporary intermediate desk (one step up from plain particle board, which is also toxic btw). By no means is this a desk I'll have for a lifetime. I'm looking forward to one day getting (or building) a nice solid-wood desk for a permanent setup when I can afford it.
 
 The legs of the desk are steel, supported by two intersecting steel support beams in the back. Basically, very sturdy. It doesn't shake when I type on my keyboard, which is nice.
 

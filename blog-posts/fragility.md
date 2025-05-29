@@ -3,6 +3,7 @@ title: Fragility
 date: 24 November 2024
 number: 31
 description: Thoughts on fragility.
+tags: life, thoughts
 finished: true
 ---
 

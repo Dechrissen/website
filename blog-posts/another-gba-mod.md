@@ -3,6 +3,7 @@ title: Another GBA Mod
 date: 12 August 2023
 number: 17
 description: The second Game Boy Advance mod I've performed.
+tags: gameboy, projects, mod
 finished: true
 ---
 

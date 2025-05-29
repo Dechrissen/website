@@ -3,6 +3,7 @@ title: Minimalism
 date: 8 September 2020
 number: 02
 description: My experience with and thoughts about minimalism.
+tags: life, thoughts, minimalism
 finished: true
 ---
 

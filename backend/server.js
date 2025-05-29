@@ -82,6 +82,48 @@ http.createServer((req, res) => {
 		content = blog;
 	}
 
+	// check for /blog/tag urls
+	else if (urlObj.pathname.split('/')[1] === 'blog' && urlObj.pathname.split('/')[2] === 'tag' && urlObj.pathname.split('/')[3]) {
+		const requested_tag = urlObj.pathname.split('/')[3].trim().toLowerCase();
+		// CODE TO CREATE TAG-SPECIFIC BLOG ENTRY PAGE
+		var view = {
+			"tagged_entries": []
+		}
+
+		const dir = '../blog-posts';
+		const files = fs.readdirSync(dir);
+
+		files.forEach(file => {
+  		if (path.extname(file) == ".md") {
+				body = fs.readFileSync('../blog-posts/'+file, 'utf8');
+	            html_body = converter.makeHtml(body);
+	            metadata = converter.getMetadata();
+				title = metadata.title;
+				date = metadata.date;
+				number = metadata.number;
+				description = metadata.description;
+				tags = createTagArray(metadata.tags);
+                finished = metadata.finished;
+				filename = path.basename(file, '.md');
+				rendered = renderEntry(title, date, number, description, filename);
+                if (finished === 'true' && tags.some(tag => tag.name === requested_tag)) {
+    		        view.tagged_entries.push({r: rendered, n: number});
+                }
+			}
+		})
+		
+			responseCode = 200;
+			// sort the entries in 'view' by their number (n) before rendering
+			Array.prototype.sortBy = function(p) {
+				return this.slice(0).sort(function(a,b) {
+					return (a[p] < b[p]) ? 1 : (a[p] > b[p]) ? -1 : 0;
+				});
+			}
+			view.tagged_entries = view.tagged_entries.sortBy('n');
+			blog = renderDynamicTagPage(requested_tag, view.tagged_entries);
+			content = blog;
+	}
+
 	else if (urlObj.pathname.endsWith('.xml')) {
 		try {
 			responseCode = 200;
@@ -107,7 +149,8 @@ http.createServer((req, res) => {
 			html_body = converter.makeHtml(body);
 			// showdown (markdown) converter for mapping html tags to certain classes
 			metadata = converter.getMetadata();
-			content = renderPost(metadata.title, metadata.date, html_body);
+			tags = createTagArray(metadata.tags);
+			content = renderPost(metadata.title, metadata.date, tags, html_body);
 					res.writeHead(responseCode, {
 						'content-type': 'text/html;charset=utf-8',
 					});
@@ -119,7 +162,6 @@ http.createServer((req, res) => {
 			console.error(err);
 		}
 	}
-
 
 	// main pages
 	else if ((mainPages.includes(urlObj.pathname.split('/')[1].split('.')[0]) && !urlObj.pathname.split('/')[2])) {
@@ -268,10 +310,26 @@ http.createServer((req, res) => {
 	.listen(config.PORT);
 
 
+// splits tags string from metadata.tags (e.g. "tag1, tag2, tag3") into an actual array of tag objects
+// each item in the array is a js object with {name, url, isLast} parameters
+// isLast is for checking whether a tag in the array is the last or not; if it is, we won't add the ", " in the html
+function createTagArray (tags_string) {
+	const tags_string_list = tags_string
+  		.split(',')
+  		.map(item => item.trim().toLowerCase())
+  		.filter(item => item.length > 0);
+	const tags_object_array = tags_string_list.map((tag, i, arr) => ({
+	name: tag,
+	url: `/blog/tag/${encodeURIComponent(tag)}`,
+	isLast: i === arr.length - 1
+	}));
+	return tags_object_array;
+}
+
 // Returns the rendered HTML of a single blog post page
-function renderPost (title, date, body) {
+function renderPost (title, date, tags, body) {
   template = fs.readFileSync('../templates/blog-post.mustache', 'utf8');
-  rendered = mustache.render(template, { title: title, date: date, body: body });
+  rendered = mustache.render(template, { title: title, date: date, tags: tags, body: body });
   return rendered;
 }
 
@@ -279,6 +337,13 @@ function renderPost (title, date, body) {
 function renderEntry (title, date, number, description, filename) {
   template = fs.readFileSync('../templates/blog-list-entry.mustache', 'utf8');
   rendered = mustache.render(template, { title: title, date: date, number: number, description: description, filename: filename });
+  return rendered;
+}
+
+// Returns the rendered HTML of a blog entry for the blog page
+function renderDynamicTagPage (requested_tag, tagged_entries) {
+  template = fs.readFileSync('../templates/blog-tag-page.mustache', 'utf8');
+  rendered = mustache.render(template, { tag: requested_tag, tagged_entries: tagged_entries });
   return rendered;
 }
 

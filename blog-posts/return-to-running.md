@@ -3,6 +3,7 @@ title: A Return to Running
 date: 11 November 2021
 number: 08
 description: My plan to get back into running regularly.
+tags: life, fitness, hobbies
 finished: true
 ---
 

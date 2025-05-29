@@ -3,6 +3,7 @@ title: Retro Game Setup Part 1
 date: 23 February 2024
 number: 22
 description: An overview of my plan for a retro video game setup.
+tags: games, projects, setup
 finished: true
 ---
 

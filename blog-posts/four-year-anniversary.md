@@ -3,6 +3,7 @@ title: Four-Year Anniversary Special
 date: 28 August 2024
 number: 29
 description: Looking back at four years writing this blog.
+tags: anniversary, life, work
 finished: true
 ---
 

@@ -3,6 +3,7 @@ title: Pokémon Solus in Retrospect
 date: 26 December 2024
 number: 32
 description: Looking back at my Pokémon Solus romhack and its reception.
+tags: pokemon, projects, games, solus
 finished: true
 ---
 

@@ -3,6 +3,7 @@ title: Distractions
 date: 12 January 2025
 number: 33
 description: On distraction.
+tags: life
 finished: true
 ---
 

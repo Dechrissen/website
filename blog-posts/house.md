@@ -3,6 +3,7 @@ title: House
 date: 23 October 2023
 number: 18
 description: I bought a house.
+tags: house, life
 finished: true
 ---
 

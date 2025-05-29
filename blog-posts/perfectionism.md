@@ -3,6 +3,7 @@ title: Perfectionism
 date: 24 September 2020
 number: 03
 description: My struggle with perfectionism.
+tags: life, thoughts
 finished: true
 ---
 

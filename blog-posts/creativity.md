@@ -3,6 +3,7 @@ title: Creativity
 date: 27 May 2022
 number: 12
 description: The decay of my creativity versus my need to create.
+tags: life, thoughts
 finished: true
 ---
 

@@ -3,6 +3,7 @@ title: ThinkPad X220 Upgrade
 date: 11 October 2022
 number: 14
 description: Breathing new life into a ThinkPad X220.
+tags: technology, projects, mod
 finished: true
 ---
 

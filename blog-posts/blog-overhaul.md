@@ -3,6 +3,7 @@ title: Overhauling my Blog System
 date: 17 February 2021
 number: 04
 description: My ideas for a blog engine upgrade.
+tags: blog, webdev, projects
 finished: true
 ---
 

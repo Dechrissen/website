@@ -3,6 +3,7 @@ title: A Physical Copy of Pokémon Solus Red Appears
 date: 16 April 2025
 number: 36
 description: A real-life box and cartridge for Pokémon Solus Red.
+tags: pokemon, projects, games, solus
 finished: true
 ---
 

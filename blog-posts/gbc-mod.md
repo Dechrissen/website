@@ -3,6 +3,7 @@ title: Reviving an Old, Failed Game Boy Color Mod
 date: 21 July 2024
 number: 27
 description: I fixed up a failed Game Boy Color mod from years ago.
+tags: gameboy, projects, mod
 finished: true
 ---
 

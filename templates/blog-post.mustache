@@ -16,7 +16,7 @@
   <body>
     <div class="blog-wrapper">
       <p id="top-back-button">
-        <a href="/blog">&#8592; Blog</a>
+        <a href="/blog">&#8592; All posts</a>
       </p>
       <p class="blog-title">{{title}}</p>
       <pre class="blog-date" style="text-align: right;">{{date}}</pre>
@@ -25,8 +25,15 @@
 
       <p class="signature">&#8212; Derek Andersen</p>
       <br>
+
+      <p class="blog-tags">Tags: 
+      {{#tags}}
+        <a href="{{url}}">{{name}}</a>{{^isLast}}, {{/isLast}}
+      {{/tags}}
+      </p>
+
       <p>
-        <a href="/blog">&#8592; Back</a>
+        <a href="/blog">&#8592; All posts</a>
       </p>
     </div>
   </body>

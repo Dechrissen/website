@@ -3,6 +3,7 @@ title: Pokémon Forever Cartridges
 date: 18 August 2024
 number: 28
 description: Reflashable FRAM cartridges for Pokémon Gen 1 and 2 games.
+tags: pokemon, technology, games
 finished: true
 ---
 

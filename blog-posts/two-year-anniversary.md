@@ -3,6 +3,7 @@ title: Two-Year Anniversary Special
 date: 28 August 2022
 number: 13
 description: Looking back at two years writing this blog.
+tags: anniversary, life, work, projects
 finished: true
 ---
 
@@ -100,7 +101,7 @@ Here's a little bonus for those of you who made it to the end. I recently scanne
 
 Here they are, for your reading pleasure:
 
-- [_The Derek Cool Book_](https://derekandersen.net/static/books/The_Derek_Cool_Book.pdf)
-- [_Ghost Zone_](https://derekandersen.net/static/books/Ghost_Zone.pdf)
+- [_The Derek Cool Book_](https://derekandersen.net/static/documents/The_Derek_Cool_Book.pdf)
+- [_Ghost Zone_](https://derekandersen.net/static/documents/Ghost_Zone.pdf)
 
 Until next time.

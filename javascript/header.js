@@ -9,9 +9,8 @@ function setActiveNavbarLink() {
   //$(".btn-toggle").append($("<i></i>").addClass("fa fa-moon-o"));
 
   // check current URL to determine which navbar link to assign as active (bold)
-  var pathname = window.location.pathname.split("/");
-  var current = pathname[pathname.length - 1];
-  var pagename = current.split(".")[0];
+  var pathname = window.location.pathname.split("/").filter(Boolean);
+  var pagename = pathname[0]
   switch (pagename) {
     case "about":
       $(".about").addClass("active");

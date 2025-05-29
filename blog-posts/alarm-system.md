@@ -3,6 +3,7 @@ title: Alarm System Install
 date: 17 February 2024
 number: 21
 description: Installation of the DSC PowerSeries PC1616 alarm system.
+tags: house, projects, technology
 finished: true
 ---
 

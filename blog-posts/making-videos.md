@@ -3,6 +3,7 @@ title: Making Videos
 date: 3 March 2025
 number: 34
 description: Thoughts on making YouTube videos.
+tags: youtube
 finished: true
 ---
 

@@ -3,6 +3,7 @@ title: Lists and Mental Clutter
 date: 18 November 2021
 number: 09
 description: How lists negatively affect my life.
+tags: life, thoughts, minimalism
 finished: true
 ---
 

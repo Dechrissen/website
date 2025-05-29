@@ -3,6 +3,7 @@ title: Old ThinkPads
 date: 2 December 2021
 number: 10
 description: A new hobby.
+tags: technology, hobbies
 finished: true
 ---
 

@@ -3,6 +3,7 @@ title: Some Photos of Indiana
 date: 10 January 2024
 number: 20
 description: Some photos I've taken in Indiana over the last 3 years.
+tags: indiana, photos
 finished: true
 ---
 
