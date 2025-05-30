@@ -3,7 +3,7 @@
 const http = require('http');
 const url = require('url');
 const fs = require('fs');
-const fetch = require('node-fetch');
+const RSS = require('rss');
 var showdown = require('showdown');
 const mustache = require('mustache');
 const path = require("path");
@@ -40,9 +40,8 @@ http.createServer((req, res) => {
 		parseImgDimension: true
 	});
 
-	// check to see if the URL is just 'blog' or 'blog.html', to serve the main blog page
-	if ((urlObj.pathname.split('/')[1] === 'blog.html' && !urlObj.pathname.split('/')[2])
-		|| (urlObj.pathname.split('/')[1] === 'blog' && !urlObj.pathname.split('/')[2])) {
+	// check to see if the URL is just 'blog', to serve the main blog page
+	if (urlObj.pathname.split('/')[1] === 'blog' && !urlObj.pathname.split('/')[2]) {
 		// CODE TO CREATE BLOG ENTRY PAGE
 		var view = {
 			"entries": []
@@ -80,6 +79,74 @@ http.createServer((req, res) => {
 		view.entries = view.entries.sortBy('n');
 		blog = mustache.render(template, view);
 		content = blog;
+	}
+
+	// rss feed
+	else if (req.url === '/blog/feed.xml') {
+		try {
+			responseCode = 200;
+
+			var view = {
+				"entries": []
+			}
+
+			const feed = new RSS({
+				title: 'Blog | Derek Andersen',
+				description: 'Derek Andersen\'s Blog',
+				feed_url: 'https://derekandersen.net/blog/feed.xml',
+				site_url: 'https://derekandersen.net/blog',
+				language: 'en',
+			});
+
+			const dir = '../blog-posts';
+			const files = fs.readdirSync(dir);
+
+			files.forEach(file => {
+			if (path.extname(file) == ".md") {
+					body = fs.readFileSync('../blog-posts/'+file, 'utf8');
+					html_body = converter.makeHtml(body);
+					metadata = converter.getMetadata();
+					title = metadata.title;
+					date = metadata.date;
+					number = metadata.number;
+					description = metadata.description;
+					finished = metadata.finished;
+					slug = path.basename(file, '.md');
+					if (finished === 'true') {
+						view.entries.push({html_body: html_body, title: title, slug: slug, date: date, n: number});
+					}
+				}
+			})
+
+			Array.prototype.sortBy = function(p) {
+				return this.slice(0).sort(function(a,b) {
+					return (a[p] < b[p]) ? 1 : (a[p] > b[p]) ? -1 : 0;
+				});
+			}
+			view.entries = view.entries.sortBy('n');
+			view.entries.slice(0, 5).forEach(post => {
+				feed.item({
+				title: post.title,
+				url: `https://derekandersen.net/blog/${post.slug}`,
+				guid: `https://derekandersen.net/blog/${post.slug}`,
+				date: post.date,
+				description: makeAbsoluteUrls(post.html_body), // full HTML content here
+				});
+			});
+			
+			const content = feed.xml({ indent: true });
+
+			res.writeHead(responseCode, {
+				//'content-type': 'text/xml', // dev (so you can read it in browser)
+				'content-type': 'application/rss+xml', // production
+			});
+			res.write(content);
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.log(err);
+		}
 	}
 
 	// check for /blog/tag urls
@@ -124,21 +191,7 @@ http.createServer((req, res) => {
 			content = blog;
 	}
 
-	else if (urlObj.pathname.endsWith('.xml')) {
-		try {
-			responseCode = 200;
-			content = fs.readFileSync('..'+urlObj.pathname);
-			res.writeHead(responseCode, {
-				'content-type': 'text/xml',
-			});
-			res.write(content);
-			res.end();
-			return;
-		}
-		catch (err) {
-			console.log(err);
-		}
-	}
+	
 
 	// individual blog posts
 	else if (urlObj.pathname.split('/')[1] === 'blog' && urlObj.pathname.split('/')[2]) {
@@ -359,4 +412,20 @@ function renderSecondaryPage (pagetitle, pagecontent) {
   template = fs.readFileSync('../templates/secondary-page.mustache', 'utf8');
   rendered = mustache.render(template, { pagetitle: pagetitle, pagecontent: pagecontent });
   return rendered;
+}
+
+// for converting relative urls in blog posts to absolute links (for rss feed only)
+function makeAbsoluteUrls(htmlContent) {
+  const baseUrl = 'https://derekandersen.net';
+
+  return htmlContent
+    // Fix image `src` attributes
+    .replace(/src=["'](?:\.\.\/)?(\/?static\/[^"']+)["']/g, (match, path) => {
+      return `src="${baseUrl}/${path.replace(/^\/+/, '')}"`;
+    })
+
+    // Fix anchor `href` attributes to internal blog links
+    .replace(/href=["']\/(blog\/[^"']+)["']/g, (match, path) => {
+      return `href="${baseUrl}/${path}"`;
+    });
 }

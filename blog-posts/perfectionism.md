@@ -7,7 +7,7 @@ tags: life, thoughts
 finished: true
 ---
 
-I decided to sit down and write this blog post about perfectionism—an idea I had jotted down in my 'Blog Post Ideas' document—precisely
+I decided to sit down and write this blog post about perfectionism — an idea I had jotted down in my 'Blog Post Ideas' document — precisely
 because I found myself tormented by my inner perfectionist all day. This seemed like a good mindset to be in to write this.
 I often get into a stagnant mental state where I'm stunted by perfectionism, which prevents me from doing the work I know I need to do.
 To give you a small example, I got hung up on thinking of a name for this blog post for a few minutes. I shouldn't be spending more than

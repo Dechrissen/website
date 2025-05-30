@@ -21,7 +21,7 @@ Instead, let's call it **essentialism**: holding onto what actually matters (to 
 Reframing it this way helps to paint the picture that minimalism's true purpose is to help you focus on things that matter,
 and to free you from distractions.
 
-Of course, if you have thousands of things, but you feel fulfilled in your life, it may not even make sense for you to make the assessment that you're too distracted or that you're focusing on material objects more than you'd like to be. Maybe you get value out of every single thing you own. Maybe there's a story behind every item you have, and looking at each one of them fills you with joy. Regardless, it's painfully apparent that too many of us are focused on the wrong things—a sad truth and a weakness capitalized on by corporations through marketing and advertising.
+Of course, if you have thousands of things, but you feel fulfilled in your life, it may not even make sense for you to make the assessment that you're too distracted or that you're focusing on material objects more than you'd like to be. Maybe you get value out of every single thing you own. Maybe there's a story behind every item you have, and looking at each one of them fills you with joy. Regardless, it's painfully apparent that too many of us are focused on the wrong things — a sad truth and a weakness capitalized on by corporations through marketing and advertising.
 I won't go so deep into my thoughts on the causes for this, but it's an important topic for a future blog entry.
 
 Going back to the idea of 'essentialism' as an alternate term, we can also see positive effects of minimalism in areas other than
@@ -34,12 +34,12 @@ truly adding value to your life. A classic (but helpful) example to illustrate t
 
 Of course, there's nothing wrong with leisure time, and if you enjoy using social media then that's OK. But after a certain time
 threshold, scrolling mindlessly through your news feed isn't adding value to your life. There's such a thing as "too much," and
-if we're able to identify the difference between activities that are moving us toward our goals vs. activities that are—after
-a certain point—wasting our time, we'd all lead lives that are generally more fulfilling.
+if we're able to identify the difference between activities that are moving us toward our goals vs. activities that are — after
+a certain point — wasting our time, we'd all lead lives that are generally more fulfilling.
 
 After we successfully narrow down our choices of activities we engage in, it opens up the doors to overall mental clarity.
 When we aren't spending our time doing things that don't contribute to our self-growth, we have more energy to devote
-to thinking about more important things. I think this is what helps contribute to a general feeling of motivation—when we
+to thinking about more important things. I think this is what helps contribute to a general feeling of motivation — when we
 have more time to think about the things we care about, our purpose becomes less fogged by extraneous thoughts.
 
 Again, this is easier said than done. This is why it's easier to start with identifying the physical clutter in your life.
