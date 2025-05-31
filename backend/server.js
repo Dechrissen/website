@@ -149,6 +149,54 @@ http.createServer((req, res) => {
 		}
 	}
 
+	// latest blog post
+	else if (req.url === '/blog/latest') {
+		try {
+			var view = {
+				"entries": []
+			}
+
+			const dir = '../blog-posts';
+			const files = fs.readdirSync(dir);
+
+			files.forEach(file => {
+			if (path.extname(file) == ".md") {
+					body = fs.readFileSync('../blog-posts/'+file, 'utf8');
+					html_body = converter.makeHtml(body);
+					metadata = converter.getMetadata();
+					title = metadata.title;
+					date = metadata.date;
+					number = metadata.number;
+					description = metadata.description;
+					finished = metadata.finished;
+					filename = path.basename(file, '.md');
+					if (finished === 'true') {
+						view.entries.push({f: filename, n: number});
+					}
+				}
+			})
+
+			// sort the entries in 'view' by their number (n)
+			Array.prototype.sortBy = function(p) {
+				return this.slice(0).sort(function(a,b) {
+					return (a[p] < b[p]) ? 1 : (a[p] > b[p]) ? -1 : 0;
+				});
+			}
+			view.entries = view.entries.sortBy('n');
+			const latestPost = view.entries[0].f; 
+			responseCode = 301; // for permanent redirect
+			res.writeHead(responseCode, {
+						Location: `/blog/${latestPost}`
+					});
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.log(err);
+		}
+	}
+
+
 	// check for /blog/tag urls
 	else if (urlObj.pathname.split('/')[1] === 'blog' && urlObj.pathname.split('/')[2] === 'tag' && urlObj.pathname.split('/')[3]) {
 		const requested_tag = urlObj.pathname.split('/')[3].trim().toLowerCase();
@@ -204,12 +252,12 @@ http.createServer((req, res) => {
 			metadata = converter.getMetadata();
 			tags = createTagArray(metadata.tags);
 			content = renderPost(metadata.title, metadata.date, tags, html_body);
-					res.writeHead(responseCode, {
-						'content-type': 'text/html;charset=utf-8',
-					});
-					res.write(content);
-					res.end();
-					return;
+			res.writeHead(responseCode, {
+				'content-type': 'text/html;charset=utf-8',
+			});
+			res.write(content);
+			res.end();
+			return;
 		}
 		catch (err) {
 			console.error(err);
