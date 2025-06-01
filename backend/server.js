@@ -40,16 +40,17 @@ http.createServer((req, res) => {
 		parseImgDimension: true
 	});
 
-	// check to see if the URL is just 'blog', to serve the main blog page
-	if (urlObj.pathname.split('/')[1] === 'blog' && !urlObj.pathname.split('/')[2]) {
-		// CODE TO CREATE BLOG ENTRY PAGE
+	// main blog landing page
+	if (req.url === '/blog') {
 		var view = {
-			"entries": []
+			pagetitle: "Blog",
+			pagecontent: "<h1>All posts</h1>",
+			"entries": [],
+			renderRss: true
 		}
 
 		const dir = '../blog-posts';
 		const files = fs.readdirSync(dir);
-
 		files.forEach(file => {
   		if (path.extname(file) == ".md") {
 				body = fs.readFileSync('../blog-posts/'+file, 'utf8');
@@ -69,13 +70,8 @@ http.createServer((req, res) => {
 		})
 
 		responseCode = 200;
-		template = fs.readFileSync('../templates/blog-page.mustache', 'utf8');
-		// sort the entries in 'view' by their number (n) before rendering
-		Array.prototype.sortBy = function(p) {
-			return this.slice(0).sort(function(a,b) {
-				return (a[p] < b[p]) ? 1 : (a[p] > b[p]) ? -1 : 0;
-			});
-		}
+		template = fs.readFileSync('../templates/main-page.mustache', 'utf8');
+		
 		view.entries = view.entries.sortBy('n');
 		blog = mustache.render(template, view);
 		content = blog;
@@ -118,11 +114,6 @@ http.createServer((req, res) => {
 				}
 			})
 
-			Array.prototype.sortBy = function(p) {
-				return this.slice(0).sort(function(a,b) {
-					return (a[p] < b[p]) ? 1 : (a[p] > b[p]) ? -1 : 0;
-				});
-			}
 			view.entries = view.entries.sortBy('n');
 			view.entries.slice(0, 5).forEach(post => {
 				feed.item({
@@ -176,12 +167,6 @@ http.createServer((req, res) => {
 				}
 			})
 
-			// sort the entries in 'view' by their number (n)
-			Array.prototype.sortBy = function(p) {
-				return this.slice(0).sort(function(a,b) {
-					return (a[p] < b[p]) ? 1 : (a[p] > b[p]) ? -1 : 0;
-				});
-			}
 			view.entries = view.entries.sortBy('n');
 			const latestPost = view.entries[0].f; 
 			responseCode = 301; // for permanent redirect
@@ -200,9 +185,11 @@ http.createServer((req, res) => {
 	// check for /blog/tag urls
 	else if (urlObj.pathname.split('/')[1] === 'blog' && urlObj.pathname.split('/')[2] === 'tag' && urlObj.pathname.split('/')[3]) {
 		const requested_tag = urlObj.pathname.split('/')[3].trim().toLowerCase();
-		// CODE TO CREATE TAG-SPECIFIC BLOG ENTRY PAGE
 		var view = {
-			"tagged_entries": []
+			pagetitle: `Posts tagged "${requested_tag}"`,
+			pagecontent: `<h1>Posts tagged "${requested_tag}"</h1>`,
+			"entries": [],
+			renderRss: true
 		}
 
 		const dir = '../blog-posts';
@@ -222,21 +209,19 @@ http.createServer((req, res) => {
 				filename = path.basename(file, '.md');
 				rendered = renderEntry(title, date, number, description, filename);
                 if (finished === 'true' && tags.some(tag => tag.name === requested_tag)) {
-    		        view.tagged_entries.push({r: rendered, n: number});
+    		        view.entries.push({r: rendered, n: number});
                 }
 			}
 		})
 		
-			responseCode = 200;
-			// sort the entries in 'view' by their number (n) before rendering
-			Array.prototype.sortBy = function(p) {
-				return this.slice(0).sort(function(a,b) {
-					return (a[p] < b[p]) ? 1 : (a[p] > b[p]) ? -1 : 0;
-				});
-			}
-			view.tagged_entries = view.tagged_entries.sortBy('n');
-			blog = renderDynamicTagPage(requested_tag, view.tagged_entries);
-			content = blog;
+		responseCode = 200;
+		view.entries = view.entries.sortBy('n');
+		if (view.entries.length == 0) {
+			view.entries.push({r: "<div>No results</div>"});
+		}
+		template = fs.readFileSync('../templates/main-page.mustache', 'utf8');
+		blog = mustache.render(template, view);
+		content = blog;
 	}
 
 	
@@ -265,10 +250,10 @@ http.createServer((req, res) => {
 	}
 
 	// main pages
-	else if ((mainPages.includes(urlObj.pathname.split('/')[1].split('.')[0]) && !urlObj.pathname.split('/')[2])) {
+	else if (mainPages.includes(req.url.split('/')[1])) {
 		try {
 		responseCode = 200;
-		var url_pagename = urlObj.pathname.split('/')[1].split('.')[0];
+		var url_pagename = req.url.split('/')[1].split('.')[0];
 		pagetitle = String(url_pagename).charAt(0).toUpperCase() + String(url_pagename).slice(1);
 		pagecontent = fs.readFileSync(`../mustache/${url_pagename}.mustache`, 'utf8');
 		content = renderMainPage(pagetitle, pagecontent);
@@ -285,10 +270,10 @@ http.createServer((req, res) => {
 	}
 
 	// secondary pages
-	else if ((secondaryPages.includes(urlObj.pathname.split('/')[1].split('.')[0]) && !urlObj.pathname.split('/')[2])) {
+	else if ((secondaryPages.includes(req.url.split('/')[1].split('.')[0]) && !req.url.split('/')[2])) {
 		try {
 		responseCode = 200;
-		var url_pagename = urlObj.pathname.split('/')[1].split('.')[0];
+		var url_pagename = req.url.split('/')[1].split('.')[0];
 		pagetitle = String(url_pagename).charAt(0).toUpperCase() + String(url_pagename).slice(1);
 		pagecontent = fs.readFileSync(`../mustache/${url_pagename}.mustache`, 'utf8');
 		content = renderSecondaryPage(pagetitle, pagecontent);
@@ -411,6 +396,13 @@ http.createServer((req, res) => {
 	.listen(config.PORT);
 
 
+// for blog posts, to sort the entries in 'view' by their number (n)
+Array.prototype.sortBy = function(p) {
+	return this.slice(0).sort(function(a,b) {
+		return (a[p] < b[p]) ? 1 : (a[p] > b[p]) ? -1 : 0;
+	});
+}
+
 // splits tags string from metadata.tags (e.g. "tag1, tag2, tag3") into an actual array of tag objects
 // each item in the array is a js object with {name, url, isLast} parameters
 // isLast is for checking whether a tag in the array is the last or not; if it is, we won't add the ", " in the html
@@ -438,13 +430,6 @@ function renderPost (title, date, tags, body) {
 function renderEntry (title, date, number, description, filename) {
   template = fs.readFileSync('../templates/blog-list-entry.mustache', 'utf8');
   rendered = mustache.render(template, { title: title, date: date, number: number, description: description, filename: filename });
-  return rendered;
-}
-
-// Returns the rendered HTML of a blog entry for the blog page
-function renderDynamicTagPage (requested_tag, tagged_entries) {
-  template = fs.readFileSync('../templates/blog-tag-page.mustache', 'utf8');
-  rendered = mustache.render(template, { tag: requested_tag, tagged_entries: tagged_entries });
   return rendered;
 }
 

@@ -8,7 +8,7 @@ body {
   font-family: "Alegreya", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   line-height: 135%;
   text-align: justify;
   hyphens: none;
@@ -34,7 +34,7 @@ body {
   --btn-toggle-color: black;
   --link-color: #2b45a1;
   --highlight-color: #85cec3;
-  --code-block-bkg-color: lightgrey;
+  --code-block-bkg-color: black;
 }
 
 body {
@@ -48,9 +48,15 @@ pre,
 li,
 td,
 blockquote,
-hr,
-code {
+hr {
   color: var(--text-color);
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+pre > code {
+  color: white;
 }
 
 a:link,
@@ -152,14 +158,18 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
 }
 
+.blog-wrapper h1 {
+  padding-top: 1.5rem;
+}
+
 h1 {
-  font-size: 125%;
+  font-size: 135%;
 }
 h2 {
   font-size: 110%;
 }
 h3 {
-  font-size: 105%;
+  font-size: 100%;
 }
 h4 {
   font-size: 100%;
@@ -217,8 +227,7 @@ table.projects td {
 }
 
 p.error {
-  font-size: 150%;
-  font-family: "Cascadia Code", monospace;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   padding: 1rem;
   margin: 1rem;
@@ -407,6 +416,7 @@ pre.blog-date {
 This selector targets <pre> blocks that are parents to a <code> element. */
 pre:has(> code) {
   background: var(--code-block-bkg-color);
+  padding: 1rem;
 }
 
 .blog-wrapper #top-back-button {
