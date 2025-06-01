@@ -40,8 +40,14 @@ http.createServer((req, res) => {
 		parseImgDimension: true
 	});
 
+	if (req.url === '/') {
+  		res.writeHead(302, { Location: '/home' });
+  		res.end();
+		return;
+	}
+
 	// main blog landing page
-	if (req.url === '/blog') {
+	else if (req.url === '/blog') {
 		var view = {
 			pagetitle: "Blog",
 			pagecontent: "<h1>All posts</h1>",
@@ -169,7 +175,7 @@ http.createServer((req, res) => {
 
 			view.entries = view.entries.sortBy('n');
 			const latestPost = view.entries[0].f; 
-			responseCode = 301; // for permanent redirect
+			responseCode = 302; // for temporary redirect
 			res.writeHead(responseCode, {
 						Location: `/blog/${latestPost}`
 					});
