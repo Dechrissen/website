@@ -31,23 +31,26 @@
     </nav>
     <div class="content">
 
-    {{{pagecontent}}}
+      {{{pagecontent}}}
 
-    <!-- for main blog landing page or blog tag pages -->
-    {{#entries}}
-      {{{r}}}
-    {{/entries}}
+      <!-- for main blog landing page or blog tag pages -->
+      {{#entries}}
+        {{{r}}}
+      {{/entries}}
 
-    <!--using a span for the rss link below allows me to skip using a 'clear' class to reset the float right-->
-    {{#renderRss}}
-      <span id="rss" class="right"><a href="/blog/feed.xml">RSS Feed</a></span>
-    {{/renderRss}}
+      {{#renderRss}}
+        <div class="rss-container">
+          <div class="right"><a href="/blog/feed.xml">RSS Feed</a></div>
+          <div class="clear"></div>
+        </div>
+      {{/renderRss}}
       
     </div>
 
     <footer>
-      <script type="text/javascript" src="/javascript/footer.js"></script>
+      <div>Website by Derek Andersen</div>
     </footer>
+
   </div>
 </body>
 </html>

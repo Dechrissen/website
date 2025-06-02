@@ -7,9 +7,7 @@
     <meta name="author" content="Derek Andersen">
     <meta name="description" content="{{title}}">
     <link rel="stylesheet" type="text/css" href="/styles/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src='/javascript/header.js'></script>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />-->
     <!--<script src='/javascript/color-theme-toggle.js'></script>-->
     <title>{{title}} | Derek Andersen</title>
   </head>
@@ -26,11 +24,16 @@
       <p class="signature">&#8212; Derek Andersen</p>
       <br>
 
-      <p class="blog-tags">Tags: 
-      {{#tags}}
-        <a href="{{url}}">{{name}}</a>{{^isLast}}, {{/isLast}}
-      {{/tags}}
-      </p>
+      <div class="rss-container">
+        <div class="blog-tags left">Tags: 
+          {{#tags}}
+            <a href="{{url}}">{{name}}</a>{{^isLast}}, {{/isLast}}
+          {{/tags}}
+        </div>
+        <div id="rss" class="right"><a href="/blog/feed.xml">RSS Feed</a></div>
+        <div class="clear"></div>
+      </div>
+      
 
       <p>
         <a href="/blog">&#8592; All posts</a>

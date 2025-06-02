@@ -163,7 +163,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size: 135%;
+  font-size: 130%;
 }
 h2 {
   font-size: 110%;
@@ -179,7 +179,7 @@ h4 {
   margin-bottom: 1rem;
 }
 
-#rss {
+.rss-container {
   margin-top: 0.5rem;
 }
 
@@ -200,30 +200,6 @@ ul.compact-list {
 .compact-list > li {
   margin: 5px;
   hyphens: none;
-}
-
-td.project-name {
-  width: 30%;
-  vertical-align: center;
-  text-align: left;
-}
-
-td.project-name > a {
-  font-weight: normal;
-  hyphens: none;
-}
-
-table.projects {
-  margin-top: 1.5em;
-  padding-top: 1em;
-  border: 1px solid black;
-  border-collapse: collapse;
-  border-style: solid;
-}
-
-table.projects td {
-  padding: 0.5em;
-  border: 1px solid black;
 }
 
 p.error {
