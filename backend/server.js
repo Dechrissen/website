@@ -393,6 +393,22 @@ http.createServer((req, res) => {
 		}
 	}
 
+	else if (urlObj.pathname.endsWith('.html')) {
+		try {
+			responseCode = 200;
+			content = fs.readFileSync('..'+urlObj.pathname);
+			res.writeHead(responseCode, {
+				'content-type': 'text/html;charset=utf-8',
+			});
+			res.write(content);
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.log(err);
+		}
+	}
+
 	res.writeHead(responseCode, {
 		'content-type': 'text/html;charset=utf-8',
 	});
