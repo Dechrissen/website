@@ -3,7 +3,7 @@ title: My First Website Project
 date: 28 August 2020
 number: 01
 description: The major takeaways of my first website project.
-tags: webdev, programming, projects
+tags: webdev, programming, projects, speedrunning
 finished: true
 ---
 

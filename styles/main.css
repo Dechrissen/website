@@ -73,7 +73,7 @@ a:hover {
   background-color: transparent;
 }
 .navbar a,
-.topwrapper a {
+.top a {
   color: var(--text-color);
 }
 p.blog-title {
@@ -120,7 +120,6 @@ img.portrait {
   text-align: center;
   position: relative;
   padding: 0px;
-  background: #f2f2f2;
 }
 
 footer {
@@ -175,7 +174,7 @@ h4 {
   font-size: 100%;
 }
 
-#top-home-button {
+#top-back-button {
   margin-bottom: 1rem;
 }
 
@@ -204,9 +203,6 @@ ul.compact-list {
 
 p.error {
   font-family: 'Courier New', Courier, monospace;
-  text-align: center;
-  padding: 1rem;
-  margin: 1rem;
   color: black;
 }
 
@@ -235,7 +231,7 @@ a:active {
   text-decoration: underline;
 }
 
-div.topwrapper {
+div.top {
   margin-left:auto;
   margin-right:auto;
   width: 80%;
@@ -374,11 +370,6 @@ pre.blog-date {
   border: 1px solid grey;
   border-radius: 0px;
   padding: 0px;
-  /*box-shadow: 5px 5px 5px #000;
-  -moz-box-shadow: 5px 5px 5px #000;
-  -webkit-box-shadow: 5px 5px 5px #000;
-  -khtml-box-shadow: 5px 5px 5px #000;*/
-  background: grey;
 }
 
 .blog-wrapper blockquote {

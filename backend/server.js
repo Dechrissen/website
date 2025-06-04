@@ -12,12 +12,16 @@ const config = require("./config.json");
 
 // create webserver
 http.createServer((req, res) => {
+	// 404 fallback
 	let responseCode = 404;
-	let content = fs.readFileSync('../404.html');
-	const urlObj = url.parse(req.url, true);
-	console.log('Browser requested '+urlObj.pathname);
+	template = fs.readFileSync('../templates/main-page.mustache', 'utf8');
+	pagecontent = fs.readFileSync(`../mustache/404.mustache`, 'utf8');
+	let content = mustache.render(template, {pagetitle: '404', pagecontent: pagecontent});
 
-	var mainPages = ['home', 'about', 'projects', 'links', 'contact'];
+	const urlObj = url.parse(req.url, true);
+	console.log('Browser requested ' + urlObj.pathname);
+
+	var mainPages = ['about', 'projects', 'links', 'contact']; // excluding blog as it's handled separately
 	var secondaryPages = ['support', 'solus', 'daisy', 'endorsements'];
 
 	// class map to map html tags to certain classes so that css can select them
@@ -40,10 +44,22 @@ http.createServer((req, res) => {
 		parseImgDimension: true
 	});
 
-	if (req.url === '/') {
-  		res.writeHead(302, { Location: '/home' });
-  		res.end();
-		return;
+	if ((req.url === '/' || req.url === '/home')) {
+  		try {
+		responseCode = 200;
+		pagetitle = 'Home'
+		pagecontent = fs.readFileSync(`../mustache/home.mustache`, 'utf8');
+		content = renderMainPage(pagetitle, pagecontent);
+				res.writeHead(responseCode, {
+					'content-type': 'text/html;charset=utf-8',
+				});
+				res.write(content);
+				res.end();
+				return;
+		}
+			catch (err) {
+				console.error(err);
+		}
 	}
 
 	// main blog landing page
@@ -256,7 +272,7 @@ http.createServer((req, res) => {
 	}
 
 	// main pages
-	else if (mainPages.includes(req.url.split('/')[1])) {
+	else if (mainPages.includes(req.url.split('/')[1]) && !req.url.split('/')[2]) {
 		try {
 		responseCode = 200;
 		var url_pagename = req.url.split('/')[1].split('.')[0];
