@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/static/images/pixel_coffee_mug.png">
+    <meta name="author" content="Derek Andersen">
+    <meta name="description" content="{{title}}">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css" />
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />-->
+    <!--<script src='/javascript/color-theme-toggle.js'></script>-->
+    <title>{{pagetitle}} | Derek Andersen</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <p id="top-back-button">
+            <a href="/home" onclick="history.back(); return false;">&#8592; Back</a>
+        </p>
+
+        {{{pagecontent}}}
+      
+
+        <footer>
+            <div>Website by Derek Andersen</div>
+        </footer>
+      </div>
+    </div>
+
+    
+  </body>
+</html>

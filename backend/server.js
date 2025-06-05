@@ -311,6 +311,28 @@ http.createServer((req, res) => {
 		}
 	}
 
+	// markdown (md) pages
+	else if (urlObj.pathname.split('/')[1] === 'md' && urlObj.pathname.split('/')[2]) {
+		selection = urlObj.pathname.split('/')[2];
+		try {
+			responseCode = 200;
+			body = fs.readFileSync(`../md/${selection}.md`, 'utf8');
+			html_body = converter.makeHtml(body);
+			// showdown (markdown) converter for mapping html tags to certain classes
+			metadata = converter.getMetadata();
+			content = renderMD(metadata.title, html_body);
+			res.writeHead(responseCode, {
+				'content-type': 'text/html;charset=utf-8',
+			});
+			res.write(content);
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.error(err);
+		}
+	}
+
 	// games pages
 	else if (urlObj.pathname.split('/')[1] === 'games' && urlObj.pathname.split('/')[2]) {
 		game = urlObj.pathname.split('/')[2].split('.')[0];
@@ -461,6 +483,13 @@ function createTagArray (tags_string) {
 function renderPost (title, date, tags, body) {
   template = fs.readFileSync('../templates/blog-post.mustache', 'utf8');
   rendered = mustache.render(template, { title: title, date: date, tags: tags, body: body });
+  return rendered;
+}
+
+// Returns the rendered HTML of a markdown page
+function renderMD (pagetitle, pagecontent) {
+  template = fs.readFileSync('../templates/md.mustache', 'utf8');
+  rendered = mustache.render(template, { pagetitle: pagetitle, pagecontent: pagecontent });
   return rendered;
 }
 

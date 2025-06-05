@@ -1,4 +1,9 @@
 @import url('fonts.css');
+/*@import url('dark-mode.css');*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 html {
   background-color: white;
@@ -100,7 +105,6 @@ div.content {
 
 div.blog-wrapper {
   width: 80%;
-  text-align: justify;
   margin-left: 4rem;
   margin-right: 4rem;
   padding-bottom: 18rem;
@@ -353,7 +357,7 @@ p.signature {
 }
 
 pre.blog-date {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   font-family: "Alegreya", serif;
 }
 
@@ -402,6 +406,91 @@ pre:has(> code) {
   background: black; /* Gecko Browsers */
 }
 
+/* MOBILE DEVICE FIXES */
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+  }
 
-@import url('dark-mode.css');
-@import url('responsive.css');
+  h1,h2,h3,h4,h5,h6 {
+    text-align: left;
+  }
+
+  .blog-date {
+    font-size: 1.3rem;
+  }
+
+  div.content,
+  div.blog-wrapper,
+  div.wrapper,
+  .navbar,
+  div.top {
+    width: 95% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.top {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .navbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .navbar a {
+    display: inline-block;
+    width: auto;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+
+  img.portrait {
+    width: 100%;
+    height: auto;
+  }
+
+  .blog-wrapper img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .blog-entry-date {
+    display: none;
+  }
+
+
+  ul, ol {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: .5rem; /* indent for bullets/numbers */
+    list-style-position: inside; /* makes bullets line up with text */
+  }
+
+  li {
+    margin: 0.5rem 0 !important;
+    padding: 0 !important;
+    text-indent: 0;
+    text-align: left;
+  }
+
+  pre {
+    font-size: 1rem;
+    overflow-x: auto;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 2rem 0;
+  }
+}
