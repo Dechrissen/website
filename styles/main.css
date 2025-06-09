@@ -140,7 +140,7 @@ h1.name {
   font-family: "Alegreya", serif;
   margin-bottom: 0px;
   margin-top: 0;
-  font-size: 200%;
+  font-size: 2.5rem;
 }
 
 /*For floating text to the left or right of a line.
@@ -166,20 +166,21 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size: 130%;
+  font-size: 1.85rem;
 }
 h2 {
-  font-size: 110%;
+  font-size: 1.5rem;
 }
 h3 {
-  font-size: 100%;
+  font-size: 1.25rem;
 }
 h4 {
-  font-size: 100%;
+  font-size: 1rem;
 }
 
 #top-back-button {
   margin-bottom: 1rem;
+  margin-top: 0;
 }
 
 .rss-container {
@@ -340,7 +341,7 @@ pre {
 p.blog-title {
   font-family: "Alegreya", serif;
   font-weight: 600;
-  font-size: 150%;
+  font-size: 2.25rem;
   line-height: 150%;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
@@ -369,10 +370,7 @@ pre.blog-date {
   margin-right: auto;
   width: 75%;
   text-align: center;
-  /* border */
   position: relative;
-  border: 1px solid grey;
-  border-radius: 0px;
   padding: 0px;
 }
 
@@ -422,8 +420,28 @@ pre:has(> code) {
     text-align: left;
   }
 
-  .blog-date {
+  h1 {
+    font-size: 1.6rem;
+  }
+  h2 {
     font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+
+  /* mostly so the logo doesn't overflow the div.top on mobile */
+  h1.name {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    word-break: break-word;
+    box-sizing: border-box;
   }
 
   div.content,
@@ -434,6 +452,10 @@ pre:has(> code) {
     width: 95% !important;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  div.wrapper {
+    padding: 0rem 0rem 6rem 0rem;
   }
 
   div.top {
@@ -451,7 +473,7 @@ pre:has(> code) {
   .navbar a {
     display: inline-block;
     width: auto;
-    padding: 0.5rem 1rem;
+    padding: 0rem 1rem;
     text-align: center;
   }
 
@@ -465,10 +487,31 @@ pre:has(> code) {
     max-width: 100%;
   }
 
+  .blog-date {
+    font-size: 1.3rem;
+  }
+
   .blog-entry-date {
     display: none;
   }
 
+  p.blog-title {
+    text-align: left;
+    font-size: 2rem;
+  }
+
+  div.blog-tags,
+  div#rss {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+  ul.compact-list, ol.compact-list {
+    line-height: 1.6rem;
+  }
 
   ul, ol {
     margin-left: 0 !important;
@@ -480,7 +523,6 @@ pre:has(> code) {
   li {
     margin: 0.5rem 0 !important;
     padding: 0 !important;
-    text-indent: 0;
     text-align: left;
   }
 
