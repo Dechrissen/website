@@ -58,3 +58,12 @@ Party breakdown:
 - Golem / Rock Slide, Mega Punch, Fire Punch, Earthquake
 - Kingler / Surf, Crabhammer, Vicegrip, Blizzard
 - Snorlax / Body Slam, Ice Punch, Amnesia, Rest
+
+## Entry 4
+Version: Ruby
+
+Date: Around October 2023
+
+Party: Sceptile, Zangoose, Flygon, Ninetales, Sharpedo, Claydol
+
+Notes: This one I don't remember much about, as I'm trying to write this entry nearly two years later. But this is a pretty standard party for Gen 3, I feel — the Ninetales is maybe the standout here. If I remember correctly, I was missing some Flying-type coverage because of the lack of Electric/Ice moves, so Claydol's Ancientpower was my only Flying-type coverage, unless I'm misremembering.
