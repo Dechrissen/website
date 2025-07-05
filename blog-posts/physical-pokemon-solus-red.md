@@ -3,17 +3,17 @@ title: A Physical Copy of Pokémon Solus Red Appears
 date: 16 April 2025
 number: 36
 description: A real-life box and cartridge for Pokémon Solus Red.
-tags: pokemon, projects, games, solus
+tags: pokemon, projects, games, gameboy, solus
 finished: true
 ---
 
-![solus red spine](../static/images/physical-solus/solus-red-spine.jpeg "solus red spine")
+![solus red spine](../static/images/physical-solus-red/solus-red-spine.jpeg "solus red spine")
 
 I always thought it would be cool to develop a video game and then be able to make physical copies of it. So naturally when I finished my Gen 1 romhack project, it became apparent to me that I'd be able to do that. Granted, it's not as cool as making physical copies of a game I developed from scratch (this is a modification of a pre-existing game after all) but it's still something that excites me.
 
 # Custom box
 
-If you've been following the project, you might've seen my amateur attempts at custom box fronts for each of the three games (Solus Red, Green, and Blue) which I created using some templates I found on DeviantArt by an artist named [Jade Lune](https://systemrift.com/) (who no longer uses DeviantArt, so I've linked to her website). The templates were essentially minimalized versions of the original North American box fronts, with some of the text removed (like "Gotta Catch 'Em All"), the ESRB rating removed, and the artwork redrawn from scratch so it looks a lot more clean. If you wanna check those out, they're [here](https://github.com/Dechrissen/poke-solus-rgb/tree/master/physical/old).
+If you've been following the project, you might've seen my amateur attempts at custom box fronts for each of the three games (Solus Red, Green, and Blue) which I created using some templates I found on DeviantArt by an artist named [Jade Lune](https://systemrift.com/) (who no longer uses DeviantArt, so I've linked to her website). The templates were essentially minimalized versions of the original North American box fronts, with some of the text removed (like "Gotta Catch 'Em All"), the ESRB rating removed, and the artwork redrawn from scratch so it looks a lot more clean.
 
 But I wasn't really thrilled about those. They came out pretty good in the sense that they're minimal and still like the originals, but I wanted something more custom in order to give the project its own identity.
 
@@ -23,8 +23,8 @@ I _do_ like the idea of possibly working on creating OEM-style cardboard Game Bo
 
 I've liked this company [customgamecases.com](https://www.customgamecases.com/) for a few years now, and so I knew I wanted to use their Game Boy boxes — they are exactly like DS boxes, except they hold Game Boy carts inside. They're good quality, I recommend them. And it turns out that they will print a custom insert for those boxes if you provide the file.
 
-![solus red front](../static/images/physical-solus/solus-red-front.jpeg "solus red front")
-![solus red back](../static/images/physical-solus/solus-red-back.jpeg "solus red back")
+![solus red front](../static/images/physical-solus-red/solus-red-front.jpeg "solus red front")
+![solus red back](../static/images/physical-solus-red/solus-red-back.jpeg "solus red back")
 
 ## Cover and back design philosophy
 
@@ -48,13 +48,13 @@ I ended up choosing not to, though, for two reasons:
 
 So I found a seller on Etsy who sells SRAM Game Boy cart PCBs, and they ended up being _really nice_ (and a bit cheaper) so I ordered some. They use a soldered-on battery clip for the save battery, so it'll be easy to replace it down the line.
 
-![solus red pcb](../static/images/physical-solus/solus-red-pcb.jpeg "solus red pcb")
+![solus red pcb](../static/images/physical-solus-red/solus-red-pcb.jpeg "solus red pcb")
 
 For the cartridge shell, I knew I wanted original DMG-style carts. But I couldn't decide whether I wanted something OEM-looking (grey or black) or non-OEM-looking (clear, colored translucent, etc.). If you've read any of my other blog posts, you might have come across my philosophy for reproduction/unofficial cartridges, which says "they should somehow indicate obviously that they are unofficial by using a differently-colored shell or custom label or something". There was going to be a custom label anyway, but I decided to make it doubly-custom; I went with a clear shell.
 
 That brings me to the label — in my [last post](https://www.derekandersen.net/blog/mother-3-cartridge) I talked about a custom Mother 3 GBA cartridge I made. For its label, I bought from a seller on Etsy (because I wanted to vet the quality of his labels since I knew I might use them for this project). Turns out, they're really high quality, so I used him again for this Solus label. It's holographic too because I thought that was cool, and adds another layer of custom-ness to my crazy cartridge philosophy.
 
-![solus red cart](../static/images/physical-solus/solus-red-cart.jpeg "solus red cart")
+![solus red cart](../static/images/physical-solus-red/solus-red-cart.jpeg "solus red cart")
 
 # A potential addition
 

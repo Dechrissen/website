@@ -208,6 +208,7 @@ ul.compact-list {
 
 p.error {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
   color: black;
 }
 

@@ -3,7 +3,7 @@ title: Pokémon Team Archive
 ---
 
 # Pokémon Team Archive
-For a few years now, I've wanted to create a page where I could archive teams I use in my Pokémon game playthroughs. I thought it would be nice to be able to look back on them whenever I wanted. In 2025, I'm finally deciding to put this page together which I can append to using journal-style entries.
+For a few years now, I've wanted to create a page where I could archive teams I use in my Pokémon game playthroughs. I thought it would be fun to be able to look back on them whenever I wanted. In 2025, I'm finally deciding to put this page together which I can append to using journal-style entries. I'm not interested in keeping track of my teams from the newer games (past Gen 6 probably — but more realistically I will keep track of Gen 1 through 4, since those are the ones I like to play).
 
 ## Entry 1
 Version: Gold
