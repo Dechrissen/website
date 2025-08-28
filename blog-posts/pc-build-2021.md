@@ -123,14 +123,14 @@ In terms of performance, it's been great! No issues so far, moving and loading a
 For the purpose of eternalizing a parts list for this build that I can quickly refer to if I need to, here's that:
 
 - CPU: AMD Ryzen 5 5600G with Radeon Graphics (6-core) @ 3.9GHz
-- RAM: 16 GB Crucial Ballistix DDR4 @ 3600Mhz
+- RAM: 16GB Crucial Ballistix DDR4 @ 3600MHz
 - GPU: AMD Radeon integrated graphics
 - Motherboard: ASUS Prime B550-Plus ATX
 - Power supply: Super Flower Leadex III Gold 750W
 - CPU cooler: Noctua NH-U12S 120mm single tower
 - Case: Fractal Design Meshify C
 - OS: Ubuntu Linux 20.04.3 LTS
-- System drive: Western Digital Black 500 GB NVMe PCIe Gen 4.0 M.2 SSD
-- Storage drive: Samsung EVO 120 GB SATA SSD
+- System drive: Western Digital Black 500GB NVMe PCIe Gen 4.0 M.2 SSD
+- Storage drive: Samsung EVO 120GB SATA SSD
 
 By the way, I put a nonzero amount of effort into taking photos for this post. I hope to improve my photography and photo editing in the future, just for fun. Did I do OK?
