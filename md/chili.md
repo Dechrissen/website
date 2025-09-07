@@ -14,7 +14,7 @@ title: Derek's Turkey Chili
 - 1 package of ground turkey (1 lb)
 - 1 can of black beans
 - 1 can of kidney beans
-- 1 can of diced tomatoes
+- 1 can of [diced tomatoes](https://www.ro-tel.com/products/original)
 - 1/3 cup (or so) of salsa
 - 1 medium sweet potato
 - 1 zucchini
