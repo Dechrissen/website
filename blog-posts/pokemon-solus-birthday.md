@@ -21,11 +21,28 @@ Here are some things that happened...
 - I got a lot of [nice feedback](https://github.com/Dechrissen/poke-solus-rgb/blob/master/docs/TESTIMONIALS.md) from people who appreciated the project's direction;
 - Someone published a [positive video review](https://www.youtube.com/watch?v=q9GN91qOWnY) showcasing the romhack;
 - A French speaker [translated the romhack into French](https://github.com/persuaded9041/poke-solus-fr) and completed the Pokédex;
+- The romhack received **over 5,000 downloads** across all trackable download sources;
 - I got to chat with some cool people who joined the [Solus Discord server](https://discord.gg/YTxu5uM7r6);
 - I worked with an artist to have [custom box and cartridge label artwork](https://github.com/Dechrissen/poke-solus-rgb/blob/master/physical) commissioned, and I made [three physical copies](/blog/physical-pokemon-solus-rgb);
 - I was able to play and enjoy my own romhack on more than one occassion — the parties I used are logged in my [Pokémon Team Archive](/md/pokemon-teams).
 
 One of the benefits of writing is that it can force you to reflect. If I hadn't chosen to write this post, I really wouldn't have had an opportunity to see all of these things collected in one place. Glad I did! I've said it before, but I'm very happy with this project's outcome.
+
+For clarity, here's how I'm getting to "over 5,000 downloads" in my list above:
+
+- GitHub downloads: 4,444
+    - v1.0: 524
+    - v1.1: 442
+    - v1.2: 139
+    - v1.3: 381
+    - v1.4: 2,500
+    - v1.5: 458
+- romhacking.net downloads: 126
+- RomhackPlaza downloads: 866
+
+This doesn't include downloads from other websites which host their own romhack downloads, such as [visualboyadvance.org](https://visualboyadvance.org/?post_type=post&s=solus) for example. This seems to be a fairly popular site for downloading romhacks, since it allows users to download pre-patched ROMs. Assuming (for the sake of estimating) that it's more popular than RomhackPlaza, let's say it's at roughly 1,000 downloads across all three versions. If that's the case, that puts our total at over 6,000 downloads! But that's just an estimate — I'll stick with what I can be sure of, and that's over 5,000. :)
+
+Notably, the download totals for v1.4 on GitHub were the highest at 2.5K! This is likely a result of the 1.4 patch being released around the same time as the [trailer](https://www.youtube.com/watch?v=SMto-WaTL4s).
 
 # Plans for the Solus project
 
