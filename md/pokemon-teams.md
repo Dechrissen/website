@@ -67,3 +67,21 @@ Date: Around October 2023
 Party: Sceptile, Zangoose, Flygon, Ninetales, Sharpedo, Claydol
 
 Notes: This one I don't remember much about, as I'm trying to write this entry nearly two years later. But this is a pretty standard party for Gen 3, I feel — the Ninetales is maybe the standout here. If I remember correctly, I was missing some Flying-type coverage because of the lack of Electric/Ice moves, so Claydol's Ancientpower was my only Flying-type coverage, unless I'm misremembering.
+
+## Entry 5
+Version: Let's Go (Eevee)
+
+Date: November 2018
+
+Party: Tauros (_Motley_), Magneton (_Trinitron_), Nidoking (_Giovanni_), Jynx (_Elysia_), Ninetales (_Lusamine_), Gyarados (_Mahogany_)
+
+Notes: I booted up my original save of Let's Go (in October 2025) because I plan to replay it soon and I wanted to check what my party was. Turns out this save is from 2018 — seven years ago! For that reason, I don't remember much about how this party played, but looking at it, I think it's pretty cool. I think after I was well into the game, I realized you aren't required to use your starter (Pikachu/Eevee) as part of your party, so it's either the case that I scrapped it and added a new member at that point, or this is my second playthrough altogether. Not sure.
+
+Party breakdown:
+
+- Tauros / Double-Edge, Outrage, Thrash, Facade
+- Magneton / Light Screen, Thunderbolt, Thunder, Flash Cannon
+- Nidoking / Poison Jab, Earthquake, Superpower, Megahorn
+- Jynx / Ice Beam, Blizzard, Lovely Kiss, Psychic
+- Ninetales / Will-O-Wisp, Confuse Ray, Flamethrower, Dark Pulse
+- Gyarados / Waterfall, Hyper Beam, Crunch, Outrage
