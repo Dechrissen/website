@@ -43,7 +43,7 @@ Here are some pics.
 
 # Limitations
 
-Currently, I don't have a way to do pull-ups, which is something I'd like to be able to do. There are more featured racks available that have a bar across the top which can be used for pull-ups, but I couldn't get one of those due to the height of the basement ceiling (too short).
+Currently, I don't have a way to do pull-ups, which is something I'd like the setup to accommodate. There are more featured racks available that have a bar across the top which can be used for pull-ups, but I couldn't get one of those due to the height of the basement ceiling (too short).
 
 I will try to find a solution to the pull-up issue eventually — maybe I can get a dedicated pull-up bar. For now, I'm focusing on bench press, squats, and dead lifts.
 

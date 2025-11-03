@@ -7,6 +7,8 @@ tags: solus, pokemon, projects, games, gameboy
 finished: true
 ---
 
+![Pokémon Solus first birthday](../static/images/solus-first-birthday.png "Pokémon Solus first birthday")
+
 Today marks the first birthday of [Pokémon Solus RGB](/solus), my romhack of Pokémon Red and Blue. On 11 September 2024, I released the first version of the romhack; one year later, the current release is up to version 1.5 and it's _officially complete_ (aside from a few tweaks I'd like to make to the repository to allow for some custom build options).
 
 # Happy birthday, Solus
