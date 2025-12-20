@@ -1,5 +1,5 @@
 ---
-title: TeamGen's Initial Release
+title: Unveiling TeamGen
 date: 18 December 2025
 number: 45
 description: The initial release of my Pokémon team generator tool.
