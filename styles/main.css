@@ -144,6 +144,12 @@ h1.name {
   font-size: 2.5rem;
 }
 
+.project-list .desc {
+  display: block;
+  max-width: 45ch;
+  overflow-wrap: break-word;
+}
+
 /*For floating text to the left or right of a line.
 clear is necessary so that the following line ignores
 the previous float.*/

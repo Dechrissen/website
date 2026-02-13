@@ -16,13 +16,19 @@ http.createServer((req, res) => {
 	let responseCode = 404;
 	template = fs.readFileSync('../templates/main-page.mustache', 'utf8');
 	pagecontent = fs.readFileSync(`../mustache/404.mustache`, 'utf8');
-	let content = mustache.render(template, {pagetitle: '404', pagecontent: pagecontent});
+	footer =  fs.readFileSync(`../mustache/footer.mustache`, 'utf8');
+	let content = mustache.render(template, {pagetitle: '404', pagecontent: pagecontent, footer: footer});
+
+	// Base headers
+	const headers = {
+		'content-type': 'text/html;charset=utf-8',
+	};
 
 	const urlObj = url.parse(req.url, true);
 	console.log('Browser requested ' + urlObj.pathname);
 
 	var mainPages = ['about', 'projects', 'links', 'contact']; // excluding blog as it's handled separately
-	var secondaryPages = ['support', 'solus', 'daisy', 'endorsements'];
+	var secondaryPages = ['support', 'solus', 'daisy', 'endorsements', 'software'];
 
 	// class map to map html tags to certain classes so that css can select them
 	// this makes all the <p> tags in the blog posts "text" class
@@ -30,11 +36,11 @@ http.createServer((req, res) => {
 		p : 'text'
 	}
 	const bindings = Object.keys(classMap)
-	.map(key => ({
-	type: 'output',
-	regex: new RegExp(`<${key}>`, 'g'),
-	replace: `<${key} class="${classMap[key]}">`
-	}));
+		.map(key => ({
+			type: 'output',
+			regex: new RegExp(`<${key}>`, 'g'),
+			replace: `<${key} class="${classMap[key]}">`
+		}));
 
 	// make a new showdown converter with the bindings from the class map
 	converter = new showdown.Converter({
@@ -49,7 +55,7 @@ http.createServer((req, res) => {
 		responseCode = 200;
 		pagetitle = 'Home'
 		pagecontent = fs.readFileSync(`../mustache/home.mustache`, 'utf8');
-		content = renderMainPage(pagetitle, pagecontent);
+		content = renderMainPage(pagetitle, pagecontent, footer);
 				res.writeHead(responseCode, {
 					'content-type': 'text/html;charset=utf-8',
 				});
@@ -68,7 +74,8 @@ http.createServer((req, res) => {
 			pagetitle: "Blog",
 			pagecontent: "<h1>All posts</h1>",
 			"entries": [],
-			renderRss: true
+			renderRss: true,
+			footer: footer
 		}
 
 		const dir = '../blog-posts';
@@ -177,10 +184,10 @@ http.createServer((req, res) => {
 					body = fs.readFileSync('../blog-posts/'+file, 'utf8');
 					html_body = converter.makeHtml(body);
 					metadata = converter.getMetadata();
-					title = metadata.title;
-					date = metadata.date;
+					// title = metadata.title;
+					// date = metadata.date;
 					number = metadata.number;
-					description = metadata.description;
+					// description = metadata.description;
 					finished = metadata.finished;
 					filename = path.basename(file, '.md');
 					if (finished === 'true') {
@@ -194,6 +201,46 @@ http.createServer((req, res) => {
 			responseCode = 302; // for temporary redirect
 			res.writeHead(responseCode, {
 						Location: `/blog/${latestPost}`
+					});
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.log(err);
+		}
+	}
+
+	// random blog post
+	else if (req.url === '/blog/random') {
+		try {
+			var view = {
+				"entries": []
+			}
+
+			const dir = '../blog-posts';
+			const files = fs.readdirSync(dir);
+
+			files.forEach(file => {
+			if (path.extname(file) == ".md") {
+					body = fs.readFileSync('../blog-posts/'+file, 'utf8');
+					html_body = converter.makeHtml(body);
+					metadata = converter.getMetadata();
+					// title = metadata.title;
+					// date = metadata.date;
+					number = metadata.number;
+					// description = metadata.description;
+					finished = metadata.finished;
+					filename = path.basename(file, '.md');
+					if (finished === 'true') {
+						view.entries.push({f: filename, n: number});
+					}
+				}
+			})
+
+			const randomPost = view.entries[Math.floor(Math.random() * view.entries.length)].f; 
+			responseCode = 302; // for temporary redirect
+			res.writeHead(responseCode, {
+						Location: `/blog/${randomPost}`
 					});
 			res.end();
 			return;
@@ -258,7 +305,7 @@ http.createServer((req, res) => {
 			// showdown (markdown) converter for mapping html tags to certain classes
 			metadata = converter.getMetadata();
 			tags = createTagArray(metadata.tags);
-			content = renderPost(metadata.title, metadata.date, tags, html_body);
+			content = renderPost(metadata.title, metadata.date, tags, html_body, footer);
 			res.writeHead(responseCode, {
 				'content-type': 'text/html;charset=utf-8',
 			});
@@ -278,13 +325,21 @@ http.createServer((req, res) => {
 		var url_pagename = req.url.split('/')[1].split('.')[0];
 		pagetitle = String(url_pagename).charAt(0).toUpperCase() + String(url_pagename).slice(1);
 		pagecontent = fs.readFileSync(`../mustache/${url_pagename}.mustache`, 'utf8');
-		content = renderMainPage(pagetitle, pagecontent);
-				res.writeHead(responseCode, {
-					'content-type': 'text/html;charset=utf-8',
-				});
-				res.write(content);
-				res.end();
-				return;
+		content = renderMainPage(pagetitle, pagecontent, footer);
+		// Base headers
+		const headers = {
+			'content-type': 'text/html;charset=utf-8',
+		};
+
+		// prevent indexing for contact page
+		if (url_pagename === 'contact') {
+			headers['X-Robots-Tag'] = 'noindex, nofollow';
+		}
+
+		res.writeHead(responseCode, headers);
+		res.write(content);
+		res.end();
+		return;
 		}
 			catch (err) {
 				console.error(err);
@@ -298,13 +353,21 @@ http.createServer((req, res) => {
 		var url_pagename = req.url.split('/')[1].split('.')[0];
 		pagetitle = String(url_pagename).charAt(0).toUpperCase() + String(url_pagename).slice(1);
 		pagecontent = fs.readFileSync(`../mustache/${url_pagename}.mustache`, 'utf8');
-		content = renderSecondaryPage(pagetitle, pagecontent);
-				res.writeHead(responseCode, {
-					'content-type': 'text/html;charset=utf-8',
-				});
-				res.write(content);
-				res.end();
-				return;
+		content = renderSecondaryPage(pagetitle, pagecontent, footer);
+			// Base headers
+			const headers = {
+				'content-type': 'text/html;charset=utf-8',
+			};
+
+			// prevent indexing for support page (mainly for BTC address)
+			if (url_pagename === 'support') {
+				headers['X-Robots-Tag'] = 'noindex, nofollow';
+			}
+			
+			res.writeHead(responseCode, headers);
+			res.write(content);
+			res.end();
+			return;
 		}
 			catch (err) {
 				console.error(err);
@@ -320,7 +383,7 @@ http.createServer((req, res) => {
 			html_body = converter.makeHtml(body);
 			// showdown (markdown) converter for mapping html tags to certain classes
 			metadata = converter.getMetadata();
-			content = renderMD(metadata.title, html_body);
+			content = renderMD(metadata.title, html_body, footer);
 			res.writeHead(responseCode, {
 				'content-type': 'text/html;charset=utf-8',
 			});
@@ -447,9 +510,13 @@ http.createServer((req, res) => {
 		}
 	}
 
-	res.writeHead(responseCode, {
-		'content-type': 'text/html;charset=utf-8',
-	});
+	// some pages to not index
+	// (other than support, which is handled in secondaryPages for now,
+	// and contact, which is handled in mainPages for now)
+	if (urlObj.pathname.startsWith('/blog/tag/')) {
+		headers['X-Robots-Tag'] = 'noindex, nofollow';
+	}
+	res.writeHead(responseCode, headers);
 	res.write(content);
 	res.end();
 })
@@ -480,16 +547,16 @@ function createTagArray (tags_string) {
 }
 
 // Returns the rendered HTML of a single blog post page
-function renderPost (title, date, tags, body) {
+function renderPost (title, date, tags, body, footer) {
   template = fs.readFileSync('../templates/blog-post.mustache', 'utf8');
-  rendered = mustache.render(template, { title: title, date: date, tags: tags, body: body });
+  rendered = mustache.render(template, { title: title, date: date, tags: tags, body: body, footer: footer });
   return rendered;
 }
 
 // Returns the rendered HTML of a markdown page
-function renderMD (pagetitle, pagecontent) {
+function renderMD (pagetitle, pagecontent, footer) {
   template = fs.readFileSync('../templates/md.mustache', 'utf8');
-  rendered = mustache.render(template, { pagetitle: pagetitle, pagecontent: pagecontent });
+  rendered = mustache.render(template, { pagetitle: pagetitle, pagecontent: pagecontent, footer: footer });
   return rendered;
 }
 
@@ -501,16 +568,16 @@ function renderEntry (title, date, number, description, filename) {
 }
 
 // Returns the rendered HTML of a main page (a page with the header)
-function renderMainPage (pagetitle, pagecontent) {
+function renderMainPage (pagetitle, pagecontent, footer) {
   template = fs.readFileSync('../templates/main-page.mustache', 'utf8');
-  rendered = mustache.render(template, { pagetitle: pagetitle, pagecontent: pagecontent });
+  rendered = mustache.render(template, { pagetitle: pagetitle, pagecontent: pagecontent, footer: footer });
   return rendered;
 }
 
 // Returns the rendered HTML of a secondary page
-function renderSecondaryPage (pagetitle, pagecontent) {
+function renderSecondaryPage (pagetitle, pagecontent, footer) {
   template = fs.readFileSync('../templates/secondary-page.mustache', 'utf8');
-  rendered = mustache.render(template, { pagetitle: pagetitle, pagecontent: pagecontent });
+  rendered = mustache.render(template, { pagetitle: pagetitle, pagecontent: pagecontent, footer: footer });
   return rendered;
 }
 

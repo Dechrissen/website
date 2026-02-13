@@ -30,14 +30,18 @@
             <a href="{{url}}">{{name}}</a>{{^isLast}}, {{/isLast}}
           {{/tags}}
         </div>
-        <div id="rss" class="right"><a href="/blog/feed.xml">RSS Feed</a></div>
         <div class="clear"></div>
       </div>
       
 
       <p>
-        <a href="/blog">&#8592; All posts</a>
+        <div class="left"><a href="/blog">&#8592; All posts</a></div>
+        <div class="right"><a href="/support">Support this blog</a> • <a href="/blog/random">Random post</a> • <a href="/blog/feed.xml">RSS</a></div>
+        <div class="clear"></div>
       </p>
+
+      {{{footer}}}
+
     </div>
   </body>
 </html>
