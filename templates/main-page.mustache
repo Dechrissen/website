@@ -19,7 +19,7 @@
   <div class="wrapper">
     <div class="top">
       <div class="logo box">
-        <h1 class="name"><a class="home-link" href="/home">derekandersen.net</a></h1>
+        <h1 class="website-title"><a class="home-link" href="/home">derekandersen.net</a></h1>
       </div>
     </div>
     <nav class="navbar">
@@ -37,13 +37,9 @@
         {{{r}}}
       {{/entries}}
 
-      {{#renderRss}}
-        <div class="rss-container">
-          <div class="right"><a href="/support">Support this blog</a> • <a href="/blog/random">Random post</a> • <a href="/blog/feed.xml">RSS</a></div>
-          <div class="clear"></div>
-        </div>
-      {{/renderRss}}
-      
+      {{#renderRssFooter}}
+        {{{rssFooter}}}
+      {{/renderRssFooter}}
     </div>
 
     {{{footer}}}

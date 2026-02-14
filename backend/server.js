@@ -17,6 +17,7 @@ http.createServer((req, res) => {
 	template = fs.readFileSync('../templates/main-page.mustache', 'utf8');
 	pagecontent = fs.readFileSync(`../mustache/404.mustache`, 'utf8');
 	footer =  fs.readFileSync(`../mustache/footer.mustache`, 'utf8');
+	rssFooter = fs.readFileSync(`../mustache/rss-footer.mustache`, 'utf8');
 	let content = mustache.render(template, {pagetitle: '404', pagecontent: pagecontent, footer: footer});
 
 	// Base headers
@@ -74,8 +75,9 @@ http.createServer((req, res) => {
 			pagetitle: "Blog",
 			pagecontent: "<h1>All posts</h1>",
 			"entries": [],
-			renderRss: true,
-			footer: footer
+			footer: footer,
+			renderRssFooter: true,
+			rssFooter: rssFooter
 		}
 
 		const dir = '../blog-posts';
@@ -258,7 +260,8 @@ http.createServer((req, res) => {
 			pagetitle: `Posts tagged "${requested_tag}"`,
 			pagecontent: `<h1>Posts tagged "${requested_tag}"</h1>`,
 			"entries": [],
-			renderRss: true
+			renderRssFooter: true,
+			rssFooter: rssFooter
 		}
 
 		const dir = '../blog-posts';
@@ -305,11 +308,94 @@ http.createServer((req, res) => {
 			// showdown (markdown) converter for mapping html tags to certain classes
 			metadata = converter.getMetadata();
 			tags = createTagArray(metadata.tags);
-			content = renderPost(metadata.title, metadata.date, tags, html_body, footer);
+			content = renderPost(metadata.title, metadata.date, tags, html_body, rssFooter, footer);
 			res.writeHead(responseCode, {
 				'content-type': 'text/html;charset=utf-8',
 			});
 			res.write(content);
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.error(err);
+		}
+	}
+
+	// robots.txt
+	else if (req.url === '/robots.txt') {
+		try {
+			responseCode = 200;
+			const robotsTxt = [
+				'User-agent: *',
+				'Disallow:',
+				'',
+				'Sitemap: https://derekandersen.net/sitemap.xml',
+				''
+				].join('\n');
+			res.writeHead(responseCode, {
+				'content-type': 'text/plain;charset=utf-8',
+			});
+			res.write(robotsTxt);
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.error(err);
+		}
+	}
+
+	// sitemap.xml
+	else if (req.url === '/sitemap.xml') {
+		try {
+			responseCode = 200;
+			
+			// Build the sitemap XML
+			let sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n';
+			sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+			
+			// Add static pages (some are main, some are secondary)
+			const staticPages = ['', 'about', 'projects', 'blog', 'software', 'endorsements'];
+			staticPages.forEach(page => {
+				const url = page === '' ? 'https://derekandersen.net/' : `https://derekandersen.net/${page}`;
+				sitemap += '  <url>\n';
+				sitemap += `    <loc>${url}</loc>\n`;
+				sitemap += '    <changefreq>weekly</changefreq>\n';
+				sitemap += '    <priority>0.8</priority>\n';
+				sitemap += '  </url>\n';
+			});
+			
+			// Add all blog posts
+			const dir = '../blog-posts';
+			const files = fs.readdirSync(dir);
+			
+			files.forEach(file => {
+				if (path.extname(file) == ".md") {
+					body = fs.readFileSync('../blog-posts/'+file, 'utf8');
+					html_body = converter.makeHtml(body);
+					metadata = converter.getMetadata();
+					finished = metadata.finished;
+					filename = path.basename(file, '.md');
+					date = metadata.date;
+					
+					if (finished === 'true') {
+						sitemap += '  <url>\n';
+						sitemap += `    <loc>https://derekandersen.net/blog/${filename}</loc>\n`;
+						if (date) {
+							sitemap += `    <lastmod>${date}</lastmod>\n`;
+						}
+						sitemap += '    <changefreq>monthly</changefreq>\n';
+						sitemap += '    <priority>0.6</priority>\n';
+						sitemap += '  </url>\n';
+					}
+				}
+			});
+			
+			sitemap += '</urlset>';
+			
+			res.writeHead(responseCode, {
+				'content-type': 'application/xml;charset=utf-8',
+			});
+			res.write(sitemap);
 			res.end();
 			return;
 		}
@@ -331,8 +417,9 @@ http.createServer((req, res) => {
 			'content-type': 'text/html;charset=utf-8',
 		};
 
-		// prevent indexing for contact page
-		if (url_pagename === 'contact') {
+		// prevent indexing for some main pages
+		const noIndexPages = ['contact', 'links']
+		if (noIndexPages.includes(url_pagename)) {
 			headers['X-Robots-Tag'] = 'noindex, nofollow';
 		}
 
@@ -547,9 +634,9 @@ function createTagArray (tags_string) {
 }
 
 // Returns the rendered HTML of a single blog post page
-function renderPost (title, date, tags, body, footer) {
+function renderPost (title, date, tags, body, rssFooter, footer) {
   template = fs.readFileSync('../templates/blog-post.mustache', 'utf8');
-  rendered = mustache.render(template, { title: title, date: date, tags: tags, body: body, footer: footer });
+  rendered = mustache.render(template, { title: title, date: date, tags: tags, body: body, rssFooter: rssFooter, footer: footer });
   return rendered;
 }
 

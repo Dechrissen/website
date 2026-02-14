@@ -10,40 +10,37 @@ html {
 }
 
 body {
-  font-family: "Alegreya", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.3rem;
-  line-height: 135%;
-  text-align: justify;
-  hyphens: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
+  /* CSS Variables */
+  --text-color: black;
+  --border-color: black;
+  --bkg-color: white;
+  --link-hover-color: transparent;
+  --btn-toggle-color: black;
+  --link-color: #0f4c81;
+  --hover-text-color: #1666A8;
+  --highlight-color: #7DD3FC;
+  --code-block-bkg-color: black;
+  
+  /* Layout */
+  margin: 0 auto;
   width: 100%;
   min-height: 100rem;
   max-width: 1000px;
   position: relative;
   z-index: -10000;
-  -webkit-font-smoothing: subpixel-antialiased; /* corrects Safari rendering */
-}
-
-/* COLORS */
-body {
-  --text-color: black;
-  --border-color: black;
-  --bkg-color: white;
-  --link-hover-color: transparent;
-  --hover-text-color: #2b45a1;
-  --btn-toggle-color: black;
-  --link-color: #2b45a1;
-  --highlight-color: #85cec3;
-  --code-block-bkg-color: black;
-}
-
-body {
+  
+  /* Typography */
+  font-family: "Radio Canada", sans-serif;
+  font-weight: 320;
+  font-style: normal;
+  font-size: 1.1rem;
+  line-height: 150%;
+  text-align: justify;
+  hyphens: none;
+  
+  /* Rendering */
   background: var(--bkg-color);
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 h1,h2,h3,h4,h5,h6,
@@ -64,19 +61,31 @@ pre > code {
   color: white;
 }
 
+/* Links */
 a:link,
 a:visited {
   color: var(--link-color);
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:hover {
   background-color: var(--link-hover-color);
   color: var(--hover-text-color);
+  text-decoration: underline;
 }
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .social-links a:hover {
   color: var(--hover-text-color);
   background-color: transparent;
 }
+
 .navbar a,
 .top a {
   color: var(--text-color);
@@ -101,13 +110,13 @@ div.content {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 2rem;
 }
 
 div.blog-wrapper {
   width: 80%;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  padding-bottom: 18rem;
+  margin: 0 auto;
+  padding: 0 2rem 18rem 2rem;
 }
 
 div.footnote {
@@ -115,38 +124,33 @@ div.footnote {
 }
 
 img.portrait {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1rem auto 2rem;
   height: 240px;
-  text-align: center;
-  position: relative;
-  padding: 0px;
 }
 
 footer {
-  bottom: 0;
-  left: 0;
   width: 100%;
   text-align: center;
   font-size: 80%;
-  padding-top: 2rem;
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
-h1.name {
-  font-family: "Alegreya", serif;
+h1.website-title {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 300;
   text-align: center;
-  margin-bottom: 0px;
-  margin-top: 0;
-  font-size: 2.5rem;
+  margin: 0;
+  font-size: clamp(0.9rem, 8vw, 2.7rem);
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .project-list .desc {
   display: block;
-  max-width: 45ch;
+  /* max-width: 60%; */
+  text-align: left;
   overflow-wrap: break-word;
 }
 
@@ -164,7 +168,7 @@ the previous float.*/
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "IBM Plex Serif", serif;
   font-weight: 600;
 }
 
@@ -173,13 +177,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size: 1.85rem;
+  font-size: 1.7rem;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 h4 {
   font-size: 1rem;
@@ -194,23 +198,31 @@ h4 {
   margin-top: 0.5rem;
 }
 
+.blog-tag-container {
+  margin-top: 0.5rem;
+}
+
+.all-posts-button {
+  margin-top: 0.5rem;
+}
+
 ul, ol {
   margin-left: -0.5em;
 }
+
 li {
   margin: 12px; 
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0 1rem;
   hyphens: none;
 }
 
 /* For more compact lists on the main pages (not in blog posts) */
 ul.compact-list {
-  line-height: 1em
+  line-height: 1em;
 }
+
 .compact-list > li {
   margin: 5px;
-  hyphens: none;
 }
 
 p.error {
@@ -219,42 +231,11 @@ p.error {
   color: black;
 }
 
-a:link {
-  color: var(--link-color);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  /*transition-property: all;
-  transition-duration: 0.2s;
-  border-radius: 8px;*/
-  padding: 0px 0px 0px 0px;
-}
-
-a:active {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
 div.top {
-  margin-left:auto;
-  margin-right:auto;
+  margin: 0 auto;
   width: 80%;
-  /*Uncomment the next 3 rows for splitting the top bar into 2 grid columns*/
-  /*display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: minmax(auto, auto);*/
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  border-bottom: 1px solid black;
+  padding: 1rem 0;
+  border-bottom: 1px solid grey;
 }
 
 /* For logo/name link to homepage: override so it doesn't look like a link */
@@ -269,70 +250,37 @@ a.home-link:active {
   text-decoration: none;
 }
 
-/*
-div.logo {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-div.links {
-  grid-column: 2;
-  grid-row: 1;
-  text-align: right;
-}
-
-ul.social-links {
-  list-style-type: none;
-  line-height: 100%;
-}
-
-ul.social-links > li {
-  font-size: 100%;
-  font-family: "Anonymous Pro", sans-serif;
-  display: inline;
-  margin: 0px;
-}*/
-
 pre {
   overflow: auto;
 }
 
-/* NAVBAR STYLE */
+/* NAVBAR */
 .navbar {
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  width: 80%;
-
-  /* Navbox centering */
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+  width: 80%;
 }
 
 .navbar a {
-  float: left;
-  color: black;
+  color: var(--text-color);
+  font-size: 1.2rem;
   text-align: center;
-  padding: 0rem 1.5rem;
+  padding: 0 1.5rem;
   text-decoration: none;
-  font-size: 100%;
-  font-family: "Work Sans", sans-serif;
-  font-weight: normal;
+  font-family: "Radio Canada", sans-serif;
 }
 
 .navbar a:hover {
-  color: black;
+  color: var(--text-color);
   background-color: transparent;
   text-decoration: underline;
 }
 
 .navbar a.active {
-  color: black;
   font-weight: bold;
 }
 
@@ -348,18 +296,13 @@ pre {
 }
 
 p.blog-title {
-  font-family: "Alegreya", serif;
-  font-weight: 600;
-  font-size: 2.25rem;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-size: 2.1rem;
   line-height: 150%;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
-  border: 1px solid black;
-  border-left: transparent;
-  border-right: transparent;
-  border-top: transparent;
+  padding: 0.2rem 0;
+  margin: 1.5rem 0;
+  border-bottom: 1px solid grey;
 }
 
 p.signature {
@@ -367,20 +310,14 @@ p.signature {
 }
 
 pre.blog-date {
-  margin-bottom: 3rem;
-  font-family: "Alegreya", serif;
+  margin-bottom: 2rem;
+  font-family: "Radio Canada", sans-serif;
 }
 
 .blog-wrapper img {
-  margin-top: 30px;
-  margin-bottom: 30px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto;
   width: 75%;
-  text-align: center;
-  position: relative;
-  padding: 0px;
 }
 
 .blog-wrapper blockquote {
@@ -420,9 +357,9 @@ pre:has(> code) {
   }
   
   body {
-    font-size: 1.3rem;
+    font-size: 1.05rem;
     line-height: 1.6;
-    padding: 0 1rem;
+    padding: 0;
   }
 
   h1,h2,h3,h4,h5,h6 {
@@ -430,27 +367,22 @@ pre:has(> code) {
   }
 
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
   }
   h3 {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
   h4 {
     font-size: 1rem;
   }
 
-  /* mostly so the logo doesn't overflow the div.top on mobile */
-  h1.name {
-    font-size: 2.3rem;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  h1.website-title {
+    letter-spacing: 0;
     width: 100%;
     word-break: break-word;
-    box-sizing: border-box;
   }
 
   div.content,
@@ -458,13 +390,20 @@ pre:has(> code) {
   div.wrapper,
   .navbar,
   div.top {
-    width: 95% !important;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
 
   div.wrapper {
-    padding: 0rem 0rem 6rem 0rem;
+    padding-top: 0;
+    padding-bottom: 6rem;
+  }
+
+  div.blog-wrapper {
+    padding-bottom: 18rem !important;
   }
 
   div.top {
@@ -473,7 +412,6 @@ pre:has(> code) {
   }
 
   .navbar {
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
@@ -496,9 +434,9 @@ pre:has(> code) {
     max-width: 100%;
   }
 
-  .blog-date {
-    font-size: 1.3rem;
-  }
+  /* .blog-date {
+    font-size: 1.2rem;
+  } */
 
   .blog-entry-date {
     display: none;
@@ -506,7 +444,7 @@ pre:has(> code) {
 
   p.blog-title {
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.85rem;
   }
 
   div.blog-tags,

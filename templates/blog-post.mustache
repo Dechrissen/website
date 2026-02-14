@@ -24,7 +24,7 @@
       <p class="signature">&#8212; Derek Andersen</p>
       
 
-      <div class="rss-container">
+      <div class="blog-tag-container">
         <div class="blog-tags left">Tags: 
           {{#tags}}
             <a href="{{url}}">{{name}}</a>{{^isLast}}, {{/isLast}}
@@ -33,15 +33,15 @@
         <div class="clear"></div>
       </div>
       
-
-      <p>
-        <div class="left"><a href="/blog">&#8592; All posts</a></div>
-        <div class="right"><a href="/support">Support this blog</a> • <a href="/blog/random">Random post</a> • <a href="/blog/feed.xml">RSS</a></div>
-        <div class="clear"></div>
-      </p>
-
+      <div class="left all-posts-button"><a href="/blog">&#8592; All posts</a></div>
+        
+      {{{rssFooter}}}
+      
       {{{footer}}}
 
     </div>
+
+    
+
   </body>
 </html>
