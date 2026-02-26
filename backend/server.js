@@ -34,7 +34,8 @@ http.createServer((req, res) => {
 	// class map to map html tags to certain classes so that css can select them
 	// this makes all the <p> tags in the blog posts "text" class
 	const classMap = {
-		p : 'text'
+		p : 'text',
+    ul: 'compact-list'
 	}
 	const bindings = Object.keys(classMap)
 		.map(key => ({
@@ -118,7 +119,7 @@ http.createServer((req, res) => {
 			}
 
 			const feed = new RSS({
-				title: 'Blog | Derek Andersen',
+				title: 'Derek Andersen\'s Blog',
 				description: 'Derek Andersen\'s Blog',
 				feed_url: 'https://derekandersen.net/blog/feed.xml',
 				site_url: 'https://derekandersen.net/blog',
@@ -493,6 +494,28 @@ http.createServer((req, res) => {
 				'content-type': 'text/html;charset=utf-8',
 			});
 			res.write(content);
+			res.end();
+			return;
+		}
+		catch (err) {
+			console.error(err);
+		}
+	}
+
+  // TODO: fix this txt route so it doesn't use readFileSync (blocks the event loop; use async instead)
+				// and fix the subsequent filetype routes (like .js below) so nothing really depends on being in
+				// the directory where this server script is run
+				// the X-Robots-Tag thing could probably also be improved here, idk
+  // txt pages
+	else if (req.url.startsWith('/static/txt/')) {
+		try {
+			responseCode = 200;
+			const textContent = fs.readFileSync(`../static/txt/${path.basename(req.url)}`, 'utf8');
+			res.writeHead(responseCode, {
+				'content-type': 'text/plain;charset=utf-8',
+				'X-Robots-Tag': 'noindex, nofollow',
+			});
+			res.write(textContent);
 			res.end();
 			return;
 		}
