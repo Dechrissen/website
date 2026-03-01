@@ -163,7 +163,7 @@ Essentially, it's a journal where I can keep track of Pokémon teams I use in my
 Currently, it's text-based, but I have plans to flesh out the layout of the page a bit — I can add images of party members' sprites and come up with a consistent layout for each entry, maybe even using another Mustache template for each entry (similar to my blog entries which get listed on the blog landing page).
 
 # Endorsements page
-There's a [page](/endorsements) at `/endorsements` which contains things I like or recommend, separated into broad sections. While this page has existed for a while, it hasn't been linked to from anywhere on my site and it wasn't really fleshed-out with content. As part of this update, I decided to bolster this page a bit.
+There's a [page](/md/endorsements) at `/md/endorsements` which contains things I like or recommend, separated into broad sections. While this page has existed for a while, it hasn't been linked to from anywhere on my site and it wasn't really fleshed-out with content. As part of this update, I decided to bolster this page a bit.
 
 There isn't much in there right now, but I will add more things as I think of them — maybe I'll even expand it to include a section for video games.
 

@@ -29,7 +29,7 @@ http.createServer((req, res) => {
 	console.log('Browser requested ' + urlObj.pathname);
 
 	var mainPages = ['about', 'projects', 'links', 'contact']; // excluding blog as it's handled separately
-	var secondaryPages = ['support', 'solus', 'daisy', 'endorsements', 'software'];
+	var secondaryPages = ['support', 'solus', 'daisy', 'software'];
 
 	// class map to map html tags to certain classes so that css can select them
 	// this makes all the <p> tags in the blog posts "text" class
@@ -355,7 +355,7 @@ http.createServer((req, res) => {
 			sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
 			
 			// Add static pages (some are main, some are secondary)
-			const staticPages = ['', 'about', 'projects', 'blog', 'software', 'endorsements'];
+			const staticPages = ['', 'about', 'projects', 'blog', 'software', 'md/endorsements'];
 			staticPages.forEach(page => {
 				const url = page === '' ? 'https://derekandersen.net/' : `https://derekandersen.net/${page}`;
 				sitemap += '  <url>\n';
