@@ -29,7 +29,7 @@ On a few occassions since that time in 2016, I have attempted to switch to a Lin
 
 However, I've recently decided to make the jump fully. I don't know exactly all the things that led to that decision, but it was partly inspired by the realization that the philosophy of Linux truly does align with my life and personal philosophy; and Arch Linux in particular is the perfect embodiment of that philosophy (imo), and the best way to get a "clean slate" from which you can intentionally build the system you want or need.
 
-## My machines
+# My machines
 
 For a couple weeks, I have been using my wife's out-of-commission Intel NUC as my main machine running Arch Linux. The plan was to progressively transition all software / tools / tasks that I use or do on my Windows machine to the NUC, until the point when "gaming" broadly was the only thing that remained on the Windows machine. Gaming, too, I have less worries about on Linux lately (it's been getting a lot better I hear), but I still wanted to leave that task for last.
 
@@ -47,7 +47,7 @@ And then, there's my phone. I use an iPhone, and for the most part I like it. An
 
 Something I've done recently to my phone is set the screen to greyscale, max out the warmth, make everything dark mode, tint the app icons toward some dark color, and dim the screen as much as I can. Paired with removing unnecessary apps, this really helps to reinforce that the phone is not special. Disabling pretty colors makes it less of a distraction.
 
-## Coming back to the 'Why?'
+# Coming back to the 'Why?'
 
 Just so the motivation for this cleanup doesn't get lost, I want to reiterate a bit about how I'm thinking about technology lately. I think computers are very obviously misused in society right now, and possibly have been for a while. Since the advent of smartphones perhaps? Since social media became the major form of communication? I don't know, and I'm really not interested in theorizing and pinpointing the exact turning point. I just know it started at some point after the internet became accessible to everyone, and I don't blame the internet itself.
 
@@ -66,7 +66,7 @@ As a quick minimalism/consumerism-related aside, corporations are partially to b
 
 I'm prone to being mentally overstimulated, I think, so to sum this all up: I'm exhausted and I need to exercise some control by cleaning up my setup and actively keeping it under control and intentionally crafted. In some ways, I really enjoy the process, but it's a shame that it's easiest for me to get to this point through aggravation and dissatisfaction with the way things are going.
 
-## What I value
+# What I value
 
 At the risk of coming across as super materialist and maximalist, I'm going to say, first of all: I value things. Things do have value, but it's funny, because now that I think about it, there are two extremes on the spectrum of "valuing things". At one end, _not valuing things enough_ leads to an irresponsibility with how you treat the limited resources we have access to. At the other end, _worshipping things_ is obviously not the goal either; things enable us to do other things, but they're not an end in themselves. And there are greater things that transcend physical objects.
 
@@ -86,7 +86,7 @@ And you're ready to start writing, all in one keybind!
 
 Things like this (including even the learning process of setting them up) are what I think computers should be used for. Not necessarily blog-writing specifically, but intentionally crafting your setup and tools so you can do the things you like to do — easily and without friction.
 
-## Security and authentication stuff
+# Security and authentication stuff
 
 I don't want to go too deep with this idea in this particular blog post, because I think I might make a dedicated one about it soon. But it deserves an overview here.
 
@@ -94,11 +94,11 @@ A key part of my setup, whether I like it or not, is passwords and authenticatio
 
 I have used [KeePass XC](https://keepassxc.org/) as my password manager for a few years now (after moving away from LastPass after realizing that security breaches are possible, and even though in theory my credentials should be encrypted, I didn't want to put all my trust in one company). I fully recommend KeePass XC, btw — it's great software.
 
-In the old setup though, my password database was only _really_ accessible from my home file server (i.e., only while I was at home). I was able to access it on my mobile device while out of the house, but not in a frictionless and reliable way. I won't go into unnecessary detail though. The point is, I wanted to make sure that this issue did not persist in the new setup. I did my best to balance simplicity, security, and user experience when designing the new flow, and tbh I'm quite happy with the current iteration of my password setup. It's not completely finished, and still needs some polishing, but I plan to write a tutorial so people can replicate my system if they so desire. For my own sake but also the sake of potential readers of the future tutorial, I really tried to make sure the system is **simple** while still being **secure** and maintaining extendability to several devices (if desired).
+In the old setup though, my password database was only _really_ accessible from my home file server (i.e., only while I was at home). I was able to access it on my mobile device while out of the house, but not in a frictionless and reliable way. I won't go into unnecessary detail though. The point is, I wanted to make sure that this issue did not persist in the new setup. I did my best to balance simplicity, security, and user experience when designing the new flow, and tbh I'm quite happy with the current iteration of my password setup. It's not completely finished, and still needs some polishing, but I plan to write a tutorial so people can replicate my system if they so desire. For my own sake but also the sake of potential readers of the future tutorial, I really tried to make sure the system wass **simple** while still being **secure** and maintaining extendability to several devices (if desired).
 
 Here's a small teaser for the password setup: it utilizes [YubiKeys](https://www.yubico.com/) as one of its security layers, and I _really_ like them. If you're not familiar, they are dedicated [hardware security modules (HSMs)](https://en.wikipedia.org/wiki/Hardware_security_module) or security keys used for authentication. They have many uses, and acting as a layer of authentication for password database access is one.
 
-## What do I even do?
+# What do I even do?
 
 When you're assessing the way you use technology and attempting to overhaul your setup and/or system, it's important to consider what technology should be doing for you. What do you, personally, need it for? This brings me to an important question to address in this blog post: What do I use computers for? 
 
@@ -108,7 +108,7 @@ Most of the time, I'm working on a project (programming or writing), using a web
 
 But I do play games. My Windows machine was always my gaming computer, but I think I'm going to install Linux on it eventually as part of this effort. Like I mentioned earlier, I think Linux gaming is a lot more realistic than it was a couple years ago. But even so, the games I play are not bleeding edge and my hardware is always a few years old anyway; driver support shouldn't be a concern, at least. 
 
-## Conclusion
+# Conclusion
 
 Without being too obnoxious about minimalism, I want to bring it back to that idea because I think it's important. It doesn't even need to be called "minimalism" — another good word that gets the point across is "essentialism". The point is that we should be making an effort to be intentional about the decisions we make, the things we acquire and accumulate, and the way we use technology and tools. The result is a calmer and more focused mind, because not having things we don't need (physically, figuratively, mentally, digitally) means our mind doesn't have to waste energy on... thinking about them? It almost seems too simple when you think of it that way, but maybe that's the point. It _is_ simple.
 
