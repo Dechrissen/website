@@ -12,7 +12,7 @@ Date: Some time around June 2024
 
 Party: Typhlosion, Espeon, Tauros, Sunflora, Mantine, Ho-Oh
 
-Notes: I try not to use legendaries, but I guess I wanted to use Ho-Oh here just because I hadn't used it in a while. Finding Fly-users is also a bit difficult in Gen 2, so that probably influenced my decision as well. I always like using Espeon or Umbreon, and Espeon is pretty much the better option in Gen 2 (Umbreon's offensive stats are much lower than its defensive ones, so its Dark moves are probably better used by another Pokémon). I'm not sure if I'd used Tauros in Gen 2 before this playthrough, so I thought it would be fun. With the Pink Bow, its Normal moves are really strong, and of course it doubles as a Strength-user. I think I remember Sunflora being a surprising asset on this team, and Petal Dance is a strong move. As much as I liked the Mantine addition this time, I think I remember not using it in battle as much as I would've liked; I guess I already had Sunflora for those Ground/Rock matchups, and Tauros was good against Fire matchups with Earthquake. Plus, Mantine suffered from "being the Water-type in Gen 2", which inevitably means it will carry the burden of all three Water HMs.
+Notes: I try not to use legendaries, but I guess I wanted to use Ho-Oh here just because I hadn't used it in a while. Finding Fly-users is also a bit difficult in Gen 2, so that probably influenced my decision as well. I always like using Espeon or Umbreon, and Espeon is pretty much the better option in Gen 2 (Umbreon's offensive stats are much lower than its defensive ones, so its Dark moves are probably better used by another Pokémon). I'm not sure if I'd used Tauros in Gen 2 before this playthrough, so I thought it would be fun. With the Pink Bow, its Normal moves are really strong, and of course it doubles as a Strength-user. I think I remember Sunflora being a surprising asset on this team, and Petal Dance is a strong move. As much as I liked the Mantine addition this time, I think I remember not using it in battle as much as I would've liked; I guess I already had Sunflora for those Ground/Rock matchups, and Tauros was good against Fire matchups with Earthquake. Plus, Mantine suffered from the "being the Water-type in Gen 2" affliction, which inevitably means it will carry the burden of all three Water HMs.
 
 Party breakdown:
 
@@ -85,3 +85,31 @@ Party breakdown:
 - Jynx / Ice Beam, Blizzard, Lovely Kiss, Psychic
 - Ninetales / Will-O-Wisp, Confuse Ray, Flamethrower, Dark Pulse
 - Gyarados / Waterfall, Hyper Beam, Crunch, Outrage
+
+## Entry 6
+Version: Solus Blue (v1.5)
+
+Date: January 2026 – March 2026
+
+Party: Hitmonlee (_Deacon_), Dugtrio (_Douglas_), Psyduck (_Spence_), Arbok (_Arthur_), Doduo (_Carrie_), Pinsir (_Danny_)
+
+Notes: This was the first run for which I generated my party with [TeamGen](https://github.com/Dechrissen/teamgen), my party generation software. In addition to that, for this run I participated in an async community race in the Solus Discord server — me and a couple others participated, and three of us ended up finishing. Acquiring all six members was a hard requirement. I finished with an IGT of 8:54.
+
+This was a very interesting run for several reasons. First of all, the party was prescribed, so I didn't have the freedom of choice; deciding which Pokémon were going to be the most valuable was a consideration that I'm not faced with in typical playthroughs. Second, there's the race component — prior to this, I hadn't done a Pokémon game race since probably 2005 or 2006 with my friend. The time pressure adds extra challenge, especially coupled with the prescribed party limitation (i.e. trying to figure out which Pokémon are going to be heavy hitters while simultaneously trying to go fast, deciding which trainers to skip, and things like that).
+
+The party's strengths did not really reveal themselves until late game. I initially planned to train up Arbok, but when Dugtrio came along I realized I should shift to him — STAB Dig and Gen 1 Slash are both powerful moves to have access to, plus Dugtrio is very fast. The real surprise to me ended up being Hitmonlee, though. Once I realized that he's generally pretty strong and gets Meditate, I started focusing heavily on training him. The Meditate (x6) + Mega Punch combo sweep was broadly applicable to tough trainers and some particularly powerful Gym Leader ace Pokémon, like Sabrina's Alakazam. A bonus was when its STAB Fighting-type moves could be taken advantage of against Normal- and Rock-types (or even types for which the matchup was neutral).
+
+The League was a bit of a challenge, but to my surprise I was able to beat it first try. Agatha was my biggest fear going in because Hitmonlee's Fighting-type _and_ Normal-type moves would be ineffective against her Ghost-types, and her Golbat would have the type advantage. However, this is where I was happy to have a partially-trained Dugtrio; Dig for the Ghost-types and Slash for the others ended up saving me.
+
+In the end with an 8:54 IGT, Hitmonlee was my ace at level 59 with Dugtrio in second at level 40 (a pretty big delta which shows how heavily I leaned into Hitmonlee toward the end).
+
+Fun fact — I decided to nickname every Pokémon in this party according to a theme. If you know what the theme is, come find me and let me know or something. And don't cheat with an LLM.
+
+Party breakdown:
+
+- Hitmonlee / Mega Punch, Mega Kick, Meditate, Hi Jump Kick
+- Dugtrio / Rock Slide, Dig, Slash, Sand Attack
+- Psyduck / Surf, Ice Beam, Screech, Blizzard
+- Arbok / Bite, Glare, Mega Drain, Dig
+- Doduo / Peck, Skull Bash, Fury Attack, Fly
+- Pinsir / Vicegrip, Bind
