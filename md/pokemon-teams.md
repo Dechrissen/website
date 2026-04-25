@@ -93,7 +93,7 @@ Date: January 2026 – March 2026
 
 Party: Hitmonlee (_Deacon_), Dugtrio (_Douglas_), Psyduck (_Spence_), Arbok (_Arthur_), Doduo (_Carrie_), Pinsir (_Danny_)
 
-Notes: This was the first run for which I generated my party with [TeamGen](https://github.com/Dechrissen/teamgen), my party generation software. In addition to that, for this run I participated in an async community race in the Solus Discord server — me and a couple others participated, and three of us ended up finishing. Acquiring all six members was a hard requirement. I finished with an IGT of 8:54.
+Notes: This was the first run for which I generated my party with [Dexelect](https://github.com/Dechrissen/dexelect), my party generation software. In addition to that, for this run I participated in an async community race in the Solus Discord server — me and a couple others participated, and three of us ended up finishing. Acquiring all six members was a hard requirement. I finished with an IGT of 8:54.
 
 This was a very interesting run for several reasons. First of all, the party was prescribed, so I didn't have the freedom of choice; deciding which Pokémon were going to be the most valuable was a consideration that I'm not faced with in typical playthroughs. Second, there's the race component — prior to this, I hadn't done a Pokémon game race since probably 2005 or 2006 with my friend. The time pressure adds extra challenge, especially coupled with the prescribed party limitation (i.e. trying to figure out which Pokémon are going to be heavy hitters while simultaneously trying to go fast, deciding which trainers to skip, and things like that).
 

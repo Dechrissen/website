@@ -1,5 +1,5 @@
 ---
-title: Unveiling TeamGen
+title: Unveiling Dexelect
 date: 18 December 2025
 number: 45
 description: The initial release of my Pokémon team generator tool.
@@ -7,7 +7,7 @@ tags: pokemon, projects, games, programming
 finished: true
 ---
 
-After roughly two months of work, I have released the initial version (v0.1.0) of the Pokémon team generator project I've been working on. When I wrote my [first post about it](/blog/pokemon-team-generator), I hadn't yet decided on a name — but as you can see, I went with [_TeamGen_](https://github.com/Dechrissen/teamgen) by popular demand (like two people I know independently said they liked that one).
+After roughly two months of work, I have released the initial version (v0.1.0) of the Pokémon team generator project I've been working on. When I wrote my [first post about it](/blog/pokemon-team-generator), I hadn't yet decided on a name — but as you can see, I went with [_TeamGen_](https://github.com/Dechrissen/dexelect) by popular demand (like two people I know independently said they liked that one). (_Update 25 April 2026_: I've changed the name from _TeamGen_ to _Dexelect_, but the original name still appears throughout this blog post.)
 
 If you're missing context about the tool, here's a reminder, taken from the first post:
 
@@ -45,7 +45,7 @@ The tool also supports a fair amount of configuration options for fine-tuning th
 - Disallow particular acquisition methods (Good Rod, in-game trade, etc.)
 - And more!
 
-The tool is currently only available in a CLI UI version. You have the option to [install via command line](https://github.com/Dechrissen/teamgen?tab=readme-ov-file#installation) (prereqs: Python and `pip`) or if you're on Windows, [download the prebuilt executable](https://github.com/Dechrissen/teamgen/releases/latest) and run it, which will open a dedicated terminal window.
+The tool is currently only available in a CLI UI version. You have the option to [install via command line](https://github.com/Dechrissen/dexelect?tab=readme-ov-file#installation) (prereqs: Python and `pip`) or if you're on Windows, [download the prebuilt executable](https://github.com/Dechrissen/dexelect/releases/latest) and run it, which will open a dedicated terminal window.
 
 # Challenge runs
 
@@ -72,7 +72,7 @@ And ultimately, I'd like for this tool to have a GUI option to be run locally, a
 
 # Wrapping up
 
-If you'd like to try the tool, you can get it [here](https://github.com/Dechrissen/teamgen). I would love to hear what you think about it in the [Solus Discord](https://discord.gg/YTxu5uM7r6).
+If you'd like to try the tool, you can get it [here](https://github.com/Dechrissen/dexelect). I would love to hear what you think about it in the [Solus Discord](https://discord.gg/YTxu5uM7r6).
 
 And if you like it, I would really appreciate a star on the GitHub repository. [Donations](/support) to support _TeamGen_ also appreciated!
 
