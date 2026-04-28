@@ -214,6 +214,7 @@ li {
   margin: 12px; 
   padding: 0 1rem;
   hyphens: none;
+  text-align: left;
 }
 
 /* For more compact lists on the main pages (not in blog posts) */

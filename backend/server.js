@@ -34,8 +34,8 @@ http.createServer((req, res) => {
 	// class map to map html tags to certain classes so that css can select them
 	// this makes all the <p> tags in the blog posts "text" class
 	const classMap = {
-		p : 'text',
-    ul: 'compact-list'
+		p : 'text'
+		//ul: 'compact-list'
 	}
 	const bindings = Object.keys(classMap)
 		.map(key => ({
