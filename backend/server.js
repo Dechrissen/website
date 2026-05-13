@@ -630,7 +630,7 @@ http.createServer((req, res) => {
 	res.write(content);
 	res.end();
 })
-	.listen(config.PORT);
+	.listen(config.PORT, '127.0.0.1');
 
 
 // for blog posts, to sort the entries in 'view' by their number (n)
