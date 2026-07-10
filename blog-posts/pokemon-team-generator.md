@@ -7,8 +7,13 @@ tags: pokemon, projects, games, programming
 finished: true
 ---
 
-> _Update 8 April 2026_  
-> [Click here for the finished tool, _Dexelect_](https://github.com/Dechrissen/dexelect)
+Want to try it? [Download the tool here](https://github.com/Dechrissen/dexelect/releases/latest)!
+
+[![Dexelect logo](../static/images/dexelect-logo-black.png "Dexelect logo")](https://github.com/Dechrissen/dexelect)
+
+[![Dexelect GUI](../static/images/dexelect-gui.png "Dexelect GUI")](https://github.com/Dechrissen/dexelect)
+
+_Above content added July 2026. Original post starts here._
 
 I've started work on a new project that's been in the backlog for quite some time — a universal team generator for Pokémon games. If you don't know what that means, I don't blame you; it probably deserves a bit of clarification. The project isn't finished yet, but I think I have a good enough idea for the plan after thinking about it for a few weeks, so I want to write about it.
 

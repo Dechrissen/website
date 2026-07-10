@@ -4,7 +4,7 @@ title: Derek's Endorsements
 
 # Derek's Endorsements
 
-Things I recommend — websites, videos, tools, gear, and more.
+Things I like or recommend — websites, videos, tools, media, and more — in no particular order.
 
 ## Personal websites & blogs
 
@@ -58,6 +58,27 @@ Things I recommend — websites, videos, tools, gear, and more.
 - [TIMEMORE C2 grinder](https://www.timemore.com/collections/coffee-grinder-manual/products/timemore-chestnut-c2-max-manual-coffee-grinder?variant=44707162652914)
 - [TIMEMORE electronic scale](https://www.timemore.com/collections/coffee-scale/products/timemore-basic-2-0-electronic-espresso-scale-with-timer)
 - [Fino 1L gooseneck kettle](https://www.hickitchen.com/6576-fino-kettle-1l-bx)
+
+## Video games
+
+- [_Banjo-Kazooie_ (N64)](https://en.wikipedia.org/wiki/Banjo-Kazooie_(video_game))
+- [_Banjo-Tooie_ (N64)](https://en.wikipedia.org/wiki/Banjo-Tooie)
+- [_Pokémon Red/Blue_ (Game Boy)](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow)
+- [_Pokémon Gold/Silver_ (Game Boy Color)](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver)
+- [_Pikmin_ (GameCube)](https://en.wikipedia.org/wiki/Pikmin)
+- [_EarthBound_ (SNES)](https://en.wikipedia.org/wiki/EarthBound)
+
+## Movies
+
+- _Pulp Fiction_
+
+## TV shows
+
+- _Twin Peaks_
+- _The IT Crowd_
+- _Severance_
+- _Breaking Bad_
+- _The Sopranos_
 
 ## Miscellaneous
 
