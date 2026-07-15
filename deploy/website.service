@@ -1,0 +1,29 @@
+# derekandersen.net web backend — systemd service (reference).
+#
+# Install: copy to /etc/systemd/system/website.service, edit the paths/User
+# below to match your setup, then:
+#   systemctl daemon-reload
+#   systemctl enable --now website
+#
+# Runs the Node.js backend via nvm. systemd does not load .bashrc, so the
+# full absolute path to the node binary is required. Check with `which node`
+# after loading nvm, then substitute below.
+#
+# The listen port (51111) is set in backend/config.json and must be bound
+# to 127.0.0.1 only in server.js — nginx proxies to it, nothing else should
+# reach it directly.
+
+[Unit]
+Description=Webserver for derekandersen.net
+
+[Service]
+ExecStart=/home/youruser/.nvm/versions/node/NODE_VERSION/bin/node /home/youruser/derekandersen.net/backend/server.js
+Restart=always
+User=youruser
+Group=youruser
+Environment=PATH=/usr/bin:/usr/local/bin:/home/youruser/.nvm/versions/node/NODE_VERSION/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/home/youruser/derekandersen.net/backend
+
+[Install]
+WantedBy=multi-user.target
