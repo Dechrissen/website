@@ -7,7 +7,9 @@ tags: pokemon, projects, games, programming
 finished: true
 ---
 
-Want to try it? [Download the tool here](https://github.com/Dechrissen/dexelect/releases/latest)!
+Try it here! --> [Dexelect web app](https://dexelect.derekandersen.net)
+
+You can also [download the tool here](https://github.com/Dechrissen/dexelect/releases/latest).
 
 [![Dexelect logo](../static/images/dexelect-logo-black.png "Dexelect logo")](https://github.com/Dechrissen/dexelect)
 

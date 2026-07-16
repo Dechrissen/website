@@ -31,4 +31,4 @@ node server.js
 ```
 and it should run. You can also of course run this command locally to test the setup on your localhost.
 
-There is an example script that you can adapt for your own purposes at `scripts/update_website.sh`. This stops the currently running Node service (which you'd need to set up), pulls changes from the `git` repo for the site, copies the website files where they need to go, and restarts the server.
+There is an example script that you can adapt for your own purposes at `scripts/update_website.sh`. This stops the currently running Node service (which you'd need to set up), pulls changes from the `git` repo for the site, copies the website files where they need to go, and restarts the server. Relevant deployment files (`nginx` config, service file) are in `deploy`.
