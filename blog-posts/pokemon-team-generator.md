@@ -7,9 +7,9 @@ tags: pokemon, projects, games, programming
 finished: true
 ---
 
-Try it here! --> [Dexelect web app](https://dexelect.derekandersen.net)
+**Try the web app** → [Dexelect team generator](https://dexelect.derekandersen.net)
 
-You can also [download the tool here](https://github.com/Dechrissen/dexelect/releases/latest).
+You can also [download Dexelect for desktop](https://github.com/Dechrissen/dexelect/releases/latest).
 
 [![Dexelect logo](../static/images/dexelect-logo-black.png "Dexelect logo")](https://github.com/Dechrissen/dexelect)
 

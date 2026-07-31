@@ -113,3 +113,33 @@ Party breakdown:
 - Arbok / Bite, Glare, Mega Drain, Dig
 - Doduo / Peck, Skull Bash, Fury Attack, Fly
 - Pinsir / Vicegrip, Bind
+
+## Entry 7
+Version: Sapphire
+
+Date: April 2026 – July 2026 (with some gaps)
+
+Party: Vileplume, Tentacruel, Weezing, Skarmory, Lunatone, Walrein
+
+Notes: This is another run that used a party generated with [Dexelect](https://github.com/Dechrissen/dexelect) (which is now a [web app](https://dexelect.derekandersen.net)!). For most playthroughs going forward, I'm going to default to using Dexelect-prescribed parties, unless the particular game I'm playing hasn't yet been implemented in the software.
+
+I liked this party overall. I wouldn't really consider any of them weak links after finishing the entire run, but there were certainly stand-outs: Walrein and Tentacruel specifically, with Weezing coming in third. Tentacruel ended up being the most reliable member in the first chunk of the game, since it was very defensive and has access to Surf as a solid STAB offense. But once I fully evolved Spheal into Walrein, it was clear that it was going to be the MVP for the rest of the game with its combination of general bulkiness, high Sp. Atk, and Hail + STAB Ice Beam (the TM for which can be found in the Abandoned Ship after getting Dive).
+
+I would not say I struggled particularly on any of the Hoenn League Gym Leaders, except for Tate and Liza. Their Lunatone and Solrock are just very strong, and I blacked out at least once. My Pokémon were a bit under-leveled around this point in the game.
+
+Before attempting the Elite Four and Champion, I wanted to train my Pokémon a bit more so they were all at least level 45 (I was scared of the Pokémon League, even though I didn't have a particularly tough time up until then). After they were sufficiently trained, I did my final rounds and collected 11 total Rare Candies and some TMs I wanted for my party — Ice Beam for Walrein, Shadow Ball for Weezing, Blizzard for both Tentacruel and Walrein.
+
+I breezed through the Elite Four for the most part. Walrein was the MVP here. Sidney was no issue at all (Ice Beamed most things). Phoebe's second Dusclops was a bit of an issue, but didn't deplete too many of my item resources. Glacia's party was not much of an issue (particularly her two Sealeo up against my Weezing's Thunderbolt), but her Walrein was probably the biggest challenge of the Elite Four; I think Weezing's Thunderbolt ended up being quite useful to push here after she kept using Full Restores. Drake, surprisingly but perhaps not in retrospect of the type matchup, was a breeze. Walrein's Ice Beam and Blizzard took care of everything, and Salamence's 4x weakness to Ice was very helpful here.
+
+Steven was not as difficult as I thought he might be, but it was definitely the hardest battle of the League. I had saved all 11 of my Rare Candies up till this point, so I dumped them all on Walrein right before facing Steven, since Walrein had been the MVP of the League. Walrein's Ice Beam & Surf and Tentacruel's Surf allowed me to handle his first five Pokémon fairly easily. I first sent out Walrein and used Hail on turn 1 to get the weather bonus. I think this helped take care of some Pokémon in fewer turns than they otherwise would be, and the weather damage finished off Claydol at the end of the turn, preventing Steven from using a Full Restore. His Metagross proved to be a challenge — I had no real type advantage against it, and Meteor Mash was very effective against my Walrein. The strategy I ended up using during the fight with Metagross was quite interesting. A lot of Revives were used, but it was to enable my Weezing's _Explosion boomerang_ technique (a term I just invented). This involved using Weezing's Explosion (a very strong 250 base power move) to reduce Metagross's HP by about a third, taking the inevitable Psychic knock-out from Metagross on the following turn, sending out another party member as a sacrifice, reviving Weezing, and repeating as necessary until Steven was out of Full Restores and Metagross was knocked out.
+
+While there were no true weak links throughout the run, Vileplume was probably the most disappointing purely because its utility didn't pan out as I'd hoped. I wanted to use Giga Drain and Petal Dance more often, but the Grass moves didn't seem as necessary as you might think in a water-heavy region like Hoenn. I even preemptively used all of my PP Ups on Giga Drain, and later realized they would have been better used on Walrein's Ice Beam. Lunatone was used about as much or possibly even less frequently than Vileplume, however it had more coverage with Psychic, Earthquake, and Rock Throw. Skarmory was pretty unexciting but solid overall — its type advantages were rarely taken advantage of, but it was strong enough to be useful when it mattered, and Aerial Ace is a great move to have access to when the opponent pulls some Minimize or Double Team shenanigans.
+
+Party breakdown:
+
+- Vileplume [Chlorophyll] / Miracle Seed / Petal Dance, Giga Drain, Toxic, Acid
+- Tentacruel [Clear Body] / Mystic Water / Surf, Acid, Barrier, Blizzard
+- Weezing [Levitate] / None / Sludge Bomb, Thunderbolt, Shadow Ball, Explosion
+- Skarmory [Keen Eye] / Quick Claw / Steel Wing, Fly, Aerial Ace, Facade
+- Lunatone [Levitate] / Soft Sand / Psychic, Rock Throw, Earthquake, Calm Mind
+- Walrein [Thick Fat] / Lax Incense / Ice Beam, Hail, Blizzard, Surf

@@ -3,7 +3,7 @@ title: Thoughts on Generative AI
 date: 28 June 2026
 number: 49
 description: Working through my thoughts related to generative AI.
-tags: thoughts, opinion, ai
+tags: thoughts, opinion, ai, programming
 finished: true
 ---
 

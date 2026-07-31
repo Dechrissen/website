@@ -70,7 +70,18 @@ Things I like or recommend — websites, videos, tools, media, and more — in n
 
 ## Movies
 
+- _Pan's Labyrinth_
 - _Pulp Fiction_
+- _Django Unchained_
+- _Reservoir Dogs_
+- _Kill Bill_
+- _Scream_
+- _Mulholland Drive_
+- _The Prestige_
+- _Fight Club_
+- _Memento_
+- _The Matrix_
+- _American Beauty_
 
 ## TV shows
 
@@ -79,6 +90,8 @@ Things I like or recommend — websites, videos, tools, media, and more — in n
 - _Severance_
 - _Breaking Bad_
 - _The Sopranos_
+- _Seinfeld_
+- _The King of Queens_
 
 ## Miscellaneous
 
