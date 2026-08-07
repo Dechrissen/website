@@ -13,7 +13,7 @@ I take a lot of typographical inspiration from Matthew Butterick's web book [Pra
 The site's pages are served with a Node webserver at `backend/server.js`. The majority of the site's pages are dynamically built using Mustache as a templating system. Templates for pages are in `templates` and HTML-like Mustache content files for pages are in `mustache`.
 
 ### Main pages
-The main pages listed in the navbar (about/blog/projects/links/contact) are built from the template `templates/main-page.mustache` and use some client-side JavaScript (in `javascript/header.js`) to mark which tab is currently active.
+The main pages listed in the navbar (about/directory/blog/projects/contact) are built from the template `templates/main-page.mustache` and use some client-side JavaScript (in `javascript/header.js`) to mark which tab is currently active.
 
 ### Secondary pages
 The pages that are not listed in the navbar are built from the template `templates/secondary-page.mustache`, but they don't use the client-side JavaScript to handle marking the active navbar tabs.

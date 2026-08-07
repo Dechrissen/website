@@ -18,14 +18,14 @@ function setActiveNavbarLink() {
       case "about":
         $(".about").addClass("active");
         break;
-      case "projects":
-        $(".projects").addClass("active");
+      case "directory":
+        $(".directory").addClass("active");
         break;
       case "blog":
         $(".blog").addClass("active");
         break;
-      case "links":
-        $(".links").addClass("active");
+      case "projects":
+        $(".projects").addClass("active");
         break;
       case "contact":
         $(".contact").addClass("active");

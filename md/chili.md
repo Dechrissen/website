@@ -1,43 +1,60 @@
 ---
-title: Derek's Turkey Chili
+title: Derek's Chili
 ---
 
-# Derek's Turkey Chili
+# Derek's Chili
+
+This is a work in progress. The recipe is constantly evolving.  
+Revision: 2  
+Last updated: 6 August 2026
 
 ## Prep time
 ~ 20 min
 
 ## Cook time
-~ 40 min
+~ 45 min
 
 ## Ingredients
-- 1 package of ground turkey (1 lb)
-- 1 can of black beans
-- 1 can of kidney beans
-- 1 can of [diced tomatoes](https://www.ro-tel.com/products/original)
-- 1/3 cup (or so) of salsa
-- 1 medium sweet potato
-- 1 zucchini
-- 1 small sweet onion (or half a large one)
-- 1 red (or any) bell pepper
+- 2 packages ground turkey (1 lb each)
+- 2 cans black beans
+- 1 can kidney beans
+- 1 can diced tomatoes (~15 oz, the standard can size)
+- 1 can plain tomato sauce (~15 oz, the standard can size)
+- 2 bell peppers (e.g. one red, one green)
+- some frozen corn (like 3/4 cup)
+- 2 packets instant beef bone broth powder
+- 12 oz hot water
 - salt
+- pepper
 - chili powder
 - ground cayenne
-- (optional) some frozen corn
 
 ## Instructions
-1. Dice the sweet potato, zucchini, and bell pepper. Put it in a large bowl.
-2. Rinse the beans and drain them. Put them in the same bowl.
-3. Place a large pot (cast iron is best) on the stovetop, add avocado oil (or whatever) and set to medium-high heat.
-4. Chop the onion and throw it in the pot.
-5. Add the package of ground turkey to the pot.
-6. Add salt, chili powder (a decent amount), and some ground cayenne to the meat. Sauté meat and onion until meat is no longer pink.
-7. Add the chopped ingredients and beans from earlier to the pot.
-8. Add half a cup of water to the pot. (Add corn at this point if you want.) Stir.
-9. Reduce heat to medium-low and simmer for like 40 min.
+1. Dice the bell peppers.
+2. Rinse the beans and drain them.
+3. Place a large pot (enameled cast iron is best) on the stovetop, add avocado oil (or whatever) and set to medium-high heat.
+4. Add the ground turkey to the pot.
+5. Add salt, pepper, chili powder (a decent amount to cover the meat), and some ground cayenne to the meat.
+6. Break up and sauté meat until no longer pink, but don't overcook at this step.
+7. Add the bell peppers and beans from earlier to the pot.
+8. Mix bone broth packets into hot water and add to the pot.
+9. Add the can of tomato sauce and the can of diced tomatoes (drained) to the pot.
+10. Add corn.
+11. With a fork, lightly mash about one third of all the beans against the wall of the pot.
+12. Stir, reduce heat, and simmer for at least 45 min, stirring occasionally. 
 
 ## Result
 
-Makes ~6 mason jar sized servings. Can be stored in the fridge for probably 4-5 days.
+Makes ~7 standard mason jar sized servings. Can be stored in the fridge for probably up to 5 days, or you can freeze it for longer.
 
-Eat with rice and/or tortilla chips.
+Eat plain, with rice, or with tortilla chips.
+
+## Optional substitutions or additions
+
+You can do any or all of these things too. I used to do some of them, but ultimately felt they were no longer necessary.
+
+- Use ground beef instead of turkey
+- Add a medium sweet potato, diced
+- Add a zucchini, diced
+- When sautéeing the meat, add a small onion, chopped
+- Use actual bone broth instead of powder

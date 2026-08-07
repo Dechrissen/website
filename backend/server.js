@@ -28,7 +28,7 @@ http.createServer((req, res) => {
 	const urlObj = url.parse(req.url, true);
 	console.log('Browser requested ' + urlObj.pathname);
 
-	var mainPages = ['about', 'projects', 'links', 'contact']; // excluding blog as it's handled separately
+	var mainPages = ['about', 'projects', 'directory', 'contact']; // excluding blog as it's handled separately
 	var secondaryPages = ['support', 'solus', 'daisy', 'software'];
 
 	// class map to map html tags to certain classes so that css can select them
@@ -419,7 +419,7 @@ http.createServer((req, res) => {
 		};
 
 		// prevent indexing for some main pages
-		const noIndexPages = ['contact', 'links']
+		const noIndexPages = ['contact', 'directory']
 		if (noIndexPages.includes(url_pagename)) {
 			headers['X-Robots-Tag'] = 'noindex, nofollow';
 		}
