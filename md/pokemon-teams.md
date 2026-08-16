@@ -143,3 +143,31 @@ Party breakdown:
 - Skarmory [Keen Eye] / Quick Claw / Steel Wing, Fly, Aerial Ace, Facade
 - Lunatone [Levitate] / Soft Sand / Psychic, Rock Throw, Earthquake, Calm Mind
 - Walrein [Thick Fat] / Lax Incense / Ice Beam, Hail, Blizzard, Surf
+
+## Entry 8
+Version: Platinum
+
+Date: Around June 2025 – August 2026 (took a long break)
+
+Party: Golduck, Roserade, Probopass, Gliscor, Lickilicky, Altaria
+
+Notes: This run did not utilize a [Dexelect](https://github.com/Dechrissen/dexelect)-generated party.
+
+I took a very long break in the middle of this run for some reason, so I can't remember my thoughts about the party in the early- and mid-game. However, when picking it back up, I took on Volkner, Victory Road, and the Pokémon League, so I have a good sense of the party's performance in the context of those things. While Gliscor helped a lot with Volkner and in other battles along the way, Golduck was the clear MVP of this party after I got to the Elite Four.
+
+I did end up using a lot of healing items by the end of the League, but mostly in a "maintenance" way; at the end of each battle, I had to revive and heal most of my party back up, but I wasn't spamming Hyper Potions on too many ocassions mid-battle to maintain tempo (with some exceptions). Aaron's party ended up being handled mostly by Gliscor's Slash and Aerial Ace after using a few Swords Dances. The battle wasn't much of an issue as I recall. Bertha's party was handled almost entirely by Golduck's STAB Water moves + Mystic Water — the only slight issue I recall was Whiscash, her first member, but I think Roserade or Gliscor came in handy here for some support. Similarly, Golduck took care of the entirety of Flint's party with his STAB Water moves + Mystic Water.
+
+Of the Elite Four, Lucian was definitely the most challenging. Here's where I needed to land some lucky criticals to outpace the damage I was receiving from Bronzong and Alakazam. Bronzong's high defenses and resistance were hard to deal with, so I think Gliscor's Swords Dances helped outpace the damage it was dealing in the end. Of all his Pokémon, Alakazam was the hardest to deal with because of its high Sp. Atk and Speed, so a lot of healing and switching was necessary. Gallade was not as much of an issue as I anticipated, because it didn't have much to use against Gliscor; this allowed for a manageable setup with Swords Dance to get to +4 Attack, then a one-hit with Slash.
+
+I was very scared of Cynthia. But, in the end, Golduck dominated. The strategy I went for was using 5 X Specials on Golduck during the matchup with Spiritomb who could not knock out Golduck with less than 3 Dark Pulses or Shadow Balls, giving me a consistent 2 turns of leeway before needing to heal. After Golduck was +5 Sp. Atk, I Surfed, Brined, and Ice Beamed to victory. Even her ace, Garchomp, was no issue after an Ice Beam. The one bump in this battle was her Milotic because of its resistance to Golduck's moves. I needed 2, or maybe 3 hits (Surf + Brine after getting it below 50%) before it was knocked out, and I think a convenient critical helped me here too. Lucario I recall needed 2 hits as well (to be honest, I completed this run yesterday and I already forget exactly how the Lucario matchup went; the excitement of the Golduck-powered victory being within my grasp must have clouded my memory).
+
+Throughout the entire League, I don't think I utilized the other four Pokémon on my team at all, save for a couple small things (and sacrificial send-outs). Golduck and Gliscor swept up. Just before starting the Cynthia battle, I dumped all my Rare Candies and PP Ups into Golduck because I was confident that it would be the ticket to victory. By the end, at level 63, its Sp. Atk was 146. Notably, Roserade's was even higher (at only level 50) at 147 Ap. Atk, but Golduck's STAB Water moves and Ice Beam access ended up being more useful overall.
+
+Party breakdown:
+
+- Golduck [Cloud Nine] / Mystic Water / Surf, Brine, Psychic, Ice Beam
+- Roserade [Poison Point] / Miracle Seed / Sludge Bomb, Petal Dance, Toxic, Giga Drain
+- Probopass [Magnet Pull] / Metal Coat / Flash Cannon, Power Gem, Shock Wave, Hyper Beam
+- Gliscor [Hyper Cutter] / Razor Claw / Earthquake, Aerial Ace, Slash, Swords Dance
+- Lickilicky [Own Tempo] / Silk Scarf / Return, Power Whip, Screech, Rock Slide
+- Altaria [Natural Cure] / Dragon Fang / Iron Tail, Fly, Dragon Pulse, Dragon Dance
